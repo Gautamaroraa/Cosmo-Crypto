@@ -181,6 +181,7 @@ footer { text-align: center; padding-top: 40px; border-top: 1px solid var(--bord
     <button class="tab-btn" onclick="switchTab('anomalies')">Anomalies</button>
     <button class="tab-btn" onclick="switchTab('confidence')">Confidence</button>
     <button class="tab-btn" onclick="switchTab('patterns')">Patterns</button>
+    <button class="tab-btn" onclick="switchTab('fno')">F&amp;O</button>
   </div>
 
   <!-- Intelligence Tab -->
@@ -271,6 +272,29 @@ footer { text-align: center; padding-top: 40px; border-top: 1px solid var(--bord
     </div>
   </div>
 
+  <!-- F&O Tab -->
+  <div class="tab-panel" id="tab-fno">
+    <div class="grid-2" id="fno-hero-grid"></div>
+    <div class="grid-2" style="margin-top:0">
+      <div class="card">
+        <div class="section-label">NIFTY — OI Structure</div>
+        <div id="nifty-oi"></div>
+      </div>
+      <div class="card">
+        <div class="section-label">BANKNIFTY — OI Structure</div>
+        <div id="banknifty-oi"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px;">
+      <div class="section-label">Expiry × Astro Overlay</div>
+      <div id="expiry-astro"></div>
+    </div>
+    <div class="card" style="margin-top:16px;">
+      <div class="section-label">F&amp;O Intelligence Signals</div>
+      <div id="fno-signals"></div>
+    </div>
+  </div>
+
   <!-- Patterns Tab -->
   <div class="tab-panel" id="tab-patterns">
     <div class="card">
@@ -322,11 +346,12 @@ async function fetchJSON(path) {
 }
 
 async function loadCosmo() {
-  const [latest, anomalies, confidence, patterns] = await Promise.all([
+  const [latest, anomalies, confidence, patterns, fno] = await Promise.all([
     fetchJSON('latest.json'),
     fetchJSON('data/anomalies.json'),
     fetchJSON('data/confidence.json'),
     fetchJSON('data/patterns.json'),
+    fetchJSON('data/fno.json'),
   ]);
 
   if (!latest) {
@@ -334,10 +359,10 @@ async function loadCosmo() {
     return;
   }
 
-  render(latest, anomalies, confidence, patterns);
+  render(latest, anomalies, confidence, patterns, fno);
 }
 
-function render(data, anomalyData, confidenceData, patternData) {
+function render(data, anomalyData, confidenceData, patternData, fnoData) {
   const { meta, summary, astro, market, sectors, stocks, intelligence } = data;
 
   // Header
@@ -541,6 +566,81 @@ function render(data, anomalyData, confidenceData, patternData) {
     patDetail.innerHTML = html;
   } else {
     patDetail.innerHTML = '<div style="font-size:12px;color:var(--text3);">Pattern data not yet available.</div>';
+  }
+
+  // F&O Tab
+  if (fnoData) {
+    // Hero grid
+    const fnoHero = document.getElementById('fno-hero-grid');
+    ['NIFTY','BANKNIFTY'].forEach(sym => {
+      const d = fnoData[sym];
+      if (!d || d.status !== 'ok') return;
+      const pcr = d.pcr;
+      const mp  = d.max_pain;
+      const pcrColor = pcr && pcr.pcr >= 1.1 ? 'var(--green)' : pcr && pcr.pcr <= 0.9 ? 'var(--red)' : 'var(--gold)';
+      fnoHero.innerHTML += `
+        <div class="card blue-accent">
+          <div class="section-label">${sym}</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:8px;">
+            <div><div class="hero-label">Spot</div><div style="font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--text)">${fmt(d.spot_price)}</div></div>
+            <div><div class="hero-label">PCR</div><div style="font-family:'Cormorant Garamond',serif;font-size:24px;color:${pcrColor}">${pcr ? pcr.pcr : '—'}</div><div style="font-size:10px;color:var(--text3)">${pcr ? pcr.sentiment : ''}</div></div>
+            <div><div class="hero-label">Max Pain</div><div style="font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--amber)">${mp ? mp.max_pain_strike : '—'}</div><div style="font-size:10px;color:var(--text3)">${mp ? (mp.distance_pct > 0 ? '+' : '') + mp.distance_pct + '% from spot' : ''}</div></div>
+          </div>
+        </div>`;
+    });
+
+    // OI Structure
+    ['NIFTY','BANKNIFTY'].forEach(sym => {
+      const d = fnoData[sym];
+      const el = document.getElementById(sym.toLowerCase() + '-oi');
+      if (!d || d.status !== 'ok' || !d.oi_analysis) {
+        el.innerHTML = '<div style="font-size:11px;color:var(--text3);">No data</div>';
+        return;
+      }
+      const oi = d.oi_analysis;
+      let html = '';
+      html += `<div class="signal-item" style="color:var(--red);">Resistance: <strong style="margin-left:auto">${oi.resistance_strike}</strong></div>`;
+      html += `<div class="signal-item" style="color:var(--green);">Support: <strong style="margin-left:auto">${oi.support_strike}</strong></div>`;
+      html += `<div style="font-size:10px;color:var(--text3);margin:8px 0 4px;letter-spacing:0.1em;text-transform:uppercase;">Top CE OI (Resistance)</div>`;
+      oi.top_ce_oi.forEach(s => { html += `<div class="signal-item">${s.strike} CE <span style="color:var(--text3);margin-left:auto">${(s.oi/100000).toFixed(1)}L OI</span></div>`; });
+      html += `<div style="font-size:10px;color:var(--text3);margin:8px 0 4px;letter-spacing:0.1em;text-transform:uppercase;">Top PE OI (Support)</div>`;
+      oi.top_pe_oi.forEach(s => { html += `<div class="signal-item">${s.strike} PE <span style="color:var(--text3);margin-left:auto">${(s.oi/100000).toFixed(1)}L OI</span></div>`; });
+      if (oi.iv_sentiment !== 'Neutral') {
+        html += `<div class="signal-item" style="margin-top:8px;">IV Skew: ${oi.iv_sentiment} <span style="margin-left:auto;color:var(--text3)">${oi.iv_skew}</span></div>`;
+      }
+      el.innerHTML = html;
+    });
+
+    // Expiry Astro
+    const expiryEl = document.getElementById('expiry-astro');
+    const expiries = fnoData.NIFTY?.expiry_astro || fnoData.BANKNIFTY?.expiry_astro || [];
+    if (expiries.length) {
+      let html = '';
+      expiries.forEach(e => {
+        const riskColor = e.risk === 'Very High' || e.risk === 'High' ? 'var(--red)' : e.risk === 'Medium' ? 'var(--amber)' : 'var(--green)';
+        html += `<div class="signal-item" style="flex-direction:column;align-items:flex-start;">
+          <div style="display:flex;width:100%;justify-content:space-between;">
+            <span style="color:var(--text)">${e.expiry}</span>
+            <span style="color:${riskColor};font-size:10px;">${e.risk} Risk · ${e.days_to_expiry}d</span>
+          </div>
+          ${e.notes.map(n => `<div style="font-size:10px;color:var(--text3);margin-top:3px;">→ ${n}</div>`).join('')}
+        </div>`;
+      });
+      expiryEl.innerHTML = html;
+    } else {
+      expiryEl.innerHTML = '<div style="font-size:11px;color:var(--text3);">No expiry data</div>';
+    }
+
+    // F&O Signals
+    const fnoSigEl = document.getElementById('fno-signals');
+    const signals = fnoData.intelligence || [];
+    if (signals.length) {
+      fnoSigEl.innerHTML = signals.map(s => `<div class="signal-item">${s}</div>`).join('');
+    } else {
+      fnoSigEl.innerHTML = '<div style="font-size:11px;color:var(--text3);">F&O data not available today.</div>';
+    }
+  } else {
+    document.getElementById('fno-signals').innerHTML = '<div style="font-size:11px;color:var(--text3);">F&O data not yet available.</div>';
   }
 
   // Show
