@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosmo Crypto — Astro-Crypto Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #04050a; --bg2: #080a12;
+  --surface: rgba(255,255,255,0.03); --surface2: rgba(255,255,255,0.06);
+  --border: rgba(255,255,255,0.07); --border2: rgba(255,255,255,0.12);
+  --text: #e0deff; --text2: rgba(224,222,255,0.5); --text3: rgba(224,222,255,0.28);
+  --gold: #f0b429; --gold3: rgba(240,180,41,0.05);
+  --green: #3ecf8e; --red: #f87171; --blue: #60a5fa; --purple: #a78bfa; --cyan: #22d3ee;
+}
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: 'DM Mono', monospace; font-weight: 300; min-height: 100vh; overflow-x: hidden; }
+body::before { content: ''; position: fixed; inset: 0; background-image: radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.5) 0%, transparent 100%), radial-gradient(1px 1px at 30% 70%, rgba(255,255,255,0.4) 0%, transparent 100%), radial-gradient(1px 1px at 50% 25%, rgba(255,255,255,0.45) 0%, transparent 100%), radial-gradient(1px 1px at 70% 85%, rgba(255,255,255,0.3) 0%, transparent 100%), radial-gradient(1px 1px at 88% 10%, rgba(255,255,255,0.5) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 20% 50%, rgba(96,165,250,0.4) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 60% 60%, rgba(167,139,250,0.3) 0%, transparent 100%), radial-gradient(1px 1px at 45% 88%, rgba(240,180,41,0.3) 0%, transparent 100%); pointer-events: none; z-index: 0; }
+body::after { content: ''; position: fixed; top: -20%; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; background: radial-gradient(ellipse, rgba(96,165,250,0.04) 0%, transparent 60%); pointer-events: none; z-index: 0; }
+#loading { position: fixed; inset: 0; background: var(--bg); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 999; gap: 20px; transition: opacity 0.6s ease; }
+.loading-symbol { font-family: 'Cormorant Garamond', serif; font-size: 64px; color: var(--purple); animation: pulse 2s ease-in-out infinite; filter: drop-shadow(0 0 20px rgba(167,139,250,0.4)); }
+.loading-text { font-size: 11px; letter-spacing: 0.2em; color: var(--text3); text-transform: uppercase; }
+@keyframes pulse { 0%, 100% { opacity: 0.4; transform: scale(0.95); } 50% { opacity: 1; transform: scale(1.05); } }
+main { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 48px 24px 80px; opacity: 0; transition: opacity 0.8s ease; }
+main.visible { opacity: 1; }
+.site-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+.logo { font-family: 'Cormorant Garamond', serif; font-size: 38px; font-weight: 300; color: var(--purple); letter-spacing: 0.08em; line-height: 1; }
+.logo-accent { color: var(--gold); }
+.logo-sub { font-size: 10px; letter-spacing: 0.25em; color: var(--text3); text-transform: uppercase; margin-top: 6px; }
+.header-right { text-align: right; }
+.date-display { font-family: 'Cormorant Garamond', serif; font-size: 17px; color: var(--text2); font-style: italic; }
+.generated-time { font-size: 10px; color: var(--text3); margin-top: 4px; }
+.hero-card { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 2px; margin-bottom: 24px; overflow: hidden; }
+.hero-cell { background: var(--bg); padding: 24px 20px; }
+.hero-cell:first-child { background: rgba(167,139,250,0.04); border-left: 2px solid var(--purple); }
+.hero-cell.btc-cell { background: rgba(240,180,41,0.04); border-left: 2px solid rgba(240,180,41,0.3); }
+.hero-label { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text3); margin-bottom: 10px; }
+.hero-value { font-family: 'Cormorant Garamond', serif; font-size: 40px; font-weight: 300; line-height: 1; color: var(--purple); }
+.hero-value.gold { color: var(--gold); }
+.hero-value.green { color: var(--green); }
+.hero-value.red { color: var(--red); }
+.hero-sub { font-size: 11px; color: var(--text2); margin-top: 6px; }
+.section-label { font-size: 9px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--text3); margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.card { background: var(--surface); border: 1px solid var(--border); padding: 20px; border-radius: 2px; }
+.card.purple-accent { border-left: 2px solid var(--purple); background: rgba(167,139,250,0.03); }
+.card.gold-accent { border-left: 2px solid rgba(240,180,41,0.5); background: var(--gold3); }
+.card.cyan-accent { border-left: 2px solid rgba(34,211,238,0.4); background: rgba(34,211,238,0.03); }
+.tab-nav { display: flex; gap: 2px; margin-bottom: 16px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+.tab-btn { background: none; border: none; color: var(--text3); font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; padding: 8px 14px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: all 0.2s; }
+.tab-btn.active { color: var(--purple); border-bottom-color: var(--purple); }
+.tab-btn:hover { color: var(--text); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+.coin-table { width: 100%; border-collapse: collapse; }
+.coin-table thead tr { border-bottom: 1px solid var(--border2); }
+.coin-table thead td { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text3); padding: 6px 8px 10px; }
+.coin-table tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
+.coin-table tbody tr:hover { background: var(--surface2); }
+.coin-table tbody tr:last-child { border-bottom: none; }
+.coin-table tbody td { padding: 9px 8px; font-size: 12px; }
+.coin-name { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 600; color: var(--text); }
+.coin-sector { font-size: 10px; color: var(--text3); margin-top: 1px; }
+.cosmo-num { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 300; }
+.chg-up { color: var(--green); }
+.chg-dn { color: var(--red); }
+.rsi-val { color: var(--text2); }
+.trend-tag { font-size: 9px; color: var(--text3); }
+.funding-tag { font-size: 10px; padding: 2px 6px; border-radius: 1px; }
+.funding-pos { background: rgba(248,113,113,0.1); color: var(--red); border: 1px solid rgba(248,113,113,0.2); }
+.funding-neg { background: rgba(62,207,142,0.1); color: var(--green); border: 1px solid rgba(62,207,142,0.2); }
+.funding-neu { background: var(--surface); color: var(--text3); border: 1px solid var(--border); }
+.sector-table { width: 100%; border-collapse: collapse; }
+.sector-table tr { border-bottom: 1px solid var(--border); }
+.sector-table tr:hover { background: var(--surface2); }
+.sector-table tr:last-child { border-bottom: none; }
+.sector-table td { padding: 10px 8px; font-size: 12px; }
+.sector-rank { color: var(--text3); font-size: 10px; width: 24px; }
+.sector-name { font-family: 'Cormorant Garamond', serif; font-size: 16px; color: var(--text); }
+.score-bar-wrap { height: 2px; background: var(--border2); border-radius: 1px; margin-bottom: 3px; }
+.score-bar-fill { height: 100%; background: var(--purple); border-radius: 1px; }
+.bias-badge { font-size: 9px; letter-spacing: 0.08em; padding: 2px 7px; border-radius: 1px; text-transform: uppercase; white-space: nowrap; }
+.bull  { background: rgba(62,207,142,0.1);  color: var(--green);  border: 1px solid rgba(62,207,142,0.2); }
+.bear  { background: rgba(248,113,113,0.1); color: var(--red);    border: 1px solid rgba(248,113,113,0.2); }
+.neut  { background: var(--surface); color: var(--text2); border: 1px solid var(--border); }
+.sbull { background: rgba(62,207,142,0.15); color: var(--green);  border: 1px solid rgba(62,207,142,0.3); }
+.sbear { background: rgba(248,113,113,0.15);color: var(--red);    border: 1px solid rgba(248,113,113,0.3); }
+.signal-item { padding: 9px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 2px; font-size: 12px; color: var(--text2); line-height: 1.5; margin-bottom: 8px; }
+.planets-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
+.planet-card { background: var(--surface); border: 1px solid var(--border); padding: 12px; border-radius: 2px; }
+.planet-card.retro { border-color: rgba(248,113,113,0.3); background: rgba(248,113,113,0.03); }
+.planet-name { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text3); margin-bottom: 6px; }
+.planet-rashi { font-family: 'Cormorant Garamond', serif; font-size: 16px; color: var(--text); margin-bottom: 3px; }
+.planet-nak { font-size: 10px; color: var(--text2); }
+.retro-badge { display: inline-block; font-size: 8px; color: var(--red); border: 1px solid rgba(248,113,113,0.3); padding: 1px 5px; margin-top: 4px; text-transform: uppercase; }
+.moon-hero { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+.moon-emoji { font-size: 44px; filter: drop-shadow(0 0 14px rgba(167,139,250,0.4)); }
+.moon-phase-name { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-style: italic; color: var(--text); }
+.moon-bias-text { font-size: 11px; color: var(--text2); margin-top: 3px; }
+.moon-note { font-size: 11px; color: var(--text2); line-height: 1.6; padding: 10px; background: var(--surface); border-left: 2px solid var(--purple); margin-top: 10px; }
+.ref-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+.ref-card { background: var(--surface); border: 1px solid var(--border); padding: 14px; border-radius: 2px; }
+.ref-name { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text3); margin-bottom: 6px; }
+.ref-price { font-family: 'Cormorant Garamond', serif; font-size: 22px; color: var(--text); }
+.ref-change { font-size: 11px; margin-top: 3px; }
+.breadth-bar { height: 6px; border-radius: 3px; background: var(--border2); display: flex; margin: 10px 0; }
+.breadth-adv { background: var(--green); }
+.breadth-dec { background: var(--red); }
+.breadth-labels { display: flex; justify-content: space-between; font-size: 10px; }
+footer { text-align: center; padding-top: 40px; border-top: 1px solid var(--border); font-size: 10px; color: var(--text3); letter-spacing: 0.15em; }
+@media (max-width: 860px) { .hero-card { grid-template-columns: 1fr 1fr; } .ref-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .grid-2 { grid-template-columns: 1fr; } .hero-card { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div id="loading">
+  <div class="loading-symbol">🌌</div>
+  <div class="loading-text">Reading the cosmos...</div>
+</div>
+
+<main id="main">
+  <header class="site-header">
+    <div>
+      <div class="logo">COSMO <span class="logo-accent">CRYPTO</span></div>
+      <div class="logo-sub">Astro-Crypto Intelligence Engine</div>
+    </div>
+    <div class="header-right">
+      <div class="date-display" id="display-date">—</div>
+      <div class="generated-time" id="display-time">—</div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero-card">
+    <div class="hero-cell">
+      <div class="hero-label">Day Cosmo Score</div>
+      <div class="hero-value" id="day-score">—</div>
+      <div class="hero-sub" id="day-direction">—</div>
+    </div>
+    <div class="hero-cell">
+      <div class="hero-label">Risk Level</div>
+      <div class="hero-value gold" id="risk-level">—</div>
+      <div class="hero-sub" id="volatility">—</div>
+    </div>
+    <div class="hero-cell btc-cell">
+      <div class="hero-label">BTC</div>
+      <div class="hero-value gold" id="btc-price">—</div>
+      <div class="hero-sub" id="btc-change">—</div>
+    </div>
+    <div class="hero-cell">
+      <div class="hero-label">ETH</div>
+      <div class="hero-value" id="eth-price">—</div>
+      <div class="hero-sub" id="eth-change">—</div>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tab-nav">
+    <button class="tab-btn active" onclick="switchTab('intelligence')">Intelligence</button>
+    <button class="tab-btn" onclick="switchTab('coins')">Coins</button>
+    <button class="tab-btn" onclick="switchTab('funding')">Funding</button>
+    <button class="tab-btn" onclick="switchTab('astro')">Navagraha</button>
+    <button class="tab-btn" onclick="switchTab('sectors')">Sectors</button>
+  </div>
+
+  <!-- Intelligence -->
+  <div class="tab-panel active" id="tab-intelligence">
+    <div class="grid-2">
+      <div>
+        <div class="section-label">Top Coins Today</div>
+        <table class="coin-table">
+          <thead><tr><td>Coin</td><td>Score</td><td>Price</td><td>24h</td><td>RSI</td><td>Trend</td></tr></thead>
+          <tbody id="top-coins-body"></tbody>
+        </table>
+      </div>
+      <div>
+        <div class="section-label">Sector Ranking</div>
+        <table class="sector-table" id="sector-table"></table>
+        <div class="section-label" style="margin-top:16px;">BTC & ETH Reference</div>
+        <div class="ref-grid" id="ref-grid"></div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card purple-accent">
+        <div class="section-label">Moon Intelligence</div>
+        <div class="moon-hero">
+          <div class="moon-emoji" id="moon-emoji">🌑</div>
+          <div>
+            <div class="moon-phase-name" id="moon-phase-name">—</div>
+            <div class="moon-bias-text" id="moon-bias">—</div>
+          </div>
+        </div>
+        <div class="moon-note" id="moon-note">—</div>
+      </div>
+      <div class="card">
+        <div class="section-label">Market Breadth</div>
+        <div class="breadth-bar">
+          <div class="breadth-adv" id="breadth-adv" style="width:50%"></div>
+          <div class="breadth-dec" id="breadth-dec" style="width:30%"></div>
+        </div>
+        <div class="breadth-labels">
+          <span class="chg-up" id="breadth-adv-label">—</span>
+          <span class="chg-dn" id="breadth-dec-label">—</span>
+        </div>
+        <div class="section-label" style="margin-top:16px;">Key Signals</div>
+        <div id="signals-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- All Coins -->
+  <div class="tab-panel" id="tab-coins">
+    <div class="section-label">All Scored Coins</div>
+    <table class="coin-table">
+      <thead><tr><td>Coin</td><td>Score</td><td>Price</td><td>24h</td><td>RSI</td><td>Trend</td><td>Direction</td></tr></thead>
+      <tbody id="all-coins-body"></tbody>
+    </table>
+  </div>
+
+  <!-- Funding Rates -->
+  <div class="tab-panel" id="tab-funding">
+    <div class="section-label">Funding Rates — Sentiment Gauge</div>
+    <div id="funding-list"></div>
+  </div>
+
+  <!-- Navagraha -->
+  <div class="tab-panel" id="tab-astro">
+    <div class="section-label">Navagraha — Current Positions</div>
+    <div class="planets-grid" id="planets-grid"></div>
+    <div class="grid-2" style="margin-top:16px;">
+      <div class="card">
+        <div class="section-label">Aspects</div>
+        <div id="aspects-list"></div>
+      </div>
+      <div class="card">
+        <div class="section-label">Conjunctions</div>
+        <div id="conjunctions-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sectors -->
+  <div class="tab-panel" id="tab-sectors">
+    <div class="section-label">Sector Intelligence</div>
+    <div id="sector-detail"></div>
+  </div>
+
+  <footer>COSMO CRYPTO · Astro-Crypto Intelligence · Updates every 4 hours</footer>
+</main>
+
+<script>
+const PLANET_SYMBOLS = { Sun:'☉', Moon:'☽', Mars:'♂', Mercury:'☿', Jupiter:'♃', Venus:'♀', Saturn:'♄', Rahu:'☊', Ketu:'☋' };
+
+function biasClass(b) {
+  if (!b) return 'neut';
+  b = b.toLowerCase();
+  if (b.includes('strong bull')) return 'sbull';
+  if (b.includes('bull'))        return 'bull';
+  if (b.includes('strong bear')) return 'sbear';
+  if (b.includes('bear'))        return 'bear';
+  return 'neut';
+}
+
+function fmt(n, decimals=2) {
+  if (n === undefined || n === null) return '—';
+  const num = Number(n);
+  if (num >= 1000) return num.toLocaleString('en-US', { maximumFractionDigits: decimals });
+  if (num >= 1)    return num.toFixed(decimals);
+  if (num >= 0.01) return num.toFixed(4);
+  return num.toFixed(6);
+}
+
+function scoreColor(s) {
+  if (s >= 70) return 'var(--green)';
+  if (s >= 50) return 'var(--purple)';
+  return 'var(--red)';
+}
+
+function switchTab(name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  event.target.classList.add('active');
+}
+
+async function loadCosmo() {
+  try {
+    const r = await fetch('latest.json?t=' + Date.now());
+    if (!r.ok) throw new Error('failed');
+    const data = await r.json();
+    render(data);
+  } catch(e) {
+    document.getElementById('loading').innerHTML = '<div style="color:var(--red);font-size:13px;">Could not load latest.json</div>';
+  }
+}
+
+function render(data) {
+  const { meta, summary, astro, market, sectors, coins, intelligence } = data;
+
+  document.getElementById('display-date').textContent =
+    new Date(meta.date).toLocaleDateString('en-US', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+  document.getElementById('display-time').textContent = 'Generated ' + meta.generated_at.replace('T',' ').replace('Z',' UTC');
+
+  // Hero
+  const sc = document.getElementById('day-score');
+  sc.textContent = summary.day_cosmo_score;
+  sc.style.color = scoreColor(summary.day_cosmo_score);
+  document.getElementById('day-direction').textContent = summary.market_direction + ' · ' + summary.momentum_quality;
+  document.getElementById('risk-level').textContent = summary.risk_level;
+  document.getElementById('volatility').textContent = 'Volatility: ' + summary.volatility_bias;
+
+  // BTC/ETH
+  const ref = summary.reference || {};
+  if (ref.BTC) {
+    document.getElementById('btc-price').textContent = '$' + fmt(ref.BTC.price, 0);
+    const bc = ref.BTC.change_pct >= 0 ? 'chg-up' : 'chg-dn';
+    document.getElementById('btc-change').innerHTML = `<span class="${bc}">${ref.BTC.change_pct >= 0 ? '+' : ''}${ref.BTC.change_pct}%</span>`;
+  }
+  if (ref.ETH) {
+    document.getElementById('eth-price').textContent = '$' + fmt(ref.ETH.price, 0);
+    const ec = ref.ETH.change_pct >= 0 ? 'chg-up' : 'chg-dn';
+    document.getElementById('eth-change').innerHTML = `<span class="${ec}">${ref.ETH.change_pct >= 0 ? '+' : ''}${ref.ETH.change_pct}%</span>`;
+  }
+
+  // Top coins
+  const tbody = document.getElementById('top-coins-body');
+  (summary.top_coins_today || []).forEach(c => {
+    const cls  = c.change_pct >= 0 ? 'chg-up' : 'chg-dn';
+    const sign = c.change_pct >= 0 ? '+' : '';
+    tbody.innerHTML += `<tr><td><div class="coin-name">${c.name}</div><div class="coin-sector">${c.sector}</div></td><td><span class="cosmo-num" style="color:${scoreColor(c.cosmo_score)}">${c.cosmo_score}</span></td><td>$${fmt(c.price)}</td><td class="${cls}">${sign}${c.change_pct}%</td><td class="rsi-val">${c.rsi}</td><td class="trend-tag">${c.trend}</td></tr>`;
+  });
+
+  // All coins
+  const allBody = document.getElementById('all-coins-body');
+  (coins || []).forEach(c => {
+    const cls  = c.change_pct >= 0 ? 'chg-up' : 'chg-dn';
+    const sign = c.change_pct >= 0 ? '+' : '';
+    const dirCls = c.direction === 'Bullish' ? 'chg-up' : c.direction === 'Bearish' ? 'chg-dn' : 'rsi-val';
+    allBody.innerHTML += `<tr><td><div class="coin-name">${c.name}</div><div class="coin-sector">${c.sector}</div></td><td><span class="cosmo-num" style="color:${scoreColor(c.cosmo_score)}">${c.cosmo_score}</span></td><td>$${fmt(c.price)}</td><td class="${cls}">${sign}${c.change_pct}%</td><td class="rsi-val">${c.rsi}</td><td class="trend-tag">${c.trend}</td><td class="${dirCls}">${c.direction}</td></tr>`;
+  });
+
+  // Funding rates
+  const fundingEl = document.getElementById('funding-list');
+  const fundingCoins = (coins || []).filter(c => c.funding_rate && c.funding_rate.rate !== undefined).sort((a,b) => Math.abs(b.funding_rate.rate) - Math.abs(a.funding_rate.rate));
+  fundingCoins.slice(0, 15).forEach(c => {
+    const rate = c.funding_rate.rate;
+    const cls  = rate > 0.05 ? 'funding-pos' : rate < -0.02 ? 'funding-neg' : 'funding-neu';
+    const sign = rate >= 0 ? '+' : '';
+    fundingEl.innerHTML += `<div class="signal-item" style="display:flex;justify-content:space-between;align-items:center;">${c.name} <span style="color:var(--text3);font-size:10px;">${c.funding_rate.sentiment}</span> <span class="funding-tag ${cls}">${sign}${rate}%</span></div>`;
+  });
+
+  // Sectors
+  const secTable = document.getElementById('sector-table');
+  (sectors || []).forEach((s, i) => {
+    const bc = biasClass(s.astro_bias);
+    secTable.innerHTML += `<tr><td class="sector-rank">${i+1}</td><td class="sector-name">${s.name}</td><td style="width:120px"><div class="score-bar-wrap"><div class="score-bar-fill" style="width:${s.cosmo_score}%"></div></div><div style="font-size:10px;color:var(--text2)">${s.cosmo_score}</div></td><td><span class="bias-badge ${bc}">${s.astro_bias}</span></td></tr>`;
+  });
+
+  // Sector detail tab
+  const secDetail = document.getElementById('sector-detail');
+  (sectors || []).forEach(s => {
+    const bc = biasClass(s.astro_bias);
+    secDetail.innerHTML += `
+      <div class="card" style="margin-bottom:12px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:20px;">${s.name}</span>
+          <span class="bias-badge ${bc}">${s.astro_bias}</span>
+        </div>
+        <div style="display:flex;gap:16px;font-size:11px;color:var(--text2);margin-bottom:8px;">
+          <span>Cosmo: <strong style="color:var(--purple)">${s.cosmo_score}</strong></span>
+          <span>Avg RSI: ${s.avg_rsi}</span>
+          <span class="chg-up">${s.bullish_count} Bull</span>
+          <span class="chg-dn">${s.bearish_count} Bear</span>
+        </div>
+        <div style="font-size:11px;color:var(--text3)">Top: ${(s.top_coins || []).join(', ')}</div>
+        ${s.notes.length ? `<div style="font-size:10px;color:var(--text3);margin-top:6px;">${s.notes.slice(0,2).join(' · ')}</div>` : ''}
+      </div>`;
+  });
+
+  // Ref grid
+  const refGrid = document.getElementById('ref-grid');
+  ['BTC','ETH'].forEach(sym => {
+    const r = (summary.reference || {})[sym];
+    if (!r) return;
+    const cls  = r.change_pct >= 0 ? 'chg-up' : 'chg-dn';
+    const sign = r.change_pct >= 0 ? '+' : '';
+    const fr   = r.funding;
+    refGrid.innerHTML += `<div class="ref-card"><div class="ref-name">${sym}</div><div class="ref-price">$${fmt(r.price, 0)}</div><div class="ref-change ${cls}">${sign}${r.change_pct}%</div>${fr ? `<div style="font-size:10px;color:var(--text3);margin-top:4px;">Funding: ${fr.rate}% · ${fr.sentiment}</div>` : ''}</div>`;
+  });
+
+  // Moon
+  document.getElementById('moon-emoji').textContent = astro.moon_phase_emoji;
+  document.getElementById('moon-phase-name').textContent = astro.moon_phase;
+  const moon = intelligence.moon;
+  document.getElementById('moon-bias').textContent = moon.bias + ' · Risk: ' + moon.risk_level;
+  document.getElementById('moon-note').textContent = moon.note;
+
+  // Breadth
+  const b = market.breadth;
+  const total = b.total_pairs || (b.advancing + b.declining) || 1;
+  const advPct = Math.round((b.advancing / total) * 100);
+  const decPct = Math.round((b.declining / total) * 100);
+  document.getElementById('breadth-adv').style.width = advPct + '%';
+  document.getElementById('breadth-dec').style.width = decPct + '%';
+  document.getElementById('breadth-adv-label').textContent = b.advancing + ' Advancing';
+  document.getElementById('breadth-dec-label').textContent = b.declining + ' Declining';
+
+  // Signals
+  const sigEl = document.getElementById('signals-list');
+  (summary.key_signals || []).forEach(s => { sigEl.innerHTML += `<div class="signal-item">${s}</div>`; });
+
+  // Planets
+  const pgrid = document.getElementById('planets-grid');
+  ['Sun','Moon','Mars','Mercury','Jupiter','Venus','Saturn','Rahu','Ketu'].forEach(name => {
+    const p = astro.planets[name];
+    if (!p) return;
+    pgrid.innerHTML += `<div class="planet-card ${p.retrograde ? 'retro' : ''}"><div class="planet-name">${PLANET_SYMBOLS[name]} ${name}</div><div class="planet-rashi">${p.rashi}</div><div class="planet-nak">${p.nakshatra}${p.nakshatra_pada ? ' P'+p.nakshatra_pada : ''}</div>${p.retrograde ? '<div class="retro-badge">Retrograde</div>' : ''}</div>`;
+  });
+
+  // Aspects
+  const aspEl = document.getElementById('aspects-list');
+  (astro.aspects || []).slice(0,6).forEach(a => { aspEl.innerHTML += `<div class="signal-item">${a.planets[0]} ${a.aspect} ${a.planets[1]} <span style="color:var(--text3);margin-left:auto">orb ${a.orb}°</span></div>`; });
+  if (!astro.aspects || !astro.aspects.length) aspEl.innerHTML = '<div style="font-size:11px;color:var(--text3)">No major aspects</div>';
+
+  // Conjunctions
+  const conjEl = document.getElementById('conjunctions-list');
+  (astro.conjunctions || []).forEach(c => { conjEl.innerHTML += `<div class="signal-item">${c.planets[0]} conjunct ${c.planets[1]} <span style="color:var(--text3);margin-left:auto">orb ${c.orb}°</span></div>`; });
+  if (!astro.conjunctions || !astro.conjunctions.length) conjEl.innerHTML = '<div style="font-size:11px;color:var(--text3)">No conjunctions</div>';
+
+  // Show
+  document.getElementById('loading').style.opacity = '0';
+  setTimeout(() => {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('main').classList.add('visible');
+  }, 500);
+}
+
+loadCosmo();
+</script>
+</body>
+</html>
