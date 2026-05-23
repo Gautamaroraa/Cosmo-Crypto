@@ -26,6 +26,9 @@ jobs:
       - name: Run Cosmo Crypto Engine
         run: python engine/crypto_scoring_engine.py
 
+      - name: Run F&O Engine
+        run: python engine/crypto_fno_engine.py || echo "F&O fetch failed — skipping"
+
       - name: Run History Engine
         run: python engine/history_engine.py || echo "History engine skipped"
 
