@@ -163,6 +163,7 @@ footer { text-align: center; padding-top: 40px; border-top: 1px solid var(--bord
     <button class="tab-btn" onclick="switchTab('funding')">Funding</button>
     <button class="tab-btn" onclick="switchTab('astro')">Navagraha</button>
     <button class="tab-btn" onclick="switchTab('sectors')">Sectors</button>
+    <button class="tab-btn" onclick="switchTab('fno')">F&amp;O</button>
   </div>
 
   <!-- Intelligence -->
@@ -247,6 +248,34 @@ footer { text-align: center; padding-top: 40px; border-top: 1px solid var(--bord
     <div id="sector-detail"></div>
   </div>
 
+  <!-- F&O Tab -->
+  <div class="tab-panel" id="tab-fno">
+    <div class="grid-2">
+      <div class="card cyan-accent">
+        <div class="section-label">BTC Options</div>
+        <div id="btc-options-detail"></div>
+      </div>
+      <div class="card cyan-accent">
+        <div class="section-label">ETH Options</div>
+        <div id="eth-options-detail"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:16px;">
+      <div class="section-label">F&amp;O Intelligence Signals</div>
+      <div id="fno-signals"></div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="section-label">Funding Rates + OI</div>
+        <div id="fno-coins-detail"></div>
+      </div>
+      <div class="card">
+        <div class="section-label">Futures Overview</div>
+        <div id="fno-overview"></div>
+      </div>
+    </div>
+  </div>
+
   <footer>COSMO CRYPTO · Astro-Crypto Intelligence · Updates every 4 hours</footer>
 </main>
 
@@ -287,16 +316,20 @@ function switchTab(name) {
 
 async function loadCosmo() {
   try {
-    const r = await fetch('latest.json?t=' + Date.now());
-    if (!r.ok) throw new Error('failed');
-    const data = await r.json();
-    render(data);
+    const [mainRes, fnoRes] = await Promise.all([
+      fetch('latest.json?t=' + Date.now()),
+      fetch('data/fno.json?t=' + Date.now()).catch(() => null),
+    ]);
+    if (!mainRes.ok) throw new Error('failed');
+    const data = await mainRes.json();
+    const fno  = fnoRes && fnoRes.ok ? await fnoRes.json() : null;
+    render(data, fno);
   } catch(e) {
     document.getElementById('loading').innerHTML = '<div style="color:var(--red);font-size:13px;">Could not load latest.json</div>';
   }
 }
 
-function render(data) {
+function render(data, fno) {
   const { meta, summary, astro, market, sectors, coins, intelligence } = data;
 
   document.getElementById('display-date').textContent =
@@ -428,6 +461,66 @@ function render(data) {
   const conjEl = document.getElementById('conjunctions-list');
   (astro.conjunctions || []).forEach(c => { conjEl.innerHTML += `<div class="signal-item">${c.planets[0]} conjunct ${c.planets[1]} <span style="color:var(--text3);margin-left:auto">orb ${c.orb}°</span></div>`; });
   if (!astro.conjunctions || !astro.conjunctions.length) conjEl.innerHTML = '<div style="font-size:11px;color:var(--text3)">No conjunctions</div>';
+
+  // F&O Tab
+  if (fno) {
+    // Options detail
+    ['btc','eth'].forEach(sym => {
+      const opts = fno[sym + '_options'];
+      const el   = document.getElementById(sym + '-options-detail');
+      if (!opts) { el.innerHTML = '<div style="font-size:11px;color:var(--text3)">No options data</div>'; return; }
+      const fearColor = opts.fear_gauge === 'Extreme Fear' || opts.fear_gauge === 'Fear' ? 'var(--red)' : opts.fear_gauge === 'Greed' ? 'var(--green)' : 'var(--text2)';
+      el.innerHTML = `
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">
+          <div><div class="hero-label">PCR</div><div style="font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--cyan)">${opts.pcr || '—'}</div></div>
+          <div><div class="hero-label">Fear Gauge</div><div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:${fearColor}">${opts.fear_gauge}</div></div>
+        </div>
+        <div class="signal-item">IV Skew: ${opts.iv_skew} (Put IV ${opts.avg_put_iv}% vs Call IV ${opts.avg_call_iv}%)</div>
+        <div class="signal-item">Nearest Expiry: ${opts.nearest_expiry}</div>
+        <div class="signal-item">Max Call Strike (Resistance): ${opts.max_call_strike || '—'}</div>
+        <div class="signal-item">Max Put Strike (Support): ${opts.max_put_strike || '—'}</div>
+      `;
+    });
+
+    // F&O Signals
+    const sigEl = document.getElementById('fno-signals');
+    const signals = fno.signals || [];
+    sigEl.innerHTML = signals.length
+      ? signals.map(s => `<div class="signal-item">${s}</div>`).join('')
+      : '<div style="font-size:11px;color:var(--text3)">No signals available</div>';
+
+    // Coins detail — funding + OI
+    const coinsEl = document.getElementById('fno-coins-detail');
+    const fnoCoins = Object.values(fno.coins || {}).filter(c => c.funding);
+    fnoCoins.sort((a,b) => Math.abs(b.funding.rate) - Math.abs(a.funding.rate));
+    fnoCoins.slice(0,10).forEach(c => {
+      const rate = c.funding?.rate || 0;
+      const cls  = rate > 0.05 ? 'funding-pos' : rate < -0.02 ? 'funding-neg' : 'funding-neu';
+      const sign = rate >= 0 ? '+' : '';
+      const oiTrend = c.oi_hist?.trend || '';
+      const oiColor = oiTrend === 'Rising' ? 'var(--green)' : oiTrend === 'Falling' ? 'var(--red)' : 'var(--text3)';
+      coinsEl.innerHTML += `<div class="signal-item" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;">
+        <span style="color:var(--text)">${c.name}</span>
+        <span class="funding-tag ${cls}">${sign}${rate}%</span>
+        ${oiTrend ? `<span style="font-size:10px;color:${oiColor}">OI ${oiTrend}</span>` : ''}
+        ${c.ls_ratio ? `<span style="font-size:10px;color:var(--text3)">L/S ${c.ls_ratio.ratio}</span>` : ''}
+      </div>`;
+    });
+
+    // Overview
+    const ovEl = document.getElementById('fno-overview');
+    const ov   = fno.overview || {};
+    if (ov.top_gainers) {
+      ovEl.innerHTML += '<div class="section-label" style="margin-bottom:8px;">Top Gainers</div>';
+      ov.top_gainers.forEach(c => { ovEl.innerHTML += `<div class="signal-item chg-up">${c.symbol} <span style="margin-left:auto">+${c.change_pct}%</span></div>`; });
+    }
+    if (ov.top_losers) {
+      ovEl.innerHTML += '<div class="section-label" style="margin-top:12px;margin-bottom:8px;">Top Losers</div>';
+      ov.top_losers.forEach(c => { ovEl.innerHTML += `<div class="signal-item chg-dn">${c.symbol} <span style="margin-left:auto">${c.change_pct}%</span></div>`; });
+    }
+  } else {
+    document.getElementById('fno-signals').innerHTML = '<div style="font-size:11px;color:var(--text3)">F&O data not yet available.</div>';
+  }
 
   // Show
   document.getElementById('loading').style.opacity = '0';
