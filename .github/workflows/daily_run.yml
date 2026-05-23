@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pyswisseph yfinance pandas requests
+        run: pip install pyswisseph yfinance pandas requests nsepython
 
       - name: Run Cosmo Engine
         run: python engine/scoring_engine.py
@@ -37,6 +37,9 @@ jobs:
 
       - name: Run Anomaly Engine
         run: python engine/anomaly_engine.py
+
+      - name: Run F&O Engine
+        run: python engine/fno_engine.py || echo "F&O fetch failed — skipping"
 
       - name: Copy latest.json to root
         run: cp data/latest.json latest.json
