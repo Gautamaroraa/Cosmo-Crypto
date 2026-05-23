@@ -32,6 +32,9 @@ jobs:
       - name: Run Pattern Engine
         run: python engine/pattern_engine.py
 
+      - name: Run Confidence Engine
+        run: python engine/confidence_engine.py
+
       - name: Copy latest.json to root
         run: cp data/latest.json latest.json
 
