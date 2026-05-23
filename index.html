@@ -756,12 +756,12 @@ function scoreColor(s) {
 
 async function loadCosmo() {
   try {
-    const res = await fetch('data/latest.json?t=' + Date.now());
+    const res = await fetch('latest.json?t=' + Date.now());
     const data = await res.json();
     render(data);
   } catch(e) {
     document.getElementById('loading').innerHTML =
-      '<div style="color:var(--red);font-size:13px;letter-spacing:0.1em;">Could not load data/latest.json</div>';
+      '<div style="color:var(--red);font-size:13px;letter-spacing:0.1em;">Could not load latest.json</div>';
   }
 }
 
