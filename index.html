@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosmo — Astro-Financial Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #06070a;
+  --bg2: #0d0f14;
+  --surface: rgba(255,255,255,0.03);
+  --surface2: rgba(255,255,255,0.06);
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text: #e8e6e0;
+  --text2: rgba(232,230,224,0.5);
+  --text3: rgba(232,230,224,0.28);
+  --gold: #c9a84c;
+  --gold2: rgba(201,168,76,0.15);
+  --gold3: rgba(201,168,76,0.06);
+  --green: #4caf7d;
+  --red: #e05c5c;
+  --blue: #5b8db8;
+  --purple: #9b72cf;
+  --amber: #e8a24a;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+  font-weight: 300;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Starfield background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 15% 20%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 35% 65%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 55% 30%, rgba(255,255,255,0.35) 0%, transparent 100%),
+    radial-gradient(1px 1px at 75% 80%, rgba(255,255,255,0.25) 0%, transparent 100%),
+    radial-gradient(1px 1px at 85% 15%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 92% 50%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 8% 85%, rgba(255,255,255,0.35) 0%, transparent 100%),
+    radial-gradient(1px 1px at 45% 92%, rgba(255,255,255,0.2) 0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 65% 45%, rgba(201,168,76,0.3) 0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 28% 38%, rgba(201,168,76,0.2) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(ellipse, rgba(201,168,76,0.04) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Loading screen */
+#loading {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  gap: 20px;
+  transition: opacity 0.6s ease;
+}
+
+.loading-symbol {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 64px;
+  color: var(--gold);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.loading-text {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--text3);
+  text-transform: uppercase;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+/* Main */
+main {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+main.visible { opacity: 1; }
+
+/* Header */
+.site-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 56px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--border);
+}
+
+.logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 42px;
+  font-weight: 300;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+
+.logo-sub {
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  color: var(--text3);
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.date-display {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--text2);
+  font-style: italic;
+}
+
+.generated-time {
+  font-size: 10px;
+  color: var(--text3);
+  letter-spacing: 0.1em;
+  margin-top: 4px;
+}
+
+/* Day Cosmo Score — Hero Card */
+.hero-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  animation: fadeUp 0.6s ease both;
+}
+
+.hero-cell {
+  background: var(--bg);
+  padding: 28px 24px;
+  position: relative;
+}
+
+.hero-cell:first-child {
+  background: var(--gold3);
+  border-left: 2px solid var(--gold);
+}
+
+.hero-label {
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text3);
+  margin-bottom: 10px;
+}
+
+.hero-value {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 52px;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--gold);
+}
+
+.hero-value.large { font-size: 48px; }
+
+.hero-sub {
+  font-size: 11px;
+  color: var(--text2);
+  margin-top: 6px;
+  letter-spacing: 0.05em;
+}
+
+/* Section label */
+.section-label {
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text3);
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Grid layout */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+/* Card */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 20px;
+  border-radius: 2px;
+  animation: fadeUp 0.6s ease both;
+}
+
+.card.gold-accent {
+  border-left: 2px solid var(--gold);
+  background: var(--gold3);
+}
+
+/* Planets grid */
+.planets-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.planet-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 12px;
+  border-radius: 2px;
+  transition: border-color 0.2s;
+}
+
+.planet-card:hover { border-color: var(--border2); }
+
+.planet-card.retro {
+  border-color: rgba(224,92,92,0.3);
+  background: rgba(224,92,92,0.03);
+}
+
+.planet-name {
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text3);
+  margin-bottom: 6px;
+}
+
+.planet-rashi {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 3px;
+}
+
+.planet-nakshatra {
+  font-size: 10px;
+  color: var(--text2);
+}
+
+.retro-badge {
+  display: inline-block;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  color: var(--red);
+  border: 1px solid rgba(224,92,92,0.3);
+  padding: 1px 5px;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+/* Sector table */
+.sector-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sector-table tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+  cursor: default;
+}
+
+.sector-table tr:hover { background: var(--surface2); }
+.sector-table tr:last-child { border-bottom: none; }
+
+.sector-table td {
+  padding: 10px 8px;
+  font-size: 12px;
+}
+
+.sector-rank {
+  color: var(--text3);
+  font-size: 10px;
+  width: 24px;
+}
+
+.sector-name-cell {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.sector-score-bar {
+  width: 120px;
+}
+
+.score-bar-wrap {
+  height: 2px;
+  background: var(--border2);
+  border-radius: 1px;
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+
+.score-bar-fill {
+  height: 100%;
+  background: var(--gold);
+  border-radius: 1px;
+  transition: width 1s ease;
+}
+
+.score-number {
+  font-size: 10px;
+  color: var(--text2);
+}
+
+.bias-badge {
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.bull  { background: rgba(76,175,125,0.1); color: var(--green); border: 1px solid rgba(76,175,125,0.2); }
+.bear  { background: rgba(224,92,92,0.1);  color: var(--red);   border: 1px solid rgba(224,92,92,0.2); }
+.neut  { background: rgba(232,230,224,0.05); color: var(--text2); border: 1px solid var(--border); }
+.sbull { background: rgba(76,175,125,0.15); color: var(--green); border: 1px solid rgba(76,175,125,0.3); }
+.sbear { background: rgba(224,92,92,0.15);  color: var(--red);   border: 1px solid rgba(224,92,92,0.3); }
+
+/* Stock table */
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stock-table thead tr {
+  border-bottom: 1px solid var(--border2);
+}
+
+.stock-table thead td {
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text3);
+  padding: 6px 8px 10px;
+}
+
+.stock-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+
+.stock-table tbody tr:hover { background: var(--surface2); }
+.stock-table tbody tr:last-child { border-bottom: none; }
+
+.stock-table tbody td {
+  padding: 10px 8px;
+  font-size: 12px;
+}
+
+.stock-ticker {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+
+.stock-sector {
+  font-size: 10px;
+  color: var(--text3);
+  margin-top: 1px;
+}
+
+.cosmo-score-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--gold);
+}
+
+.price-val { color: var(--text); }
+.chg-up    { color: var(--green); }
+.chg-dn    { color: var(--red); }
+
+.rsi-val { color: var(--text2); }
+
+.trend-tag {
+  font-size: 9px;
+  letter-spacing: 0.05em;
+  color: var(--text3);
+  white-space: nowrap;
+}
+
+/* Signals list */
+.signals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signal-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  font-size: 12px;
+  color: var(--text2);
+  line-height: 1.5;
+}
+
+/* Indices row */
+.indices-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.index-cell {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 14px;
+  border-radius: 2px;
+}
+
+.index-name {
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text3);
+  margin-bottom: 6px;
+}
+
+.index-value {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--text);
+}
+
+.index-change {
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+/* Moon card */
+.moon-hero {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.moon-emoji-large {
+  font-size: 48px;
+  line-height: 1;
+  filter: drop-shadow(0 0 16px rgba(201,168,76,0.35));
+}
+
+.moon-info {}
+
+.moon-phase-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--text);
+}
+
+.moon-bias {
+  font-size: 11px;
+  color: var(--text2);
+  margin-top: 4px;
+}
+
+.moon-note {
+  font-size: 11px;
+  color: var(--text2);
+  line-height: 1.6;
+  padding: 10px;
+  background: var(--surface);
+  border-left: 2px solid var(--gold);
+  margin-top: 10px;
+}
+
+/* Breadth bar */
+.breadth-bar {
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--border2);
+  display: flex;
+  margin: 10px 0;
+}
+
+.breadth-adv { background: var(--green); transition: width 1s ease; }
+.breadth-dec { background: var(--red);   transition: width 1s ease; }
+.breadth-unc { background: var(--border2); flex: 1; }
+
+.breadth-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+  font-size: 10px;
+  color: var(--text3);
+  letter-spacing: 0.15em;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card:nth-child(1) { animation-delay: 0.05s; }
+.card:nth-child(2) { animation-delay: 0.10s; }
+.card:nth-child(3) { animation-delay: 0.15s; }
+.card:nth-child(4) { animation-delay: 0.20s; }
+
+/* Responsive */
+@media (max-width: 860px) {
+  .grid-3 { grid-template-columns: 1fr 1fr; }
+  .hero-card { grid-template-columns: 1fr; }
+  .planets-grid { grid-template-columns: repeat(3, 1fr); }
+  .indices-row { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 600px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .planets-grid { grid-template-columns: repeat(3, 1fr); }
+  .indices-row { grid-template-columns: 1fr 1fr; }
+  .hero-value { font-size: 36px; }
+}
+</style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="loading-symbol">🪐</div>
+  <div class="loading-text">Reading the sky...</div>
+</div>
+
+<main id="main">
+
+  <header class="site-header">
+    <div>
+      <div class="logo">COSMO</div>
+      <div class="logo-sub">Astro-Financial Intelligence Engine</div>
+    </div>
+    <div class="header-right">
+      <div class="date-display" id="display-date">—</div>
+      <div class="generated-time" id="display-time">—</div>
+    </div>
+  </header>
+
+  <!-- Hero Score -->
+  <div class="hero-card">
+    <div class="hero-cell">
+      <div class="hero-label">Day Cosmo Score</div>
+      <div class="hero-value" id="day-score">—</div>
+      <div class="hero-sub" id="day-direction">—</div>
+    </div>
+    <div class="hero-cell">
+      <div class="hero-label">Risk Level</div>
+      <div class="hero-value large" id="risk-level">—</div>
+      <div class="hero-sub" id="volatility">—</div>
+    </div>
+    <div class="hero-cell">
+      <div class="hero-label">Moon × Day Ruler</div>
+      <div class="hero-value large" id="moon-day">—</div>
+      <div class="hero-sub" id="day-ruler-text">—</div>
+    </div>
+  </div>
+
+  <!-- Indices -->
+  <div class="section-label">Market Indices</div>
+  <div class="indices-row" id="indices-row"></div>
+
+  <!-- Top Stocks + Sectors -->
+  <div class="grid-2" style="margin-bottom:16px;">
+
+    <!-- Top Stocks -->
+    <div class="card" style="grid-column: span 1;">
+      <div class="section-label">Top Stocks Today</div>
+      <table class="stock-table">
+        <thead>
+          <tr>
+            <td>Stock</td>
+            <td>Score</td>
+            <td>Price</td>
+            <td>Chg%</td>
+            <td>RSI</td>
+            <td>Trend</td>
+          </tr>
+        </thead>
+        <tbody id="top-stocks-body"></tbody>
+      </table>
+    </div>
+
+    <!-- Sector Ranking -->
+    <div class="card">
+      <div class="section-label">Sector Ranking</div>
+      <table class="sector-table" id="sector-table"></table>
+    </div>
+
+  </div>
+
+  <!-- Astro + Moon -->
+  <div class="grid-2" style="margin-bottom:16px;">
+
+    <!-- Moon Intelligence -->
+    <div class="card gold-accent">
+      <div class="section-label">Moon Intelligence</div>
+      <div class="moon-hero">
+        <div class="moon-emoji-large" id="moon-emoji">🌑</div>
+        <div class="moon-info">
+          <div class="moon-phase-name" id="moon-phase-name">—</div>
+          <div class="moon-bias" id="moon-bias-text">—</div>
+        </div>
+      </div>
+      <div class="moon-note" id="moon-note">—</div>
+    </div>
+
+    <!-- Market Breadth -->
+    <div class="card">
+      <div class="section-label">Market Breadth</div>
+      <div style="margin-bottom:16px;">
+        <div class="breadth-bar">
+          <div class="breadth-adv" id="breadth-adv-bar" style="width:50%"></div>
+          <div class="breadth-dec" id="breadth-dec-bar" style="width:30%"></div>
+          <div class="breadth-unc"></div>
+        </div>
+        <div class="breadth-labels">
+          <span class="chg-up" id="breadth-adv-label">— Advancing</span>
+          <span class="chg-dn" id="breadth-dec-label">— Declining</span>
+        </div>
+      </div>
+      <div class="section-label" style="margin-top:16px;">Key Signals</div>
+      <div class="signals-list" id="signals-list"></div>
+    </div>
+
+  </div>
+
+  <!-- Navagraha Positions -->
+  <div class="section-label">Navagraha — Today's Positions</div>
+  <div class="planets-grid" id="planets-grid"></div>
+
+  <!-- Aspects & Conjunctions -->
+  <div class="grid-2">
+    <div class="card">
+      <div class="section-label">Aspects</div>
+      <div id="aspects-list" style="display:flex;flex-direction:column;gap:8px;"></div>
+    </div>
+    <div class="card">
+      <div class="section-label">Conjunctions</div>
+      <div id="conjunctions-list" style="display:flex;flex-direction:column;gap:8px;"></div>
+    </div>
+  </div>
+
+  <footer>
+    COSMO · Astro-Financial Intelligence · Auto-updated weekdays 8:30 AM IST
+  </footer>
+
+</main>
+
+<script>
+const PLANET_SYMBOLS = {
+  Sun: '☉', Moon: '☽', Mars: '♂', Mercury: '☿',
+  Jupiter: '♃', Venus: '♀', Saturn: '♄', Rahu: '☊', Ketu: '☋'
+};
+
+function biasClass(bias) {
+  if (!bias) return 'neut';
+  const b = bias.toLowerCase();
+  if (b.includes('strong bull')) return 'sbull';
+  if (b.includes('bull'))        return 'bull';
+  if (b.includes('strong bear')) return 'sbear';
+  if (b.includes('bear'))        return 'bear';
+  return 'neut';
+}
+
+function formatNumber(n) {
+  if (n === undefined || n === null) return '—';
+  return Number(n).toLocaleString('en-IN', { maximumFractionDigits: 2 });
+}
+
+function scoreColor(s) {
+  if (s >= 70) return 'var(--green)';
+  if (s >= 50) return 'var(--gold)';
+  return 'var(--red)';
+}
+
+async function loadCosmo() {
+  try {
+    const res = await fetch('data/latest.json?t=' + Date.now());
+    const data = await res.json();
+    render(data);
+  } catch(e) {
+    document.getElementById('loading').innerHTML =
+      '<div style="color:var(--red);font-size:13px;letter-spacing:0.1em;">Could not load data/latest.json</div>';
+  }
+}
+
+function render(data) {
+  const { meta, summary, astro, market, sectors, stocks, intelligence } = data;
+
+  // Header
+  document.getElementById('display-date').textContent =
+    new Date(meta.date).toLocaleDateString('en-IN', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+  document.getElementById('display-time').textContent =
+    'Generated ' + meta.generated_at.replace('T',' ').replace('Z',' UTC');
+
+  // Hero
+  const scoreEl = document.getElementById('day-score');
+  scoreEl.textContent = summary.day_cosmo_score;
+  scoreEl.style.color = scoreColor(summary.day_cosmo_score);
+  document.getElementById('day-direction').textContent = summary.market_direction + ' · ' + summary.momentum_quality + ' Momentum';
+  document.getElementById('risk-level').textContent = summary.risk_level;
+  document.getElementById('volatility').textContent = 'Volatility: ' + summary.volatility_bias;
+  document.getElementById('moon-day').textContent = astro.moon_phase_emoji + '  ' + astro.day_ruler;
+  document.getElementById('day-ruler-text').textContent = 'Day of ' + astro.day_ruler;
+
+  // Indices
+  const indRow = document.getElementById('indices-row');
+  const showIndices = ['NIFTY50','NIFTYBANK','NIFTYIT','NIFTYPHARMA'];
+  showIndices.forEach(name => {
+    const idx = market.indices[name];
+    if (!idx) return;
+    const cls = idx.change >= 0 ? 'chg-up' : 'chg-dn';
+    const sign = idx.change >= 0 ? '+' : '';
+    indRow.innerHTML += `
+      <div class="index-cell">
+        <div class="index-name">${name}</div>
+        <div class="index-value">${formatNumber(idx.value)}</div>
+        <div class="index-change ${cls}">${sign}${idx.change_pct}%</div>
+      </div>`;
+  });
+
+  // Top stocks
+  const tbody = document.getElementById('top-stocks-body');
+  (summary.top_stocks_today || []).forEach(s => {
+    const chgCls = s.change_pct >= 0 ? 'chg-up' : 'chg-dn';
+    const sign = s.change_pct >= 0 ? '+' : '';
+    tbody.innerHTML += `
+      <tr>
+        <td>
+          <div class="stock-ticker">${s.ticker}</div>
+          <div class="stock-sector">${s.sector}</div>
+        </td>
+        <td><span class="cosmo-score-num" style="color:${scoreColor(s.cosmo_score)}">${s.cosmo_score}</span></td>
+        <td class="price-val">₹${formatNumber(s.price)}</td>
+        <td class="${chgCls}">${sign}${s.change_pct}%</td>
+        <td class="rsi-val">${s.rsi}</td>
+        <td class="trend-tag">${s.trend}</td>
+      </tr>`;
+  });
+
+  // Sectors
+  const secTable = document.getElementById('sector-table');
+  (sectors || []).forEach((s, i) => {
+    const bc = biasClass(s.astro_bias);
+    const barW = Math.round(s.cosmo_score) + '%';
+    secTable.innerHTML += `
+      <tr>
+        <td class="sector-rank">${i+1}</td>
+        <td class="sector-name-cell">${s.name}</td>
+        <td class="sector-score-bar">
+          <div class="score-bar-wrap"><div class="score-bar-fill" style="width:${barW}"></div></div>
+          <div class="score-number">${s.cosmo_score}</div>
+        </td>
+        <td><span class="bias-badge ${bc}">${s.astro_bias}</span></td>
+      </tr>`;
+  });
+
+  // Moon
+  document.getElementById('moon-emoji').textContent = astro.moon_phase_emoji;
+  document.getElementById('moon-phase-name').textContent = astro.moon_phase;
+  const moon = intelligence.moon;
+  document.getElementById('moon-bias-text').textContent = moon.bias + ' · Risk: ' + moon.risk_level;
+  document.getElementById('moon-note').textContent = moon.note;
+
+  // Breadth
+  const b = market.breadth;
+  const advPct = Math.round((b.advancing / b.total) * 100);
+  const decPct = Math.round((b.declining / b.total) * 100);
+  document.getElementById('breadth-adv-bar').style.width = advPct + '%';
+  document.getElementById('breadth-dec-bar').style.width = decPct + '%';
+  document.getElementById('breadth-adv-label').textContent = b.advancing + ' Advancing';
+  document.getElementById('breadth-dec-label').textContent = b.declining + ' Declining';
+
+  // Signals
+  const sigList = document.getElementById('signals-list');
+  (summary.key_signals || []).forEach(sig => {
+    sigList.innerHTML += `<div class="signal-item">${sig}</div>`;
+  });
+
+  // Planets
+  const pgrid = document.getElementById('planets-grid');
+  const planetOrder = ['Sun','Moon','Mars','Mercury','Jupiter','Venus','Saturn','Rahu','Ketu'];
+  planetOrder.forEach(name => {
+    const p = astro.planets[name];
+    if (!p) return;
+    const isRetro = p.retrograde;
+    const sym = PLANET_SYMBOLS[name] || '';
+    pgrid.innerHTML += `
+      <div class="planet-card ${isRetro ? 'retro' : ''}">
+        <div class="planet-name">${sym} ${name}</div>
+        <div class="planet-rashi">${p.rashi}</div>
+        <div class="planet-nakshatra">${p.nakshatra} ${p.nakshatra_pada ? 'P' + p.nakshatra_pada : ''}</div>
+        ${isRetro ? '<div class="retro-badge">Retrograde</div>' : ''}
+      </div>`;
+  });
+
+  // Aspects
+  const aspList = document.getElementById('aspects-list');
+  if (astro.aspects && astro.aspects.length > 0) {
+    astro.aspects.slice(0,6).forEach(a => {
+      aspList.innerHTML += `
+        <div class="signal-item">
+          ${a.planets[0]} ${a.aspect} ${a.planets[1]} <span style="color:var(--text3);margin-left:auto;">orb ${a.orb}°</span>
+        </div>`;
+    });
+  } else {
+    aspList.innerHTML = '<div style="font-size:11px;color:var(--text3);">No major aspects today</div>';
+  }
+
+  // Conjunctions
+  const conjList = document.getElementById('conjunctions-list');
+  if (astro.conjunctions && astro.conjunctions.length > 0) {
+    astro.conjunctions.forEach(c => {
+      conjList.innerHTML += `
+        <div class="signal-item">
+          ${c.planets[0]} conjunct ${c.planets[1]} <span style="color:var(--text3);margin-left:auto;">orb ${c.orb}°</span>
+        </div>`;
+    });
+  } else {
+    conjList.innerHTML = '<div style="font-size:11px;color:var(--text3);">No conjunctions today</div>';
+  }
+
+  // Show main, hide loading
+  document.getElementById('loading').style.opacity = '0';
+  setTimeout(() => {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('main').classList.add('visible');
+  }, 500);
+}
+
+loadCosmo();
+</script>
+</body>
+</html>
