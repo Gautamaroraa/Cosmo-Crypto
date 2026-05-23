@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "generated_at": "2026-05-23T13:21:06Z",
+    "total_days": 1,
+    "version": "1.0"
+  },
+  "statistics": {
+    "total_days": 1,
+    "days_with_outcomes": 0,
+    "overall_accuracy_pct": null,
+    "sector_avg_scores": {
+      "Metals": 56.2,
+      "Infra": 54.7,
+      "Banking": 53.5,
+      "Finance": 52.3,
+      "Energy": 48.8
+    },
+    "moon_phase_accuracy": {},
+    "day_ruler_accuracy": {},
+    "cosmo_score_accuracy": {
+      "high": null,
+      "medium": null,
+      "low": null
+    },
+    "generated_at": "2026-05-23T13:21:06Z"
+  },
+  "anomalies": [],
+  "history": [
+    {
+      "date": "2026-05-23",
+      "day_cosmo_score": 62.1,
+      "market_direction": "Neutral",
+      "volatility_bias": "Low",
+      "risk_level": "Medium",
+      "strongest_sector": "Metals",
+      "weakest_sector": "FMCG",
+      "moon_phase": "First Quarter",
+      "moon_phase_emoji": "\ud83c\udf13",
+      "day_ruler": "Saturn",
+      "astro_score": 69,
+      "retrograde_planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Taurus",
+          "nakshatra": "Krittika",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Aries",
+          "nakshatra": "Ashwini",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Taurus",
+          "nakshatra": "Rohini",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "orb": 1.08
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "aspect": "Square",
+          "orb": 1.11
+        },
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 2.19
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 2.19
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Trine",
+          "orb": 0.07
+        },
+        {
+          "planets": [
+            "Moon",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.84
+        },
+        {
+          "planets": [
+            "Moon",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 1.08
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.91
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.15
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "aspect": "Trine",
+          "orb": 1.15
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.6
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 6.11
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 0.76
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.76
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 56.4,
+      "advancing": 44,
+      "declining": 34,
+      "top_sectors": [
+        {
+          "name": "Metals",
+          "cosmo_score": 56.2,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 54.7,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Banking",
+          "cosmo_score": 53.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Finance",
+          "cosmo_score": 52.3,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "Energy",
+          "cosmo_score": 48.8,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [
+        {
+          "ticker": "ADANIPORTS",
+          "sector": "Infra",
+          "cosmo_score": 72.6,
+          "direction": "Bullish",
+          "price": 1786.9,
+          "rsi": 63.41,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "BAJAJ-AUTO",
+          "sector": "Auto",
+          "cosmo_score": 71.2,
+          "direction": "Bullish",
+          "price": 10549.5,
+          "rsi": 60.57,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "JSWSTEEL",
+          "sector": "Metals",
+          "cosmo_score": 69.2,
+          "direction": "Bullish",
+          "price": 1285.5,
+          "rsi": 56.56,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "DLF",
+          "sector": "Infra",
+          "cosmo_score": 68.6,
+          "direction": "Bullish",
+          "price": 586.7,
+          "rsi": 52.13,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "HINDALCO",
+          "sector": "Metals",
+          "cosmo_score": 66.7,
+          "direction": "Bullish",
+          "price": 1109.2,
+          "rsi": 67.4,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED"
+          ]
+        }
+      ],
+      "key_signals": [
+        "Retrograde: Rahu, Ketu",
+        "Moon moving Leo to Virgo within 3 days",
+        "First Quarter - Strong momentum phase. Trend trades favored.",
+        "Day of Saturn - favors Metals, IT, Infra"
+      ],
+      "nifty50": 23719.3,
+      "nifty50_change_pct": 0.27,
+      "outcomes": {
+        "status": "pending"
+      }
+    }
+  ]
+}
