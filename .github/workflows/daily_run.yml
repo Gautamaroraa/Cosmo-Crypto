@@ -29,6 +29,9 @@ jobs:
       - name: Run History Engine
         run: python engine/history_engine.py
 
+      - name: Run Pattern Engine
+        run: python engine/pattern_engine.py
+
       - name: Copy latest.json to root
         run: cp data/latest.json latest.json
 
