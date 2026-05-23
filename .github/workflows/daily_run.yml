@@ -26,6 +26,9 @@ jobs:
       - name: Run Cosmo Engine
         run: python engine/scoring_engine.py
 
+      - name: Run History Engine
+        run: python engine/history_engine.py
+
       - name: Copy latest.json to root
         run: cp data/latest.json latest.json
 
