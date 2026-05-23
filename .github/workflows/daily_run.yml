@@ -1,0 +1,39 @@
+name: Cosmo Daily Engine
+
+on:
+  schedule:
+    # Runs at 8:30 AM IST = 3:00 AM UTC, Monday to Friday
+    - cron: '0 3 * * 1-5'
+  workflow_dispatch:  # Allow manual trigger anytime
+
+permissions:
+  contents: write
+
+jobs:
+  run-cosmo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyswisseph yfinance pandas requests
+
+      - name: Run Cosmo Engine
+        run: |
+          python engine/scoring_engine.py
+
+      - name: Commit output to repo
+        run: |
+          git config user.name "Cosmo Bot"
+          git config user.email "cosmo@github-actions"
+          git add data/
+          git diff --staged --quiet || git commit -m "🪐 Cosmo update: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
