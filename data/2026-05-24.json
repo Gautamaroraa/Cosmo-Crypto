@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-05-24",
-    "generated_at": "2026-05-24T09:13:45Z",
+    "generated_at": "2026-05-24T09:19:10Z",
     "version": "1.0",
     "type": "crypto"
   },
@@ -12,9 +12,27 @@
     "risk_level": "High",
     "momentum_quality": "Very Low",
     "strongest_sector": "L1",
-    "weakest_sector": "DeFi",
+    "weakest_sector": "Gaming",
     "btc_dominance": 0,
     "top_coins_today": [
+      {
+        "symbol": "ENAUSD",
+        "name": "ENA",
+        "sector": "DeFi",
+        "cosmo_score": 68.3,
+        "confidence": "High",
+        "direction": "Neutral",
+        "price": 0.1012,
+        "change_pct": 5.53,
+        "rsi": 56.53,
+        "trend": "Recovery",
+        "rule_flags": [],
+        "funding_rate": {
+          "rate": -0.0176,
+          "annualized": -19.3,
+          "sentiment": "Neutral"
+        }
+      },
       {
         "symbol": "DOTUSD",
         "name": "DOT",
@@ -22,75 +40,84 @@
         "cosmo_score": 67.2,
         "confidence": "High",
         "direction": "Neutral",
-        "price": 1.284,
-        "change_pct": 5.51,
+        "price": 1.283,
+        "change_pct": 5.34,
         "rsi": 53.97,
         "trend": "Recovery",
         "rule_flags": [],
-        "funding_rate": null
-      },
-      {
-        "symbol": "BNBUSD",
-        "name": "BNB",
-        "sector": "L1",
-        "cosmo_score": 65.0,
-        "confidence": "High",
-        "direction": "Neutral",
-        "price": 658.98,
-        "change_pct": 2.83,
-        "rsi": 59.99,
-        "trend": "Recovery",
-        "rule_flags": [],
-        "funding_rate": null
+        "funding_rate": {
+          "rate": 1.0,
+          "annualized": 1095.0,
+          "sentiment": "Long Heavy"
+        }
       },
       {
         "symbol": "TIAUSD",
         "name": "TIA",
         "sector": "L1",
-        "cosmo_score": 65.0,
+        "cosmo_score": 67.0,
         "confidence": "High",
         "direction": "Neutral",
         "price": 0.4285,
         "change_pct": 6.72,
         "rsi": 53.46,
         "trend": "Recovery",
-        "rule_flags": [],
-        "funding_rate": null
+        "rule_flags": [
+          "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+        ],
+        "funding_rate": {
+          "rate": -3.0236,
+          "annualized": -3310.9,
+          "sentiment": "Short Heavy"
+        }
       },
       {
         "symbol": "SEIUSD",
         "name": "SEI",
         "sector": "Infra",
-        "cosmo_score": 64.7,
-        "confidence": "Medium",
+        "cosmo_score": 66.7,
+        "confidence": "High",
         "direction": "Neutral",
         "price": 0.0617,
-        "change_pct": 5.11,
+        "change_pct": 4.93,
         "rsi": 55.89,
         "trend": "Recovery",
-        "rule_flags": [],
-        "funding_rate": null
+        "rule_flags": [
+          "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+        ],
+        "funding_rate": {
+          "rate": -6.1016,
+          "annualized": -6681.3,
+          "sentiment": "Short Heavy"
+        }
       },
       {
         "symbol": "RUNEUSD",
         "name": "RUNE",
         "sector": "Infra",
-        "cosmo_score": 64.7,
-        "confidence": "Medium",
+        "cosmo_score": 66.7,
+        "confidence": "High",
         "direction": "Neutral",
         "price": 0.4448,
         "change_pct": 5.28,
         "rsi": 52.55,
         "trend": "Recovery",
-        "rule_flags": [],
-        "funding_rate": null
+        "rule_flags": [
+          "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+        ],
+        "funding_rate": {
+          "rate": -8.4259,
+          "annualized": -9226.3,
+          "sentiment": "Short Heavy"
+        }
       }
     ],
     "key_signals": [
       "Retrograde: Rahu, Ketu",
       "Moon moving Leo to Virgo within 3 days",
       "First Quarter - Strong momentum. Trend entries favored.",
-      "Day of Sun - favors L1, Infra"
+      "Day of Sun - favors L1, Infra",
+      "High funding rates: DOT, SOL, BNB \u2014 longs crowded"
     ],
     "breadth": {
       "total_pairs": 1016,
@@ -101,13 +128,13 @@
     },
     "reference": {
       "BTC": {
-        "price": 76877.5,
-        "change_pct": 2.97,
+        "price": 76868.5,
+        "change_pct": 2.96,
         "funding": null
       },
       "ETH": {
-        "price": 2121.15,
-        "change_pct": 4.52,
+        "price": 2120.8,
+        "change_pct": 4.55,
         "funding": null
       }
     }
@@ -123,87 +150,87 @@
     ],
     "planets": {
       "Sun": {
-        "longitude": 39.0046,
+        "longitude": 39.0083,
         "rashi": "Taurus",
         "rashi_lord": "Venus",
-        "degrees_in_rashi": 9.0046,
+        "degrees_in_rashi": 9.0083,
         "nakshatra": "Krittika",
         "nakshatra_pada": 4,
         "nakshatra_lord": "Sun",
         "retrograde": false,
-        "speed": 0.961029
+        "speed": 0.961027
       },
       "Moon": {
-        "longitude": 140.163,
+        "longitude": 140.2119,
         "rashi": "Leo",
         "rashi_lord": "Sun",
-        "degrees_in_rashi": 20.163,
+        "degrees_in_rashi": 20.2119,
         "nakshatra": "Purva Phalguni",
         "nakshatra_pada": 3,
         "nakshatra_lord": "Venus",
         "retrograde": false,
-        "speed": 12.952096
+        "speed": 12.950857
       },
       "Mars": {
-        "longitude": 9.8639,
+        "longitude": 9.8667,
         "rashi": "Aries",
         "rashi_lord": "Mars",
-        "degrees_in_rashi": 9.8639,
+        "degrees_in_rashi": 9.8667,
         "nakshatra": "Ashwini",
         "nakshatra_pada": 3,
         "nakshatra_lord": "Ketu",
         "retrograde": false,
-        "speed": 0.747929
+        "speed": 0.747926
       },
       "Mercury": {
-        "longitude": 50.5612,
+        "longitude": 50.5689,
         "rashi": "Taurus",
         "rashi_lord": "Venus",
-        "degrees_in_rashi": 20.5612,
+        "degrees_in_rashi": 20.5689,
         "nakshatra": "Rohini",
         "nakshatra_pada": 4,
         "nakshatra_lord": "Moon",
         "retrograde": false,
-        "speed": 2.038205
+        "speed": 2.038076
       },
       "Jupiter": {
-        "longitude": 88.4407,
+        "longitude": 88.4414,
         "rashi": "Gemini",
         "rashi_lord": "Mercury",
-        "degrees_in_rashi": 28.4407,
+        "degrees_in_rashi": 28.4414,
         "nakshatra": "Punarvasu",
         "nakshatra_pada": 3,
         "nakshatra_lord": "Jupiter",
         "retrograde": false,
-        "speed": 0.179013
+        "speed": 0.179018
       },
       "Venus": {
-        "longitude": 72.1416,
+        "longitude": 72.1461,
         "rashi": "Gemini",
         "rashi_lord": "Mercury",
-        "degrees_in_rashi": 12.1416,
+        "degrees_in_rashi": 12.1461,
         "nakshatra": "Ardra",
         "nakshatra_pada": 2,
         "nakshatra_lord": "Rahu",
         "retrograde": false,
-        "speed": 1.189755
+        "speed": 1.189751
       },
       "Saturn": {
-        "longitude": 347.3433,
+        "longitude": 347.3436,
         "rashi": "Pisces",
         "rashi_lord": "Jupiter",
-        "degrees_in_rashi": 17.3433,
+        "degrees_in_rashi": 17.3436,
         "nakshatra": "Revati",
         "nakshatra_pada": 1,
         "nakshatra_lord": "Mercury",
         "retrograde": false,
-        "speed": 0.092809
+        "speed": 0.092805
       },
       "Rahu": {
-        "longitude": 310.3525,
+        "longitude": 310.3523,
         "rashi": "Aquarius",
         "rashi_lord": "Saturn",
-        "degrees_in_rashi": 10.3525,
+        "degrees_in_rashi": 10.3523,
         "nakshatra": "Shatabhisha",
         "nakshatra_pada": 2,
         "nakshatra_lord": "Rahu",
@@ -211,10 +238,10 @@
         "speed": -0.052973
       },
       "Ketu": {
-        "longitude": 130.3525,
+        "longitude": 130.3523,
         "rashi": "Leo",
         "rashi_lord": "Sun",
-        "degrees_in_rashi": 10.3525,
+        "degrees_in_rashi": 10.3523,
         "nakshatra": "Magha",
         "nakshatra_pada": 4,
         "nakshatra_lord": "Ketu",
@@ -230,7 +257,7 @@
           "Rahu"
         ],
         "aspect": "Square",
-        "orb": 1.35
+        "orb": 1.34
       },
       {
         "planets": [
@@ -238,7 +265,7 @@
           "Ketu"
         ],
         "aspect": "Square",
-        "orb": 1.35
+        "orb": 1.34
       },
       {
         "planets": [
@@ -246,7 +273,7 @@
           "Mercury"
         ],
         "aspect": "Square",
-        "orb": 0.4
+        "orb": 0.36
       },
       {
         "planets": [
@@ -278,7 +305,7 @@
           "Saturn"
         ],
         "aspect": "Sextile",
-        "orb": 3.22
+        "orb": 3.23
       },
       {
         "planets": [
@@ -335,13 +362,13 @@
     },
     "reference": {
       "BTC": {
-        "price": 76877.5,
-        "change_pct": 2.97,
+        "price": 76868.5,
+        "change_pct": 2.96,
         "funding": null
       },
       "ETH": {
-        "price": 2121.15,
-        "change_pct": 4.52,
+        "price": 2120.8,
+        "change_pct": 4.55,
         "funding": null
       }
     }
@@ -349,14 +376,14 @@
   "sectors": [
     {
       "name": "L1",
-      "cosmo_score": 67.2,
-      "market_score": 78.4,
+      "cosmo_score": 68.0,
+      "market_score": 79.9,
       "astro_score": 7,
       "astro_bias": "Neutral",
       "top_coins": [
         "DOT",
-        "BNB",
-        "TIA"
+        "SOL",
+        "BNB"
       ],
       "avg_rsi": 55.7,
       "bullish_count": 9,
@@ -369,17 +396,17 @@
     },
     {
       "name": "Infra",
-      "cosmo_score": 65.8,
-      "market_score": 76.6,
+      "cosmo_score": 65.3,
+      "market_score": 75.8,
       "astro_score": 5,
       "astro_bias": "Neutral",
       "top_coins": [
         "SEI",
         "RUNE",
-        "INJ"
+        "TAO"
       ],
-      "avg_rsi": 52.7,
-      "bullish_count": 3,
+      "avg_rsi": 55.7,
+      "bullish_count": 4,
       "bearish_count": 0,
       "notes": [
         "Ketu Retrograde-Weak in Leo",
@@ -388,17 +415,17 @@
     },
     {
       "name": "L2",
-      "cosmo_score": 60.6,
-      "market_score": 71.4,
+      "cosmo_score": 60.5,
+      "market_score": 71.1,
       "astro_score": -5,
       "astro_bias": "Neutral",
       "top_coins": [
         "STRK",
         "OP",
-        "ARB"
+        "POL"
       ],
-      "avg_rsi": 40.8,
-      "bullish_count": 3,
+      "avg_rsi": 47.0,
+      "bullish_count": 4,
       "bearish_count": 0,
       "notes": [
         "Jupiter Weak in Gemini"
@@ -406,19 +433,40 @@
     },
     {
       "name": "Meme",
-      "cosmo_score": 60.0,
-      "market_score": 67.8,
+      "cosmo_score": 60.4,
+      "market_score": 68.5,
       "astro_score": 1,
       "astro_bias": "Neutral",
       "top_coins": [
-        "DOGE"
+        "FLOKI",
+        "DOGE",
+        "PEPE"
       ],
-      "avg_rsi": 48.6,
-      "bullish_count": 1,
+      "avg_rsi": 49.4,
+      "bullish_count": 4,
       "bearish_count": 0,
       "notes": [
         "Mars Strong in Aries",
         "Rahu Retrograde-Weak in Aquarius"
+      ]
+    },
+    {
+      "name": "DeFi",
+      "cosmo_score": 59.5,
+      "market_score": 72.5,
+      "astro_score": -13,
+      "astro_bias": "Bearish",
+      "top_coins": [
+        "ENA",
+        "UNI",
+        "LINK"
+      ],
+      "avg_rsi": 57.4,
+      "bullish_count": 5,
+      "bearish_count": 0,
+      "notes": [
+        "Jupiter Weak in Gemini",
+        "Ketu Retrograde-Weak in Leo"
       ]
     },
     {
@@ -438,77 +486,66 @@
         "Mars Strong in Aries",
         "Rahu Retrograde-Weak in Aquarius"
       ]
-    },
-    {
-      "name": "DeFi",
-      "cosmo_score": 56.3,
-      "market_score": 66.8,
-      "astro_score": -13,
-      "astro_bias": "Bearish",
-      "top_coins": [
-        "UNI",
-        "LINK",
-        "AAVE"
-      ],
-      "avg_rsi": 64.7,
-      "bullish_count": 3,
-      "bearish_count": 0,
-      "notes": [
-        "Jupiter Weak in Gemini",
-        "Ketu Retrograde-Weak in Leo"
-      ]
     }
   ],
   "coins": [
     {
+      "symbol": "ENAUSD",
+      "name": "ENA",
+      "sector": "DeFi",
+      "price": 0.1012,
+      "change_pct": 5.53,
+      "volume_usd": 191324.0,
+      "ema9": 0.090476,
+      "ema20": 0.092223,
+      "ema50": 0.09817,
+      "rsi": 56.53,
+      "momentum": 20.88,
+      "trend": "Recovery",
+      "volume_signal": "Volume Spike",
+      "vol_ratio": 3.51,
+      "technical_score": 95,
+      "funding_rate": {
+        "rate": -0.0176,
+        "annualized": -19.3,
+        "sentiment": "Neutral"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [],
+      "rule_modifier": 0,
+      "sector_astro_bias": -13,
+      "cosmo_score": 68.3,
+      "confidence": "High",
+      "direction": "Neutral"
+    },
+    {
       "symbol": "DOTUSD",
       "name": "DOT",
       "sector": "L1",
-      "price": 1.284,
-      "change_pct": 5.51,
-      "volume_usd": 260567.0,
+      "price": 1.283,
+      "change_pct": 5.34,
+      "volume_usd": 259732.0,
       "ema9": 1.272449,
-      "ema20": 1.264534,
-      "ema50": 1.265776,
+      "ema20": 1.264543,
+      "ema50": 1.266059,
       "rsi": 53.97,
       "momentum": 5.67,
       "trend": "Recovery",
       "volume_signal": "High Volume",
       "vol_ratio": 1.67,
       "technical_score": 86,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": 1.0,
+        "annualized": 1095.0,
+        "sentiment": "Long Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
       "rule_modifier": 0,
       "sector_astro_bias": 7,
       "cosmo_score": 67.2,
-      "confidence": "High",
-      "direction": "Neutral"
-    },
-    {
-      "symbol": "BNBUSD",
-      "name": "BNB",
-      "sector": "L1",
-      "price": 658.98,
-      "change_pct": 2.83,
-      "volume_usd": 2270.0,
-      "ema9": 611.925944,
-      "ema20": 611.569293,
-      "ema50": 622.233159,
-      "rsi": 59.99,
-      "momentum": 5.96,
-      "trend": "Recovery",
-      "volume_signal": "Normal Volume",
-      "vol_ratio": 1.35,
-      "technical_score": 81,
-      "funding_rate": null,
-      "open_interest": null,
-      "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
-      "sector_astro_bias": 7,
-      "cosmo_score": 65.0,
       "confidence": "High",
       "direction": "Neutral"
     },
@@ -528,13 +565,19 @@
       "volume_signal": "Low Volume",
       "vol_ratio": 0.07,
       "technical_score": 81,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": -3.0236,
+        "annualized": -3310.9,
+        "sentiment": "Short Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
       "sector_astro_bias": 7,
-      "cosmo_score": 65.0,
+      "cosmo_score": 67.0,
       "confidence": "High",
       "direction": "Neutral"
     },
@@ -543,8 +586,8 @@
       "name": "SEI",
       "sector": "Infra",
       "price": 0.0617,
-      "change_pct": 5.11,
-      "volume_usd": 281250.0,
+      "change_pct": 4.93,
+      "volume_usd": 281050.0,
       "ema9": 0.054248,
       "ema20": 0.054696,
       "ema50": 0.057079,
@@ -554,14 +597,20 @@
       "volume_signal": "Low Volume",
       "vol_ratio": 0.12,
       "technical_score": 81,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": -6.1016,
+        "annualized": -6681.3,
+        "sentiment": "Short Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
       "sector_astro_bias": 5,
-      "cosmo_score": 64.7,
-      "confidence": "Medium",
+      "cosmo_score": 66.7,
+      "confidence": "High",
       "direction": "Neutral"
     },
     {
@@ -580,40 +629,52 @@
       "volume_signal": "Low Volume",
       "vol_ratio": 0.16,
       "technical_score": 81,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": -8.4259,
+        "annualized": -9226.3,
+        "sentiment": "Short Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
       "sector_astro_bias": 5,
-      "cosmo_score": 64.7,
-      "confidence": "Medium",
+      "cosmo_score": 66.7,
+      "confidence": "High",
       "direction": "Neutral"
     },
     {
-      "symbol": "XRPUSD",
-      "name": "XRP",
-      "sector": "L1",
-      "price": 1.3655,
-      "change_pct": 4.17,
-      "volume_usd": 5496458.0,
-      "ema9": 1.337368,
-      "ema20": 1.347575,
-      "ema50": 1.367722,
-      "rsi": 53.9,
-      "momentum": 3.46,
+      "symbol": "1000FLOKIUSD",
+      "name": "FLOKI",
+      "sector": "Meme",
+      "price": 0.02973,
+      "change_pct": 4.87,
+      "volume_usd": 1190300.0,
+      "ema9": 0.02784,
+      "ema20": 0.028309,
+      "ema50": 0.029584,
+      "rsi": 51.7,
+      "momentum": 6.68,
       "trend": "Recovery",
-      "volume_signal": "Normal Volume",
-      "vol_ratio": 1.02,
-      "technical_score": 77,
-      "funding_rate": null,
+      "volume_signal": "Low Volume",
+      "vol_ratio": 0.34,
+      "technical_score": 81,
+      "funding_rate": {
+        "rate": -3.7196,
+        "annualized": -4072.9,
+        "sentiment": "Short Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
-      "sector_astro_bias": 7,
-      "cosmo_score": 63.2,
-      "confidence": "Medium",
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
+      "sector_astro_bias": 1,
+      "cosmo_score": 66.1,
+      "confidence": "High",
       "direction": "Neutral"
     },
     {
@@ -632,13 +693,173 @@
       "volume_signal": "Low Volume",
       "vol_ratio": 0.64,
       "technical_score": 81,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": -1.5845,
+        "annualized": -1735.0,
+        "sentiment": "Short Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
+      "sector_astro_bias": -5,
+      "cosmo_score": 65.2,
+      "confidence": "High",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "SOLUSD",
+      "name": "SOL",
+      "sector": "L1",
+      "price": 86.574,
+      "change_pct": 5.57,
+      "volume_usd": 853549.0,
+      "ema9": 83.025047,
+      "ema20": 83.166911,
+      "ema50": 84.503654,
+      "rsi": 56.35,
+      "momentum": 7.04,
+      "trend": "Recovery",
+      "volume_signal": "Normal Volume",
+      "vol_ratio": 1.14,
+      "technical_score": 81,
+      "funding_rate": {
+        "rate": 1.0,
+        "annualized": 1095.0,
+        "sentiment": "Long Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
       "rule_modifier": 0,
-      "sector_astro_bias": -5,
+      "sector_astro_bias": 7,
+      "cosmo_score": 65.0,
+      "confidence": "High",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "BNBUSD",
+      "name": "BNB",
+      "sector": "L1",
+      "price": 659.0,
+      "change_pct": 2.98,
+      "volume_usd": 2266.0,
+      "ema9": 611.925945,
+      "ema20": 611.570274,
+      "ema50": 622.267139,
+      "rsi": 59.99,
+      "momentum": 5.96,
+      "trend": "Recovery",
+      "volume_signal": "Normal Volume",
+      "vol_ratio": 1.35,
+      "technical_score": 81,
+      "funding_rate": {
+        "rate": 1.7288,
+        "annualized": 1893.1,
+        "sentiment": "Long Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [],
+      "rule_modifier": 0,
+      "sector_astro_bias": 7,
+      "cosmo_score": 65.0,
+      "confidence": "High",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "XRPUSD",
+      "name": "XRP",
+      "sector": "L1",
+      "price": 1.3656,
+      "change_pct": 4.07,
+      "volume_usd": 5477899.0,
+      "ema9": 1.337368,
+      "ema20": 1.34758,
+      "ema50": 1.367901,
+      "rsi": 53.9,
+      "momentum": 3.46,
+      "trend": "Recovery",
+      "volume_signal": "Normal Volume",
+      "vol_ratio": 1.02,
+      "technical_score": 77,
+      "funding_rate": {
+        "rate": 1.0,
+        "annualized": 1095.0,
+        "sentiment": "Long Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [],
+      "rule_modifier": 0,
+      "sector_astro_bias": 7,
       "cosmo_score": 63.2,
+      "confidence": "Medium",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "TAOUSD",
+      "name": "TAO",
+      "sector": "Infra",
+      "price": 280.5,
+      "change_pct": 7.84,
+      "volume_usd": 556.0,
+      "ema9": 314.840659,
+      "ema20": 301.732445,
+      "ema50": 287.814649,
+      "rsi": 64.6,
+      "momentum": 11.99,
+      "trend": "Pullback",
+      "volume_signal": "Normal Volume",
+      "vol_ratio": 1.19,
+      "technical_score": 72,
+      "funding_rate": {
+        "rate": -1.319,
+        "annualized": -1444.3,
+        "sentiment": "Short Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
+      "sector_astro_bias": 5,
+      "cosmo_score": 62.6,
+      "confidence": "Medium",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "INJUSD",
+      "name": "INJ",
+      "sector": "Infra",
+      "price": 5.229,
+      "change_pct": 6.74,
+      "volume_usd": 60380.0,
+      "ema9": 2.865608,
+      "ema20": 2.957476,
+      "ema50": 3.41793,
+      "rsi": 49.7,
+      "momentum": 5.23,
+      "trend": "Recovery",
+      "volume_signal": "Low Volume",
+      "vol_ratio": 0.58,
+      "technical_score": 71,
+      "funding_rate": {
+        "rate": -2.3144,
+        "annualized": -2534.3,
+        "sentiment": "Short Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
+      "sector_astro_bias": 5,
+      "cosmo_score": 62.2,
       "confidence": "Medium",
       "direction": "Neutral"
     },
@@ -648,75 +869,27 @@
       "sector": "L1",
       "price": 1.0639,
       "change_pct": 6.25,
-      "volume_usd": 305191.0,
+      "volume_usd": 305197.0,
       "ema9": 0.883546,
-      "ema20": 0.897981,
-      "ema50": 0.943804,
+      "ema20": 0.897978,
+      "ema50": 0.943719,
       "rsi": 49.0,
       "momentum": 6.19,
       "trend": "Recovery",
       "volume_signal": "Low Volume",
       "vol_ratio": 0.24,
       "technical_score": 71,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": 1.662,
+        "annualized": 1819.9,
+        "sentiment": "Long Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
       "rule_modifier": 0,
       "sector_astro_bias": 7,
       "cosmo_score": 60.5,
-      "confidence": "Medium",
-      "direction": "Neutral"
-    },
-    {
-      "symbol": "INJUSD",
-      "name": "INJ",
-      "sector": "Infra",
-      "price": 5.228,
-      "change_pct": 7.35,
-      "volume_usd": 60383.0,
-      "ema9": 2.865608,
-      "ema20": 2.957452,
-      "ema50": 3.41708,
-      "rsi": 49.7,
-      "momentum": 5.23,
-      "trend": "Recovery",
-      "volume_signal": "Low Volume",
-      "vol_ratio": 0.58,
-      "technical_score": 71,
-      "funding_rate": null,
-      "open_interest": null,
-      "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
-      "sector_astro_bias": 5,
-      "cosmo_score": 60.2,
-      "confidence": "Medium",
-      "direction": "Neutral"
-    },
-    {
-      "symbol": "APTUSD",
-      "name": "APT",
-      "sector": "L1",
-      "price": 0.961,
-      "change_pct": 5.03,
-      "volume_usd": 5882.0,
-      "ema9": 0.93025,
-      "ema20": 0.910271,
-      "ema50": 0.927322,
-      "rsi": 78.04,
-      "momentum": 22.42,
-      "trend": "Recovery",
-      "volume_signal": "High Volume",
-      "vol_ratio": 1.85,
-      "technical_score": 65,
-      "funding_rate": null,
-      "open_interest": null,
-      "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
-      "sector_astro_bias": 7,
-      "cosmo_score": 57.8,
       "confidence": "Medium",
       "direction": "Neutral"
     },
@@ -728,21 +901,27 @@
       "change_pct": 4.56,
       "volume_usd": 163909.0,
       "ema9": 0.106827,
-      "ema20": 0.110698,
-      "ema50": 0.118371,
+      "ema20": 0.110697,
+      "ema50": 0.118362,
       "rsi": 43.58,
       "momentum": -1.54,
       "trend": "Recovery",
       "volume_signal": "High Volume",
       "vol_ratio": 1.61,
       "technical_score": 68,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": -1.9641,
+        "annualized": -2150.7,
+        "sentiment": "Short Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
       "sector_astro_bias": -5,
-      "cosmo_score": 57.4,
+      "cosmo_score": 59.4,
       "confidence": "Medium",
       "direction": "Neutral"
     },
@@ -750,25 +929,93 @@
       "symbol": "UNIUSD",
       "name": "UNI",
       "sector": "DeFi",
-      "price": 3.463,
-      "change_pct": 4.46,
-      "volume_usd": 90828.0,
+      "price": 3.457,
+      "change_pct": 4.28,
+      "volume_usd": 91878.0,
       "ema9": 3.388944,
-      "ema20": 3.327233,
-      "ema50": 3.33365,
+      "ema20": 3.327258,
+      "ema50": 3.334499,
       "rsi": 66.51,
       "momentum": 13.07,
       "trend": "Recovery",
       "volume_signal": "Low Volume",
       "vol_ratio": 0.54,
       "technical_score": 70,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": -0.2886,
+        "annualized": -316.1,
+        "sentiment": "Short Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
+      "sector_astro_bias": -13,
+      "cosmo_score": 59.0,
+      "confidence": "Medium",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "APTUSD",
+      "name": "APT",
+      "sector": "L1",
+      "price": 0.961,
+      "change_pct": 5.14,
+      "volume_usd": 5881.0,
+      "ema9": 0.93025,
+      "ema20": 0.910271,
+      "ema50": 0.927322,
+      "rsi": 78.04,
+      "momentum": 22.42,
+      "trend": "Recovery",
+      "volume_signal": "High Volume",
+      "vol_ratio": 1.85,
+      "technical_score": 65,
+      "funding_rate": {
+        "rate": 0.047,
+        "annualized": 51.4,
+        "sentiment": "Neutral"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
       "rule_modifier": 0,
+      "sector_astro_bias": 7,
+      "cosmo_score": 57.8,
+      "confidence": "Medium",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "LINKUSD",
+      "name": "LINK",
+      "sector": "DeFi",
+      "price": 9.605,
+      "change_pct": 4.72,
+      "volume_usd": 108097.0,
+      "ema9": 8.692071,
+      "ema20": 8.832,
+      "ema50": 9.124559,
+      "rsi": 49.63,
+      "momentum": 2.72,
+      "trend": "Recovery",
+      "volume_signal": "Low Volume",
+      "vol_ratio": 0.79,
+      "technical_score": 67,
+      "funding_rate": {
+        "rate": -0.4243,
+        "annualized": -464.6,
+        "sentiment": "Short Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
       "sector_astro_bias": -13,
-      "cosmo_score": 57.0,
+      "cosmo_score": 57.7,
       "confidence": "Medium",
       "direction": "Neutral"
     },
@@ -776,19 +1023,23 @@
       "symbol": "AVAXUSD",
       "name": "AVAX",
       "sector": "L1",
-      "price": 9.35,
-      "change_pct": 5.39,
-      "volume_usd": 96280.0,
+      "price": 9.3469,
+      "change_pct": 5.31,
+      "volume_usd": 96473.0,
       "ema9": 8.904389,
-      "ema20": 9.019484,
-      "ema50": 9.188097,
+      "ema20": 9.019473,
+      "ema50": 9.18772,
       "rsi": 45.85,
       "momentum": 1.37,
       "trend": "Recovery",
       "volume_signal": "Low Volume",
       "vol_ratio": 0.42,
       "technical_score": 63,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": 1.0,
+        "annualized": 1095.0,
+        "sentiment": "Long Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
@@ -802,19 +1053,53 @@
       "symbol": "DOGEUSD",
       "name": "DOGE",
       "sector": "Meme",
-      "price": 0.103,
-      "change_pct": 3.21,
-      "volume_usd": 37523900.0,
+      "price": 0.10317,
+      "change_pct": 3.55,
+      "volume_usd": 37343100.0,
       "ema9": 0.091331,
       "ema20": 0.092646,
-      "ema50": 0.096578,
+      "ema50": 0.096584,
       "rsi": 48.59,
       "momentum": -0.02,
       "trend": "Recovery",
       "volume_signal": "Normal Volume",
       "vol_ratio": 0.9,
       "technical_score": 63,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": 1.7581,
+        "annualized": 1925.1,
+        "sentiment": "Long Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [],
+      "rule_modifier": 0,
+      "sector_astro_bias": 1,
+      "cosmo_score": 56.0,
+      "confidence": "Medium",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "1000PEPEUSD",
+      "name": "PEPE",
+      "sector": "Meme",
+      "price": 0.003627,
+      "change_pct": 4.07,
+      "volume_usd": 12404000.0,
+      "ema9": 0.003351,
+      "ema20": 0.003452,
+      "ema50": 0.00361,
+      "rsi": 46.62,
+      "momentum": 0.42,
+      "trend": "Recovery",
+      "volume_signal": "Low Volume",
+      "vol_ratio": 0.36,
+      "technical_score": 63,
+      "funding_rate": {
+        "rate": 1.0,
+        "annualized": 1095.0,
+        "sentiment": "Long Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
@@ -840,7 +1125,11 @@
       "volume_signal": "Low Volume",
       "vol_ratio": 0.39,
       "technical_score": 63,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": 0.5,
+        "annualized": 547.5,
+        "sentiment": "Long Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
@@ -851,82 +1140,65 @@
       "direction": "Neutral"
     },
     {
-      "symbol": "LINKUSD",
-      "name": "LINK",
-      "sector": "DeFi",
-      "price": 9.605,
-      "change_pct": 4.62,
-      "volume_usd": 108241.0,
-      "ema9": 8.692071,
-      "ema20": 8.831984,
-      "ema50": 9.123992,
-      "rsi": 49.63,
-      "momentum": 2.72,
-      "trend": "Recovery",
-      "volume_signal": "Low Volume",
-      "vol_ratio": 0.79,
-      "technical_score": 67,
-      "funding_rate": null,
-      "open_interest": null,
-      "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
-      "sector_astro_bias": -13,
-      "cosmo_score": 55.7,
-      "confidence": "Medium",
-      "direction": "Neutral"
-    },
-    {
-      "symbol": "SOLUSD",
-      "name": "SOL",
-      "sector": "L1",
-      "price": 86.5621,
-      "change_pct": 5.41,
-      "volume_usd": 854403.0,
-      "ema9": 7983.826104,
-      "ema20": 7987.706972,
-      "ema50": 8144.964502,
-      "rsi": 56.22,
-      "momentum": 7.0,
-      "trend": "Strong Downtrend",
-      "volume_signal": "Low Volume",
-      "vol_ratio": 0.71,
-      "technical_score": 58,
-      "funding_rate": null,
-      "open_interest": null,
-      "ls_ratio": null,
-      "rule_flags": [],
-      "rule_modifier": 0,
-      "sector_astro_bias": 7,
-      "cosmo_score": 54.7,
-      "confidence": "Medium",
-      "direction": "Neutral"
-    },
-    {
       "symbol": "MANAUSD",
       "name": "MANA",
       "sector": "Gaming",
       "price": 0.0867,
-      "change_pct": 4.21,
-      "volume_usd": 23828.0,
+      "change_pct": 3.96,
+      "volume_usd": 23825.0,
       "ema9": 0.083492,
-      "ema20": 0.085754,
-      "ema50": 0.088073,
+      "ema20": 0.085753,
+      "ema50": 0.088035,
       "rsi": 34.9,
       "momentum": -4.35,
       "trend": "Recovery",
       "volume_signal": "Low Volume",
       "vol_ratio": 0.41,
       "technical_score": 54,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": -0.4888,
+        "annualized": -535.2,
+        "sentiment": "Short Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE",
         "OVERSOLD_WAXING_REVERSAL"
       ],
-      "rule_modifier": 8,
+      "rule_modifier": 16,
       "sector_astro_bias": 1,
-      "cosmo_score": 54.0,
+      "cosmo_score": 56.0,
+      "confidence": "Medium",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "POLUSD",
+      "name": "POL",
+      "sector": "L2",
+      "price": 0.0916,
+      "change_pct": 3.97,
+      "volume_usd": 206200.0,
+      "ema9": 0.091722,
+      "ema20": 0.090922,
+      "ema50": 0.091283,
+      "rsi": 65.84,
+      "momentum": 2.59,
+      "trend": "Recovery",
+      "volume_signal": "Low Volume",
+      "vol_ratio": 0.75,
+      "technical_score": 62,
+      "funding_rate": {
+        "rate": 0.5,
+        "annualized": 547.5,
+        "sentiment": "Long Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [],
+      "rule_modifier": 0,
+      "sector_astro_bias": -5,
+      "cosmo_score": 54.7,
       "confidence": "Medium",
       "direction": "Neutral"
     },
@@ -934,9 +1206,9 @@
       "symbol": "ADAUSD",
       "name": "ADA",
       "sector": "L1",
-      "price": 0.2458,
-      "change_pct": 3.28,
-      "volume_usd": 3107229.0,
+      "price": 0.2454,
+      "change_pct": 3.11,
+      "volume_usd": 3107541.0,
       "ema9": 0.246808,
       "ema20": 0.247398,
       "ema50": 0.249205,
@@ -946,7 +1218,11 @@
       "volume_signal": "Normal Volume",
       "vol_ratio": 0.9,
       "technical_score": 54,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": 1.0,
+        "annualized": 1095.0,
+        "sentiment": "Long Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
@@ -957,50 +1233,123 @@
       "direction": "Neutral"
     },
     {
+      "symbol": "1000SHIBUSD",
+      "name": "SHIB",
+      "sector": "Meme",
+      "price": 0.005651,
+      "change_pct": 2.73,
+      "volume_usd": 3732000.0,
+      "ema9": 0.005878,
+      "ema20": 0.005929,
+      "ema50": 0.005971,
+      "rsi": 50.87,
+      "momentum": -1.02,
+      "trend": "Strong Downtrend",
+      "volume_signal": "Low Volume",
+      "vol_ratio": 0.78,
+      "technical_score": 50,
+      "funding_rate": {
+        "rate": -1.7411,
+        "annualized": -1906.5,
+        "sentiment": "Short Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
+      "sector_astro_bias": 1,
+      "cosmo_score": 52.1,
+      "confidence": "Medium",
+      "direction": "Neutral"
+    },
+    {
       "symbol": "ARBUSD",
       "name": "ARB",
       "sector": "L2",
       "price": 0.1078,
-      "change_pct": 2.47,
-      "volume_usd": 97937.0,
+      "change_pct": 2.57,
+      "volume_usd": 97917.0,
       "ema9": 0.093022,
-      "ema20": 0.099299,
-      "ema50": 0.108497,
+      "ema20": 0.099297,
+      "ema50": 0.108431,
       "rsi": 27.53,
       "momentum": 1.41,
       "trend": "Recovery",
       "volume_signal": "Normal Volume",
       "vol_ratio": 1.28,
       "technical_score": 43,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": -9.3005,
+        "annualized": -10184.1,
+        "sentiment": "Short Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE",
         "OVERSOLD_WAXING_REVERSAL"
       ],
-      "rule_modifier": 8,
+      "rule_modifier": 16,
       "sector_astro_bias": -5,
-      "cosmo_score": 48.1,
-      "confidence": "Low",
+      "cosmo_score": 50.1,
+      "confidence": "Medium",
+      "direction": "Neutral"
+    },
+    {
+      "symbol": "LDOUSD",
+      "name": "LDO",
+      "sector": "DeFi",
+      "price": 0.3515,
+      "change_pct": 6.03,
+      "volume_usd": 6071.0,
+      "ema9": 0.307724,
+      "ema20": 0.323253,
+      "ema50": 0.344257,
+      "rsi": 36.18,
+      "momentum": -9.72,
+      "trend": "Recovery",
+      "volume_signal": "Low Volume",
+      "vol_ratio": 0.15,
+      "technical_score": 50,
+      "funding_rate": {
+        "rate": -3.9438,
+        "annualized": -4318.5,
+        "sentiment": "Short Heavy"
+      },
+      "open_interest": null,
+      "ls_ratio": null,
+      "rule_flags": [
+        "NEGATIVE_FUNDING_POTENTIAL_SQUEEZE"
+      ],
+      "rule_modifier": 8,
+      "sector_astro_bias": -13,
+      "cosmo_score": 50.0,
+      "confidence": "Medium",
       "direction": "Neutral"
     },
     {
       "symbol": "AAVEUSD",
       "name": "AAVE",
       "sector": "DeFi",
-      "price": 86.85,
-      "change_pct": 3.84,
-      "volume_usd": 22432.0,
+      "price": 86.93,
+      "change_pct": 3.85,
+      "volume_usd": 22382.0,
       "ema9": 98.284639,
-      "ema20": 97.088195,
-      "ema50": 95.431987,
+      "ema20": 97.087731,
+      "ema50": 95.415941,
       "rsi": 77.96,
       "momentum": 11.47,
       "trend": "Pullback",
       "volume_signal": "Low Volume",
       "vol_ratio": 0.4,
       "technical_score": 47,
-      "funding_rate": null,
+      "funding_rate": {
+        "rate": 3.0386,
+        "annualized": 3327.2,
+        "sentiment": "Long Heavy"
+      },
       "open_interest": null,
       "ls_ratio": null,
       "rule_flags": [],
@@ -1030,12 +1379,12 @@
       ]
     },
     "sector_astro_bias": {
-      "Gaming": {
-        "astro_score": 1,
-        "bias": "Neutral",
+      "DeFi": {
+        "astro_score": -13,
+        "bias": "Bearish",
         "notes": [
-          "Mars Strong in Aries",
-          "Rahu Retrograde-Weak in Aquarius"
+          "Jupiter Weak in Gemini",
+          "Ketu Retrograde-Weak in Leo"
         ]
       },
       "Infra": {
@@ -1053,15 +1402,16 @@
           "Jupiter Weak in Gemini"
         ]
       },
-      "DeFi": {
-        "astro_score": -13,
-        "bias": "Bearish",
+      "L1": {
+        "astro_score": 7,
+        "bias": "Neutral",
         "notes": [
+          "Mars Strong in Aries",
           "Jupiter Weak in Gemini",
-          "Ketu Retrograde-Weak in Leo"
+          "Rahu Retrograde-Weak in Aquarius"
         ]
       },
-      "Meme": {
+      "Gaming": {
         "astro_score": 1,
         "bias": "Neutral",
         "notes": [
@@ -1069,12 +1419,11 @@
           "Rahu Retrograde-Weak in Aquarius"
         ]
       },
-      "L1": {
-        "astro_score": 7,
+      "Meme": {
+        "astro_score": 1,
         "bias": "Neutral",
         "notes": [
           "Mars Strong in Aries",
-          "Jupiter Weak in Gemini",
           "Rahu Retrograde-Weak in Aquarius"
         ]
       }
