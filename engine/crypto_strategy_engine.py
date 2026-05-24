@@ -1,7 +1,7 @@
 """
 COSMO CRYPTO - F&O Strategy Engine
-Generates daily trade setups for crypto perpetual futures.
-Combines: Astro + Technical + Funding Rate + OI + L/S Ratio
+Full technical analysis: All Tier 1, 2, 3 indicators.
+Generates high-confidence trade setups.
 """
 
 import json
@@ -13,375 +13,392 @@ LATEST_PATH  = os.path.join(DATA_DIR, 'latest.json')
 FNO_PATH     = os.path.join(DATA_DIR, 'fno.json')
 STRATEGY_OUT = os.path.join(DATA_DIR, 'strategy.json')
 
-# ── Thresholds ────────────────────────────────────────────────────────────
-FUNDING_HIGH       = 0.05   # Longs overcrowded — bearish signal
-FUNDING_EXTREME    = 0.10   # Extreme longs — strong reversion signal
-FUNDING_NEG        = -0.03  # Shorts overcrowded — bullish signal
-FUNDING_NEG_EXT    = -0.08  # Extreme shorts — strong squeeze signal
-RSI_OVERBOUGHT     = 70
-RSI_OVERSOLD       = 30
-RSI_MOMENTUM_ZONE  = (50, 65)
-OI_RISING_THRESHOLD = 5.0   # OI rising >5% = strong momentum
-MIN_CONFIDENCE     = 40
-
 MOON_BIAS = {
-    'New Moon':        'neutral',
-    'Waxing Crescent': 'bullish',
-    'First Quarter':   'bullish',
-    'Waxing Gibbous':  'bullish',
-    'Full Moon':       'volatile',
-    'Waning Gibbous':  'neutral',
-    'Last Quarter':    'bearish',
-    'Waning Crescent': 'bearish',
+    'New Moon':'neutral','Waxing Crescent':'bullish','First Quarter':'bullish',
+    'Waxing Gibbous':'bullish','Full Moon':'volatile','Waning Gibbous':'neutral',
+    'Last Quarter':'bearish','Waning Crescent':'bearish',
 }
 
 def load_json(path):
     try:
-        with open(path, 'r') as f:
-            return json.load(f)
-    except:
-        return {}
+        with open(path,'r') as f: return json.load(f)
+    except: return {}
 
-# ── Get coin data ─────────────────────────────────────────────────────────
+def get_coin(latest, fno, name):
+    coins    = latest.get('coins', [])
+    fno_coin = fno.get('coins', {}).get(f"{name}USD", {}) if fno else {}
+    coin     = next((c for c in coins if c.get('name') == name), None)
+    if not coin: return None
+    return {**coin, 'fno': fno_coin}
 
-def get_coin_data(latest_data, fno_data, coin_name):
-    """Get combined technical + F&O data for a coin."""
-    coins    = latest_data.get('coins', [])
-    fno_coin = fno_data.get('coins', {}).get(f"{coin_name}USD", {})
-
-    coin_tech = next((c for c in coins if c.get('name') == coin_name), None)
-
-    if not coin_tech:
-        return None
-
-    return {
-        'name':         coin_name,
-        'price':        coin_tech.get('price', 0),
-        'change_pct':   coin_tech.get('change_pct', 0),
-        'rsi':          coin_tech.get('rsi', 50),
-        'momentum':     coin_tech.get('momentum', 0),
-        'trend':        coin_tech.get('trend', 'Sideways'),
-        'cosmo_score':  coin_tech.get('cosmo_score', 50),
-        'sector':       coin_tech.get('sector', ''),
-        'volume_signal': coin_tech.get('volume_signal', 'Normal'),
-        'funding_rate': fno_coin.get('funding', {}).get('rate', 0) if fno_coin else 0,
-        'funding_sent': fno_coin.get('funding', {}).get('sentiment', 'Neutral') if fno_coin else 'Neutral',
-        'oi_usd':       fno_coin.get('oi_usd', 0) if fno_coin else 0,
-        'oi_trend':     fno_coin.get('oi_trend', 'Stable') if fno_coin else 'Stable',
-    }
-
-# ── Momentum Setup per coin ───────────────────────────────────────────────
-
-def check_coin_momentum(coin, astro):
-    """Check momentum setup for a single coin."""
-    moon_phase  = astro.get('moon_phase', '')
-    moon_bias   = MOON_BIAS.get(moon_phase, 'neutral')
-    retrograde  = astro.get('retrograde_planets', [])
+def analyze_coin(coin, astro):
+    moon_phase  = astro.get('moon_phase','')
+    moon_bias   = MOON_BIAS.get(moon_phase,'neutral')
+    retrograde  = astro.get('retrograde_planets',[])
     astro_score = astro.get('astro_score', 50)
 
-    rsi         = coin['rsi']
-    trend       = coin['trend']
-    funding     = coin['funding_rate']
-    oi_trend    = coin['oi_trend']
-    momentum    = coin['momentum']
-    vol_signal  = coin['volume_signal']
-    cosmo_score = coin['cosmo_score']
+    price    = coin.get('price', 0)
+    rsi      = coin.get('rsi', 50)
+    rsi_h    = coin.get('rsi_hourly', 50)
+    macd_h   = coin.get('macd_histogram', 0)
+    trend    = coin.get('trend','Sideways')
+    momentum = coin.get('momentum', 0)
+    adx      = coin.get('adx', 0)
+    adx_str  = coin.get('adx_strength','Weak')
+    st_sig   = coin.get('supertrend_signal','Neutral')
+    ichi     = coin.get('ichimoku', {})
+    cloud    = ichi.get('cloud_signal','')
+    tk_cross = ichi.get('tk_cross','')
+    psar_sig = coin.get('psar_signal','Neutral')
+    bb_upper = coin.get('bb_upper', price)
+    bb_lower = coin.get('bb_lower', price)
+    bb_width = coin.get('bb_width', 5)
+    stoch_k  = coin.get('stoch_rsi_k', 50)
+    stoch_d  = coin.get('stoch_rsi_d', 50)
+    wr       = coin.get('williams_r', -50)
+    cci      = coin.get('cci', 0)
+    mfi      = coin.get('mfi', 50)
+    obv      = coin.get('obv', 0)
+    obv_prev = coin.get('obv_prev', 0)
+    vwap     = coin.get('vwap', price)
+    atr      = coin.get('atr', 0)
+    atr_pct  = coin.get('atr_pct', 2)
+    patterns = coin.get('candlestick_patterns', [])
+    vol_sig  = coin.get('volume_signal','Normal Volume')
+    key_sup  = coin.get('key_support', price*0.95)
+    key_res  = coin.get('key_resistance', price*1.05)
+    pivots   = coin.get('pivots', {})
+    dc_upper = coin.get('donchian_upper', price)
+    dc_lower = coin.get('donchian_lower', price)
+    roc      = coin.get('roc', 0)
+    ts       = coin.get('technical_score', 50)
+    score_sigs = coin.get('score_signals', [])
+    funding  = coin.get('funding_rate') or coin.get('fno', {}).get('funding') or {}
+    fr_rate  = funding.get('rate', 0) if funding else 0
+    oi_trend = coin.get('fno', {}).get('oi_trend', 'Stable') if coin.get('fno') else 'Stable'
+    sector   = coin.get('sector', '')
 
-    # ── LONG MOMENTUM ─────────────────────────────────────────────────────
+    setups = []
+
+    # ── LONG MOMENTUM ────────────────────────────────────────────────────
     long_score = 0
     long_reasons = []
 
-    if trend == 'Strong Uptrend':
-        long_score += 25
-        long_reasons.append(f"Strong Uptrend on {coin['name']}")
+    if trend in ['Strong Uptrend','Uptrend']:
+        long_score += 20; long_reasons.append(f"{trend}")
+    elif trend == 'Recovery':
+        long_score += 10; long_reasons.append("Recovery — bounce in progress")
 
-    if RSI_MOMENTUM_ZONE[0] <= rsi <= RSI_MOMENTUM_ZONE[1]:
-        long_score += 15
-        long_reasons.append(f"RSI {rsi} in momentum zone (50-65)")
+    if 50 <= rsi <= 65:
+        long_score += 12; long_reasons.append(f"RSI {rsi} momentum zone")
+    elif rsi < 40:
+        long_score += 5; long_reasons.append(f"RSI {rsi} potential reversal")
 
-    if momentum > 5:
-        long_score += 15
-        long_reasons.append(f"Strong momentum +{momentum}%")
+    if macd_h > 0:
+        long_score += 10; long_reasons.append(f"MACD histogram positive")
+
+    if st_sig == 'Bullish':
+        long_score += 10; long_reasons.append("Supertrend Bullish")
+
+    if 'Above' in cloud:
+        long_score += 8; long_reasons.append("Above Ichimoku Cloud")
+
+    if 'Bullish TK' in tk_cross:
+        long_score += 6; long_reasons.append("Bullish TK Cross")
+
+    if adx > 25:
+        long_score += 8; long_reasons.append(f"ADX {adx} — {adx_str} trend")
+
+    if psar_sig == 'Bullish':
+        long_score += 6; long_reasons.append("Parabolic SAR Bullish")
+
+    if stoch_k > stoch_d and stoch_k < 80:
+        long_score += 5; long_reasons.append(f"Stoch RSI bullish K>{stoch_d:.0f}")
+
+    if wr < -70:
+        long_score += 5; long_reasons.append(f"Williams %R {wr} oversold")
 
     if moon_bias == 'bullish':
-        long_score += 10
-        long_reasons.append(f"{moon_phase} — bullish moon phase")
+        long_score += 8; long_reasons.append(f"{moon_phase} — bullish moon")
 
     if astro_score >= 60:
-        long_score += 10
-        long_reasons.append(f"Astro score {astro_score}/100")
+        long_score += 6; long_reasons.append(f"Astro score {astro_score}/100")
 
     if oi_trend == 'Rising':
-        long_score += 10
-        long_reasons.append("Open Interest rising — fresh longs entering")
+        long_score += 6; long_reasons.append("Open Interest rising")
 
-    if vol_signal in ['Volume Spike', 'High Volume']:
-        long_score += 10
-        long_reasons.append(f"{vol_signal} — conviction move")
+    if vol_sig == 'Volume Spike':
+        long_score += 10; long_reasons.append("Volume Spike — conviction")
+    elif vol_sig == 'High Volume':
+        long_score += 5; long_reasons.append("High volume")
 
-    if -0.02 <= funding <= 0.03:
-        long_score += 5
-        long_reasons.append(f"Funding neutral {funding}% — not overcrowded")
+    if obv > obv_prev:
+        long_score += 5; long_reasons.append("OBV rising — buying pressure")
+
+    if price > vwap:
+        long_score += 4; long_reasons.append("Price above VWAP")
+
+    if mfi > 50:
+        long_score += 4; long_reasons.append(f"MFI {mfi} bullish")
+
+    if any(p in ['Bullish Engulfing','Morning Star','Three White Soldiers','Hammer'] for p in patterns):
+        p = next(p for p in patterns if p in ['Bullish Engulfing','Morning Star','Three White Soldiers','Hammer'])
+        long_score += 10; long_reasons.append(f"Pattern: {p}")
+
+    if bb_width < 5:
+        long_score += 5; long_reasons.append("BB squeeze — breakout setup")
+
+    if momentum > 5:
+        long_score += 6; long_reasons.append(f"Momentum +{momentum}%")
 
     # Penalties
-    if funding > FUNDING_HIGH:
-        long_score -= 15
-        long_reasons.append(f"⚠ Funding {funding}% — longs overcrowded, risk of flush")
-
-    mercury_retro = 'Mercury' in retrograde
-    if mercury_retro and coin['sector'] in ['DeFi', 'L2']:
-        long_score -= 10
-        long_reasons.append("⚠ Mercury retrograde — DeFi/L2 caution")
-
+    if fr_rate > 0.08:
+        long_score -= 15; long_reasons.append(f"⚠ Funding {fr_rate}% — longs overcrowded")
+    if 'Mercury' in retrograde and sector in ['DeFi','L2']:
+        long_score -= 8; long_reasons.append("⚠ Mercury Rx — DeFi/L2 caution")
     if moon_bias == 'volatile':
-        long_score -= 10
-        long_reasons.append("⚠ Full Moon — volatile conditions")
+        long_score -= 10; long_reasons.append("⚠ Full Moon — volatility risk")
+    if rsi > 75:
+        long_score -= 10; long_reasons.append(f"⚠ RSI {rsi} extreme overbought")
 
-    # ── SHORT MOMENTUM ─────────────────────────────────────────────────────
+    # ── SHORT MOMENTUM ───────────────────────────────────────────────────
     short_score = 0
     short_reasons = []
 
-    if trend == 'Strong Downtrend':
-        short_score += 25
-        short_reasons.append(f"Strong Downtrend on {coin['name']}")
+    if trend in ['Strong Downtrend','Downtrend']:
+        short_score += 20; short_reasons.append(f"{trend}")
 
-    if rsi >= RSI_OVERBOUGHT:
-        short_score += 15
-        short_reasons.append(f"RSI {rsi} — overbought")
+    if rsi > 70:
+        short_score += 12; short_reasons.append(f"RSI {rsi} overbought")
 
-    if momentum < -5:
-        short_score += 15
-        short_reasons.append(f"Negative momentum {momentum}%")
+    if macd_h < 0:
+        short_score += 10; short_reasons.append("MACD histogram negative")
+
+    if st_sig == 'Bearish':
+        short_score += 10; short_reasons.append("Supertrend Bearish")
+
+    if 'Below' in cloud:
+        short_score += 8; short_reasons.append("Below Ichimoku Cloud")
+
+    if 'Bearish TK' in tk_cross:
+        short_score += 6; short_reasons.append("Bearish TK Cross")
+
+    if psar_sig == 'Bearish':
+        short_score += 6; short_reasons.append("Parabolic SAR Bearish")
+
+    if stoch_k < stoch_d and stoch_k > 20:
+        short_score += 5; short_reasons.append("Stoch RSI bearish cross")
+
+    if wr > -20:
+        short_score += 5; short_reasons.append(f"Williams %R {wr} overbought")
+
+    if cci > 150:
+        short_score += 5; short_reasons.append(f"CCI {cci} extreme overbought")
+
+    if fr_rate > 0.08:
+        short_score += 15; short_reasons.append(f"Funding {fr_rate}% — longs overcrowded, short opportunity")
 
     if moon_bias == 'bearish':
-        short_score += 10
-        short_reasons.append(f"{moon_phase} — bearish moon phase")
+        short_score += 8; short_reasons.append(f"{moon_phase} — bearish moon")
 
-    if funding > FUNDING_HIGH:
-        short_score += 15
-        short_reasons.append(f"Funding {funding}% — longs overcrowded, short opportunity")
+    if momentum < -5:
+        short_score += 8; short_reasons.append(f"Momentum {momentum}% negative")
 
-    if oi_trend == 'Falling':
-        short_score += 10
-        short_reasons.append("OI falling — longs exiting")
+    if any(p in ['Bearish Engulfing','Evening Star','Three Black Crows','Shooting Star'] for p in patterns):
+        p = next(p for p in patterns if p in ['Bearish Engulfing','Evening Star','Three Black Crows','Shooting Star'])
+        short_score += 10; short_reasons.append(f"Pattern: {p}")
 
-    return long_score, long_reasons, short_score, short_reasons
+    if obv < obv_prev:
+        short_score += 5; short_reasons.append("OBV falling — selling pressure")
 
-# ── Mean Reversion per coin ───────────────────────────────────────────────
+    if price < vwap:
+        short_score += 4; short_reasons.append("Price below VWAP")
 
-def check_coin_reversion(coin, astro):
-    """Check mean reversion setup for a coin."""
-    moon_phase = astro.get('moon_phase', '')
-    moon_bias  = MOON_BIAS.get(moon_phase, 'neutral')
-    rsi        = coin['rsi']
-    funding    = coin['funding_rate']
-    trend      = coin['trend']
-    momentum   = coin['momentum']
-
-    # ── SQUEEZE SETUP (Short squeeze) ─────────────────────────────────────
+    # ── MEAN REVERSION SQUEEZE ────────────────────────────────────────────
     squeeze_score = 0
     squeeze_reasons = []
 
-    if funding <= FUNDING_NEG:
-        squeeze_score += 30
-        squeeze_reasons.append(f"Funding {funding}% — shorts paying, squeeze risk")
-
-    if funding <= FUNDING_NEG_EXT:
-        squeeze_score += 20
-        squeeze_reasons.append(f"Extreme negative funding {funding}% — violent squeeze likely")
-
-    if rsi <= RSI_OVERSOLD:
-        squeeze_score += 20
-        squeeze_reasons.append(f"RSI {rsi} — oversold, reversal setup")
-
+    if fr_rate <= -0.03:
+        squeeze_score += 30; squeeze_reasons.append(f"Funding {fr_rate}% — shorts paying")
+    if fr_rate <= -0.08:
+        squeeze_score += 20; squeeze_reasons.append(f"Extreme negative funding — violent squeeze likely")
+    if rsi <= 30:
+        squeeze_score += 20; squeeze_reasons.append(f"RSI {rsi} extreme oversold")
+    if wr < -85:
+        squeeze_score += 10; squeeze_reasons.append(f"Williams %R {wr} extreme oversold")
+    if cci < -150:
+        squeeze_score += 10; squeeze_reasons.append(f"CCI {cci} extreme oversold")
+    if mfi < 20:
+        squeeze_score += 10; squeeze_reasons.append(f"MFI {mfi} oversold")
     if moon_bias == 'bullish':
-        squeeze_score += 15
-        squeeze_reasons.append(f"{moon_phase} — waxing energy supports bounce")
+        squeeze_score += 10; squeeze_reasons.append(f"{moon_phase} — waxing energy")
+    if price < bb_lower:
+        squeeze_score += 10; squeeze_reasons.append("Price below BB lower band")
+    if any(p in ['Hammer','Bullish Engulfing','Morning Star'] for p in patterns):
+        p = next(p for p in patterns if p in ['Hammer','Bullish Engulfing','Morning Star'])
+        squeeze_score += 12; squeeze_reasons.append(f"Pattern: {p} — reversal signal")
 
-    if trend in ['Pullback', 'Recovery'] and momentum > 0:
-        squeeze_score += 15
-        squeeze_reasons.append("Pullback in uptrend — buy the dip")
-
-    # ── FLUSH SETUP (Long liquidation) ────────────────────────────────────
+    # ── MEAN REVERSION FLUSH ─────────────────────────────────────────────
     flush_score = 0
     flush_reasons = []
 
-    if funding >= FUNDING_EXTREME:
-        flush_score += 30
-        flush_reasons.append(f"Extreme funding {funding}% — long liquidation imminent")
-
-    if rsi >= RSI_OVERBOUGHT:
-        flush_score += 20
-        flush_reasons.append(f"RSI {rsi} — overbought extreme")
-
+    if fr_rate >= 0.10:
+        flush_score += 30; flush_reasons.append(f"Extreme funding {fr_rate}% — long liquidation imminent")
+    if rsi >= 80:
+        flush_score += 20; flush_reasons.append(f"RSI {rsi} extreme overbought")
+    if wr > -10:
+        flush_score += 10; flush_reasons.append(f"Williams %R {wr} extreme overbought")
+    if cci > 200:
+        flush_score += 10; flush_reasons.append(f"CCI {cci} extreme overbought")
     if moon_bias == 'volatile':
-        flush_score += 20
-        flush_reasons.append("Full Moon — peak speculative energy, reversal likely")
+        flush_score += 20; flush_reasons.append("Full Moon — peak speculation")
+    if price > bb_upper:
+        flush_score += 10; flush_reasons.append("Price above BB upper band")
+    if momentum > 20:
+        flush_score += 10; flush_reasons.append(f"Parabolic +{momentum}% — exhaustion")
+    if any(p in ['Shooting Star','Bearish Engulfing','Evening Star'] for p in patterns):
+        p = next(p for p in patterns if p in ['Shooting Star','Bearish Engulfing','Evening Star'])
+        flush_score += 12; flush_reasons.append(f"Pattern: {p} — reversal signal")
 
-    if trend == 'Strong Uptrend' and momentum > 15:
-        flush_score += 15
-        flush_reasons.append(f"Parabolic +{momentum}% — exhaustion likely")
+    # ── Build setups ──────────────────────────────────────────────────────
+    sl_pct = max(atr_pct * 1.5, 2.0)  # ATR-based SL
 
-    return squeeze_score, squeeze_reasons, flush_score, flush_reasons
+    def build(direction, score, reasons, setup_type):
+        if score < 40: return None
+        if direction in ['LONG','SQUEEZE']:
+            sl_price     = round(price * (1 - sl_pct/100), 6)
+            target1      = round(price * (1 + sl_pct*1.5/100), 6)
+            target2      = round(price * (1 + sl_pct*2.5/100), 6)
+            entry_note   = f"Long {coin['name']} near ${round(price*1.002,6)}"
+            nearest_sup  = max([s for s in [key_sup, pivots.get('s1',0), pivots.get('s2',0)] if s and s < price] or [price*0.95])
+            sl_note      = f"SL: ${sl_price} (ATR-based -{sl_pct:.1f}%) or below ${round(nearest_sup,4)}"
+            target_note  = f"T1: ${target1} (+{sl_pct*1.5:.1f}%) | T2: ${target2} (+{sl_pct*2.5:.1f}%)"
+            nearest_res  = min([r for r in [key_res, pivots.get('r1',0), pivots.get('r2',0)] if r and r > price] or [price*1.05])
+            target_note += f" | Key resistance: ${round(nearest_res,4)}"
+        else:
+            sl_price     = round(price * (1 + sl_pct/100), 6)
+            target1      = round(price * (1 - sl_pct*1.5/100), 6)
+            target2      = round(price * (1 - sl_pct*2.5/100), 6)
+            entry_note   = f"Short {coin['name']} near ${round(price*0.998,6)}"
+            nearest_res  = min([r for r in [key_res, pivots.get('r1',0), pivots.get('r2',0)] if r and r > price] or [price*1.05])
+            sl_note      = f"SL: ${sl_price} (ATR-based +{sl_pct:.1f}%) or above ${round(nearest_res,4)}"
+            target_note  = f"T1: ${target1} (-{sl_pct*1.5:.1f}%) | T2: ${target2} (-{sl_pct*2.5:.1f}%)"
+            nearest_sup  = max([s for s in [key_sup, pivots.get('s1',0), pivots.get('s2',0)] if s and s < price] or [price*0.95])
+            target_note += f" | Key support: ${round(nearest_sup,4)}"
 
-# ── Build Setup ───────────────────────────────────────────────────────────
+        rr = f"R:R 1:{sl_pct*1.5/sl_pct:.1f} to 1:{sl_pct*2.5/sl_pct:.1f}"
 
-def build_setup(coin, setup_type, direction, score, reasons, astro):
-    price = coin['price']
+        funding_note = ''
+        if abs(fr_rate) > 0.05:
+            funding_note = f"Funding {'+' if fr_rate>0 else ''}{fr_rate}%/8h (~{round(fr_rate*3*365,0):.0f}% annualized)"
 
-    # Entry, SL, Target based on direction
-    if direction in ['LONG', 'SQUEEZE']:
-        entry  = f"Long {coin['name']} perpetual near ${round(price * 1.002, 4)}"
-        sl     = f"SL: ${round(price * 0.975, 4)} (-2.5%)"
-        target = f"Target: ${round(price * 1.05, 4)} (+5%) or ${round(price * 1.08, 4)} (+8%)"
-        rr     = "R:R 1:2"
-    else:
-        entry  = f"Short {coin['name']} perpetual near ${round(price * 0.998, 4)}"
-        sl     = f"SL: ${round(price * 1.025, 4)} (+2.5%)"
-        target = f"Target: ${round(price * 0.95, 4)} (-5%) or ${round(price * 0.92, 4)} (-8%)"
-        rr     = "R:R 1:2"
+        return {
+            'type':          setup_type,
+            'direction':     direction,
+            'coin':          coin['name'],
+            'symbol':        coin['symbol'],
+            'sector':        sector,
+            'instrument':    f"{coin['name']} Perpetual Futures",
+            'entry':         entry_note,
+            'stop_loss':     sl_note,
+            'target':        target_note,
+            'risk_reward':   rr,
+            'confidence':    min(100, score),
+            'reasons':       reasons[:6],
+            'funding_note':  funding_note,
+            'current_price': price,
+            'rsi':           rsi,
+            'rsi_hourly':    rsi_h,
+            'trend':         trend,
+            'adx':           adx,
+            'adx_strength':  adx_str,
+            'supertrend':    st_sig,
+            'ichimoku_cloud': cloud,
+            'macd_histogram': macd_h,
+            'atr_pct':       atr_pct,
+            'bb_width':      bb_width,
+            'oi_trend':      oi_trend,
+            'candlestick_patterns': patterns,
+            'score_signals': score_sigs,
+            'warning':       'Full Moon — reduce position size' if moon_bias=='volatile' else '',
+        }
 
-    funding = coin['funding_rate']
-    funding_note = ''
-    if abs(funding) > 0.05:
-        funding_note = f"Funding {'+' if funding > 0 else ''}{funding}%/8h (annualized ~{round(funding*3*365,0)}%) — monitor closely"
+    for direction, score, reasons, stype in [
+        ('LONG',    long_score,    long_reasons,    'MOMENTUM'),
+        ('SHORT',   short_score,   short_reasons,   'MOMENTUM'),
+        ('SQUEEZE', squeeze_score, squeeze_reasons, 'MEAN_REVERSION'),
+        ('FLUSH',   flush_score,   flush_reasons,   'MEAN_REVERSION'),
+    ]:
+        s = build(direction, score, reasons, stype)
+        if s: setups.append(s)
 
-    return {
-        'type':          setup_type,
-        'direction':     direction,
-        'coin':          coin['name'],
-        'sector':        coin['sector'],
-        'instrument':    f"{coin['name']} Perpetual Futures",
-        'entry':         entry,
-        'stop_loss':     sl,
-        'target':        target,
-        'risk_reward':   rr,
-        'confidence':    min(100, score),
-        'reasons':       reasons[:5],
-        'funding_note':  funding_note,
-        'current_price': price,
-        'rsi':           coin['rsi'],
-        'trend':         coin['trend'],
-        'oi_trend':      coin['oi_trend'],
-        'warning':       'Full Moon — use smaller position size' if astro.get('moon_phase') == 'Full Moon' else '',
-    }
+    return setups
 
-# ── No Trade Conditions ───────────────────────────────────────────────────
-
-def check_no_trade(astro):
-    reasons = []
-    retrograde = astro.get('retrograde_planets', [])
-    moon_phase = astro.get('moon_phase', '')
-
-    major_retro = [p for p in retrograde if p in ['Mercury','Mars','Jupiter','Venus']]
-    if len(major_retro) >= 3:
-        reasons.append(f"3+ major retrogrades — very high reversal risk")
-
-    if moon_phase in ['New Moon']:
-        reasons.append("New Moon — wait for direction clarity before entering")
-
-    transitions = astro.get('upcoming_transitions', [])
-    for t in transitions:
-        if t.get('planet') in ['Jupiter','Saturn'] and t.get('within_days', 99) <= 1:
-            reasons.append(f"{t['planet']} changing sign today — macro shift possible")
-
-    return reasons
-
-# ── Trend Summary ─────────────────────────────────────────────────────────
-
-def build_trend_summary(latest_data, astro, fno_data):
-    direction  = latest_data.get('market', {}).get('direction', 'Neutral')
-    vol_bias   = latest_data.get('market', {}).get('volatility_bias', 'Low')
-    moon_phase = astro.get('moon_phase', '')
-    day_ruler  = astro.get('day_ruler', '')
-    strongest  = latest_data.get('summary', {}).get('strongest_sector', '')
-    weakest    = latest_data.get('summary', {}).get('weakest_sector', '')
-    breadth    = latest_data.get('market', {}).get('breadth', {})
-    adv        = breadth.get('advancing', 0)
-    dec        = breadth.get('declining', 0)
-    ref        = latest_data.get('market', {}).get('reference', {})
-    btc_chg    = ref.get('BTC', {}).get('change_pct', 0)
-    eth_chg    = ref.get('ETH', {}).get('change_pct', 0)
-
-    # Funding overview
-    funding_data  = fno_data.get('funding', {}) if fno_data else {}
-    high_f = funding_data.get('high_funding', [])
-    neg_f  = funding_data.get('neg_funding', [])
-    funding_note = ''
-    if high_f:
-        funding_note = f"High funding: {', '.join(c['name'] for c in high_f[:3])} — longs overcrowded."
-    if neg_f:
-        funding_note += f" Negative funding: {', '.join(c['name'] for c in neg_f[:3])} — squeeze risk."
-
+def build_trend_summary(latest, astro, fno):
+    direction  = latest.get('market',{}).get('direction','Neutral')
+    vol_bias   = latest.get('market',{}).get('volatility_bias','Low')
+    moon_phase = astro.get('moon_phase','')
+    day_ruler  = astro.get('day_ruler','')
+    strongest  = latest.get('summary',{}).get('strongest_sector','')
+    weakest    = latest.get('summary',{}).get('weakest_sector','')
+    ref        = latest.get('market',{}).get('reference',{})
+    btc_chg    = ref.get('BTC',{}).get('change_pct',0)
+    eth_chg    = ref.get('ETH',{}).get('change_pct',0)
+    breadth    = latest.get('market',{}).get('breadth',{})
+    adv        = breadth.get('advancing',0)
+    dec        = breadth.get('declining',0)
+    funding_d  = fno.get('funding',{}) if fno else {}
+    high_f     = funding_d.get('high_funding',[])
+    neg_f      = funding_d.get('neg_funding',[])
+    f_note = ''
+    if high_f: f_note += f"High funding: {', '.join(c['name'] for c in high_f[:3])} — longs crowded. "
+    if neg_f:  f_note += f"Negative funding: {', '.join(c['name'] for c in neg_f[:3])} — squeeze risk."
     lines = [
         f"Crypto market is {direction} with {vol_bias} volatility.",
-        f"BTC {'+' if btc_chg >= 0 else ''}{btc_chg}% | ETH {'+' if eth_chg >= 0 else ''}{eth_chg}%.",
+        f"BTC {'+' if btc_chg>=0 else ''}{btc_chg}% | ETH {'+' if eth_chg>=0 else ''}{eth_chg}%.",
         f"{adv} coins advancing vs {dec} declining.",
         f"Strongest sector: {strongest}. Weakest: {weakest}.",
-        f"Moon is {moon_phase} — {MOON_BIAS.get(moon_phase, 'neutral')} energy.",
-        f"Today is ruled by {day_ruler}.",
+        f"Moon is {moon_phase} — {MOON_BIAS.get(moon_phase,'neutral')} energy.",
+        f"Day of {day_ruler}.",
     ]
-
-    if funding_note:
-        lines.append(funding_note)
-
+    if f_note: lines.append(f_note)
     return ' '.join(lines)
 
-# ── Main Strategy Engine ──────────────────────────────────────────────────
-
 def run_strategy_engine():
-    print("\n🎯 Crypto F&O Strategy Engine starting...")
+    print("\n🎯 Crypto Strategy Engine (Full TA) starting...")
+    latest = load_json(LATEST_PATH)
+    fno    = load_json(FNO_PATH)
+    if not latest:
+        print("   ⚠ No latest.json"); return
 
-    latest_data = load_json(LATEST_PATH)
-    fno_data    = load_json(FNO_PATH)
-
-    if not latest_data:
-        print("   ⚠ No latest.json data")
-        return
-
-    astro = latest_data.get('astro', {})
-    coins = latest_data.get('coins', [])
-
-    print(f"   Moon      : {astro.get('moon_phase')}")
-    print(f"   Direction : {latest_data.get('market',{}).get('direction','?')}")
-    print(f"   Coins     : {len(coins)}")
+    astro = latest.get('astro',{})
+    coins = latest.get('coins',[])
+    print(f"   Coins: {len(coins)} | Moon: {astro.get('moon_phase')}")
 
     # No trade check
-    no_trade = check_no_trade(astro)
+    no_trade = []
+    retro = astro.get('retrograde_planets',[])
+    major_retro = [p for p in retro if p in ['Mercury','Mars','Jupiter','Venus']]
+    if len(major_retro) >= 3:
+        no_trade.append(f"3+ major retrogrades — very high reversal risk")
+    for t in astro.get('upcoming_transitions',[]):
+        if t.get('planet') in ['Jupiter','Saturn'] and t.get('within_days',99) <= 1:
+            no_trade.append(f"{t['planet']} changing sign today — macro shift possible")
 
-    # Generate setups for all coins
+    # Generate setups
     all_setups = []
+    for coin_raw in coins[:20]:
+        name = coin_raw.get('name','')
+        if not name: continue
+        coin = get_coin(latest, fno, name)
+        if not coin: continue
+        setups = analyze_coin(coin, astro)
+        all_setups.extend(setups)
 
-    for coin_data_raw in coins[:20]:  # Top 20 by Cosmo score
-        coin_name = coin_data_raw.get('name', '')
-        if not coin_name:
-            continue
-
-        coin = get_coin_data(latest_data, fno_data, coin_name)
-        if not coin:
-            continue
-
-        # Momentum
-        long_s, long_r, short_s, short_r = check_coin_momentum(coin, astro)
-        if long_s >= MIN_CONFIDENCE:
-            all_setups.append(build_setup(coin, 'MOMENTUM', 'LONG', long_s, long_r, astro))
-        if short_s >= MIN_CONFIDENCE:
-            all_setups.append(build_setup(coin, 'MOMENTUM', 'SHORT', short_s, short_r, astro))
-
-        # Mean reversion
-        squeeze_s, squeeze_r, flush_s, flush_r = check_coin_reversion(coin, astro)
-        if squeeze_s >= MIN_CONFIDENCE:
-            all_setups.append(build_setup(coin, 'MEAN_REVERSION', 'SQUEEZE', squeeze_s, squeeze_r, astro))
-        if flush_s >= MIN_CONFIDENCE:
-            all_setups.append(build_setup(coin, 'MEAN_REVERSION', 'FLUSH', flush_s, flush_r, astro))
-
-    # Sort by confidence
     all_setups.sort(key=lambda x: x['confidence'], reverse=True)
 
-    # Trend summary
-    trend_summary = build_trend_summary(latest_data, astro, fno_data)
+    trend_summary = build_trend_summary(latest, astro, fno)
 
-    # Top recommendation
     if no_trade and len(no_trade) >= 2:
         recommendation = 'NO_TRADE'
         rec_reason     = ' | '.join(no_trade)
@@ -395,7 +412,7 @@ def run_strategy_engine():
 
     output = {
         'meta': {
-            'date':         latest_data.get('meta', {}).get('date'),
+            'date':         latest.get('meta',{}).get('date'),
             'generated_at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
             'market':       'Crypto Perpetual Futures',
         },
@@ -403,28 +420,24 @@ def run_strategy_engine():
         'recommendation':   recommendation,
         'rec_reason':       rec_reason,
         'no_trade_reasons': no_trade,
-        'setups':           all_setups[:10],  # Top 10 setups
+        'setups':           all_setups[:15],
         'astro_summary': {
             'moon_phase':         astro.get('moon_phase'),
-            'moon_bias':          MOON_BIAS.get(astro.get('moon_phase',''), 'neutral'),
+            'moon_bias':          MOON_BIAS.get(astro.get('moon_phase',''),'neutral'),
             'day_ruler':          astro.get('day_ruler'),
             'astro_score':        astro.get('astro_score'),
-            'retrograde_planets': astro.get('retrograde_planets', []),
+            'retrograde_planets': astro.get('retrograde_planets',[]),
         }
     }
 
     os.makedirs(DATA_DIR, exist_ok=True)
-    with open(STRATEGY_OUT, 'w') as f:
+    with open(STRATEGY_OUT,'w') as f:
         json.dump(output, f, indent=2)
 
-    print(f"\n✅ Crypto Strategy Engine complete → {STRATEGY_OUT}")
-    print(f"   Recommendation : {recommendation}")
-    print(f"   Setups found   : {len(all_setups)}")
+    print(f"\n✅ Strategy Engine done — {len(all_setups)} setups")
+    print(f"   Recommendation: {recommendation}")
     for s in all_setups[:5]:
-        print(f"   [{s['confidence']}] {s['type']} {s['direction']} {s['coin']} — {s['trend']}")
-    if no_trade:
-        print(f"   ⚠ No-trade: {no_trade}")
-
+        print(f"   [{s['confidence']}] {s['type']} {s['direction']} {s['coin']} — RSI:{s['rsi']} ADX:{s['adx']} {s['trend']}")
     return output
 
 if __name__ == '__main__':
