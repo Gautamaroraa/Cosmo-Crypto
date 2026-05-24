@@ -464,59 +464,78 @@ function render(data, fno) {
 
   // F&O Tab
   if (fno) {
-    // Options detail
-    ['btc','eth'].forEach(sym => {
-      const opts = fno[sym + '_options'];
-      const el   = document.getElementById(sym + '-options-detail');
-      if (!opts) { el.innerHTML = '<div style="font-size:11px;color:var(--text3)">No options data</div>'; return; }
-      const fearColor = opts.fear_gauge === 'Extreme Fear' || opts.fear_gauge === 'Fear' ? 'var(--red)' : opts.fear_gauge === 'Greed' ? 'var(--green)' : 'var(--text2)';
-      el.innerHTML = `
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">
-          <div><div class="hero-label">PCR</div><div style="font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--cyan)">${opts.pcr || '—'}</div></div>
-          <div><div class="hero-label">Fear Gauge</div><div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:${fearColor}">${opts.fear_gauge}</div></div>
-        </div>
-        <div class="signal-item">IV Skew: ${opts.iv_skew} (Put IV ${opts.avg_put_iv}% vs Call IV ${opts.avg_call_iv}%)</div>
-        <div class="signal-item">Nearest Expiry: ${opts.nearest_expiry}</div>
-        <div class="signal-item">Max Call Strike (Resistance): ${opts.max_call_strike || '—'}</div>
-        <div class="signal-item">Max Put Strike (Support): ${opts.max_put_strike || '—'}</div>
-      `;
-    });
+    const oi = fno.oi_analysis || {};
 
-    // F&O Signals
+    // Top OI
+    const btcOpts = document.getElementById('btc-options-detail');
+    if (oi.top_oi && oi.top_oi.length) {
+      let html = '';
+      oi.top_oi.slice(0,6).forEach(c => {
+        const cls = c.change_pct >= 0 ? 'chg-up' : 'chg-dn';
+        const sign = c.change_pct >= 0 ? '+' : '';
+        html += `<div class="signal-item" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
+          <span style="color:var(--text)">${c.name}</span>
+          <span style="color:var(--cyan);font-size:10px;">$${(c.oi_usd/1000000).toFixed(1)}M</span>
+          <span class="${cls}" style="font-size:10px;">${sign}${c.change_pct}%</span>
+        </div>`;
+      });
+      btcOpts.innerHTML = html;
+      btcOpts.previousElementSibling.textContent = 'TOP OPEN INTEREST';
+    } else {
+      btcOpts.innerHTML = '<div style="font-size:11px;color:var(--text3)">No OI data</div>';
+    }
+
+    // Rising OI
+    const ethOpts = document.getElementById('eth-options-detail');
+    if (oi.rising_oi && oi.rising_oi.length) {
+      let html = '';
+      oi.rising_oi.slice(0,6).forEach(c => {
+        html += `<div class="signal-item" style="display:flex;justify-content:space-between;">
+          <span style="color:var(--text)">${c.name}</span>
+          <span style="color:var(--green);font-size:10px;">+$${(c.oi_change_6h/1000).toFixed(0)}K (6h)</span>
+        </div>`;
+      });
+      ethOpts.innerHTML = html;
+      ethOpts.previousElementSibling.textContent = 'RISING OI (6H)';
+    } else {
+      ethOpts.innerHTML = '<div style="font-size:11px;color:var(--text3)">No rising OI</div>';
+    }
+
+    // Signals
     const sigEl = document.getElementById('fno-signals');
     const signals = fno.signals || [];
     sigEl.innerHTML = signals.length
       ? signals.map(s => `<div class="signal-item">${s}</div>`).join('')
       : '<div style="font-size:11px;color:var(--text3)">No signals available</div>';
 
-    // Coins detail — funding + OI
+    // Funding + OI per coin
     const coinsEl = document.getElementById('fno-coins-detail');
-    const fnoCoins = Object.values(fno.coins || {}).filter(c => c.funding);
-    fnoCoins.sort((a,b) => Math.abs(b.funding.rate) - Math.abs(a.funding.rate));
-    fnoCoins.slice(0,10).forEach(c => {
+    const fnoCoins = Object.values(fno.coins || {});
+    fnoCoins.sort((a,b) => Math.abs((b.funding?.rate||0)) - Math.abs((a.funding?.rate||0)));
+    fnoCoins.slice(0,12).forEach(c => {
       const rate = c.funding?.rate || 0;
       const cls  = rate > 0.05 ? 'funding-pos' : rate < -0.02 ? 'funding-neg' : 'funding-neu';
       const sign = rate >= 0 ? '+' : '';
-      const oiTrend = c.oi_hist?.trend || '';
-      const oiColor = oiTrend === 'Rising' ? 'var(--green)' : oiTrend === 'Falling' ? 'var(--red)' : 'var(--text3)';
+      const oiColor = c.oi_trend === 'Rising' ? 'var(--green)' : c.oi_trend === 'Falling' ? 'var(--red)' : 'var(--text3)';
+      const oiM = c.oi_usd ? '$' + (c.oi_usd/1000000).toFixed(1) + 'M' : '';
       coinsEl.innerHTML += `<div class="signal-item" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;">
         <span style="color:var(--text)">${c.name}</span>
-        <span class="funding-tag ${cls}">${sign}${rate}%</span>
-        ${oiTrend ? `<span style="font-size:10px;color:${oiColor}">OI ${oiTrend}</span>` : ''}
-        ${c.ls_ratio ? `<span style="font-size:10px;color:var(--text3)">L/S ${c.ls_ratio.ratio}</span>` : ''}
+        ${rate !== 0 ? `<span class="funding-tag ${cls}">${sign}${rate}%</span>` : ''}
+        ${c.oi_trend ? `<span style="font-size:10px;color:${oiColor}">OI ${c.oi_trend}</span>` : ''}
+        ${oiM ? `<span style="font-size:10px;color:var(--text3)">${oiM}</span>` : ''}
       </div>`;
     });
 
     // Overview
     const ovEl = document.getElementById('fno-overview');
     const ov   = fno.overview || {};
-    if (ov.top_gainers) {
+    if (ov.top_gainers && ov.top_gainers.length) {
       ovEl.innerHTML += '<div class="section-label" style="margin-bottom:8px;">Top Gainers</div>';
-      ov.top_gainers.forEach(c => { ovEl.innerHTML += `<div class="signal-item chg-up">${c.symbol} <span style="margin-left:auto">+${c.change_pct}%</span></div>`; });
+      ov.top_gainers.forEach(c => { ovEl.innerHTML += `<div class="signal-item chg-up">${c.name} <span style="margin-left:auto">+${c.change_pct}%</span></div>`; });
     }
-    if (ov.top_losers) {
+    if (ov.top_losers && ov.top_losers.length) {
       ovEl.innerHTML += '<div class="section-label" style="margin-top:12px;margin-bottom:8px;">Top Losers</div>';
-      ov.top_losers.forEach(c => { ovEl.innerHTML += `<div class="signal-item chg-dn">${c.symbol} <span style="margin-left:auto">${c.change_pct}%</span></div>`; });
+      ov.top_losers.forEach(c => { ovEl.innerHTML += `<div class="signal-item chg-dn">${c.name} <span style="margin-left:auto">${c.change_pct}%</span></div>`; });
     }
   } else {
     document.getElementById('fno-signals').innerHTML = '<div style="font-size:11px;color:var(--text3)">F&O data not yet available.</div>';
