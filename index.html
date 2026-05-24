@@ -37,7 +37,7 @@ main.visible { opacity: 1; }
 .hero-cell:first-child { background: rgba(167,139,250,0.04); border-left: 2px solid var(--purple); }
 .hero-cell.btc-cell { background: rgba(240,180,41,0.04); border-left: 2px solid rgba(240,180,41,0.3); }
 .hero-label { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text3); margin-bottom: 10px; }
-.hero-value { font-family: 'Cormorant Garamond', serif; font-size: 40px; font-weight: 300; line-height: 1; color: var(--purple); }
+.hero-value { font-family: 'Cormorant Garamond', serif; font-size: 40px; font-weight: 300; line-height: 1; color: var(--purple); transition: color 0.4s ease; }
 .hero-value.gold { color: var(--gold); }
 .hero-value.green { color: var(--green); }
 .hero-value.red { color: var(--red); }
@@ -129,6 +129,7 @@ footer { text-align: center; padding-top: 40px; border-top: 1px solid var(--bord
     <div class="header-right">
       <div class="date-display" id="display-date">—</div>
       <div class="generated-time" id="display-time">—</div>
+      <div class="generated-time" id="live-clock" style="color:var(--green);margin-top:4px;">connecting...</div>
     </div>
   </header>
 
@@ -362,7 +363,8 @@ function render(data, fno) {
   (summary.top_coins_today || []).forEach(c => {
     const cls  = c.change_pct >= 0 ? 'chg-up' : 'chg-dn';
     const sign = c.change_pct >= 0 ? '+' : '';
-    tbody.innerHTML += `<tr><td><div class="coin-name">${c.name}</div><div class="coin-sector">${c.sector}</div></td><td><span class="cosmo-num" style="color:${scoreColor(c.cosmo_score)}">${c.cosmo_score}</span></td><td>$${fmt(c.price)}</td><td class="${cls}">${sign}${c.change_pct}%</td><td class="rsi-val">${c.rsi}</td><td class="trend-tag">${c.trend}</td></tr>`;
+    const sym  = c.symbol || (c.name + 'USD');
+    tbody.innerHTML += `<tr data-live-symbol="${sym}"><td><div class="coin-name">${c.name}</div><div class="coin-sector">${c.sector}</div></td><td><span class="cosmo-num" style="color:${scoreColor(c.cosmo_score)}">${c.cosmo_score}</span></td><td class="live-price">$${fmt(c.price)}</td><td class="live-chg ${cls}">${sign}${c.change_pct}%</td><td class="rsi-val">${c.rsi}</td><td class="trend-tag">${c.trend}</td></tr>`;
   });
 
   // All coins
@@ -371,7 +373,8 @@ function render(data, fno) {
     const cls  = c.change_pct >= 0 ? 'chg-up' : 'chg-dn';
     const sign = c.change_pct >= 0 ? '+' : '';
     const dirCls = c.direction === 'Bullish' ? 'chg-up' : c.direction === 'Bearish' ? 'chg-dn' : 'rsi-val';
-    allBody.innerHTML += `<tr><td><div class="coin-name">${c.name}</div><div class="coin-sector">${c.sector}</div></td><td><span class="cosmo-num" style="color:${scoreColor(c.cosmo_score)}">${c.cosmo_score}</span></td><td>$${fmt(c.price)}</td><td class="${cls}">${sign}${c.change_pct}%</td><td class="rsi-val">${c.rsi}</td><td class="trend-tag">${c.trend}</td><td class="${dirCls}">${c.direction}</td></tr>`;
+    const sym = c.symbol || (c.name + 'USD');
+    allBody.innerHTML += `<tr data-live-symbol="${sym}"><td><div class="coin-name">${c.name}</div><div class="coin-sector">${c.sector}</div></td><td><span class="cosmo-num" style="color:${scoreColor(c.cosmo_score)}">${c.cosmo_score}</span></td><td class="live-price">$${fmt(c.price)}</td><td class="live-chg ${cls}">${sign}${c.change_pct}%</td><td class="rsi-val">${c.rsi}</td><td class="trend-tag">${c.trend}</td><td class="${dirCls}">${c.direction}</td></tr>`;
   });
 
   // Funding rates
@@ -550,6 +553,107 @@ function render(data, fno) {
 }
 
 loadCosmo();
+
+// ── Live Price Ticker — updates every 2 seconds from Delta Exchange ───────
+const LIVE_SYMBOLS = [
+  'BTCUSD','ETHUSD','SOLUSD','BNBUSD','XRPUSD',
+  'ADAUSD','AVAXUSD','DOGUSD','ARBUSD','INJUSD',
+  'SUIUSD','DOGEUSD','LINKUSD','OPUSD','APTUSD',
+];
+
+let livePrices = {};
+let liveInitialized = false;
+
+async function fetchLivePrices() {
+  try {
+    const r = await fetch('https://api.india.delta.exchange/v2/tickers', {
+      headers: { 'Accept': 'application/json' }
+    });
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data.success) return;
+
+    const tickers = data.result || [];
+    tickers.forEach(t => {
+      const sym   = t.symbol;
+      const price = parseFloat(t.close || t.mark_price || 0);
+      const open  = parseFloat(t.open || price);
+      const chg   = open > 0 ? ((price - open) / open * 100) : 0;
+
+      if (livePrices[sym] && livePrices[sym].price !== price) {
+        // Flash green or red on price change
+        const el = document.getElementById('live-' + sym);
+        if (el) {
+          const up = price > livePrices[sym].price;
+          el.style.color = up ? 'var(--green)' : 'var(--red)';
+          setTimeout(() => {
+            el.style.color = sym === 'BTCUSD' ? 'var(--gold)' : 'var(--text)';
+          }, 600);
+        }
+      }
+
+      livePrices[sym] = { price, chg: round2(chg) };
+    });
+
+    updateLiveUI();
+  } catch(e) {}
+}
+
+function round2(n) { return Math.round(n * 100) / 100; }
+
+function fmtLive(n) {
+  if (!n) return '—';
+  if (n >= 10000) return n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+  if (n >= 100)   return n.toLocaleString('en-US', { maximumFractionDigits: 2 });
+  if (n >= 1)     return n.toFixed(3);
+  return n.toFixed(5);
+}
+
+function updateLiveUI() {
+  // Hero BTC/ETH
+  const btc = livePrices['BTCUSD'];
+  const eth = livePrices['ETHUSD'];
+  if (btc) {
+    const el = document.getElementById('btc-price');
+    if (el) el.textContent = '$' + fmtLive(btc.price);
+    const cel = document.getElementById('btc-change');
+    if (cel) cel.innerHTML = `<span class="${btc.chg >= 0 ? 'chg-up' : 'chg-dn'}">${btc.chg >= 0 ? '+' : ''}${btc.chg}%</span>`;
+  }
+  if (eth) {
+    const el = document.getElementById('eth-price');
+    if (el) el.textContent = '$' + fmtLive(eth.price);
+    const cel = document.getElementById('eth-change');
+    if (cel) cel.innerHTML = `<span class="${eth.chg >= 0 ? 'chg-up' : 'chg-dn'}">${eth.chg >= 0 ? '+' : ''}${eth.chg}%</span>`;
+  }
+
+  // Update coin rows in table
+  const rows = document.querySelectorAll('[data-live-symbol]');
+  rows.forEach(row => {
+    const sym   = row.getAttribute('data-live-symbol');
+    const p     = livePrices[sym];
+    if (!p) return;
+    const priceEl = row.querySelector('.live-price');
+    const chgEl   = row.querySelector('.live-chg');
+    if (priceEl) priceEl.textContent = '$' + fmtLive(p.price);
+    if (chgEl) {
+      chgEl.textContent = (p.chg >= 0 ? '+' : '') + p.chg + '%';
+      chgEl.className = 'live-chg ' + (p.chg >= 0 ? 'chg-up' : 'chg-dn');
+    }
+  });
+
+  // Live clock
+  const clk = document.getElementById('live-clock');
+  if (clk) {
+    const now = new Date();
+    clk.textContent = now.toUTCString().split(' ')[4] + ' UTC · LIVE';
+  }
+}
+
+// Start live ticker after page loads
+setTimeout(() => {
+  fetchLivePrices();
+  setInterval(fetchLivePrices, 2000);
+}, 1000);
 </script>
 </body>
 </html>
