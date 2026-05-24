@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-24T12:56:29Z",
+    "generated_at": "2026-05-24T13:40:02Z",
     "total_days": 2,
     "version": "1.0"
   },
@@ -9,11 +9,11 @@
     "days_with_outcomes": 1,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 68.0,
-      "Infra": 65.3,
-      "Meme": 60.4,
-      "DeFi": 59.5,
-      "L2": 58.6
+      "Gaming": 73.5,
+      "Meme": 72.7,
+      "L1": 71.5,
+      "L2": 68.7,
+      "DeFi": 67.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -22,7 +22,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-05-24T12:56:29Z"
+    "generated_at": "2026-05-24T13:40:02Z"
   },
   "anomalies": [],
   "history": [
@@ -246,10 +246,10 @@
       "date": "2026-05-24",
       "day_cosmo_score": 35.2,
       "market_direction": "Bearish",
-      "volatility_bias": "Medium",
+      "volatility_bias": "High",
       "risk_level": "High",
-      "strongest_sector": "L1",
-      "weakest_sector": "Gaming",
+      "strongest_sector": "Gaming",
+      "weakest_sector": "Infra",
       "moon_phase": "First Quarter",
       "moon_phase_emoji": "\ud83c\udf13",
       "day_ruler": "Sun",
@@ -313,7 +313,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 1.19
+          "orb": 1.16
         },
         {
           "planets": [
@@ -321,7 +321,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 1.19
+          "orb": 1.16
         },
         {
           "planets": [
@@ -329,7 +329,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 1.29
+          "orb": 1.61
         },
         {
           "planets": [
@@ -337,7 +337,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 6.31
+          "orb": 5.92
         },
         {
           "planets": [
@@ -345,7 +345,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 2.35
+          "orb": 2.36
         },
         {
           "planets": [
@@ -353,7 +353,7 @@
             "Rahu"
           ],
           "aspect": "Sextile",
-          "orb": 0.36
+          "orb": 0.34
         },
         {
           "planets": [
@@ -361,7 +361,7 @@
             "Ketu"
           ],
           "aspect": "Trine",
-          "orb": 0.36
+          "orb": 0.34
         },
         {
           "planets": [
@@ -369,7 +369,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.52
+          "orb": 3.58
         },
         {
           "planets": [
@@ -377,7 +377,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.03
+          "orb": 5.0
         },
         {
           "planets": [
@@ -385,7 +385,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 1.98
+          "orb": 2.02
         },
         {
           "planets": [
@@ -393,7 +393,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 1.98
+          "orb": 2.02
         },
         {
           "planets": [
@@ -409,38 +409,38 @@
       "declining": 974,
       "top_sectors": [
         {
-          "name": "L1",
-          "cosmo_score": 68.0,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Infra",
-          "cosmo_score": 65.3,
+          "name": "Gaming",
+          "cosmo_score": 73.5,
           "astro_bias": "Neutral"
         },
         {
           "name": "Meme",
-          "cosmo_score": 60.4,
+          "cosmo_score": 72.7,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 71.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 68.7,
           "astro_bias": "Neutral"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 59.5,
+          "cosmo_score": 67.6,
           "astro_bias": "Bearish"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 58.6,
-          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Rahu, Ketu",
-        "Moon moving Leo to Virgo within 3 days",
+        "Moon moving Leo to Libra within 3 days",
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Sun - favors L1, Infra",
-        "High funding rates: DOT, SOL, BNB \u2014 longs crowded"
+        "High funding rates: SOL, BNB, XRP \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
