@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-24T07:22:14Z",
+    "generated_at": "2026-05-24T09:13:56Z",
     "total_days": 2,
     "version": "1.0"
   },
@@ -8,7 +8,13 @@
     "total_days": 2,
     "days_with_outcomes": 1,
     "overall_accuracy_pct": null,
-    "sector_avg_scores": {},
+    "sector_avg_scores": {
+      "L1": 67.2,
+      "Infra": 65.8,
+      "L2": 60.6,
+      "Meme": 60.0,
+      "Gaming": 58.5
+    },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
     "cosmo_score_accuracy": {
@@ -16,7 +22,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-05-24T07:22:14Z"
+    "generated_at": "2026-05-24T09:13:56Z"
   },
   "anomalies": [],
   "history": [
@@ -238,12 +244,12 @@
     },
     {
       "date": "2026-05-24",
-      "day_cosmo_score": 57.7,
-      "market_direction": "Neutral",
-      "volatility_bias": "Low",
-      "risk_level": "Medium",
-      "strongest_sector": "",
-      "weakest_sector": "",
+      "day_cosmo_score": 35.2,
+      "market_direction": "Bearish",
+      "volatility_bias": "Medium",
+      "risk_level": "High",
+      "strongest_sector": "L1",
+      "weakest_sector": "DeFi",
       "moon_phase": "First Quarter",
       "moon_phase_emoji": "\ud83c\udf13",
       "day_ruler": "Sun",
@@ -307,7 +313,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 1.43
+          "orb": 1.35
         },
         {
           "planets": [
@@ -315,7 +321,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 1.43
+          "orb": 1.35
         },
         {
           "planets": [
@@ -323,15 +329,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 1.24
-        },
-        {
-          "planets": [
-            "Moon",
-            "Venus"
-          ],
-          "aspect": "Sextile",
-          "orb": 7.11
+          "orb": 0.4
         },
         {
           "planets": [
@@ -339,7 +337,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 2.24
+          "orb": 2.28
         },
         {
           "planets": [
@@ -347,7 +345,7 @@
             "Rahu"
           ],
           "aspect": "Sextile",
-          "orb": 0.55
+          "orb": 0.49
         },
         {
           "planets": [
@@ -355,7 +353,7 @@
             "Ketu"
           ],
           "aspect": "Trine",
-          "orb": 0.55
+          "orb": 0.49
         },
         {
           "planets": [
@@ -363,7 +361,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.07
+          "orb": 3.22
         },
         {
           "planets": [
@@ -371,7 +369,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.29
+          "orb": 5.2
         },
         {
           "planets": [
@@ -379,7 +377,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 1.69
+          "orb": 1.79
         },
         {
           "planets": [
@@ -387,7 +385,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 1.69
+          "orb": 1.79
         },
         {
           "planets": [
@@ -398,10 +396,36 @@
           "orb": 0.0
         }
       ],
-      "breadth_ratio": 50,
+      "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 0,
-      "top_sectors": [],
+      "declining": 1016,
+      "top_sectors": [
+        {
+          "name": "L1",
+          "cosmo_score": 67.2,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 65.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 60.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 60.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 58.5,
+          "astro_bias": "Neutral"
+        }
+      ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Rahu, Ketu",
