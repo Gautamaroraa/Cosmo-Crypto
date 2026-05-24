@@ -41,6 +41,9 @@ jobs:
       - name: Run Anomaly Engine
         run: python engine/anomaly_engine.py || echo "Anomaly engine skipped"
 
+      - name: Run Strategy Engine
+        run: python engine/crypto_strategy_engine.py || echo "Strategy engine skipped"
+
       - name: Copy latest.json to root
         run: cp data/latest.json latest.json
 
