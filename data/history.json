@@ -1,19 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-05-24T23:31:27Z",
-    "total_days": 2,
+    "generated_at": "2026-05-25T02:08:49Z",
+    "total_days": 3,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 2,
-    "days_with_outcomes": 1,
+    "total_days": 3,
+    "days_with_outcomes": 2,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "Gaming": 73.5,
-      "Meme": 72.7,
-      "L1": 71.9,
-      "L2": 68.7,
-      "DeFi": 67.6
+      "Meme": 70.6,
+      "Gaming": 70.5,
+      "DeFi": 67.6,
+      "L1": 60.6,
+      "L2": 60.6,
+      "Infra": 46.9
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -22,7 +23,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-05-24T23:31:27Z"
+    "generated_at": "2026-05-25T02:08:49Z"
   },
   "anomalies": [],
   "history": [
@@ -449,6 +450,225 @@
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Sun - favors L1, Infra",
         "High funding rates: SOL, BNB, XRP \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-05-25",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "day_cosmo_score": 35.2,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Medium",
+      "strongest_sector": "Meme",
+      "weakest_sector": "DeFi",
+      "moon_phase": "First Quarter",
+      "moon_phase_emoji": "\ud83c\udf13",
+      "day_ruler": "Moon",
+      "astro_score": 68,
+      "retrograde_planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Taurus",
+          "nakshatra": "Krittika",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Leo",
+          "nakshatra": "Uttara Phalguni",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Aries",
+          "nakshatra": "Ashwini",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Taurus",
+          "nakshatra": "Rohini",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.73
+        },
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 0.63
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 0.63
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Square",
+          "orb": 7.23
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.65
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.59
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.08
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "aspect": "Trine",
+          "orb": 0.08
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.58
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 4.43
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 2.66
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.66
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 991,
+      "top_sectors": [
+        {
+          "name": "Meme",
+          "cosmo_score": 68.4,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 67.6,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 52.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 49.2,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 46.9,
+          "astro_bias": "Bearish"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Rahu, Ketu",
+        "Moon moving Leo to Libra within 3 days",
+        "First Quarter - Strong momentum. Trend entries favored.",
+        "Day of Moon - favors Meme, Gaming",
+        "High funding rates: DOGE, PEPE, AXS \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
