@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-05-25",
-    "generated_at": "2026-05-25T23:55:17Z"
+    "date": "2026-05-26",
+    "generated_at": "2026-05-26T01:59:42Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -18,65 +18,65 @@
     "saturn_retro": false,
     "moon_phase": "First Quarter",
     "moon_nakshatra": "Hasta",
-    "day_ruler": "Moon",
+    "day_ruler": "Mars",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
     "strongest_sector": "Meme",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
-  "similar_days_found": 3,
+  "similar_days_found": 4,
   "patterns": {
     "status": "calculated",
-    "similar_days_found": 3,
-    "days_with_outcomes": 2,
+    "similar_days_found": 4,
+    "days_with_outcomes": 3,
     "overall_accuracy_pct": null,
     "avg_stock_change_pct": null,
     "direction_pattern": {
       "bullish": 0,
-      "bearish": 1,
+      "bearish": 2,
       "neutral": 1,
       "dominant": "Bearish"
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Gaming",
-        "avg_score": 73.5
-      },
-      {
         "name": "Meme",
-        "avg_score": 72.7
+        "avg_score": 70.6
       },
       {
-        "name": "L1",
-        "avg_score": 71.9
-      },
-      {
-        "name": "L2",
-        "avg_score": 68.7
+        "name": "Gaming",
+        "avg_score": 70.5
       },
       {
         "name": "DeFi",
         "avg_score": 67.6
+      },
+      {
+        "name": "L2",
+        "avg_score": 60.6
+      },
+      {
+        "name": "L1",
+        "avg_score": 60.6
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "First Quarter": 2
+      "First Quarter": 3
     }
   },
   "narratives": [
-    "Market was Bearish on most similar past days (0B / 1Bear / 1N).",
-    "Strongest sectors on similar days: Gaming, Meme, L1.",
-    "Mars in Aries + Day of Moon is the dominant sky signature today."
+    "Market was Bearish on most similar past days (0B / 2Bear / 1N).",
+    "Strongest sectors on similar days: Meme, Gaming, DeFi.",
+    "Mars in Aries + Day of Mars is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-05-25",
+      "date": "2026-05-26",
       "similarity_pct": 100.0,
       "cosmo_score": 35.2,
       "moon_phase": "First Quarter",
-      "day_ruler": "Moon",
+      "day_ruler": "Mars",
       "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -90,6 +90,29 @@
           "Moon phase First Quarter"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "similarity_pct": 94.6,
+      "cosmo_score": 35.2,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Moon",
+      "strongest_sector": "Meme",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 94.6,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase First Quarter"
+        ],
+        "different": [
+          "Day ruler: Moon \u2192 now Mars"
+        ]
       }
     },
     {
@@ -111,7 +134,7 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Sun \u2192 now Moon",
+          "Day ruler: Sun \u2192 now Mars",
           "Moon in: Leo \u2192 now Virgo"
         ]
       }
@@ -135,7 +158,7 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Saturn \u2192 now Moon",
+          "Day ruler: Saturn \u2192 now Mars",
           "Moon in: Leo \u2192 now Virgo"
         ]
       }
