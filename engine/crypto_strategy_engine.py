@@ -329,6 +329,28 @@ def analyze_coin(coin, astro):
         ('SQUEEZE', squeeze_score, squeeze_reasons, 'MEAN_REVERSION'),
         ('FLUSH',   flush_score,   flush_reasons,   'MEAN_REVERSION'),
     ]:
+        # ── Hard skip rules ────────────────────────────────────────────
+        hard_skip = []
+        if direction in ['LONG','SQUEEZE']:
+            if fr_rate > 1.0:   hard_skip.append(f"Funding {fr_rate}% > +1% — longs overcrowded")
+            if rsi > 80:         hard_skip.append(f"RSI {rsi} > 80 — extreme overbought")
+            if adx < 20:         hard_skip.append(f"ADX {adx} < 20 — no trend strength")
+            if bb_width > 50:    hard_skip.append(f"BB Width {bb_width}% > 50% — move extended")
+            if oi_trend == 'Falling': hard_skip.append("OI Falling — momentum fading")
+            bearish_candles = ['Bearish Engulfing','Evening Star','Three Black Crows','Shooting Star']
+            conflicting = [p for p in patterns if p in bearish_candles]
+            if conflicting:      hard_skip.append(f"Bearish pattern: {conflicting[0]} — conflicting signal")
+
+        if hard_skip:
+            # Still add setup but mark as skipped
+            s = build(direction, score, reasons, stype)
+            if s:
+                s['skip'] = True
+                s['skip_reasons'] = hard_skip
+                s['confidence'] = 0
+                setups.append(s)
+            continue
+
         s = build(direction, score, reasons, stype)
         if s: setups.append(s)
 
