@@ -166,6 +166,7 @@ footer { text-align: center; padding-top: 40px; border-top: 1px solid var(--bord
     <button class="tab-btn" onclick="switchTab('sectors')">Sectors</button>
     <button class="tab-btn" onclick="switchTab('fno')">F&amp;O</button>
     <button class="tab-btn" onclick="switchTab('strategy')">Strategy</button>
+    <button class="tab-btn" onclick="switchTab('journal')">Journal</button>
   </div>
 
   <!-- Intelligence -->
@@ -285,7 +286,105 @@ footer { text-align: center; padding-top: 40px; border-top: 1px solid var(--bord
     </div>
   </div>
 
-  <footer>COSMO CRYPTO · Astro-Crypto Intelligence · Updates every 4 hours</footer>
+  <!-- Journal Tab -->
+  <div class="tab-panel" id="tab-journal">
+
+    <!-- Capital -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="section-label">Capital</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;margin-bottom:14px;" id="capital-metrics"></div>
+      <div style="display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;">
+        <div style="flex:1;min-width:140px;">
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;letter-spacing:0.1em;text-transform:uppercase;">Update current capital (₹)</div>
+          <input type="number" id="capital-input" placeholder="e.g. 700" style="width:100%;background:var(--surface);border:1px solid var(--border2);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:14px;padding:8px 12px;">
+        </div>
+        <button onclick="setCapital()" style="padding:8px 18px;background:var(--purple);color:#000;border:none;border-radius:2px;font-family:'DM Mono',monospace;font-size:12px;cursor:pointer;white-space:nowrap;">Set Capital</button>
+      </div>
+    </div>
+
+    <!-- Add Trade -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="section-label">Log Trade</div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:10px;">
+        <div>
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">Coin</div>
+          <input type="text" id="t-coin" placeholder="POL" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+        </div>
+        <div>
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">Direction</div>
+          <select id="t-dir" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+            <option>LONG</option><option>SHORT</option>
+          </select>
+        </div>
+        <div>
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">Setup type</div>
+          <select id="t-type" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+            <option>MOMENTUM</option><option>SQUEEZE</option><option>MEAN_REVERSION</option>
+          </select>
+        </div>
+        <div>
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">Result</div>
+          <select id="t-result" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+            <option>WIN</option><option>LOSS</option><option>OPEN</option>
+          </select>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:10px;">
+        <div>
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">Entry ($)</div>
+          <input type="number" id="t-entry" step="any" placeholder="0.00" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+        </div>
+        <div>
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">Exit ($)</div>
+          <input type="number" id="t-exit" step="any" placeholder="0.00" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+        </div>
+        <div>
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">Capital used (₹)</div>
+          <input type="number" id="t-capital" placeholder="200" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+        </div>
+        <div>
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">P&L (₹)</div>
+          <input type="number" id="t-pnl" placeholder="+440" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+        </div>
+      </div>
+      <div style="margin-bottom:10px;">
+        <div style="font-size:10px;color:var(--text3);margin-bottom:4px;">Notes (signals used)</div>
+        <input type="text" id="t-notes" placeholder="e.g. Negative funding + Bullish Engulfing + ADX 30" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:2px;color:var(--text);font-family:'DM Mono',monospace;font-size:13px;padding:6px 10px;">
+      </div>
+      <button onclick="addTrade()" style="padding:8px 18px;background:var(--green);color:#000;border:none;border-radius:2px;font-family:'DM Mono',monospace;font-size:12px;cursor:pointer;font-weight:500;">+ Log Trade</button>
+    </div>
+
+    <!-- Trade Log -->
+    <div class="card" style="padding:0;overflow:hidden;">
+      <div style="padding:14px 16px;border-bottom:1px solid var(--border);">
+        <div class="section-label" style="margin:0;">Trade Log</div>
+      </div>
+      <div id="trade-log-header" style="display:grid;grid-template-columns:60px 55px 70px 65px 65px 65px 1fr 30px;gap:8px;padding:8px 16px;font-size:10px;color:var(--text3);letter-spacing:0.1em;text-transform:uppercase;border-bottom:1px solid var(--border);">
+        <span>Coin</span><span>Dir</span><span>Result</span><span>Entry</span><span>Exit</span><span>P&L</span><span>Notes</span><span></span>
+      </div>
+      <div id="trade-list"></div>
+    </div>
+
+    <!-- Insights -->
+    <div class="card" style="margin-top:16px;">
+      <div class="section-label">Rules Learned — Live Trading</div>
+      <div id="signal-stats" style="margin-bottom:16px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;"></div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="padding:10px 12px;border-left:2px solid var(--red);background:rgba(248,113,113,0.05);font-size:12px;color:var(--text2);line-height:1.6;">⚠ <strong>Skip when funding &gt; +1%/8h</strong> — longs overcrowded. Flush risk. PEPE and DOGE correctly skipped.</div>
+        <div style="padding:10px 12px;border-left:2px solid var(--red);background:rgba(248,113,113,0.05);font-size:12px;color:var(--text2);line-height:1.6;">⚠ <strong>Evening Star + bullish signals = conflict</strong> — reduce size or skip. FLOKI had Evening Star → loss.</div>
+        <div style="padding:10px 12px;border-left:2px solid var(--red);background:rgba(248,113,113,0.05);font-size:12px;color:var(--text2);line-height:1.6;">⚠ <strong>OI Falling = momentum fading</strong> — avoid entering even if other signals look bullish.</div>
+        <div style="padding:10px 12px;border-left:2px solid var(--red);background:rgba(248,113,113,0.05);font-size:12px;color:var(--text2);line-height:1.6;">⚠ <strong>RSI &gt; 72 daily + high positive funding = late trade</strong> — move is likely done. Skip.</div>
+        <div style="padding:10px 12px;border-left:2px solid var(--green);background:rgba(62,207,142,0.05);font-size:12px;color:var(--text2);line-height:1.6;">✓ <strong>Negative funding + Morning Star = best squeeze setup</strong> — POL -0.51% funding → 100/100 WIN.</div>
+        <div style="padding:10px 12px;border-left:2px solid var(--green);background:rgba(62,207,142,0.05);font-size:12px;color:var(--text2);line-height:1.6;">✓ <strong>ADX &gt; 50 Very Strong + neutral/negative funding = strong momentum</strong> — DOGE ADX 52 → WIN.</div>
+        <div style="padding:10px 12px;border-left:2px solid var(--green);background:rgba(62,207,142,0.05);font-size:12px;color:var(--text2);line-height:1.6;">✓ <strong>Take T1 on high positive funding trades</strong> — don't hold for T2 when funding &gt; +1%.</div>
+        <div style="padding:10px 12px;border-left:2px solid var(--blue);background:rgba(96,165,250,0.05);font-size:12px;color:var(--text2);line-height:1.6;">◈ <strong>Max 20-25% capital per trade</strong> — MANA at 75% caused liquidation risk. Always size small.</div>
+        <div style="padding:10px 12px;border-left:2px solid var(--blue);background:rgba(96,165,250,0.05);font-size:12px;color:var(--text2);line-height:1.6;">◈ <strong>Wait for 5m confirmation before entry</strong> — MANA dropping on 5m when daily bullish. Patience saves entries.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>COSMO CRYPTO · Astro-Crypto Intelligence · Updates every 30 minutes</footer>
 </main>
 
 <script>
@@ -576,41 +675,92 @@ function render(data, fno, strategy) {
       ${s.no_trade_reasons && s.no_trade_reasons.length ? s.no_trade_reasons.map(r => `<div class="signal-item" style="color:var(--red);margin-top:6px;">⚠ ${r}</div>`).join('') : ''}
     </div>`;
 
+    // Hard skip rules legend
+    html += `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;font-size:10px;">
+      <span style="padding:3px 8px;background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.2);border-radius:2px;color:var(--red);">SKIP: Funding &gt; +1%</span>
+      <span style="padding:3px 8px;background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.2);border-radius:2px;color:var(--red);">SKIP: RSI &gt; 80</span>
+      <span style="padding:3px 8px;background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.2);border-radius:2px;color:var(--red);">SKIP: ADX &lt; 20</span>
+      <span style="padding:3px 8px;background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.2);border-radius:2px;color:var(--red);">SKIP: BB Width &gt; 50%</span>
+      <span style="padding:3px 8px;background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.2);border-radius:2px;color:var(--red);">SKIP: OI Falling</span>
+      <span style="padding:3px 8px;background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.2);border-radius:2px;color:var(--red);">SKIP: Signal &gt;5% stale</span>
+    </div>`;
+
     // Setups
     if (s.setups && s.setups.length) {
       html += `<div class="section-label">Trade Setups (${s.setups.length})</div>`;
       s.setups.forEach(setup => {
-        const c = setup.confidence >= 70 ? 'var(--green)' : setup.confidence >= 50 ? 'var(--purple)' : 'var(--amber)';
+        // ── Hard skip rules check ──────────────────────────────────────
+        const skipReasons = [];
+        const fr = setup.funding_note ? parseFloat((setup.funding_note.match(/([+-]?\d+\.?\d*)\%/) || [])[1] || 0) : 0;
+        if (fr > 1.0)            skipReasons.push(`Funding ${fr}% — longs overcrowded`);
+        if (setup.rsi > 80)      skipReasons.push(`RSI ${setup.rsi} — extreme overbought`);
+        if (setup.adx < 20)      skipReasons.push(`ADX ${setup.adx} — weak trend`);
+        if (setup.bb_width > 50) skipReasons.push(`BB Width ${setup.bb_width}% — move extended`);
+        if (setup.oi_trend === 'Falling') skipReasons.push('OI Falling — momentum fading');
+
+        const isSkip = skipReasons.length > 0;
+        const c = isSkip ? 'var(--red)' : setup.confidence >= 70 ? 'var(--green)' : setup.confidence >= 50 ? 'var(--purple)' : 'var(--amber)';
         const dirColor = setup.direction === 'LONG' || setup.direction === 'SQUEEZE' ? 'var(--green)' : 'var(--red)';
         const ichColor = setup.ichimoku_cloud && setup.ichimoku_cloud.includes('Above') ? 'var(--green)' :
                          setup.ichimoku_cloud && setup.ichimoku_cloud.includes('Below') ? 'var(--red)' : 'var(--text3)';
         const stColor  = setup.supertrend === 'Bullish' ? 'var(--green)' : 'var(--red)';
         const macdColor = setup.macd_histogram > 0 ? 'var(--green)' : 'var(--red)';
-        html += `<div class="card" style="margin-bottom:14px;border-left:2px solid ${dirColor};">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+
+        html += `<div class="card" style="margin-bottom:14px;border-left:2px solid ${isSkip ? 'var(--red)' : dirColor};${isSkip ? 'opacity:0.7;' : ''}"
+          data-setup-symbol="${setup.symbol}"
+          data-signal-price="${setup.current_price}"
+          data-atr-pct="${setup.atr_pct}"
+          data-direction="${setup.direction}">
+
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
             <div>
               <span style="font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--text)">${setup.coin} — ${setup.direction}</span>
               <span style="font-size:10px;color:var(--text3);margin-left:8px;">${setup.type} · ${setup.sector}</span>
             </div>
-            <span style="font-family:'Cormorant Garamond',serif;font-size:24px;color:${c}">${setup.confidence}/100</span>
+            <div style="text-align:right;">
+              <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:${c}">${isSkip ? 'SKIP' : setup.confidence + '/100'}</div>
+            </div>
           </div>
 
-          <!-- Entry / SL / Target -->
+          ${isSkip ? `<div style="background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.3);border-radius:2px;padding:8px 12px;margin-bottom:12px;">
+            ${skipReasons.map(r => `<div style="font-size:11px;color:var(--red);margin-bottom:2px;">✗ ${r}</div>`).join('')}
+          </div>` : ''}
+
+          <!-- Expired signal warning — updated by live ticker -->
+          <div class="setup-expired" style="display:none;background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.3);border-radius:2px;padding:8px 12px;margin-bottom:12px;font-size:11px;color:var(--red);"></div>
+
+          <!-- Live price bar -->
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;padding:8px 12px;background:var(--surface);border-radius:2px;">
+            <div>
+              <div style="font-size:10px;color:var(--text3);margin-bottom:2px;">Signal price</div>
+              <div style="font-size:13px;color:var(--text2);">$${fmtLive(setup.current_price)}</div>
+            </div>
+            <div style="font-size:16px;color:var(--text3);">→</div>
+            <div>
+              <div style="font-size:10px;color:var(--text3);margin-bottom:2px;">Live price</div>
+              <div class="setup-live-price" style="font-size:13px;font-weight:500;">loading...</div>
+            </div>
+            <div style="margin-left:auto;">
+              <div class="setup-price-diff" style="font-size:10px;color:var(--text3);"></div>
+            </div>
+          </div>
+
+          <!-- Entry / SL / Target — live updated -->
           <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px;">
-            <div><div class="hero-label">Entry</div><div style="font-size:11px;color:var(--text2)">${setup.entry}</div></div>
-            <div><div class="hero-label">Stop Loss</div><div style="font-size:11px;color:var(--red)">${setup.stop_loss}</div></div>
-            <div><div class="hero-label">Target</div><div style="font-size:11px;color:var(--green)">${setup.target}</div></div>
+            <div><div class="hero-label">Entry (live)</div><div style="font-size:11px;color:var(--text2)">Long ${setup.coin} at live price</div></div>
+            <div><div class="hero-label">Stop Loss</div><div class="setup-live-sl" style="font-size:11px;color:var(--red)">calculating...</div></div>
+            <div><div class="hero-label">Target</div><div class="setup-live-t1" style="font-size:11px;color:var(--green)">calculating...</div><div class="setup-live-t2" style="font-size:10px;color:var(--text3);margin-top:2px;"></div></div>
           </div>
 
           <!-- Technical indicators grid -->
           <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:12px;font-size:10px;">
             <div style="background:var(--surface);padding:6px;border-radius:2px;">
               <div style="color:var(--text3);margin-bottom:2px;">RSI (D/H)</div>
-              <div style="color:var(--text)">${setup.rsi} / ${setup.rsi_hourly}</div>
+              <div style="color:${setup.rsi > 80 ? 'var(--red)' : setup.rsi > 70 ? 'var(--gold)' : 'var(--text)'}">${setup.rsi} / ${setup.rsi_hourly}${setup.rsi > 80 ? ' ⚠' : ''}</div>
             </div>
             <div style="background:var(--surface);padding:6px;border-radius:2px;">
               <div style="color:var(--text3);margin-bottom:2px;">ADX</div>
-              <div style="color:var(--text)">${setup.adx} — ${setup.adx_strength}</div>
+              <div style="color:${setup.adx < 20 ? 'var(--red)' : setup.adx > 40 ? 'var(--green)' : 'var(--text)'}">${setup.adx} — ${setup.adx_strength}${setup.adx < 20 ? ' ⚠' : ''}</div>
             </div>
             <div style="background:var(--surface);padding:6px;border-radius:2px;">
               <div style="color:var(--text3);margin-bottom:2px;">Supertrend</div>
@@ -626,7 +776,7 @@ function render(data, fno, strategy) {
             </div>
             <div style="background:var(--surface);padding:6px;border-radius:2px;">
               <div style="color:var(--text3);margin-bottom:2px;">BB Width</div>
-              <div style="color:var(--text)">${setup.bb_width}%${setup.bb_width < 5 ? ' 🔥' : ''}</div>
+              <div style="color:${setup.bb_width > 50 ? 'var(--red)' : setup.bb_width < 10 ? 'var(--green)' : 'var(--text)'}">${setup.bb_width}%${setup.bb_width > 50 ? ' ⚠' : setup.bb_width < 10 ? ' 🔥' : ''}</div>
             </div>
             <div style="background:var(--surface);padding:6px;border-radius:2px;">
               <div style="color:var(--text3);margin-bottom:2px;">ATR %</div>
@@ -634,18 +784,18 @@ function render(data, fno, strategy) {
             </div>
             <div style="background:var(--surface);padding:6px;border-radius:2px;">
               <div style="color:var(--text3);margin-bottom:2px;">OI Trend</div>
-              <div style="color:${setup.oi_trend==='Rising'?'var(--green)':setup.oi_trend==='Falling'?'var(--red)':'var(--text3)'}">${setup.oi_trend}</div>
+              <div style="color:${setup.oi_trend==='Rising'?'var(--green)':setup.oi_trend==='Falling'?'var(--red)':'var(--text3)'}">${setup.oi_trend}${setup.oi_trend==='Falling' ? ' ⚠' : ''}</div>
             </div>
           </div>
 
-          <!-- Patterns -->
           ${setup.candlestick_patterns && setup.candlestick_patterns.length ?
-            `<div style="margin-bottom:8px;">${setup.candlestick_patterns.map(p => `<span style="font-size:10px;background:rgba(167,139,250,0.1);color:var(--purple);border:1px solid rgba(167,139,250,0.2);padding:2px 7px;border-radius:1px;margin-right:4px;">${p}</span>`).join('')}</div>` : ''}
+            `<div style="margin-bottom:8px;">${setup.candlestick_patterns.map(p => {
+              const bearish = ['Bearish Engulfing','Evening Star','Three Black Crows','Shooting Star'].includes(p);
+              return `<span style="font-size:10px;background:${bearish ? 'rgba(248,113,113,0.1)' : 'rgba(167,139,250,0.1)'};color:${bearish ? 'var(--red)' : 'var(--purple)'};border:1px solid ${bearish ? 'rgba(248,113,113,0.2)' : 'rgba(167,139,250,0.2)'};padding:2px 7px;border-radius:1px;margin-right:4px;">${p}${bearish ? ' ⚠' : ''}</span>`;
+            }).join('')}</div>` : ''}
 
-          <!-- Funding note -->
-          ${setup.funding_note ? `<div style="font-size:11px;color:var(--amber);margin-bottom:8px;">⚡ ${setup.funding_note}</div>` : ''}
+          ${setup.funding_note ? `<div style="font-size:11px;color:${fr > 1.0 ? 'var(--red)' : 'var(--amber)'};margin-bottom:8px;">⚡ ${setup.funding_note}${fr > 1.0 ? ' — SKIP' : ''}</div>` : ''}
 
-          <!-- Reasons -->
           <div style="border-top:1px solid var(--border);padding-top:8px;margin-top:4px;">
             ${setup.reasons.map(r => `<div style="font-size:11px;color:var(--text2);margin-bottom:3px;">→ ${r}</div>`).join('')}
           </div>
@@ -676,8 +826,9 @@ loadCosmo();
 // ── Live Price Ticker — updates every 2 seconds from Delta Exchange ───────
 const LIVE_SYMBOLS = [
   'BTCUSD','ETHUSD','SOLUSD','BNBUSD','XRPUSD',
-  'ADAUSD','AVAXUSD','DOGUSD','ARBUSD','INJUSD',
+  'ADAUSD','AVAXUSD','POLUSD','ARBUSD','INJUSD',
   'SUIUSD','DOGEUSD','LINKUSD','OPUSD','APTUSD',
+  'STRKUSD','MANAUSD','1000FLOKIUSD','1000PEPEUSD','1000SHIBUSD',
 ];
 
 let livePrices = {};
@@ -698,9 +849,9 @@ async function fetchLivePrices() {
       const price = parseFloat(t.close || t.mark_price || 0);
       const open  = parseFloat(t.open || price);
       const chg   = open > 0 ? ((price - open) / open * 100) : 0;
+      const funding = parseFloat(t.funding_rate || 0) * 100;
 
       if (livePrices[sym] && livePrices[sym].price !== price) {
-        // Flash green or red on price change
         const el = document.getElementById('live-' + sym);
         if (el) {
           const up = price > livePrices[sym].price;
@@ -711,12 +862,82 @@ async function fetchLivePrices() {
         }
       }
 
-      livePrices[sym] = { price, chg: round2(chg) };
+      livePrices[sym] = { price, chg: round2(chg), funding };
     });
 
     updateLiveUI();
+    updateStrategyPrices();
   } catch(e) {}
 }
+
+// ── Update strategy setups with live prices ───────────────────────────────
+function updateStrategyPrices() {
+  const setups = document.querySelectorAll('[data-setup-symbol]');
+  setups.forEach(el => {
+    const sym        = el.getAttribute('data-setup-symbol');
+    const signalPrice = parseFloat(el.getAttribute('data-signal-price') || 0);
+    const live       = livePrices[sym];
+    if (!live || !live.price) return;
+
+    const livePrice  = live.price;
+    const priceDiff  = signalPrice > 0 ? Math.abs((livePrice - signalPrice) / signalPrice * 100) : 0;
+    const isExpired  = priceDiff > 5;
+    const isFarBelow = livePrice < signalPrice * 0.95;
+
+    // Update live price display
+    const liveEl = el.querySelector('.setup-live-price');
+    if (liveEl) {
+      liveEl.textContent = '$' + fmtLive(livePrice);
+      liveEl.style.color = livePrice >= signalPrice ? 'var(--green)' : 'var(--red)';
+    }
+
+    // Update price diff badge
+    const diffEl = el.querySelector('.setup-price-diff');
+    if (diffEl) {
+      diffEl.textContent = (livePrice >= signalPrice ? '+' : '-') + priceDiff.toFixed(1) + '% from signal';
+      diffEl.style.color = isExpired ? 'var(--red)' : 'var(--text3)';
+    }
+
+    // Expired signal warning
+    const expiredEl = el.querySelector('.setup-expired');
+    if (expiredEl) {
+      if (isExpired) {
+        expiredEl.style.display = 'block';
+        expiredEl.textContent = isFarBelow
+          ? '⚠ SIGNAL EXPIRED — Price -' + priceDiff.toFixed(1) + '% from signal. SL may be above current price. Do not enter.'
+          : '⚠ SIGNAL STALE — Price +' + priceDiff.toFixed(1) + '% from signal. Re-check entry before trading.';
+      } else {
+        expiredEl.style.display = 'none';
+      }
+    }
+
+    // Recalculate SL/TP based on live price
+    const atrPct = parseFloat(el.getAttribute('data-atr-pct') || 2);
+    const direction = el.getAttribute('data-direction') || 'LONG';
+    const slPct = Math.max(atrPct * 1.5, 2.0);
+
+    const slEl = el.querySelector('.setup-live-sl');
+    const t1El = el.querySelector('.setup-live-t1');
+    const t2El = el.querySelector('.setup-live-t2');
+
+    if (slEl && t1El && direction === 'LONG') {
+      const sl = livePrice * (1 - slPct/100);
+      const t1 = livePrice * (1 + slPct*1.5/100);
+      const t2 = livePrice * (1 + slPct*2.5/100);
+      slEl.textContent = 'SL: $' + fmtLive(sl) + ' (-' + slPct.toFixed(1) + '%)';
+      t1El.textContent = 'T1: $' + fmtLive(t1) + ' (+' + (slPct*1.5).toFixed(1) + '%)';
+      if (t2El) t2El.textContent = 'T2: $' + fmtLive(t2) + ' (+' + (slPct*2.5).toFixed(1) + '%)';
+    } else if (slEl && t1El && direction === 'SHORT') {
+      const sl = livePrice * (1 + slPct/100);
+      const t1 = livePrice * (1 - slPct*1.5/100);
+      const t2 = livePrice * (1 - slPct*2.5/100);
+      slEl.textContent = 'SL: $' + fmtLive(sl) + ' (+' + slPct.toFixed(1) + '%)';
+      t1El.textContent = 'T1: $' + fmtLive(t1) + ' (-' + (slPct*1.5).toFixed(1) + '%)';
+      if (t2El) t2El.textContent = 'T2: $' + fmtLive(t2) + ' (-' + (slPct*2.5).toFixed(1) + '%)';
+    }
+  });
+}
+
 
 function round2(n) { return Math.round(n * 100) / 100; }
 
