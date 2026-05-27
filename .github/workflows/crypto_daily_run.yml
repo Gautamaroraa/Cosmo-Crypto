@@ -2,7 +2,7 @@ name: Cosmo Crypto Daily Engine
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
