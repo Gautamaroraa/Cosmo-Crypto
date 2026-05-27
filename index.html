@@ -688,6 +688,9 @@ function render(data, fno, strategy) {
     // Setups
     if (s.setups && s.setups.length) {
       html += `<div class="section-label">Trade Setups (${s.setups.length})</div>`;
+      html += `<div id="valid-setups"></div>`;
+      html += `<div id="expired-toggle" style="margin:12px 0;"><button onclick="toggleExpired()" style="font-size:11px;color:var(--text3);background:none;border:1px solid var(--border);border-radius:2px;padding:4px 12px;cursor:pointer;font-family:'DM Mono',monospace;">Show expired signals</button></div>`;
+      html += `<div id="expired-setups" style="display:none;"></div>`;
       s.setups.forEach(setup => {
         // ── Hard skip rules check ──────────────────────────────────────
         const skipReasons = [];
@@ -809,6 +812,10 @@ function render(data, fno, strategy) {
     }
 
     stratEl.innerHTML = html;
+
+    // Sort setups into valid vs expired after live prices load
+    window._pendingSetups = s.setups;
+    setTimeout(sortSetups, 3000);
   } else {
     stratEl.innerHTML = '<div style="font-size:11px;color:var(--text3)">Strategy data not yet available.</div>';
   }
@@ -819,6 +826,55 @@ function render(data, fno, strategy) {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('main').classList.add('visible');
   }, 500);
+}
+
+function sortSetups() {
+  const validEl   = document.getElementById('valid-setups');
+  const expiredEl = document.getElementById('expired-setups');
+  if (!validEl || !expiredEl) return;
+
+  const allCards = document.querySelectorAll('[data-setup-symbol]');
+  let validCount = 0;
+  let expiredCount = 0;
+
+  allCards.forEach(card => {
+    const sym = card.getAttribute('data-setup-symbol');
+    const signalPrice = parseFloat(card.getAttribute('data-signal-price') || 0);
+    const live = livePrices[sym];
+    if (!live || !live.price) {
+      validEl.appendChild(card);
+      validCount++;
+      return;
+    }
+    const diff = signalPrice > 0 ? Math.abs((live.price - signalPrice) / signalPrice * 100) : 0;
+    const isSkip = card.querySelector('.setup-expired') && card.querySelector('.setup-expired').style.display !== 'none';
+
+    if (diff > 5) {
+      expiredEl.appendChild(card);
+      expiredCount++;
+    } else {
+      validEl.appendChild(card);
+      validCount++;
+    }
+  });
+
+  const toggle = document.getElementById('expired-toggle');
+  if (toggle) {
+    toggle.innerHTML = expiredCount > 0
+      ? `<button onclick="toggleExpired()" style="font-size:11px;color:var(--text3);background:none;border:1px solid var(--border);border-radius:2px;padding:4px 12px;cursor:pointer;font-family:'DM Mono',monospace;" id="expired-btn">Show ${expiredCount} expired signals</button>`
+      : '';
+  }
+
+  const sectionLabel = document.querySelector('#tab-strategy .section-label:last-of-type');
+}
+
+function toggleExpired() {
+  const el  = document.getElementById('expired-setups');
+  const btn = document.getElementById('expired-btn');
+  if (!el) return;
+  const showing = el.style.display !== 'none';
+  el.style.display = showing ? 'none' : 'block';
+  if (btn) btn.textContent = showing ? `Show expired signals` : `Hide expired signals`;
 }
 
 loadCosmo();
@@ -867,6 +923,10 @@ async function fetchLivePrices() {
 
     updateLiveUI();
     updateStrategyPrices();
+    if (!liveInitialized) {
+      liveInitialized = true;
+      setTimeout(sortSetups, 500);
+    }
   } catch(e) {}
 }
 
