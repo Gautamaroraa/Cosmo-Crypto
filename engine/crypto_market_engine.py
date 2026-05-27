@@ -696,15 +696,15 @@ def run_market_engine():
                 continue
 
             # Fetch candles
-            daily_c   = fetch_candles(delta_sym, '1d', 100)
+            primary_c = fetch_candles(delta_sym, '1h', 200)
             time.sleep(0.2)
-            hourly_c  = fetch_candles(delta_sym, '1h', 100)
+            context_c = fetch_candles(delta_sym, '1d', 60)
             time.sleep(0.2)
 
-            if not daily_c or len(daily_c) < 10:
+            if not primary_c or len(primary_c) < 20:
                 continue
 
-            ta = full_ta(delta_sym, daily_c, hourly_c)
+            ta = full_ta(delta_sym, primary_c, context_c)
 
             # Add funding from ticker
             fr_rate = float(ticker.get('funding_rate', 0) or 0) * 100
