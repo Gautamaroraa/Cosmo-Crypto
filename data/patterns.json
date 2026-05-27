@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-05-26",
-    "generated_at": "2026-05-26T23:56:30Z"
+    "date": "2026-05-27",
+    "generated_at": "2026-05-27T02:03:36Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -17,67 +17,67 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "First Quarter",
-    "moon_nakshatra": "Hasta",
-    "day_ruler": "Mars",
+    "moon_nakshatra": "Chitra",
+    "day_ruler": "Mercury",
     "market_direction": "Bearish",
-    "volatility_bias": "Low",
-    "strongest_sector": "Meme",
+    "volatility_bias": "Medium",
+    "strongest_sector": "Gaming",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
-  "similar_days_found": 4,
+  "similar_days_found": 5,
   "patterns": {
     "status": "calculated",
-    "similar_days_found": 4,
-    "days_with_outcomes": 3,
+    "similar_days_found": 5,
+    "days_with_outcomes": 4,
     "overall_accuracy_pct": null,
     "avg_stock_change_pct": null,
     "direction_pattern": {
       "bullish": 0,
-      "bearish": 2,
+      "bearish": 3,
       "neutral": 1,
       "dominant": "Bearish"
     },
     "top_sectors_on_similar_days": [
       {
         "name": "Meme",
-        "avg_score": 70.6
+        "avg_score": 71.9
       },
       {
         "name": "Gaming",
-        "avg_score": 70.5
+        "avg_score": 71.7
       },
       {
         "name": "DeFi",
-        "avg_score": 67.6
-      },
-      {
-        "name": "L2",
-        "avg_score": 60.6
+        "avg_score": 65.0
       },
       {
         "name": "L1",
-        "avg_score": 60.6
+        "avg_score": 64.7
+      },
+      {
+        "name": "L2",
+        "avg_score": 60.7
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "First Quarter": 3
+      "First Quarter": 4
     }
   },
   "narratives": [
-    "Market was Bearish on most similar past days (0B / 2Bear / 1N).",
+    "Market was Bearish on most similar past days (0B / 3Bear / 1N).",
     "Strongest sectors on similar days: Meme, Gaming, DeFi.",
-    "Mars in Aries + Day of Mars is the dominant sky signature today."
+    "Mars in Aries + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "similarity_pct": 100.0,
       "cosmo_score": 35.2,
       "moon_phase": "First Quarter",
-      "day_ruler": "Mars",
-      "strongest_sector": "Meme",
+      "day_ruler": "Mercury",
+      "strongest_sector": "Gaming",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -94,7 +94,7 @@
     },
     {
       "date": "2026-05-25",
-      "similarity_pct": 94.6,
+      "similarity_pct": 85.7,
       "cosmo_score": 35.2,
       "moon_phase": "First Quarter",
       "day_ruler": "Moon",
@@ -102,7 +102,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 94.6,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
@@ -111,13 +111,36 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Mars"
+          "Day ruler: Moon \u2192 now Mercury"
+        ]
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "similarity_pct": 85.7,
+      "cosmo_score": 35.2,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Mars",
+      "strongest_sector": "Meme",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 85.7,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase First Quarter"
+        ],
+        "different": [
+          "Day ruler: Mars \u2192 now Mercury"
         ]
       }
     },
     {
       "date": "2026-05-24",
-      "similarity_pct": 82.1,
+      "similarity_pct": 84.8,
       "cosmo_score": 35.2,
       "moon_phase": "First Quarter",
       "day_ruler": "Sun",
@@ -125,7 +148,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 82.1,
+        "similarity_pct": 84.8,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
@@ -134,14 +157,14 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Sun \u2192 now Mars",
+          "Day ruler: Sun \u2192 now Mercury",
           "Moon in: Leo \u2192 now Virgo"
         ]
       }
     },
     {
       "date": "2026-05-23",
-      "similarity_pct": 75.0,
+      "similarity_pct": 71.4,
       "cosmo_score": 57.7,
       "moon_phase": "First Quarter",
       "day_ruler": "Saturn",
@@ -149,7 +172,7 @@
       "market_direction": "Neutral",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 75.0,
+        "similarity_pct": 71.4,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
@@ -158,7 +181,7 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Saturn \u2192 now Mars",
+          "Day ruler: Saturn \u2192 now Mercury",
           "Moon in: Leo \u2192 now Virgo"
         ]
       }
