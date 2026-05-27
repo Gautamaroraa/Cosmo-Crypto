@@ -1,23 +1,23 @@
 {
   "meta": {
     "date": "2026-05-27",
-    "generated_at": "2026-05-27T22:23:17Z"
+    "generated_at": "2026-05-27T23:45:27Z"
   },
   "signals": [
-    "High funding rates: RIVER, DYDX, B \u2014 longs overcrowded, reversal risk",
-    "Negative funding: LAB, ALT, SKYAI \u2014 shorts paying, potential squeeze",
-    "Rising OI (6h): SOL, SKYAI, AAVE \u2014 fresh positions building",
-    "Top gainers today: BEAT +18.47%, XLM +9.99%, FF +9.62%",
+    "High funding rates: DYDX, RIVER, AIOT \u2014 longs overcrowded, reversal risk",
+    "Negative funding: LAB, ALT, PENDLE \u2014 shorts paying, potential squeeze",
+    "Rising OI (6h): SKYAI, BCH, AAVE \u2014 fresh positions building",
+    "Top gainers today: BEAT +20.24%, XLM +10.19%, FF +8.05%",
     "Highest volume: BTC, ETH, PAXG"
   ],
   "coins": {
     "SOLUSD": {
       "name": "SOL",
       "symbol": "SOLUSD",
-      "price": 82.661,
-      "oi_usd": 17480875.0,
-      "oi_trend": "Rising",
-      "oi_change_6h": 268386.0,
+      "price": 82.312,
+      "oi_usd": 17790278.0,
+      "oi_trend": "Falling",
+      "oi_change_6h": -169758.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -28,13 +28,13 @@
     "BNBUSD": {
       "name": "BNB",
       "symbol": "BNBUSD",
-      "price": 649.45,
-      "oi_usd": 345054.0,
+      "price": 649.11,
+      "oi_usd": 344790.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -10914.0,
+      "oi_change_6h": -13170.0,
       "funding": {
-        "rate": 2.5589,
-        "annualized": 2802.0,
+        "rate": 2.2401,
+        "annualized": 2452.9,
         "sentiment": "Long Heavy"
       },
       "ls_ratio": null
@@ -42,10 +42,10 @@
     "XRPUSD": {
       "name": "XRP",
       "symbol": "XRPUSD",
-      "price": 1.3154,
-      "oi_usd": 3664492.0,
+      "price": 1.3066,
+      "oi_usd": 3705451.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -10016.0,
+      "oi_change_6h": -32785.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -56,10 +56,10 @@
     "ADAUSD": {
       "name": "ADA",
       "symbol": "ADAUSD",
-      "price": 0.2374,
-      "oi_usd": 572395.0,
+      "price": 0.2369,
+      "oi_usd": 586631.0,
       "oi_trend": "Rising",
-      "oi_change_6h": 15685.0,
+      "oi_change_6h": 22353.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -70,10 +70,10 @@
     "AVAXUSD": {
       "name": "AVAX",
       "symbol": "AVAXUSD",
-      "price": 9.048,
-      "oi_usd": 403622.0,
+      "price": 9.04,
+      "oi_usd": 349430.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -6947.0,
+      "oi_change_6h": -71889.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -84,10 +84,10 @@
     "DOTUSD": {
       "name": "DOT",
       "symbol": "DOTUSD",
-      "price": 1.234,
-      "oi_usd": 161221.0,
+      "price": 1.226,
+      "oi_usd": 159797.0,
       "oi_trend": "Rising",
-      "oi_change_6h": 6814.0,
+      "oi_change_6h": 5444.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -98,10 +98,10 @@
     "LINKUSD": {
       "name": "LINK",
       "symbol": "LINKUSD",
-      "price": 9.128,
-      "oi_usd": 420532.0,
+      "price": 9.132,
+      "oi_usd": 419456.0,
       "oi_trend": "Rising",
-      "oi_change_6h": 26989.0,
+      "oi_change_6h": 26465.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -113,9 +113,9 @@
       "name": "ARB",
       "symbol": "ARBUSD",
       "price": 0.1064,
-      "oi_usd": 84951.0,
+      "oi_usd": 84568.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -41595.0,
+      "oi_change_6h": -42302.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -126,10 +126,10 @@
     "OPUSD": {
       "name": "OP",
       "symbol": "OPUSD",
-      "price": 0.1242,
-      "oi_usd": 18773.0,
+      "price": 0.1232,
+      "oi_usd": 18534.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -2.0,
+      "oi_change_6h": -106.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -140,13 +140,13 @@
     "INJUSD": {
       "name": "INJ",
       "symbol": "INJUSD",
-      "price": 5.428,
-      "oi_usd": 19616.0,
+      "price": 5.449,
+      "oi_usd": 19857.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -4246.0,
+      "oi_change_6h": -4404.0,
       "funding": {
-        "rate": -2.5993,
-        "annualized": -2846.2,
+        "rate": -2.7299,
+        "annualized": -2989.2,
         "sentiment": "Short Heavy"
       },
       "ls_ratio": null
@@ -154,13 +154,13 @@
     "APTUSD": {
       "name": "APT",
       "symbol": "APTUSD",
-      "price": 0.942,
-      "oi_usd": 25130.0,
+      "price": 0.945,
+      "oi_usd": 25484.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -1208.0,
+      "oi_change_6h": -2950.0,
       "funding": {
-        "rate": -3.3641,
-        "annualized": -3683.6,
+        "rate": -3.021,
+        "annualized": -3308.0,
         "sentiment": "Short Heavy"
       },
       "ls_ratio": null
@@ -168,13 +168,13 @@
     "SUIUSD": {
       "name": "SUI",
       "symbol": "SUIUSD",
-      "price": 0.9633,
-      "oi_usd": 327824.0,
-      "oi_trend": "Falling",
-      "oi_change_6h": -18199.0,
+      "price": 0.9598,
+      "oi_usd": 328389.0,
+      "oi_trend": "Rising",
+      "oi_change_6h": 1375.0,
       "funding": {
-        "rate": 1.1388,
-        "annualized": 1246.9,
+        "rate": 1.1571,
+        "annualized": 1267.1,
         "sentiment": "Long Heavy"
       },
       "ls_ratio": null
@@ -182,13 +182,13 @@
     "DOGEUSD": {
       "name": "DOGE",
       "symbol": "DOGEUSD",
-      "price": 0.1008,
-      "oi_usd": 707084.0,
-      "oi_trend": "Rising",
-      "oi_change_6h": 25613.0,
+      "price": 0.1004,
+      "oi_usd": 702309.0,
+      "oi_trend": "Falling",
+      "oi_change_6h": -21698.0,
       "funding": {
-        "rate": 1.3422,
-        "annualized": 1469.7,
+        "rate": 1.0,
+        "annualized": 1095.0,
         "sentiment": "Long Heavy"
       },
       "ls_ratio": null
@@ -196,13 +196,13 @@
     "UNIUSD": {
       "name": "UNI",
       "symbol": "UNIUSD",
-      "price": 3.225,
-      "oi_usd": 144374.0,
-      "oi_trend": "Rising",
-      "oi_change_6h": 11434.0,
+      "price": 3.09,
+      "oi_usd": 125259.0,
+      "oi_trend": "Falling",
+      "oi_change_6h": -18550.0,
       "funding": {
-        "rate": 0.9159,
-        "annualized": 1002.9,
+        "rate": 0.3648,
+        "annualized": 399.5,
         "sentiment": "Long Heavy"
       },
       "ls_ratio": null
@@ -210,10 +210,10 @@
     "BTCUSD": {
       "name": "BTC",
       "symbol": "BTCUSD",
-      "price": 74540.0,
-      "oi_usd": 76338566.0,
+      "price": 74384.0,
+      "oi_usd": 77967542.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -4386816.0,
+      "oi_change_6h": -4992465.0,
       "funding": {
         "rate": 1.0,
         "annualized": 1095.0,
@@ -224,13 +224,13 @@
     "ETHUSD": {
       "name": "ETH",
       "symbol": "ETHUSD",
-      "price": 2024.75,
-      "oi_usd": 45118959.0,
+      "price": 2022.05,
+      "oi_usd": 46877627.0,
       "oi_trend": "Falling",
-      "oi_change_6h": -5137773.0,
+      "oi_change_6h": -5697301.0,
       "funding": {
-        "rate": 0.7468,
-        "annualized": 817.8,
+        "rate": 0.4486,
+        "annualized": 491.2,
         "sentiment": "Long Heavy"
       },
       "ls_ratio": null
@@ -241,210 +241,202 @@
       {
         "symbol": "BTCUSD",
         "name": "BTC",
-        "oi_usd": 76338566.0,
-        "oi_change_6h": -4386816.0,
-        "price": 74540.0,
-        "change_pct": -1.61
+        "oi_usd": 77967542.0,
+        "oi_change_6h": -4992465.0,
+        "price": 74384.0,
+        "change_pct": -2.03
       },
       {
         "symbol": "ETHUSD",
         "name": "ETH",
-        "oi_usd": 45118959.0,
-        "oi_change_6h": -5137773.0,
-        "price": 2024.75,
-        "change_pct": -2.19
+        "oi_usd": 46877627.0,
+        "oi_change_6h": -5697301.0,
+        "price": 2022.05,
+        "change_pct": -2.56
       },
       {
         "symbol": "SOLUSD",
         "name": "SOL",
-        "oi_usd": 17480875.0,
-        "oi_change_6h": 268386.0,
-        "price": 82.661,
-        "change_pct": -1.27
+        "oi_usd": 17790278.0,
+        "oi_change_6h": -169758.0,
+        "price": 82.312,
+        "change_pct": -1.76
       },
       {
         "symbol": "PAXGUSD",
         "name": "PAXG",
-        "oi_usd": 11955676.0,
-        "oi_change_6h": -1093131.0,
-        "price": 4458.3,
-        "change_pct": -1.16
+        "oi_usd": 11527656.0,
+        "oi_change_6h": -829772.0,
+        "price": 4447.2,
+        "change_pct": -1.8
       },
       {
         "symbol": "XAUTUSD",
         "name": "XAUT",
-        "oi_usd": 5182862.0,
-        "oi_change_6h": -1103152.0,
-        "price": 4457.38,
-        "change_pct": -1.11
+        "oi_usd": 4796924.0,
+        "oi_change_6h": -56390.0,
+        "price": 4446.09,
+        "change_pct": -1.72
       },
       {
         "symbol": "XRPUSD",
         "name": "XRP",
-        "oi_usd": 3664492.0,
-        "oi_change_6h": -10016.0,
-        "price": 1.3154,
-        "change_pct": -1.16
+        "oi_usd": 3705451.0,
+        "oi_change_6h": -32785.0,
+        "price": 1.3066,
+        "change_pct": -1.8
       },
       {
         "symbol": "SLVONUSD",
         "name": "SLVON",
-        "oi_usd": 1723082.0,
-        "oi_change_6h": -27991.0,
-        "price": 67.95,
-        "change_pct": -2.68
+        "oi_usd": 1718862.0,
+        "oi_change_6h": -17366.0,
+        "price": 67.56,
+        "change_pct": -3.44
       },
       {
         "symbol": "DOGEUSD",
         "name": "DOGE",
-        "oi_usd": 707084.0,
-        "oi_change_6h": 25613.0,
-        "price": 0.1008,
-        "change_pct": -0.33
+        "oi_usd": 702309.0,
+        "oi_change_6h": -21698.0,
+        "price": 0.1004,
+        "change_pct": -0.93
       },
       {
         "symbol": "RIVERUSD",
         "name": "RIVER",
-        "oi_usd": 705182.0,
-        "oi_change_6h": -543378.0,
-        "price": 7.25,
-        "change_pct": 6.21
+        "oi_usd": 665157.0,
+        "oi_change_6h": -542967.0,
+        "price": 7.126,
+        "change_pct": 6.18
       },
       {
         "symbol": "LTCUSD",
         "name": "LTC",
-        "oi_usd": 646310.0,
-        "oi_change_6h": 4085.0,
-        "price": 52.13,
-        "change_pct": 0.21
+        "oi_usd": 641730.0,
+        "oi_change_6h": -680.0,
+        "price": 51.86,
+        "change_pct": -0.12
       }
     ],
     "rising_oi": [
       {
-        "symbol": "SOLUSD",
-        "name": "SOL",
-        "oi_usd": 17480875.0,
-        "oi_change_6h": 268386.0,
-        "price": 82.661,
-        "change_pct": -1.27
-      },
-      {
         "symbol": "SKYAIUSD",
         "name": "SKYAI",
-        "oi_usd": 345299.0,
-        "oi_change_6h": 126965.0,
-        "price": 0.1818,
-        "change_pct": -17.85
+        "oi_usd": 398312.0,
+        "oi_change_6h": 189021.0,
+        "price": 0.1974,
+        "change_pct": -11.13
+      },
+      {
+        "symbol": "BCHUSD",
+        "name": "BCH",
+        "oi_usd": 464934.0,
+        "oi_change_6h": 39175.0,
+        "price": 333.5,
+        "change_pct": -2.87
       },
       {
         "symbol": "AAVEUSD",
         "name": "AAVE",
-        "oi_usd": 440484.0,
-        "oi_change_6h": 49600.0,
-        "price": 83.83,
-        "change_pct": -2.5
+        "oi_usd": 448812.0,
+        "oi_change_6h": 29187.0,
+        "price": 83.21,
+        "change_pct": -3.04
       },
       {
         "symbol": "LINKUSD",
         "name": "LINK",
-        "oi_usd": 420532.0,
-        "oi_change_6h": 26989.0,
-        "price": 9.128,
-        "change_pct": -2.56
+        "oi_usd": 419456.0,
+        "oi_change_6h": 26465.0,
+        "price": 9.132,
+        "change_pct": -2.78
       },
       {
-        "symbol": "DOGEUSD",
-        "name": "DOGE",
-        "oi_usd": 707084.0,
-        "oi_change_6h": 25613.0,
-        "price": 0.1008,
-        "change_pct": -0.33
+        "symbol": "BLURUSD",
+        "name": "BLUR",
+        "oi_usd": 59684.0,
+        "oi_change_6h": 22595.0,
+        "price": 0.0214,
+        "change_pct": -1.56
       }
     ],
     "falling_oi": [
       {
         "symbol": "ETHUSD",
         "name": "ETH",
-        "oi_usd": 45118959.0,
-        "oi_change_6h": -5137773.0,
-        "price": 2024.75,
-        "change_pct": -2.19
+        "oi_usd": 46877627.0,
+        "oi_change_6h": -5697301.0,
+        "price": 2022.05,
+        "change_pct": -2.56
       },
       {
         "symbol": "BTCUSD",
         "name": "BTC",
-        "oi_usd": 76338566.0,
-        "oi_change_6h": -4386816.0,
-        "price": 74540.0,
-        "change_pct": -1.61
-      },
-      {
-        "symbol": "XAUTUSD",
-        "name": "XAUT",
-        "oi_usd": 5182862.0,
-        "oi_change_6h": -1103152.0,
-        "price": 4457.38,
-        "change_pct": -1.11
+        "oi_usd": 77967542.0,
+        "oi_change_6h": -4992465.0,
+        "price": 74384.0,
+        "change_pct": -2.03
       },
       {
         "symbol": "PAXGUSD",
         "name": "PAXG",
-        "oi_usd": 11955676.0,
-        "oi_change_6h": -1093131.0,
-        "price": 4458.3,
-        "change_pct": -1.16
+        "oi_usd": 11527656.0,
+        "oi_change_6h": -829772.0,
+        "price": 4447.2,
+        "change_pct": -1.8
       },
       {
         "symbol": "RIVERUSD",
         "name": "RIVER",
-        "oi_usd": 705182.0,
-        "oi_change_6h": -543378.0,
-        "price": 7.25,
-        "change_pct": 6.21
+        "oi_usd": 665157.0,
+        "oi_change_6h": -542967.0,
+        "price": 7.126,
+        "change_pct": 6.18
+      },
+      {
+        "symbol": "HUSD",
+        "name": "H",
+        "oi_usd": 136838.0,
+        "oi_change_6h": -383976.0,
+        "price": 0.227,
+        "change_pct": -9.18
       }
     ]
   },
   "funding": {
     "all": [
       {
-        "symbol": "RIVERUSD",
-        "name": "RIVER",
-        "rate": 17.5136,
-        "annualized": 19177.4,
+        "symbol": "DYDXUSD",
+        "name": "DYDX",
+        "rate": 19.3224,
+        "annualized": 21158.1,
         "sentiment": "Strongly Long",
         "signal": "BEARISH"
       },
       {
         "symbol": "LABUSD",
         "name": "LAB",
-        "rate": -17.3197,
-        "annualized": -18965.1,
+        "rate": -17.7583,
+        "annualized": -19445.3,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       },
       {
-        "symbol": "DYDXUSD",
-        "name": "DYDX",
-        "rate": 16.4884,
-        "annualized": 18054.8,
+        "symbol": "RIVERUSD",
+        "name": "RIVER",
+        "rate": 17.0027,
+        "annualized": 18618.0,
         "sentiment": "Strongly Long",
         "signal": "BEARISH"
       },
       {
         "symbol": "ALTUSD",
         "name": "ALT",
-        "rate": -15.9603,
-        "annualized": -17476.5,
+        "rate": -13.5508,
+        "annualized": -14838.1,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
-      },
-      {
-        "symbol": "BUSD",
-        "name": "B",
-        "rate": 11.1646,
-        "annualized": 12225.2,
-        "sentiment": "Strongly Long",
-        "signal": "BEARISH"
       },
       {
         "symbol": "AIOTUSD",
@@ -455,140 +447,140 @@
         "signal": "BEARISH"
       },
       {
-        "symbol": "SKYAIUSD",
-        "name": "SKYAI",
-        "rate": -10.6288,
-        "annualized": -11638.6,
-        "sentiment": "Short Heavy",
-        "signal": "BULLISH"
+        "symbol": "BUSD",
+        "name": "B",
+        "rate": 10.9754,
+        "annualized": 12018.1,
+        "sentiment": "Strongly Long",
+        "signal": "BEARISH"
       },
       {
         "symbol": "PENDLEUSD",
         "name": "PENDLE",
-        "rate": -10.2585,
-        "annualized": -11233.1,
+        "rate": -10.4546,
+        "annualized": -11447.8,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       },
       {
         "symbol": "MUSD",
         "name": "M",
-        "rate": 10.2374,
-        "annualized": 11210.0,
+        "rate": 10.349,
+        "annualized": 11332.1,
         "sentiment": "Strongly Long",
         "signal": "BEARISH"
-      },
-      {
-        "symbol": "SAGAUSD",
-        "name": "SAGA",
-        "rate": 9.5954,
-        "annualized": 10507.0,
-        "sentiment": "Strongly Long",
-        "signal": "BEARISH"
-      },
-      {
-        "symbol": "PEOPLEUSD",
-        "name": "PEOPLE",
-        "rate": -8.9807,
-        "annualized": -9833.9,
-        "sentiment": "Short Heavy",
-        "signal": "BULLISH"
-      },
-      {
-        "symbol": "RUNEUSD",
-        "name": "RUNE",
-        "rate": -8.9457,
-        "annualized": -9795.5,
-        "sentiment": "Short Heavy",
-        "signal": "BULLISH"
       },
       {
         "symbol": "SEIUSD",
         "name": "SEI",
-        "rate": -8.853,
-        "annualized": -9694.1,
+        "rate": -9.8614,
+        "annualized": -10798.2,
+        "sentiment": "Short Heavy",
+        "signal": "BULLISH"
+      },
+      {
+        "symbol": "SKYAIUSD",
+        "name": "SKYAI",
+        "rate": -9.4993,
+        "annualized": -10401.7,
+        "sentiment": "Short Heavy",
+        "signal": "BULLISH"
+      },
+      {
+        "symbol": "HANAUSD",
+        "name": "HANA",
+        "rate": 9.2223,
+        "annualized": 10098.4,
+        "sentiment": "Strongly Long",
+        "signal": "BEARISH"
+      },
+      {
+        "symbol": "RUNEUSD",
+        "name": "RUNE",
+        "rate": -9.1083,
+        "annualized": -9973.6,
+        "sentiment": "Short Heavy",
+        "signal": "BULLISH"
+      },
+      {
+        "symbol": "PEOPLEUSD",
+        "name": "PEOPLE",
+        "rate": -8.7688,
+        "annualized": -9601.8,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       },
       {
         "symbol": "SIRENUSD",
         "name": "SIREN",
-        "rate": -8.2451,
-        "annualized": -9028.4,
+        "rate": -8.3119,
+        "annualized": -9101.5,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       },
       {
-        "symbol": "VVVUSD",
-        "name": "VVV",
-        "rate": 8.2234,
-        "annualized": 9004.7,
+        "symbol": "PIPPINUSD",
+        "name": "PIPPIN",
+        "rate": 8.2401,
+        "annualized": 9022.9,
+        "sentiment": "Strongly Long",
+        "signal": "BEARISH"
+      },
+      {
+        "symbol": "SAGAUSD",
+        "name": "SAGA",
+        "rate": 8.1991,
+        "annualized": 8978.1,
+        "sentiment": "Strongly Long",
+        "signal": "BEARISH"
+      },
+      {
+        "symbol": "AVAAIUSD",
+        "name": "AVAAI",
+        "rate": 7.7007,
+        "annualized": 8432.2,
         "sentiment": "Strongly Long",
         "signal": "BEARISH"
       },
       {
         "symbol": "XANUSD",
         "name": "XAN",
-        "rate": 8.1915,
-        "annualized": 8969.7,
-        "sentiment": "Strongly Long",
-        "signal": "BEARISH"
-      },
-      {
-        "symbol": "HANAUSD",
-        "name": "HANA",
-        "rate": 7.9383,
-        "annualized": 8692.4,
-        "sentiment": "Strongly Long",
-        "signal": "BEARISH"
-      },
-      {
-        "symbol": "PIPPINUSD",
-        "name": "PIPPIN",
-        "rate": 7.7979,
-        "annualized": 8538.7,
+        "rate": 7.4198,
+        "annualized": 8124.7,
         "sentiment": "Strongly Long",
         "signal": "BEARISH"
       },
       {
         "symbol": "ZECUSD",
         "name": "ZEC",
-        "rate": -7.6074,
-        "annualized": -8330.1,
+        "rate": -7.3156,
+        "annualized": -8010.6,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       },
       {
-        "symbol": "POPCATUSD",
-        "name": "POPCAT",
-        "rate": -7.2842,
-        "annualized": -7976.2,
-        "sentiment": "Short Heavy",
-        "signal": "BULLISH"
+        "symbol": "VVVUSD",
+        "name": "VVV",
+        "rate": 7.177,
+        "annualized": 7858.8,
+        "sentiment": "Strongly Long",
+        "signal": "BEARISH"
       }
     ],
     "high_funding": [
       {
-        "symbol": "RIVERUSD",
-        "name": "RIVER",
-        "rate": 17.5136,
-        "annualized": 19177.4,
-        "sentiment": "Strongly Long",
-        "signal": "BEARISH"
-      },
-      {
         "symbol": "DYDXUSD",
         "name": "DYDX",
-        "rate": 16.4884,
-        "annualized": 18054.8,
+        "rate": 19.3224,
+        "annualized": 21158.1,
         "sentiment": "Strongly Long",
         "signal": "BEARISH"
       },
       {
-        "symbol": "BUSD",
-        "name": "B",
-        "rate": 11.1646,
-        "annualized": 12225.2,
+        "symbol": "RIVERUSD",
+        "name": "RIVER",
+        "rate": 17.0027,
+        "annualized": 18618.0,
         "sentiment": "Strongly Long",
         "signal": "BEARISH"
       },
@@ -601,10 +593,18 @@
         "signal": "BEARISH"
       },
       {
+        "symbol": "BUSD",
+        "name": "B",
+        "rate": 10.9754,
+        "annualized": 12018.1,
+        "sentiment": "Strongly Long",
+        "signal": "BEARISH"
+      },
+      {
         "symbol": "MUSD",
         "name": "M",
-        "rate": 10.2374,
-        "annualized": 11210.0,
+        "rate": 10.349,
+        "annualized": 11332.1,
         "sentiment": "Strongly Long",
         "signal": "BEARISH"
       }
@@ -613,40 +613,40 @@
       {
         "symbol": "LABUSD",
         "name": "LAB",
-        "rate": -17.3197,
-        "annualized": -18965.1,
+        "rate": -17.7583,
+        "annualized": -19445.3,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       },
       {
         "symbol": "ALTUSD",
         "name": "ALT",
-        "rate": -15.9603,
-        "annualized": -17476.5,
-        "sentiment": "Short Heavy",
-        "signal": "BULLISH"
-      },
-      {
-        "symbol": "SKYAIUSD",
-        "name": "SKYAI",
-        "rate": -10.6288,
-        "annualized": -11638.6,
+        "rate": -13.5508,
+        "annualized": -14838.1,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       },
       {
         "symbol": "PENDLEUSD",
         "name": "PENDLE",
-        "rate": -10.2585,
-        "annualized": -11233.1,
+        "rate": -10.4546,
+        "annualized": -11447.8,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       },
       {
-        "symbol": "PEOPLEUSD",
-        "name": "PEOPLE",
-        "rate": -8.9807,
-        "annualized": -9833.9,
+        "symbol": "SEIUSD",
+        "name": "SEI",
+        "rate": -9.8614,
+        "annualized": -10798.2,
+        "sentiment": "Short Heavy",
+        "signal": "BULLISH"
+      },
+      {
+        "symbol": "SKYAIUSD",
+        "name": "SKYAI",
+        "rate": -9.4993,
+        "annualized": -10401.7,
         "sentiment": "Short Heavy",
         "signal": "BULLISH"
       }
@@ -657,96 +657,96 @@
       {
         "symbol": "BEATUSD",
         "name": "BEAT",
-        "change_pct": 18.47,
-        "volume_usd": 30791314.071999922
+        "change_pct": 20.24,
+        "volume_usd": 31093167.263999943
       },
       {
         "symbol": "XLMUSD",
         "name": "XLM",
-        "change_pct": 9.99,
-        "volume_usd": 700603.3090499999
+        "change_pct": 10.19,
+        "volume_usd": 750498.5025699998
       },
       {
         "symbol": "FFUSD",
         "name": "FF",
-        "change_pct": 9.62,
-        "volume_usd": 2528462.8709999993
-      },
-      {
-        "symbol": "ARUSD",
-        "name": "AR",
-        "change_pct": 8.66,
-        "volume_usd": 251824.873
+        "change_pct": 8.05,
+        "volume_usd": 2532011.8880000003
       },
       {
         "symbol": "SWARMSUSD",
         "name": "SWARMS",
-        "change_pct": 8.25,
-        "volume_usd": 131898.51599999997
+        "change_pct": 7.87,
+        "volume_usd": 139114.52120000002
+      },
+      {
+        "symbol": "ARUSD",
+        "name": "AR",
+        "change_pct": 7.66,
+        "volume_usd": 256631.66199999998
       }
     ],
     "top_losers": [
       {
-        "symbol": "SKYAIUSD",
-        "name": "SKYAI",
-        "change_pct": -17.85,
-        "volume_usd": 3515143.2815000014
+        "symbol": "INITUSD",
+        "name": "INIT",
+        "change_pct": -14.9,
+        "volume_usd": 96094.11400000003
       },
       {
         "symbol": "BILLUSD",
         "name": "BILL",
-        "change_pct": -14.23,
-        "volume_usd": 8972890.109999973
-      },
-      {
-        "symbol": "INITUSD",
-        "name": "INIT",
-        "change_pct": -14.14,
-        "volume_usd": 95909.55800000003
+        "change_pct": -12.94,
+        "volume_usd": 9029001.547999974
       },
       {
         "symbol": "PENDLEUSD",
         "name": "PENDLE",
-        "change_pct": -11.67,
-        "volume_usd": 783099.9742000006
+        "change_pct": -12.62,
+        "volume_usd": 783298.3573000006
       },
       {
-        "symbol": "WLDUSD",
-        "name": "WLD",
-        "change_pct": -10.03,
-        "volume_usd": 3310624.80290001
+        "symbol": "AIOTUSD",
+        "name": "AIOT",
+        "change_pct": -12.33,
+        "volume_usd": 50055.16000000003
+      },
+      {
+        "symbol": "MUBARAKUSD",
+        "name": "MUBARAK",
+        "change_pct": -11.98,
+        "volume_usd": 90666.71169999997
       }
     ],
     "top_volume": [
       {
         "symbol": "BTCUSD",
         "name": "BTC",
-        "change_pct": -1.61,
-        "volume_usd": 693409764.0764953
+        "change_pct": -2.03,
+        "volume_usd": 699292302.574497
       },
       {
         "symbol": "ETHUSD",
         "name": "ETH",
-        "change_pct": -2.19,
-        "volume_usd": 464417785.4670001
+        "change_pct": -2.56,
+        "volume_usd": 468130459.4359999
       },
       {
         "symbol": "PAXGUSD",
         "name": "PAXG",
-        "change_pct": -1.16,
-        "volume_usd": 107204853.8401893
+        "change_pct": -1.8,
+        "volume_usd": 106774175.44680919
       },
       {
         "symbol": "XAUTUSD",
         "name": "XAUT",
-        "change_pct": -1.11,
-        "volume_usd": 96147032.64868984
+        "change_pct": -1.72,
+        "volume_usd": 95206975.61490983
       },
       {
         "symbol": "SOLUSD",
         "name": "SOL",
-        "change_pct": -1.27,
-        "volume_usd": 77411901.19339985
+        "change_pct": -1.76,
+        "volume_usd": 78281307.09049982
       }
     ]
   },
@@ -757,96 +757,96 @@
       {
         "symbol": "BEATUSD",
         "name": "BEAT",
-        "change_pct": 18.47,
-        "volume_usd": 30791314.071999922
+        "change_pct": 20.24,
+        "volume_usd": 31093167.263999943
       },
       {
         "symbol": "XLMUSD",
         "name": "XLM",
-        "change_pct": 9.99,
-        "volume_usd": 700603.3090499999
+        "change_pct": 10.19,
+        "volume_usd": 750498.5025699998
       },
       {
         "symbol": "FFUSD",
         "name": "FF",
-        "change_pct": 9.62,
-        "volume_usd": 2528462.8709999993
-      },
-      {
-        "symbol": "ARUSD",
-        "name": "AR",
-        "change_pct": 8.66,
-        "volume_usd": 251824.873
+        "change_pct": 8.05,
+        "volume_usd": 2532011.8880000003
       },
       {
         "symbol": "SWARMSUSD",
         "name": "SWARMS",
-        "change_pct": 8.25,
-        "volume_usd": 131898.51599999997
+        "change_pct": 7.87,
+        "volume_usd": 139114.52120000002
+      },
+      {
+        "symbol": "ARUSD",
+        "name": "AR",
+        "change_pct": 7.66,
+        "volume_usd": 256631.66199999998
       }
     ],
     "top_losers": [
       {
-        "symbol": "SKYAIUSD",
-        "name": "SKYAI",
-        "change_pct": -17.85,
-        "volume_usd": 3515143.2815000014
+        "symbol": "INITUSD",
+        "name": "INIT",
+        "change_pct": -14.9,
+        "volume_usd": 96094.11400000003
       },
       {
         "symbol": "BILLUSD",
         "name": "BILL",
-        "change_pct": -14.23,
-        "volume_usd": 8972890.109999973
-      },
-      {
-        "symbol": "INITUSD",
-        "name": "INIT",
-        "change_pct": -14.14,
-        "volume_usd": 95909.55800000003
+        "change_pct": -12.94,
+        "volume_usd": 9029001.547999974
       },
       {
         "symbol": "PENDLEUSD",
         "name": "PENDLE",
-        "change_pct": -11.67,
-        "volume_usd": 783099.9742000006
+        "change_pct": -12.62,
+        "volume_usd": 783298.3573000006
       },
       {
-        "symbol": "WLDUSD",
-        "name": "WLD",
-        "change_pct": -10.03,
-        "volume_usd": 3310624.80290001
+        "symbol": "AIOTUSD",
+        "name": "AIOT",
+        "change_pct": -12.33,
+        "volume_usd": 50055.16000000003
+      },
+      {
+        "symbol": "MUBARAKUSD",
+        "name": "MUBARAK",
+        "change_pct": -11.98,
+        "volume_usd": 90666.71169999997
       }
     ],
     "top_volume": [
       {
         "symbol": "BTCUSD",
         "name": "BTC",
-        "change_pct": -1.61,
-        "volume_usd": 693409764.0764953
+        "change_pct": -2.03,
+        "volume_usd": 699292302.574497
       },
       {
         "symbol": "ETHUSD",
         "name": "ETH",
-        "change_pct": -2.19,
-        "volume_usd": 464417785.4670001
+        "change_pct": -2.56,
+        "volume_usd": 468130459.4359999
       },
       {
         "symbol": "PAXGUSD",
         "name": "PAXG",
-        "change_pct": -1.16,
-        "volume_usd": 107204853.8401893
+        "change_pct": -1.8,
+        "volume_usd": 106774175.44680919
       },
       {
         "symbol": "XAUTUSD",
         "name": "XAUT",
-        "change_pct": -1.11,
-        "volume_usd": 96147032.64868984
+        "change_pct": -1.72,
+        "volume_usd": 95206975.61490983
       },
       {
         "symbol": "SOLUSD",
         "name": "SOL",
-        "change_pct": -1.27,
-        "volume_usd": 77411901.19339985
+        "change_pct": -1.76,
+        "volume_usd": 78281307.09049982
       }
     ]
   }
