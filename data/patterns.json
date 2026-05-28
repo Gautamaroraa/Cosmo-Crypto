@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-05-27",
-    "generated_at": "2026-05-27T23:45:28Z"
+    "date": "2026-05-28",
+    "generated_at": "2026-05-28T01:27:33Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -18,65 +18,66 @@
     "saturn_retro": false,
     "moon_phase": "Waxing Gibbous",
     "moon_nakshatra": "Chitra",
-    "day_ruler": "Mercury",
+    "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
     "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
-  "similar_days_found": 5,
+  "similar_days_found": 6,
   "patterns": {
     "status": "calculated",
-    "similar_days_found": 5,
-    "days_with_outcomes": 4,
+    "similar_days_found": 6,
+    "days_with_outcomes": 5,
     "overall_accuracy_pct": null,
     "avg_stock_change_pct": null,
     "direction_pattern": {
       "bullish": 0,
-      "bearish": 3,
+      "bearish": 4,
       "neutral": 1,
       "dominant": "Bearish"
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Meme",
-        "avg_score": 71.9
-      },
-      {
         "name": "Gaming",
         "avg_score": 71.7
       },
       {
-        "name": "DeFi",
-        "avg_score": 65.0
+        "name": "Meme",
+        "avg_score": 71.4
       },
       {
         "name": "L1",
-        "avg_score": 64.7
+        "avg_score": 66.5
+      },
+      {
+        "name": "DeFi",
+        "avg_score": 63.7
       },
       {
         "name": "L2",
-        "avg_score": 60.7
+        "avg_score": 59.5
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
+      "Waxing Gibbous": 1,
       "First Quarter": 4
     }
   },
   "narratives": [
-    "Market was Bearish on most similar past days (0B / 3Bear / 1N).",
-    "Strongest sectors on similar days: Meme, Gaming, DeFi.",
-    "Mars in Aries + Day of Mercury is the dominant sky signature today."
+    "Market was Bearish on most similar past days (0B / 4Bear / 1N).",
+    "Strongest sectors on similar days: Gaming, Meme, L1.",
+    "Mars in Aries + Day of Jupiter is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-05-27",
+      "date": "2026-05-28",
       "similarity_pct": 100.0,
       "cosmo_score": 35.2,
       "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Mercury",
+      "day_ruler": "Jupiter",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -90,6 +91,29 @@
           "Moon phase Waxing Gibbous"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "similarity_pct": 94.6,
+      "cosmo_score": 35.2,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 94.6,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waxing Gibbous"
+        ],
+        "different": [
+          "Day ruler: Mercury \u2192 now Jupiter"
+        ]
       }
     },
     {
@@ -112,7 +136,7 @@
         ],
         "different": [
           "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Day ruler: Moon \u2192 now Mercury",
+          "Day ruler: Moon \u2192 now Jupiter",
           "Moon in: Virgo \u2192 now Libra"
         ]
       }
@@ -137,7 +161,7 @@
         ],
         "different": [
           "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Day ruler: Mars \u2192 now Mercury",
+          "Day ruler: Mars \u2192 now Jupiter",
           "Moon in: Virgo \u2192 now Libra"
         ]
       }
@@ -162,32 +186,7 @@
         ],
         "different": [
           "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Day ruler: Sun \u2192 now Mercury",
-          "Moon in: Leo \u2192 now Libra"
-        ]
-      }
-    },
-    {
-      "date": "2026-05-23",
-      "similarity_pct": 68.8,
-      "cosmo_score": 57.7,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "",
-      "market_direction": "Neutral",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 68.8,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Gemini",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Day ruler: Saturn \u2192 now Mercury",
+          "Day ruler: Sun \u2192 now Jupiter",
           "Moon in: Leo \u2192 now Libra"
         ]
       }

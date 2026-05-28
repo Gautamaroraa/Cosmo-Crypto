@@ -1,8 +1,8 @@
 {
   "meta": {
-    "date": "2026-05-27",
-    "generated_at": "2026-05-27T23:45:28Z",
-    "total_days": 5
+    "date": "2026-05-28",
+    "generated_at": "2026-05-28T01:27:33Z",
+    "total_days": 6
   },
   "today": {
     "confidence_score": 50,
@@ -11,20 +11,53 @@
     "warnings": []
   },
   "calibration": {
-    "status": "insufficient_data",
-    "days_needed": 1,
-    "days_available": 4
+    "status": "calculated",
+    "buckets": {
+      "80-100": {
+        "accuracy_pct": null,
+        "avg_change_pct": null,
+        "sample_size": 0,
+        "correct_calls": 0
+      },
+      "65-79": {
+        "accuracy_pct": null,
+        "avg_change_pct": null,
+        "sample_size": 0,
+        "correct_calls": 0
+      },
+      "50-64": {
+        "accuracy_pct": null,
+        "avg_change_pct": null,
+        "sample_size": 0,
+        "correct_calls": 0
+      },
+      "35-49": {
+        "accuracy_pct": null,
+        "avg_change_pct": null,
+        "sample_size": 0,
+        "correct_calls": 0
+      },
+      "0-34": {
+        "accuracy_pct": null,
+        "avg_change_pct": null,
+        "sample_size": 0,
+        "correct_calls": 0
+      }
+    }
   },
   "condition_confidence": {
-    "status": "insufficient_data"
+    "status": "calculated",
+    "moon_phase": {},
+    "day_ruler": {},
+    "sector": {}
   },
   "refinement_suggestions": {
     "status": "insufficient_data",
-    "message": "Need 15 days with outcomes. Have 4."
+    "message": "Need 15 days with outcomes. Have 5."
   },
   "data_quality": {
-    "days_total": 5,
-    "days_with_outcomes": 4,
+    "days_total": 6,
+    "days_with_outcomes": 5,
     "calibration_ready": true,
     "refinement_ready": false,
     "full_confidence_ready": false
