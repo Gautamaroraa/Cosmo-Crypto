@@ -562,7 +562,7 @@ def run_strategy_engine():
 
     # Generate setups
     all_setups = []
-    for coin_raw in coins[:20]:
+    for coin_raw in coins:
         name = coin_raw.get('name','')
         if not name: continue
         coin = get_coin(latest, fno, name)
