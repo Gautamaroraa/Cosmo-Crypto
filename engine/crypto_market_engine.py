@@ -16,14 +16,70 @@ MARKET_OUT = os.path.join(DATA_DIR, 'market_data.json')
 BASE_URL   = 'https://api.india.delta.exchange'
 
 COINS = {
-    'L1':     [('SOL','SOLUSD'),('BNB','BNBUSD'),('XRP','XRPUSD'),('ADA','ADAUSD'),
-               ('AVAX','AVAXUSD'),('DOT','DOTUSD'),('ATOM','ATOMUSD'),('APT','APTUSD'),
-               ('SUI','SUIUSD'),('TIA','TIAUSD')],
-    'DeFi':   [('LINK','LINKUSD'),('UNI','UNIUSD'),('AAVE','AAVEUSD'),('LDO','LDOUSD'),('ENA','ENAUSD')],
-    'L2':     [('POL','POLUSD'),('ARB','ARBUSD'),('OP','OPUSD'),('STRK','STRKUSD')],
-    'Infra':  [('INJ','INJUSD'),('SEI','SEIUSD'),('RUNE','RUNEUSD'),('TAO','TAOUSD')],
-    'Meme':   [('DOGE','DOGEUSD'),('1000SHIB','1000SHIBUSD'),('1000PEPE','1000PEPEUSD'),('1000FLOKI','1000FLOKIUSD')],
-    'Gaming': [('AXS','AXSUSD'),('SAND','SANDUSD'),('MANA','MANAUSD'),('IMX','IMXUSD')],
+    'L1': [
+        ('SOL','SOLUSD'),('BNB','BNBUSD'),('XRP','XRPUSD'),('ADA','ADAUSD'),
+        ('AVAX','AVAXUSD'),('DOT','DOTUSD'),('APT','APTUSD'),('SUI','SUIUSD'),
+        ('TIA','TIAUSD'),('NEAR','NEARUSD'),('TRX','TRXUSD'),('XLM','XLMUSD'),
+        ('HBAR','HBARUSD'),('TON','TONUSD'),('LTC','LTCUSD'),('BCH','BCHUSD'),
+        ('ETC','ETCUSD'),('DASH','DASHUSD'),('ZEC','ZECUSD'),('KSM','KSMUSD'),
+        ('TAO','TAOUSD'),('PI','PIUSD'),('IOTA','IOTAUSD'),
+    ],
+    'DeFi': [
+        ('LINK','LINKUSD'),('UNI','UNIUSD'),('AAVE','AAVEUSD'),('LDO','LDOUSD'),
+        ('ENA','ENAUSD'),('PENDLE','PENDLEUSD'),('SUSHI','SUSHIUSD'),('CAKE','CAKEUSD'),
+        ('DYDX','DYDXUSD'),('RUNE','RUNEUSD'),('ONDO','ONDOUSD'),('JUP','JUPUSD'),
+        ('JTO','JTOUSD'),('ZRO','ZROUSD'),('EIGEN','EIGENUSD'),('ETHFI','ETHFIUSD'),
+        ('FRAX','FRAXUSD'),('API3','API3USD'),('GLM','GLMUSD'),('USUAL','USUALUSD'),
+        ('LISTA','LISTAUSD'),
+    ],
+    'L2': [
+        ('POL','POLUSD'),('ARB','ARBUSD'),('OP','OPUSD'),('STRK','STRKUSD'),
+        ('ZK','ZKUSD'),('MANTA','MANTAUSD'),('BLUR','BLURUSD'),('SKL','SKLUSD'),
+        ('LAYER','LAYERUSD'),('MOVE','MOVEUSD'),
+    ],
+    'Infra': [
+        ('INJ','INJUSD'),('SEI','SEIUSD'),('IO','IOUSD'),
+        ('AR','ARUSD'),('FIL','FILUSD'),('ORDI','ORDIUSD'),('STX','STXUSD'),
+        ('HYPE','HYPEUSD'),('VVV','VVVUSD'),('DEEP','DEEPUSD'),('SONIC','SONICUSD'),
+        ('BERA','BERAUSD'),('IP','IPUSD'),('PROVE','PROVEUSD'),('INIT','INITUSD'),
+        ('CROSS','CROSSUSD'),('LIGHT','LIGHTUSD'),('ASTER','ASTERUSD'),
+    ],
+    'AI': [
+        ('VIRTUAL','VIRTUALUSD'),('AIXBT','AIXBTUSD'),('AIGSYN','AIGENSYNUSD'),
+        ('SKYAI','SKYAIUSD'),('KAITO','KAITOUSD'),('COOKIE','COOKIEUSD'),('WLD','WLDUSD'),
+        ('COAI','COAIUSD'),('ORDER','ORDERUSD'),('TNSR','TNSRUSD'),('VANA','VANAUSD'),
+        ('AIOT','AIOTUSD'),('AIO','AIOUSD'),('AVAI','AVAAIUSD'),('AIN','AINUSD'),
+    ],
+    'Meme': [
+        ('DOGE','DOGEUSD'),('1000SHIB','1000SHIBUSD'),('1000PEPE','1000PEPEUSD'),
+        ('1000FLOKI','1000FLOKIUSD'),('1000BONK','1000BONKUSD'),('1000SATS','1000SATSUSD'),
+        ('1MBABYDOGE','1MBABYDOGEUSD'),('DOGS','DOGSUSD'),('NEIRO','NEIROUSD'),
+        ('MEME','MEMEUSD'),('POPCAT','POPCATUSD'),('GOAT','GOATUSD'),('PNUT','PNUTUSD'),
+        ('WIF','WIFUSD'),('MOODENG','MOODENGUSD'),('PEOPLE','PEOPLEUSD'),('TRUMP','TRUMPUSD'),
+        ('MELANIA','MELANIAUSD'),('FARTCOIN','FARTCOINUSD'),('ACT','ACTUSD'),
+    ],
+    'Gaming': [
+        ('AXS','AXSUSD'),('MANA','MANAUSD'),('GALA','GALAUSD'),('ENJ','ENJUSD'),
+        ('RARE','RAREUSD'),('IMX','IMXUSD'),('SPX','SPXUSD'),
+    ],
+    'Payments': [
+        ('RSR','RSRUSD'),('JASMY','JASMYUSD'),('XAN','XANUSD'),
+    ],
+    'Emerging': [
+        ('SWARMS','SWARMSUSD'),('BILL','BILLUSD'),('EDEN','EDENUSD'),('PIPPIN','PIPPINUSD'),
+        ('PUMP','PUMPUSD'),('BEAT','BEATUSD'),('XPL','XPLUSD'),('ARC','ARCUSD'),
+        ('SAGA','SAGAUSD'),('HANA','HANAUSD'),('MUBARAK','MUBARAKUSD'),('LAB','LABUSD'),
+        ('FF','FFUSD'),('TST','TSTUSD'),('BIO','BIOUSD'),('STBL','STBLUSD'),
+        ('PART','PARTIUSD'),('MON','MONUSD'),('MMT','MMTUSD'),('RAVE','RAVEUSD'),
+        ('ZORA','ZORAUSD'),('SIGN','SIGNUSD'),('XAI','XAIUSD'),('ARIA','ARIAUSD'),
+        ('BMT','BMTUSD'),('CHIP','CHIPUSD'),('SOPH','SOPHUSD'),('WCT','WCTUSD'),
+        ('SIREN','SIRENUSD'),('SUN','SUNUSD'),('HIVE','HIVEUSD'),('KITE','KITEUSD'),
+        ('BASED','BASEDUSD'),('ME','MEUSD'),('MASK','MASKUSD'),('WLFI','WLFIUSD'),
+        ('EVAA','EVAAUSD'),('LIT','LITUSD'),('DUSK','DUSKUSD'),('RED','REDUSD'),
+        ('PIEVERSE','PIEVERSEUSD'),('ALT','ALTUSD'),('SOLV','SOLVUSD'),('GRIFFAIN','GRIFFAINUSD'),
+        ('BLESS','BLESSUSD'),('NOT','NOTUSD'),('TOWNS','TOWNSUSD'),('ZEN','ZENUSD'),
+        ('AUCTION','AUCTIONUSD'),('TRB','TRBUSD'),
+    ],
 }
 
 ALL_COINS  = [c for coins in COINS.values() for c in coins]
