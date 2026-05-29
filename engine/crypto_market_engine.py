@@ -15,76 +15,103 @@ DATA_DIR   = os.path.join(os.path.dirname(__file__), '..', 'data')
 MARKET_OUT = os.path.join(DATA_DIR, 'market_data.json')
 BASE_URL   = 'https://api.india.delta.exchange'
 
-COINS = {
-    'L1': [
-        ('SOL','SOLUSD'),('BNB','BNBUSD'),('XRP','XRPUSD'),('ADA','ADAUSD'),
-        ('AVAX','AVAXUSD'),('DOT','DOTUSD'),('APT','APTUSD'),('SUI','SUIUSD'),
-        ('TIA','TIAUSD'),('NEAR','NEARUSD'),('TRX','TRXUSD'),('XLM','XLMUSD'),
-        ('HBAR','HBARUSD'),('TON','TONUSD'),('LTC','LTCUSD'),('BCH','BCHUSD'),
-        ('ETC','ETCUSD'),('DASH','DASHUSD'),('ZEC','ZECUSD'),('KSM','KSMUSD'),
-        ('TAO','TAOUSD'),('PI','PIUSD'),('IOTA','IOTAUSD'),
-    ],
-    'DeFi': [
-        ('LINK','LINKUSD'),('UNI','UNIUSD'),('AAVE','AAVEUSD'),('LDO','LDOUSD'),
-        ('ENA','ENAUSD'),('PENDLE','PENDLEUSD'),('SUSHI','SUSHIUSD'),('CAKE','CAKEUSD'),
-        ('DYDX','DYDXUSD'),('RUNE','RUNEUSD'),('ONDO','ONDOUSD'),('JUP','JUPUSD'),
-        ('JTO','JTOUSD'),('ZRO','ZROUSD'),('EIGEN','EIGENUSD'),('ETHFI','ETHFIUSD'),
-        ('FRAX','FRAXUSD'),('API3','API3USD'),('GLM','GLMUSD'),('USUAL','USUALUSD'),
-        ('LISTA','LISTAUSD'),
-    ],
-    'L2': [
-        ('POL','POLUSD'),('ARB','ARBUSD'),('OP','OPUSD'),('STRK','STRKUSD'),
-        ('ZK','ZKUSD'),('MANTA','MANTAUSD'),('BLUR','BLURUSD'),('SKL','SKLUSD'),
-        ('LAYER','LAYERUSD'),('MOVE','MOVEUSD'),
-    ],
-    'Infra': [
-        ('INJ','INJUSD'),('SEI','SEIUSD'),('IO','IOUSD'),
-        ('AR','ARUSD'),('FIL','FILUSD'),('ORDI','ORDIUSD'),('STX','STXUSD'),
-        ('HYPE','HYPEUSD'),('VVV','VVVUSD'),('DEEP','DEEPUSD'),('SONIC','SONICUSD'),
-        ('BERA','BERAUSD'),('IP','IPUSD'),('PROVE','PROVEUSD'),('INIT','INITUSD'),
-        ('CROSS','CROSSUSD'),('LIGHT','LIGHTUSD'),('ASTER','ASTERUSD'),
-    ],
-    'AI': [
-        ('VIRTUAL','VIRTUALUSD'),('AIXBT','AIXBTUSD'),('AIGSYN','AIGENSYNUSD'),
-        ('SKYAI','SKYAIUSD'),('KAITO','KAITOUSD'),('COOKIE','COOKIEUSD'),('WLD','WLDUSD'),
-        ('COAI','COAIUSD'),('ORDER','ORDERUSD'),('TNSR','TNSRUSD'),('VANA','VANAUSD'),
-        ('AIOT','AIOTUSD'),('AIO','AIOUSD'),('AVAI','AVAAIUSD'),('AIN','AINUSD'),
-    ],
-    'Meme': [
-        ('DOGE','DOGEUSD'),('1000SHIB','1000SHIBUSD'),('1000PEPE','1000PEPEUSD'),
-        ('1000FLOKI','1000FLOKIUSD'),('1000BONK','1000BONKUSD'),('1000SATS','1000SATSUSD'),
-        ('1MBABYDOGE','1MBABYDOGEUSD'),('DOGS','DOGSUSD'),('NEIRO','NEIROUSD'),
-        ('MEME','MEMEUSD'),('POPCAT','POPCATUSD'),('GOAT','GOATUSD'),('PNUT','PNUTUSD'),
-        ('WIF','WIFUSD'),('MOODENG','MOODENGUSD'),('PEOPLE','PEOPLEUSD'),('TRUMP','TRUMPUSD'),
-        ('MELANIA','MELANIAUSD'),('FARTCOIN','FARTCOINUSD'),('ACT','ACTUSD'),
-    ],
-    'Gaming': [
-        ('AXS','AXSUSD'),('MANA','MANAUSD'),('GALA','GALAUSD'),('ENJ','ENJUSD'),
-        ('RARE','RAREUSD'),('IMX','IMXUSD'),('SPX','SPXUSD'),
-    ],
-    'Payments': [
-        ('RSR','RSRUSD'),('JASMY','JASMYUSD'),('XAN','XANUSD'),
-    ],
+# ── Tier 1: fetched every run (~15 min) — high volume, core alts ─────────
+COINS_T1 = {
+    'L1':   [('SOL','SOLUSD'),('BNB','BNBUSD'),('XRP','XRPUSD'),('ADA','ADAUSD'),
+             ('AVAX','AVAXUSD'),('DOT','DOTUSD'),('SUI','SUIUSD'),('NEAR','NEARUSD'),
+             ('TRX','TRXUSD'),('TAO','TAOUSD')],
+    'DeFi': [('LINK','LINKUSD'),('UNI','UNIUSD'),('AAVE','AAVEUSD'),('LDO','LDOUSD'),
+             ('ENA','ENAUSD'),('RUNE','RUNEUSD'),('ONDO','ONDOUSD')],
+    'L2':   [('POL','POLUSD'),('ARB','ARBUSD'),('OP','OPUSD'),('STRK','STRKUSD'),('ZK','ZKUSD')],
+    'Infra':[('INJ','INJUSD'),('SEI','SEIUSD'),('HYPE','HYPEUSD'),('BERA','BERAUSD'),('IP','IPUSD')],
+    'AI':   [('VIRTUAL','VIRTUALUSD'),('WLD','WLDUSD'),('SKYAI','SKYAIUSD'),('KAITO','KAITOUSD')],
+    'Meme': [('DOGE','DOGEUSD'),('1000PEPE','1000PEPEUSD'),('1000SHIB','1000SHIBUSD'),
+             ('1000FLOKI','1000FLOKIUSD'),('1000BONK','1000BONKUSD'),('WIF','WIFUSD'),
+             ('TRUMP','TRUMPUSD'),('PEOPLE','PEOPLEUSD')],
+    'Gaming':[('AXS','AXSUSD'),('MANA','MANAUSD'),('GALA','GALAUSD')],
+}
+
+# ── Tier 2: fetched on even runs (~30 min) ────────────────────────────────
+COINS_T2 = {
+    'L1':   [('APT','APTUSD'),('TIA','TIAUSD'),('XLM','XLMUSD'),('HBAR','HBARUSD'),
+             ('TON','TONUSD'),('LTC','LTCUSD'),('BCH','BCHUSD'),('IOTA','IOTAUSD'),('PI','PIUSD')],
+    'DeFi': [('PENDLE','PENDLEUSD'),('SUSHI','SUSHIUSD'),('CAKE','CAKEUSD'),('DYDX','DYDXUSD'),
+             ('JUP','JUPUSD'),('JTO','JTOUSD'),('ZRO','ZROUSD'),('EIGEN','EIGENUSD'),
+             ('ETHFI','ETHFIUSD'),('USUAL','USUALUSD'),('LISTA','LISTAUSD')],
+    'L2':   [('MANTA','MANTAUSD'),('BLUR','BLURUSD'),('SKL','SKLUSD'),('LAYER','LAYERUSD'),('MOVE','MOVEUSD')],
+    'Infra':[('IO','IOUSD'),('AR','ARUSD'),('FIL','FILUSD'),('ORDI','ORDIUSD'),('STX','STXUSD'),
+             ('VVV','VVVUSD'),('DEEP','DEEPUSD'),('SONIC','SONICUSD'),('PROVE','PROVEUSD'),
+             ('INIT','INITUSD'),('CROSS','CROSSUSD'),('LIGHT','LIGHTUSD'),('ASTER','ASTERUSD')],
+    'AI':   [('AIXBT','AIXBTUSD'),('COOKIE','COOKIEUSD'),('COAI','COAIUSD'),('ORDER','ORDERUSD'),
+             ('TNSR','TNSRUSD'),('VANA','VANAUSD'),('AIOT','AIOTUSD'),('AIO','AIOUSD'),
+             ('AVAI','AVAAIUSD'),('AIN','AINUSD')],
+    'Meme': [('1000SATS','1000SATSUSD'),('1MBABYDOGE','1MBABYDOGEUSD'),('DOGS','DOGSUSD'),
+             ('NEIRO','NEIROUSD'),('MEME','MEMEUSD'),('POPCAT','POPCATUSD'),('GOAT','GOATUSD'),
+             ('PNUT','PNUTUSD'),('MOODENG','MOODENGUSD'),('MELANIA','MELANIAUSD'),
+             ('FARTCOIN','FARTCOINUSD'),('ACT','ACTUSD')],
+    'Gaming':[('ENJ','ENJUSD'),('RARE','RAREUSD'),('SPX','SPXUSD')],
+    'Payments':[('RSR','RSRUSD'),('JASMY','JASMYUSD'),('XAN','XANUSD')],
+}
+
+# ── Tier 3: fetched on odd hours only (~2 hrs) ────────────────────────────
+COINS_T3 = {
+    'L1':   [('ETC','ETCUSD'),('DASH','DASHUSD'),('ZEC','ZECUSD'),('KSM','KSMUSD')],
+    'DeFi': [('FRAX','FRAXUSD'),('API3','API3USD'),('GLM','GLMUSD')],
     'Emerging': [
         ('SWARMS','SWARMSUSD'),('BILL','BILLUSD'),('EDEN','EDENUSD'),('PIPPIN','PIPPINUSD'),
         ('PUMP','PUMPUSD'),('BEAT','BEATUSD'),('XPL','XPLUSD'),('ARC','ARCUSD'),
         ('SAGA','SAGAUSD'),('HANA','HANAUSD'),('MUBARAK','MUBARAKUSD'),('LAB','LABUSD'),
         ('FF','FFUSD'),('TST','TSTUSD'),('BIO','BIOUSD'),('STBL','STBLUSD'),
-        ('PART','PARTIUSD'),('MON','MONUSD'),('MMT','MMTUSD'),('RAVE','RAVEUSD'),
-        ('ZORA','ZORAUSD'),('SIGN','SIGNUSD'),('XAI','XAIUSD'),('ARIA','ARIAUSD'),
-        ('BMT','BMTUSD'),('CHIP','CHIPUSD'),('SOPH','SOPHUSD'),('WCT','WCTUSD'),
-        ('SIREN','SIRENUSD'),('SUN','SUNUSD'),('HIVE','HIVEUSD'),('KITE','KITEUSD'),
-        ('BASED','BASEDUSD'),('ME','MEUSD'),('MASK','MASKUSD'),('WLFI','WLFIUSD'),
-        ('EVAA','EVAAUSD'),('LIT','LITUSD'),('DUSK','DUSKUSD'),('RED','REDUSD'),
-        ('PIEVERSE','PIEVERSEUSD'),('ALT','ALTUSD'),('SOLV','SOLVUSD'),('GRIFFAIN','GRIFFAINUSD'),
-        ('BLESS','BLESSUSD'),('NOT','NOTUSD'),('TOWNS','TOWNSUSD'),('ZEN','ZENUSD'),
-        ('AUCTION','AUCTIONUSD'),('TRB','TRBUSD'),
+        ('MON','MONUSD'),('MMT','MMTUSD'),('RAVE','RAVEUSD'),('ZORA','ZORAUSD'),
+        ('SIGN','SIGNUSD'),('XAI','XAIUSD'),('ARIA','ARIAUSD'),('BMT','BMTUSD'),
+        ('CHIP','CHIPUSD'),('SOPH','SOPHUSD'),('WCT','WCTUSD'),('SIREN','SIRENUSD'),
+        ('SUN','SUNUSD'),('HIVE','HIVEUSD'),('KITE','KITEUSD'),('BASED','BASEDUSD'),
+        ('ME','MEUSD'),('MASK','MASKUSD'),('WLFI','WLFIUSD'),('EVAA','EVAAUSD'),
+        ('LIT','LITUSD'),('DUSK','DUSKUSD'),('RED','REDUSD'),('PIEVERSE','PIEVERSEUSD'),
+        ('ALT','ALTUSD'),('SOLV','SOLVUSD'),('GRIFFAIN','GRIFFAINUSD'),('BLESS','BLESSUSD'),
+        ('NOT','NOTUSD'),('TOWNS','TOWNSUSD'),('ZEN','ZENUSD'),
     ],
 }
 
-ALL_COINS  = [c for coins in COINS.values() for c in coins]
-SECTOR_MAP = {name: sector for sector, coins in COINS.items() for name, sym in coins}
-DISPLAY_NAME = {name: name.replace('1000','') for name, sym in [c for coins in COINS.values() for c in coins]}
+# ── Merged COINS dict for sector lookups ─────────────────────────────────
+COINS = {}
+for _tier in [COINS_T1, COINS_T2, COINS_T3]:
+    for _sec, _pairs in _tier.items():
+        COINS.setdefault(_sec, [])
+        for _p in _pairs:
+            if _p not in COINS[_sec]:
+                COINS[_sec].append(_p)
+
+ALL_COINS    = [c for coins in COINS.values() for c in coins]
+SECTOR_MAP   = {name: sector for sector, coins in COINS.items() for name, sym in coins}
+DISPLAY_NAME = {name: name.replace('1000','') for name, sym in ALL_COINS}
+
+CACHE_PATH = os.path.join(DATA_DIR, 'coin_cache.json')
+
+def load_cache():
+    try:
+        with open(CACHE_PATH, 'r') as f:
+            return json.load(f)
+    except:
+        return {}
+
+def save_cache(cache):
+    try:
+        with open(CACHE_PATH, 'w') as f:
+            json.dump(cache, f)
+    except:
+        pass
+
+def get_tier_for_run():
+    """Determine which tiers to fetch based on current minute/hour."""
+    now = datetime.now(timezone.utc)
+    run_number = now.hour * 4 + now.minute // 15  # 0-95 runs per day
+    if run_number % 2 == 0:
+        return [COINS_T1, COINS_T2]   # even runs: T1 + T2 (~80 coins)
+    elif now.hour % 2 == 1:
+        return [COINS_T1, COINS_T3]   # odd hours: T1 + T3 (~90 coins)
+    else:
+        return [COINS_T1]             # all other: T1 only (~40 coins)
 
 SESSION = requests.Session()
 SESSION.headers.update({'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json'})
@@ -739,59 +766,111 @@ def run_market_engine():
                 'funding': {'rate': round(fr,4), 'sentiment': 'Long Heavy' if fr>0.05 else 'Neutral'} if fr != 0 else None
             }
 
-    # Process coins
+    # Determine which tiers to fetch this run
+    active_tiers = get_tier_for_run()
+    tier_names   = ['T1' if t is COINS_T1 else 'T2' if t is COINS_T2 else 'T3' for t in active_tiers]
+    print(f"   Tiers this run: {', '.join(tier_names)}")
+
+    # Load cache from previous runs
+    cache = load_cache()
+
+    # Process coins from active tiers
     all_coins_data = []
     sector_results = {}
+    fetched_symbols = set()
 
-    for sector, coin_pairs in COINS.items():
-        print(f"   {sector}...")
-        sc = []
-        for name, delta_sym in coin_pairs:
-            ticker = all_tickers.get(delta_sym)
-            if not ticker:
-                continue
+    for tier in active_tiers:
+        for sector, coin_pairs in tier.items():
+            print(f"   {sector} ({', '.join(tier_names)})...")
+            for name, delta_sym in coin_pairs:
+                if delta_sym in fetched_symbols:
+                    continue
+                fetched_symbols.add(delta_sym)
 
-            # Fetch candles
-            primary_c = fetch_candles(delta_sym, '1h', 200)
-            time.sleep(0.2)
-            context_c = fetch_candles(delta_sym, '1d', 60)
-            time.sleep(0.2)
+                ticker = all_tickers.get(delta_sym)
+                if not ticker:
+                    continue
 
-            if not primary_c or len(primary_c) < 20:
-                continue
+                primary_c = fetch_candles(delta_sym, '1h', 200)
+                time.sleep(0.2)
+                context_c = fetch_candles(delta_sym, '1d', 60)
+                time.sleep(0.2)
 
-            ta = full_ta(delta_sym, primary_c, context_c)
+                if not primary_c or len(primary_c) < 20:
+                    continue
 
-            # Add funding from ticker
-            fr_rate = float(ticker.get('funding_rate', 0) or 0) * 100
-            funding = None
-            if fr_rate != 0:
-                funding = {
-                    'rate': round(fr_rate, 4),
-                    'annualized': round(fr_rate*3*365, 1),
-                    'sentiment': 'Long Heavy' if fr_rate>0.05 else 'Short Heavy' if fr_rate<-0.05 else 'Neutral'
+                ta = full_ta(delta_sym, primary_c, context_c)
+
+                fr_rate = float(ticker.get('funding_rate', 0) or 0) * 100
+                funding = None
+                if fr_rate != 0:
+                    funding = {
+                        'rate': round(fr_rate, 4),
+                        'annualized': round(fr_rate*3*365, 1),
+                        'sentiment': 'Long Heavy' if fr_rate>0.05 else 'Short Heavy' if fr_rate<-0.05 else 'Neutral'
+                    }
+
+                coin_data = {
+                    'symbol':        delta_sym,
+                    'name':          DISPLAY_NAME.get(name, name),
+                    'sector':        SECTOR_MAP.get(name, sector),
+                    'funding_rate':  funding,
+                    'open_interest': None,
+                    'ls_ratio':      None,
+                    'cached':        False,
+                    **ta
                 }
+                all_coins_data.append(coin_data)
+                cache[delta_sym] = coin_data
 
-            coin_data = {
-                'symbol':   delta_sym,
-                'name':     DISPLAY_NAME.get(name, name),
-                'sector':   sector,
-                'funding_rate': funding,
-                'open_interest': None,
-                'ls_ratio': None,
-                **ta
-            }
-            sc.append(coin_data)
-            all_coins_data.append(coin_data)
+    # Merge cached coins from tiers NOT fetched this run
+    all_fetched_sectors = set()
+    for t in active_tiers:
+        all_fetched_sectors.update(t.keys())
 
+    all_tier_symbols = set()
+    for t in active_tiers:
+        for pairs in t.values():
+            for _, sym in pairs:
+                all_tier_symbols.add(sym)
+
+    for _tier in [COINS_T1, COINS_T2, COINS_T3]:
+        for sector, coin_pairs in _tier.items():
+            for name, delta_sym in coin_pairs:
+                if delta_sym in fetched_symbols:
+                    continue
+                if delta_sym in cache:
+                    cached = dict(cache[delta_sym])
+                    cached['cached'] = True
+                    # Update funding rate from live ticker
+                    ticker = all_tickers.get(delta_sym)
+                    if ticker:
+                        fr_rate = float(ticker.get('funding_rate', 0) or 0) * 100
+                        if fr_rate != 0:
+                            cached['funding_rate'] = {
+                                'rate': round(fr_rate, 4),
+                                'annualized': round(fr_rate*3*365, 1),
+                                'sentiment': 'Long Heavy' if fr_rate>0.05 else 'Short Heavy' if fr_rate<-0.05 else 'Neutral'
+                            }
+                    all_coins_data.append(cached)
+
+    save_cache(cache)
+    print(f"   Total coins: {len(all_coins_data)} ({len(fetched_symbols)} fresh, {len(all_coins_data)-len(fetched_symbols)} from cache)")
+
+    # Score sectors from merged coin list
+    sector_results = {}
+    for sector in COINS.keys():
+        sc = [c for c in all_coins_data if c.get('sector') == sector]
+        if not sc:
+            continue
         ss   = score_sector(sc)
-        top3 = sorted(sc, key=lambda x: x['technical_score'], reverse=True)[:3]
+        top3 = sorted(sc, key=lambda x: x.get('technical_score',0), reverse=True)[:3]
         sector_results[sector] = {
             'score': ss, 'coin_count': len(sc),
             'top_coins': [c['name'] for c in top3],
-            'avg_rsi': round(sum(c['rsi'] for c in sc)/len(sc),1) if sc else 0,
-            'bullish_count': sum(1 for c in sc if c['change_pct']>0),
-            'bearish_count': sum(1 for c in sc if c['change_pct']<=0),
+            'avg_rsi': round(sum(c.get('rsi',50) for c in sc)/len(sc), 1),
+            'bullish_count': sum(1 for c in sc if c.get('change_pct',0) > 0),
+            'bearish_count': sum(1 for c in sc if c.get('change_pct',0) <= 0),
         }
 
     ranked   = sorted(sector_results.items(), key=lambda x: x[1]['score'], reverse=True)
