@@ -35,7 +35,7 @@
     "coin": "SKYAI",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "VALID",
+    "last_timing": "NOW",
     "alerted_at": "2026-05-30T04:53:08Z",
     "enter_sent": true
   },
@@ -126,5 +126,29 @@
     "last_timing": "WAIT",
     "alerted_at": "2026-05-30T04:53:08Z",
     "enter_sent": false
+  },
+  "TST_LONG_MOMENTUM": {
+    "coin": "TST",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "NOW",
+    "alerted_at": "2026-05-30T05:54:22Z",
+    "enter_sent": true
+  },
+  "MON_LONG_MOMENTUM": {
+    "coin": "MON",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-05-30T05:54:22Z",
+    "enter_sent": false
+  },
+  "LIT_LONG_MOMENTUM": {
+    "coin": "LIT",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "NOW",
+    "alerted_at": "2026-05-30T05:54:22Z",
+    "enter_sent": true
   }
 }
