@@ -3,9 +3,10 @@
     "coin": "ZRO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "VALID",
     "alerted_at": "2026-05-30T04:53:08Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-05-30T12:16:55Z"
   },
   "STRK_LONG_MOMENTUM": {
     "coin": "STRK",
@@ -27,9 +28,10 @@
     "coin": "IP",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "VALID",
     "alerted_at": "2026-05-30T04:53:08Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-05-30T12:16:55Z"
   },
   "SKYAI_LONG_MOMENTUM": {
     "coin": "SKYAI",
@@ -221,6 +223,14 @@
     "type": "MOMENTUM",
     "last_timing": "NOW",
     "alerted_at": "2026-05-30T11:04:01Z",
+    "enter_sent": true
+  },
+  "PENDLE_LONG_MOMENTUM": {
+    "coin": "PENDLE",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-05-30T12:16:55Z",
     "enter_sent": true
   }
 }
