@@ -20,9 +20,10 @@
     "coin": "AR",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-05-30T04:53:08Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-05-30T14:14:56Z"
   },
   "IP_LONG_MOMENTUM": {
     "coin": "IP",
@@ -45,9 +46,10 @@
     "coin": "LDO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-05-30T04:53:08Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-05-30T14:14:56Z"
   },
   "LDO_SQUEEZE_MEAN_REVERSION": {
     "coin": "LDO",
@@ -231,6 +233,14 @@
     "type": "MOMENTUM",
     "last_timing": "VALID",
     "alerted_at": "2026-05-30T12:16:55Z",
+    "enter_sent": true
+  },
+  "ENA_LONG_MOMENTUM": {
+    "coin": "ENA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-05-30T14:14:56Z",
     "enter_sent": true
   }
 }
