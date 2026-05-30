@@ -548,100 +548,6 @@ def build_trend_summary(latest, astro, fno):
     if f_note: lines.append(f_note)
     return ' '.join(lines)
 
-def run_strategy_engine():
-    print("\n🎯 Crypto Strategy Engine (Full TA) starting...")
-    latest = load_json(LATEST_PATH)
-    fno    = load_json(FNO_PATH)
-    if not latest:
-        print("   ⚠ No latest.json"); return
-
-    astro = latest.get('astro',{})
-    coins = latest.get('coins',[])
-    print(f"   Coins: {len(coins)} | Moon: {astro.get('moon_phase')}")
-
-    # No trade check
-    no_trade = []
-    retro = astro.get('retrograde_planets',[])
-    major_retro = [p for p in retro if p in ['Mercury','Mars','Jupiter','Venus']]
-    if len(major_retro) >= 3:
-        no_trade.append(f"3+ major retrogrades — very high reversal risk")
-    for t in astro.get('upcoming_transitions',[]):
-        if t.get('planet') in ['Jupiter','Saturn'] and t.get('within_days',99) <= 1:
-            no_trade.append(f"{t['planet']} changing sign today — macro shift possible")
-
-    # Generate setups
-    all_setups = []
-    for coin_raw in coins:
-        name = coin_raw.get('name','')
-        if not name: continue
-        coin = get_coin(latest, fno, name)
-        if not coin: continue
-        setups = analyze_coin(coin, astro)
-        all_setups.extend(setups)
-
-    all_setups.sort(key=lambda x: x['confidence'], reverse=True)
-
-    clean_setups = [s for s in all_setups if s.get('quality') == 'CLEAN']
-    risky_setups = [s for s in all_setups if s.get('quality') == 'RISKY']
-    skip_setups  = [s for s in all_setups if s.get('quality') == 'SKIP']
-
-    trend_summary = build_trend_summary(latest, astro, fno)
-
-    if no_trade and len(no_trade) >= 2:
-        recommendation = 'NO_TRADE'
-        rec_reason     = ' | '.join(no_trade)
-    elif clean_setups:
-        top = clean_setups[0]
-        recommendation = f"{top['type']} {top['direction']} {top['coin']}"
-        rec_reason     = f"Confidence {top['confidence']}/100 — {top['instrument']}"
-    elif risky_setups:
-        top = risky_setups[0]
-        recommendation = f"RISKY: {top['type']} {top['direction']} {top['coin']}"
-        rec_reason     = f"Confidence {top['confidence']}/100 — proceed with caution"
-    else:
-        recommendation = 'WAIT'
-        rec_reason     = 'No clean setups today. Wait for better conditions.'
-
-    output = {
-        'meta': {
-            'date':         latest.get('meta',{}).get('date'),
-            'generated_at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-            'market':       'Crypto Perpetual Futures',
-        },
-        'trend_summary':    trend_summary,
-        'recommendation':   recommendation,
-        'rec_reason':       rec_reason,
-        'no_trade_reasons': no_trade,
-        'setups':           clean_setups[:10],
-        'risky_setups':     risky_setups[:10],
-        'clean_count':      len(clean_setups),
-        'risky_count':      len(risky_setups),
-        'astro_summary': {
-            'moon_phase':         astro.get('moon_phase'),
-            'moon_bias':          MOON_BIAS.get(astro.get('moon_phase',''),'neutral'),
-            'day_ruler':          astro.get('day_ruler'),
-            'astro_score':        astro.get('astro_score'),
-            'retrograde_planets': astro.get('retrograde_planets',[]),
-        }
-    }
-
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(STRATEGY_OUT,'w') as f:
-        json.dump(output, f, indent=2)
-
-    print(f"\n✅ Strategy Engine done — {len(all_setups)} setups")
-    print(f"   Recommendation: {recommendation}")
-    for s in all_setups[:5]:
-        print(f"   [{s['confidence']}] {s['type']} {s['direction']} {s['coin']} — RSI:{s['rsi']} ADX:{s['adx']} {s['trend']}")
-
-    # Send alerts
-    process_alerts(clean_setups)
-
-    return output
-
-if __name__ == '__main__':
-    run_strategy_engine()
-
 
 # ── Alert State ───────────────────────────────────────────────────────────
 def load_alert_state():
@@ -767,3 +673,98 @@ def process_alerts(clean_setups):
         del state[key]
 
     save_alert_state(state)
+
+
+def run_strategy_engine():
+    print("\n🎯 Crypto Strategy Engine (Full TA) starting...")
+    latest = load_json(LATEST_PATH)
+    fno    = load_json(FNO_PATH)
+    if not latest:
+        print("   ⚠ No latest.json"); return
+
+    astro = latest.get('astro',{})
+    coins = latest.get('coins',[])
+    print(f"   Coins: {len(coins)} | Moon: {astro.get('moon_phase')}")
+
+    # No trade check
+    no_trade = []
+    retro = astro.get('retrograde_planets',[])
+    major_retro = [p for p in retro if p in ['Mercury','Mars','Jupiter','Venus']]
+    if len(major_retro) >= 3:
+        no_trade.append(f"3+ major retrogrades — very high reversal risk")
+    for t in astro.get('upcoming_transitions',[]):
+        if t.get('planet') in ['Jupiter','Saturn'] and t.get('within_days',99) <= 1:
+            no_trade.append(f"{t['planet']} changing sign today — macro shift possible")
+
+    # Generate setups
+    all_setups = []
+    for coin_raw in coins:
+        name = coin_raw.get('name','')
+        if not name: continue
+        coin = get_coin(latest, fno, name)
+        if not coin: continue
+        setups = analyze_coin(coin, astro)
+        all_setups.extend(setups)
+
+    all_setups.sort(key=lambda x: x['confidence'], reverse=True)
+
+    clean_setups = [s for s in all_setups if s.get('quality') == 'CLEAN']
+    risky_setups = [s for s in all_setups if s.get('quality') == 'RISKY']
+    skip_setups  = [s for s in all_setups if s.get('quality') == 'SKIP']
+
+    trend_summary = build_trend_summary(latest, astro, fno)
+
+    if no_trade and len(no_trade) >= 2:
+        recommendation = 'NO_TRADE'
+        rec_reason     = ' | '.join(no_trade)
+    elif clean_setups:
+        top = clean_setups[0]
+        recommendation = f"{top['type']} {top['direction']} {top['coin']}"
+        rec_reason     = f"Confidence {top['confidence']}/100 — {top['instrument']}"
+    elif risky_setups:
+        top = risky_setups[0]
+        recommendation = f"RISKY: {top['type']} {top['direction']} {top['coin']}"
+        rec_reason     = f"Confidence {top['confidence']}/100 — proceed with caution"
+    else:
+        recommendation = 'WAIT'
+        rec_reason     = 'No clean setups today. Wait for better conditions.'
+
+    output = {
+        'meta': {
+            'date':         latest.get('meta',{}).get('date'),
+            'generated_at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+            'market':       'Crypto Perpetual Futures',
+        },
+        'trend_summary':    trend_summary,
+        'recommendation':   recommendation,
+        'rec_reason':       rec_reason,
+        'no_trade_reasons': no_trade,
+        'setups':           clean_setups[:10],
+        'risky_setups':     risky_setups[:10],
+        'clean_count':      len(clean_setups),
+        'risky_count':      len(risky_setups),
+        'astro_summary': {
+            'moon_phase':         astro.get('moon_phase'),
+            'moon_bias':          MOON_BIAS.get(astro.get('moon_phase',''),'neutral'),
+            'day_ruler':          astro.get('day_ruler'),
+            'astro_score':        astro.get('astro_score'),
+            'retrograde_planets': astro.get('retrograde_planets',[]),
+        }
+    }
+
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(STRATEGY_OUT,'w') as f:
+        json.dump(output, f, indent=2)
+
+    print(f"\n✅ Strategy Engine done — {len(all_setups)} setups")
+    print(f"   Recommendation: {recommendation}")
+    for s in all_setups[:5]:
+        print(f"   [{s['confidence']}] {s['type']} {s['direction']} {s['coin']} — RSI:{s['rsi']} ADX:{s['adx']} {s['trend']}")
+
+    # Send alerts
+    process_alerts(clean_setups)
+
+    return output
+
+if __name__ == '__main__':
+    run_strategy_engine()
