@@ -143,9 +143,10 @@
     "coin": "MON",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-05-30T05:54:22Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-05-30T17:48:52Z"
   },
   "LIT_LONG_MOMENTUM": {
     "coin": "LIT",
@@ -159,7 +160,7 @@
     "coin": "ZEN",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "NOW",
+    "last_timing": "VALID",
     "alerted_at": "2026-05-30T07:27:13Z",
     "enter_sent": true
   },
@@ -274,5 +275,13 @@
     "last_timing": "WAIT",
     "alerted_at": "2026-05-30T16:44:58Z",
     "enter_sent": false
+  },
+  "SOLV_LONG_MOMENTUM": {
+    "coin": "SOLV",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-05-30T17:48:52Z",
+    "enter_sent": true
   }
 }
