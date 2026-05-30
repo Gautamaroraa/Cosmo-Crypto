@@ -624,39 +624,53 @@ def process_alerts(clean_setups):
     if not clean_setups:
         return
 
-    state = load_alert_state()
-    now   = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    state      = load_alert_state()
+    now        = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    sent_count = 0
+    MAX_PER_RUN = 3
+    MIN_SCORE   = 70
 
-    for setup in clean_setups:
+    # Sort by score descending — best setups alert first
+    sorted_setups = sorted(clean_setups, key=lambda x: x['confidence'], reverse=True)
+
+    for setup in sorted_setups:
+        if sent_count >= MAX_PER_RUN:
+            break
+
+        # Skip low confidence setups for Alert 1
+        if setup['confidence'] < MIN_SCORE:
+            continue
+
         key    = f"{setup['coin']}_{setup['direction']}_{setup['type']}"
         timing = get_entry_timing(setup.get('commentary', []))
         prev   = state.get(key, {})
 
         if not prev:
-            # First time seeing this setup — send Alert 1
-            subject = f"🪐 Cosmo Setup: {setup['coin']} {setup['direction']} — {timing}"
+            # Alert 1 — new setup
+            subject = f"🪐 Cosmo: {setup['coin']} {setup['direction']} {setup['confidence']}/100 — {timing}"
             body    = build_alert_body(setup, f"NEW SETUP DETECTED · {timing}", timing)
             send_email(subject, body)
+            sent_count += 1
             state[key] = {
-                'coin':       setup['coin'],
-                'direction':  setup['direction'],
-                'type':       setup['type'],
+                'coin':        setup['coin'],
+                'direction':   setup['direction'],
+                'type':        setup['type'],
                 'last_timing': timing,
-                'alerted_at': now,
-                'enter_sent': timing in ['NOW', 'VALID'],
+                'alerted_at':  now,
+                'enter_sent':  timing in ['NOW', 'VALID'],
             }
 
         elif timing in ['NOW', 'VALID'] and not prev.get('enter_sent'):
-            # Status changed to NOW/VALID — send Alert 2
-            subject = f"✅ ENTER NOW: {setup['coin']} {setup['direction']} — Signals Aligned"
+            # Alert 2 — status upgraded to ENTER NOW (no score filter — always send)
+            subject = f"✅ ENTER NOW: {setup['coin']} {setup['direction']} — All Signals Aligned"
             body    = build_alert_body(setup, "ENTER NOW — ALL SIGNALS ALIGNED", timing)
             send_email(subject, body)
+            sent_count += 1
             state[key]['enter_sent']  = True
             state[key]['last_timing'] = timing
             state[key]['entered_at']  = now
 
         else:
-            # Update timing tracking
             state[key]['last_timing'] = timing
 
     # Clean up stale setups older than 24h
