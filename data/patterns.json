@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-05-31",
-    "generated_at": "2026-05-31T23:46:35Z"
+    "date": "2026-06-01",
+    "generated_at": "2026-06-01T04:04:17Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -18,35 +18,27 @@
     "saturn_retro": false,
     "moon_phase": "Full Moon",
     "moon_nakshatra": "Jyeshtha",
-    "day_ruler": "Sun",
+    "day_ruler": "Moon",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Emerging",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
-  "similar_days_found": 9,
+  "similar_days_found": 10,
   "patterns": {
     "status": "calculated",
-    "similar_days_found": 9,
-    "days_with_outcomes": 8,
+    "similar_days_found": 10,
+    "days_with_outcomes": 9,
     "overall_accuracy_pct": null,
     "avg_stock_change_pct": null,
     "direction_pattern": {
       "bullish": 0,
-      "bearish": 7,
+      "bearish": 8,
       "neutral": 1,
       "dominant": "Bearish"
     },
     "top_sectors_on_similar_days": [
-      {
-        "name": "Emerging",
-        "avg_score": 72.2
-      },
-      {
-        "name": "Gaming",
-        "avg_score": 67.9
-      },
       {
         "name": "Meme",
         "avg_score": 67.8
@@ -56,29 +48,38 @@
         "avg_score": 67.5
       },
       {
+        "name": "Gaming",
+        "avg_score": 65.9
+      },
+      {
+        "name": "Emerging",
+        "avg_score": 65.3
+      },
+      {
         "name": "L1",
-        "avg_score": 65.8
+        "avg_score": 64.5
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
+      "Full Moon": 1,
       "Waxing Gibbous": 4,
       "First Quarter": 4
     }
   },
   "narratives": [
-    "Market was Bearish on most similar past days (0B / 7Bear / 1N).",
-    "Strongest sectors on similar days: Emerging, Gaming, Meme.",
-    "Mars in Aries + Day of Sun is the dominant sky signature today."
+    "Market was Bearish on most similar past days (0B / 8Bear / 1N).",
+    "Strongest sectors on similar days: Meme, Payments, Gaming.",
+    "Mars in Aries + Day of Moon is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-05-31",
+      "date": "2026-06-01",
       "similarity_pct": 100.0,
       "cosmo_score": 33.0,
       "moon_phase": "Full Moon",
-      "day_ruler": "Sun",
-      "strongest_sector": "Emerging",
+      "day_ruler": "Moon",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -94,8 +95,31 @@
       }
     },
     {
+      "date": "2026-05-31",
+      "similarity_pct": 92.0,
+      "cosmo_score": 33.0,
+      "moon_phase": "Full Moon",
+      "day_ruler": "Sun",
+      "strongest_sector": "Emerging",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 92.0,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Full Moon"
+        ],
+        "different": [
+          "Day ruler: Sun \u2192 now Moon"
+        ]
+      }
+    },
+    {
       "date": "2026-05-30",
-      "similarity_pct": 85.7,
+      "similarity_pct": 83.0,
       "cosmo_score": 35.2,
       "moon_phase": "Waxing Gibbous",
       "day_ruler": "Saturn",
@@ -103,7 +127,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 83.0,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
@@ -113,7 +137,31 @@
         ],
         "different": [
           "Moon phase: Waxing Gibbous \u2192 now Full Moon",
-          "Day ruler: Saturn \u2192 now Sun"
+          "Day ruler: Saturn \u2192 now Moon"
+        ]
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "similarity_pct": 80.4,
+      "cosmo_score": 35.2,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Moon",
+      "strongest_sector": "Meme",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 80.4,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Day ruler Moon"
+        ],
+        "different": [
+          "Moon phase: First Quarter \u2192 now Full Moon",
+          "Moon in: Virgo \u2192 now Scorpio"
         ]
       }
     },
@@ -137,57 +185,8 @@
         ],
         "different": [
           "Moon phase: Waxing Gibbous \u2192 now Full Moon",
-          "Day ruler: Venus \u2192 now Sun",
+          "Day ruler: Venus \u2192 now Moon",
           "Moon in: Libra \u2192 now Scorpio"
-        ]
-      }
-    },
-    {
-      "date": "2026-05-24",
-      "similarity_pct": 76.8,
-      "cosmo_score": 35.2,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "Gaming",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 76.8,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Gemini",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Day ruler Sun"
-        ],
-        "different": [
-          "Moon phase: First Quarter \u2192 now Full Moon",
-          "Moon in: Leo \u2192 now Scorpio"
-        ]
-      }
-    },
-    {
-      "date": "2026-05-25",
-      "similarity_pct": 75.0,
-      "cosmo_score": 35.2,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Moon",
-      "strongest_sector": "Meme",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 75.0,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Gemini",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: First Quarter \u2192 now Full Moon",
-          "Day ruler: Moon \u2192 now Sun",
-          "Moon in: Virgo \u2192 now Scorpio"
         ]
       }
     }
