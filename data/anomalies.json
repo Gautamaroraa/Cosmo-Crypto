@@ -1,15 +1,29 @@
 {
   "meta": {
     "date": "2026-06-01",
-    "generated_at": "2026-06-01T15:44:40Z"
+    "generated_at": "2026-06-01T20:07:42Z"
   },
   "summary": {
-    "overall_level": "MINOR",
-    "total_anomalies": 1,
+    "overall_level": "POSITIVE ANOMALY",
+    "total_anomalies": 3,
     "risk_count": 0,
-    "positive_count": 1,
+    "positive_count": 3,
     "medium_count": 0,
     "priority_alerts": [
+      {
+        "id": "VENUS_JUPITER_CONJUNCTION",
+        "label": "Venus conjunct Jupiter",
+        "description": "Wealth yoga. Strong bullish energy for finance and consumer.",
+        "severity": "POSITIVE",
+        "type": "planetary"
+      },
+      {
+        "id": "JUPITER_EXALTED",
+        "label": "Jupiter exalted in Cancer",
+        "description": "Maximum Jupiter strength. Exceptional for banking and finance.",
+        "severity": "POSITIVE",
+        "type": "planetary"
+      },
       {
         "id": "ALL_BENEFICS_DIRECT",
         "label": "All benefics direct",
@@ -20,6 +34,20 @@
     ]
   },
   "anomalies": [
+    {
+      "id": "VENUS_JUPITER_CONJUNCTION",
+      "label": "Venus conjunct Jupiter",
+      "description": "Wealth yoga. Strong bullish energy for finance and consumer.",
+      "severity": "POSITIVE",
+      "type": "planetary"
+    },
+    {
+      "id": "JUPITER_EXALTED",
+      "label": "Jupiter exalted in Cancer",
+      "description": "Maximum Jupiter strength. Exceptional for banking and finance.",
+      "severity": "POSITIVE",
+      "type": "planetary"
+    },
     {
       "id": "ALL_BENEFICS_DIRECT",
       "label": "All benefics direct",
