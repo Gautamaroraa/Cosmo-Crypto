@@ -1,36 +1,4 @@
 {
-  "IP_SQUEEZE_MEAN_REVERSION": {
-    "coin": "IP",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-05-31T21:16:59Z",
-    "enter_sent": false
-  },
-  "EDEN_LONG_MOMENTUM": {
-    "coin": "EDEN",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-05-31T21:16:59Z",
-    "enter_sent": false
-  },
-  "SUN_LONG_MOMENTUM": {
-    "coin": "SUN",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-05-31T21:16:59Z",
-    "enter_sent": false
-  },
-  "WCT_SQUEEZE_MEAN_REVERSION": {
-    "coin": "WCT",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-05-31T22:33:50Z",
-    "enter_sent": false
-  },
   "MASK_SQUEEZE_MEAN_REVERSION": {
     "coin": "MASK",
     "direction": "SQUEEZE",
@@ -102,5 +70,13 @@
     "last_timing": "WAIT",
     "alerted_at": "2026-06-01T20:07:43Z",
     "enter_sent": false
+  },
+  "SATS_SQUEEZE_MEAN_REVERSION": {
+    "coin": "SATS",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-01T22:38:16Z",
+    "enter_sent": true
   }
 }
