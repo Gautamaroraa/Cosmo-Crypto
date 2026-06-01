@@ -1,20 +1,4 @@
 {
-  "MASK_SQUEEZE_MEAN_REVERSION": {
-    "coin": "MASK",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-05-31T23:46:35Z",
-    "enter_sent": false
-  },
-  "STRK_SQUEEZE_MEAN_REVERSION": {
-    "coin": "STRK",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-05-31T23:46:35Z",
-    "enter_sent": false
-  },
   "RARE_LONG_MOMENTUM": {
     "coin": "RARE",
     "direction": "LONG",
@@ -78,5 +62,13 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-01T22:38:16Z",
     "enter_sent": true
+  },
+  "ZEC_LONG_MOMENTUM": {
+    "coin": "ZEC",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-01T23:59:28Z",
+    "enter_sent": false
   }
 }
