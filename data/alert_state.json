@@ -1,20 +1,4 @@
 {
-  "KSM_LONG_MOMENTUM": {
-    "coin": "KSM",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-05-31T12:57:44Z",
-    "enter_sent": true
-  },
-  "POL_LONG_MOMENTUM": {
-    "coin": "POL",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-05-31T12:57:44Z",
-    "enter_sent": true
-  },
   "IP_SQUEEZE_MEAN_REVERSION": {
     "coin": "IP",
     "direction": "SQUEEZE",
@@ -85,6 +69,30 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-01T04:04:17Z",
+    "enter_sent": false
+  },
+  "MEME_LONG_MOMENTUM": {
+    "coin": "MEME",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-01T15:44:40Z",
+    "enter_sent": false
+  },
+  "PNUT_LONG_MOMENTUM": {
+    "coin": "PNUT",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-01T15:44:40Z",
+    "enter_sent": false
+  },
+  "VANA_LONG_MOMENTUM": {
+    "coin": "VANA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-01T15:44:40Z",
     "enter_sent": false
   }
 }
