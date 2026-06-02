@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-02T17:24:43Z",
+    "generated_at": "2026-06-02T20:25:53Z",
     "total_days": 11,
     "version": "1.0"
   },
@@ -9,14 +9,14 @@
     "days_with_outcomes": 10,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "Meme": 67.8,
       "Payments": 67.5,
+      "Meme": 66.5,
       "Gaming": 66.3,
       "Emerging": 65.5,
-      "L1": 65.3,
-      "DeFi": 63.3,
-      "L2": 62.5,
-      "AI": 60.2,
+      "L1": 64.6,
+      "DeFi": 63.1,
+      "L2": 62.4,
+      "AI": 60.8,
       "Infra": 57.8
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-02T17:24:43Z"
+    "generated_at": "2026-06-02T20:25:53Z"
   },
   "anomalies": [
     {
@@ -2256,7 +2256,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "L1",
+      "strongest_sector": "Emerging",
       "weakest_sector": "Payments",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
@@ -2319,7 +2319,7 @@
             "Jupiter",
             "Venus"
           ],
-          "orb": 6.96
+          "orb": 6.84
         }
       ],
       "aspects": [
@@ -2329,7 +2329,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 0.2
+          "orb": 0.09
         },
         {
           "planets": [
@@ -2337,7 +2337,7 @@
             "Mars"
           ],
           "aspect": "Trine",
-          "orb": 3.09
+          "orb": 1.68
         },
         {
           "planets": [
@@ -2345,7 +2345,7 @@
             "Mercury"
           ],
           "aspect": "Opposition",
-          "orb": 5.9
+          "orb": 7.2
         },
         {
           "planets": [
@@ -2353,7 +2353,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.44
+          "orb": 2.95
         },
         {
           "planets": [
@@ -2361,7 +2361,7 @@
             "Rahu"
           ],
           "aspect": "Sextile",
-          "orb": 3.86
+          "orb": 5.37
         },
         {
           "planets": [
@@ -2369,7 +2369,7 @@
             "Ketu"
           ],
           "aspect": "Trine",
-          "orb": 3.86
+          "orb": 5.37
         },
         {
           "planets": [
@@ -2377,7 +2377,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 6.39
+          "orb": 6.45
         },
         {
           "planets": [
@@ -2385,7 +2385,7 @@
             "Rahu"
           ],
           "aspect": "Sextile",
-          "orb": 6.95
+          "orb": 7.05
         },
         {
           "planets": [
@@ -2393,7 +2393,7 @@
             "Ketu"
           ],
           "aspect": "Trine",
-          "orb": 6.95
+          "orb": 7.05
         },
         {
           "planets": [
@@ -2401,7 +2401,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 2.04
+          "orb": 1.82
         },
         {
           "planets": [
@@ -2409,7 +2409,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 2.04
+          "orb": 1.82
         },
         {
           "planets": [
@@ -2417,7 +2417,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.04
+          "orb": 5.18
         },
         {
           "planets": [
@@ -2430,13 +2430,8 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1135,
+      "declining": 1154,
       "top_sectors": [
-        {
-          "name": "L1",
-          "cosmo_score": 66.3,
-          "astro_bias": "Strong Bullish"
-        },
         {
           "name": "Emerging",
           "cosmo_score": 65.8,
@@ -2444,18 +2439,23 @@
         },
         {
           "name": "L2",
-          "cosmo_score": 65.6,
+          "cosmo_score": 65.1,
           "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 63.1,
+          "cosmo_score": 61.1,
           "astro_bias": "Bullish"
         },
         {
-          "name": "AI",
-          "cosmo_score": 58.5,
-          "astro_bias": "Neutral"
+          "name": "L1",
+          "cosmo_score": 60.4,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 58.8,
+          "astro_bias": "Bullish"
         }
       ],
       "top_stocks": [],
@@ -2464,7 +2464,7 @@
         "Moon moving Sagittarius to Capricorn within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Mars - favors L1, Meme",
-        "High funding rates: GLM, SUI, SOL \u2014 longs crowded"
+        "High funding rates: SOL, XRP, AVAX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
