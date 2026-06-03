@@ -1,20 +1,4 @@
 {
-  "SATS_SQUEEZE_MEAN_REVERSION": {
-    "coin": "SATS",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-01T22:38:16Z",
-    "enter_sent": true
-  },
-  "ZEC_LONG_MOMENTUM": {
-    "coin": "ZEC",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-01T23:59:28Z",
-    "enter_sent": false
-  },
   "BEAT_LONG_MOMENTUM": {
     "coin": "BEAT",
     "direction": "LONG",
@@ -126,5 +110,21 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-02T22:35:31Z",
     "enter_sent": true
+  },
+  "KSM_LONG_MOMENTUM": {
+    "coin": "KSM",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-03T00:17:54Z",
+    "enter_sent": false
+  },
+  "JUP_LONG_MOMENTUM": {
+    "coin": "JUP",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-03T00:17:54Z",
+    "enter_sent": false
   }
 }
