@@ -1,28 +1,4 @@
 {
-  "DASH_LONG_MOMENTUM": {
-    "coin": "DASH",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-02T17:24:43Z",
-    "enter_sent": true
-  },
-  "ZEN_LONG_MOMENTUM": {
-    "coin": "ZEN",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "NOW",
-    "alerted_at": "2026-06-02T17:24:43Z",
-    "enter_sent": true
-  },
-  "SOPH_LONG_MOMENTUM": {
-    "coin": "SOPH",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-02T17:24:43Z",
-    "enter_sent": false
-  },
   "GLM_LONG_MOMENTUM": {
     "coin": "GLM",
     "direction": "LONG",
@@ -83,9 +59,10 @@
     "coin": "JUP",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "VALID",
     "alerted_at": "2026-06-03T00:17:54Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-06-03T19:08:21Z"
   },
   "STBL_LONG_MOMENTUM": {
     "coin": "STBL",
@@ -125,6 +102,22 @@
     "type": "MEAN_REVERSION",
     "last_timing": "VALID",
     "alerted_at": "2026-06-03T15:17:37Z",
+    "enter_sent": true
+  },
+  "TIA_LONG_MOMENTUM": {
+    "coin": "TIA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-03T19:08:21Z",
+    "enter_sent": true
+  },
+  "USUAL_LONG_MOMENTUM": {
+    "coin": "USUAL",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "NOW",
+    "alerted_at": "2026-06-03T19:08:21Z",
     "enter_sent": true
   }
 }
