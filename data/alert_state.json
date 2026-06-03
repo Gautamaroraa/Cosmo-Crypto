@@ -1,12 +1,4 @@
 {
-  "SIREN_LONG_MOMENTUM": {
-    "coin": "SIREN",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-02T12:52:02Z",
-    "enter_sent": false
-  },
   "DASH_LONG_MOMENTUM": {
     "coin": "DASH",
     "direction": "LONG",
@@ -118,5 +110,21 @@
     "last_timing": "WAIT",
     "alerted_at": "2026-06-03T10:21:26Z",
     "enter_sent": false
+  },
+  "ENA_LONG_MOMENTUM": {
+    "coin": "ENA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-03T15:17:37Z",
+    "enter_sent": true
+  },
+  "KSM_FLUSH_MEAN_REVERSION": {
+    "coin": "KSM",
+    "direction": "FLUSH",
+    "type": "MEAN_REVERSION",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-03T15:17:37Z",
+    "enter_sent": true
   }
 }
