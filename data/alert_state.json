@@ -1,28 +1,4 @@
 {
-  "STBL_LONG_MOMENTUM": {
-    "coin": "STBL",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-03T10:21:26Z",
-    "enter_sent": true
-  },
-  "JASMY_LONG_MOMENTUM": {
-    "coin": "JASMY",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-03T10:21:26Z",
-    "enter_sent": true
-  },
-  "MON_LONG_MOMENTUM": {
-    "coin": "MON",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-03T10:21:26Z",
-    "enter_sent": false
-  },
   "ENA_LONG_MOMENTUM": {
     "coin": "ENA",
     "direction": "LONG",
@@ -99,9 +75,10 @@
     "coin": "ONDO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-06-04T05:06:25Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-06-04T12:19:37Z"
   },
   "MOVE_LONG_MOMENTUM": {
     "coin": "MOVE",
@@ -125,6 +102,22 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-04T09:02:15Z",
+    "enter_sent": false
+  },
+  "LINK_LONG_MOMENTUM": {
+    "coin": "LINK",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-04T12:19:37Z",
+    "enter_sent": false
+  },
+  "STRK_LONG_MOMENTUM": {
+    "coin": "STRK",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-04T12:19:37Z",
     "enter_sent": false
   }
 }
