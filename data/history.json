@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-04T12:19:37Z",
+    "generated_at": "2026-06-04T15:59:47Z",
     "total_days": 13,
     "version": "1.0"
   },
@@ -11,13 +11,13 @@
     "sector_avg_scores": {
       "Payments": 69.3,
       "Meme": 68.7,
-      "L1": 67.2,
+      "L1": 68.0,
+      "DeFi": 66.8,
       "Gaming": 66.3,
-      "DeFi": 66.3,
-      "Emerging": 65.9,
-      "L2": 65.0,
-      "AI": 62.5,
-      "Infra": 59.5
+      "L2": 65.8,
+      "Emerging": 65.5,
+      "AI": 62.4,
+      "Infra": 60.0
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-04T12:19:37Z"
+    "generated_at": "2026-06-04T15:59:47Z"
   },
   "anomalies": [
     {
@@ -2694,8 +2694,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "DeFi",
-      "weakest_sector": "Gaming",
+      "strongest_sector": "L1",
+      "weakest_sector": "Payments",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Jupiter",
@@ -2757,7 +2757,7 @@
             "Jupiter",
             "Venus"
           ],
-          "orb": 5.2
+          "orb": 5.05
         }
       ],
       "aspects": [
@@ -2767,7 +2767,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 1.37
+          "orb": 1.5
         },
         {
           "planets": [
@@ -2775,7 +2775,7 @@
             "Jupiter"
           ],
           "aspect": "Opposition",
-          "orb": 4.54
+          "orb": 6.34
         },
         {
           "planets": [
@@ -2783,7 +2783,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 7.46
+          "orb": 7.34
         },
         {
           "planets": [
@@ -2791,7 +2791,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 7.18
+          "orb": 7.25
         },
         {
           "planets": [
@@ -2799,7 +2799,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 7.63
+          "orb": 7.41
         },
         {
           "planets": [
@@ -2807,7 +2807,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 0.91
+          "orb": 1.15
         },
         {
           "planets": [
@@ -2815,7 +2815,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 0.91
+          "orb": 1.15
         },
         {
           "planets": [
@@ -2823,7 +2823,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 7.0
+          "orb": 7.17
         },
         {
           "planets": [
@@ -2836,30 +2836,30 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1245,
+      "declining": 1269,
       "top_sectors": [
         {
+          "name": "L1",
+          "cosmo_score": 79.2,
+          "astro_bias": "Strong Bullish"
+        },
+        {
           "name": "DeFi",
-          "cosmo_score": 71.7,
+          "cosmo_score": 76.9,
           "astro_bias": "Strong Bullish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 70.1,
+          "cosmo_score": 73.2,
           "astro_bias": "Neutral"
         },
         {
-          "name": "L1",
-          "cosmo_score": 69.7,
+          "name": "L2",
+          "cosmo_score": 71.1,
           "astro_bias": "Strong Bullish"
         },
         {
           "name": "AI",
-          "cosmo_score": 67.4,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Emerging",
           "cosmo_score": 67.3,
           "astro_bias": "Neutral"
         }
@@ -2870,7 +2870,7 @@
         "Moon moving Capricorn to Aquarius within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Jupiter - favors L1, DeFi",
-        "High funding rates: API3, POL, TON \u2014 longs crowded"
+        "High funding rates: POL, TON, SOL \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,

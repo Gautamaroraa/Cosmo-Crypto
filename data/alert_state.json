@@ -1,20 +1,4 @@
 {
-  "ENA_LONG_MOMENTUM": {
-    "coin": "ENA",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-03T15:17:37Z",
-    "enter_sent": true
-  },
-  "KSM_FLUSH_MEAN_REVERSION": {
-    "coin": "KSM",
-    "direction": "FLUSH",
-    "type": "MEAN_REVERSION",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-03T15:17:37Z",
-    "enter_sent": true
-  },
   "TIA_LONG_MOMENTUM": {
     "coin": "TIA",
     "direction": "LONG",
@@ -75,7 +59,7 @@
     "coin": "ONDO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "NOW",
+    "last_timing": "WAIT",
     "alerted_at": "2026-06-04T05:06:25Z",
     "enter_sent": true,
     "entered_at": "2026-06-04T12:19:37Z"
@@ -108,9 +92,10 @@
     "coin": "LINK",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-06-04T12:19:37Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-06-04T15:59:47Z"
   },
   "STRK_LONG_MOMENTUM": {
     "coin": "STRK",
@@ -118,6 +103,22 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-04T12:19:37Z",
+    "enter_sent": false
+  },
+  "OP_LONG_MOMENTUM": {
+    "coin": "OP",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-04T15:59:47Z",
+    "enter_sent": false
+  },
+  "ZRO_LONG_MOMENTUM": {
+    "coin": "ZRO",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-04T15:59:47Z",
     "enter_sent": false
   }
 }
