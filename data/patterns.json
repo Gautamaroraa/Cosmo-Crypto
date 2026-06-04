@@ -1,11 +1,11 @@
 {
   "meta": {
     "date": "2026-06-04",
-    "generated_at": "2026-06-04T00:02:09Z"
+    "generated_at": "2026-06-04T05:06:25Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
-    "moon_rashi": "Sagittarius",
+    "moon_rashi": "Capricorn",
     "mars_rashi": "Aries",
     "mercury_rashi": "Gemini",
     "jupiter_rashi": "Cancer",
@@ -21,7 +21,7 @@
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -45,27 +45,27 @@
       },
       {
         "name": "Meme",
-        "avg_score": 67.0
+        "avg_score": 67.8
       },
       {
         "name": "DeFi",
-        "avg_score": 65.9
+        "avg_score": 66.1
+      },
+      {
+        "name": "L2",
+        "avg_score": 66.0
       },
       {
         "name": "L1",
-        "avg_score": 65.5
-      },
-      {
-        "name": "Emerging",
-        "avg_score": 65.5
+        "avg_score": 65.7
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Gibbous": 3,
-      "Waxing Gibbous": 4,
+      "Waxing Gibbous": 3,
       "Full Moon": 1,
-      "First Quarter": 1
+      "First Quarter": 2
     }
   },
   "narratives": [
@@ -80,7 +80,7 @@
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Jupiter",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,54 +96,8 @@
       }
     },
     {
-      "date": "2026-06-03",
-      "similarity_pct": 94.6,
-      "cosmo_score": 35.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mercury",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 94.6,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Mercury \u2192 now Jupiter"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-01",
-      "similarity_pct": 89.3,
-      "cosmo_score": 35.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Moon",
-      "strongest_sector": "L2",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 89.3,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Moon \u2192 now Jupiter"
-        ]
-      }
-    },
-    {
       "date": "2026-06-02",
-      "similarity_pct": 89.3,
+      "similarity_pct": 88.4,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Mars",
@@ -151,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 89.3,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -160,7 +114,56 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mars \u2192 now Jupiter"
+          "Day ruler: Mars \u2192 now Jupiter",
+          "Moon in: Sagittarius \u2192 now Capricorn"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "similarity_pct": 88.4,
+      "cosmo_score": 35.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 88.4,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Mercury \u2192 now Jupiter",
+          "Moon in: Sagittarius \u2192 now Capricorn"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "similarity_pct": 85.7,
+      "cosmo_score": 35.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Moon",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 85.7,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Moon \u2192 now Jupiter",
+          "Moon in: Sagittarius \u2192 now Capricorn"
         ]
       }
     },
@@ -185,7 +188,7 @@
         "different": [
           "Jupiter in: Gemini \u2192 now Cancer",
           "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Moon in: Libra \u2192 now Sagittarius"
+          "Moon in: Libra \u2192 now Capricorn"
         ]
       }
     }
