@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-04T05:06:25Z",
+    "generated_at": "2026-06-04T09:02:14Z",
     "total_days": 13,
     "version": "1.0"
   },
@@ -10,14 +10,14 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "Payments": 69.3,
-      "Meme": 68.2,
-      "L1": 66.8,
-      "DeFi": 66.5,
+      "Meme": 68.6,
+      "L1": 67.6,
+      "DeFi": 66.7,
       "Gaming": 66.3,
-      "Emerging": 65.9,
+      "Emerging": 65.5,
       "L2": 65.0,
-      "AI": 60.8,
-      "Infra": 58.2
+      "AI": 63.0,
+      "Infra": 59.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-04T05:06:25Z"
+    "generated_at": "2026-06-04T09:02:14Z"
   },
   "anomalies": [
     {
@@ -2695,7 +2695,7 @@
       "volatility_bias": "Low",
       "risk_level": "Medium",
       "strongest_sector": "DeFi",
-      "weakest_sector": "Payments",
+      "weakest_sector": "Gaming",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Jupiter",
@@ -2757,7 +2757,7 @@
             "Jupiter",
             "Venus"
           ],
-          "orb": 5.5
+          "orb": 5.34
         }
       ],
       "aspects": [
@@ -2767,7 +2767,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 1.11
+          "orb": 1.25
         },
         {
           "planets": [
@@ -2775,15 +2775,7 @@
             "Jupiter"
           ],
           "aspect": "Opposition",
-          "orb": 0.99
-        },
-        {
-          "planets": [
-            "Moon",
-            "Venus"
-          ],
-          "aspect": "Opposition",
-          "orb": 6.48
+          "orb": 2.92
         },
         {
           "planets": [
@@ -2791,7 +2783,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 7.71
+          "orb": 7.57
         },
         {
           "planets": [
@@ -2799,7 +2791,15 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 7.05
+          "orb": 7.12
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 7.84
         },
         {
           "planets": [
@@ -2807,7 +2807,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 0.42
+          "orb": 0.69
         },
         {
           "planets": [
@@ -2815,7 +2815,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 0.42
+          "orb": 0.69
         },
         {
           "planets": [
@@ -2823,7 +2823,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 6.67
+          "orb": 6.85
         },
         {
           "planets": [
@@ -2840,28 +2840,28 @@
       "top_sectors": [
         {
           "name": "DeFi",
-          "cosmo_score": 73.4,
+          "cosmo_score": 75.7,
           "astro_bias": "Strong Bullish"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 67.3,
-          "astro_bias": "Neutral"
         },
         {
           "name": "L1",
-          "cosmo_score": 65.3,
+          "cosmo_score": 74.9,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 64.6,
-          "astro_bias": "Bearish"
+          "name": "Infra",
+          "cosmo_score": 70.8,
+          "astro_bias": "Neutral"
         },
         {
-          "name": "Infra",
-          "cosmo_score": 60.5,
+          "name": "AI",
+          "cosmo_score": 69.4,
           "astro_bias": "Neutral"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 68.0,
+          "astro_bias": "Bearish"
         }
       ],
       "top_stocks": [],
@@ -2870,7 +2870,7 @@
         "Moon moving Capricorn to Aquarius within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Jupiter - favors L1, DeFi",
-        "High funding rates: AAVE, LISTA, API3 \u2014 longs crowded"
+        "High funding rates: API3, TON, BNB \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
