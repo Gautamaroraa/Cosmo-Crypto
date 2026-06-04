@@ -1,20 +1,4 @@
 {
-  "TIA_LONG_MOMENTUM": {
-    "coin": "TIA",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-03T19:08:21Z",
-    "enter_sent": true
-  },
-  "USUAL_LONG_MOMENTUM": {
-    "coin": "USUAL",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-03T19:08:21Z",
-    "enter_sent": true
-  },
   "BERA_LONG_MOMENTUM": {
     "coin": "BERA",
     "direction": "LONG",
@@ -101,9 +85,10 @@
     "coin": "STRK",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-06-04T12:19:37Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-06-04T20:33:47Z"
   },
   "OP_LONG_MOMENTUM": {
     "coin": "OP",
@@ -136,6 +121,22 @@
     "type": "MOMENTUM",
     "last_timing": "NOW",
     "alerted_at": "2026-06-04T18:26:13Z",
+    "enter_sent": true
+  },
+  "APT_LONG_MOMENTUM": {
+    "coin": "APT",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-04T20:33:47Z",
+    "enter_sent": true
+  },
+  "ENA_LONG_MOMENTUM": {
+    "coin": "ENA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-04T20:33:47Z",
     "enter_sent": true
   }
 }
