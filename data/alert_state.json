@@ -1,20 +1,4 @@
 {
-  "APT_LONG_MOMENTUM": {
-    "coin": "APT",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-04T20:33:47Z",
-    "enter_sent": true
-  },
-  "ENA_LONG_MOMENTUM": {
-    "coin": "ENA",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-04T20:33:47Z",
-    "enter_sent": true
-  },
   "TIA_LONG_MOMENTUM": {
     "coin": "TIA",
     "direction": "LONG",
@@ -101,6 +85,14 @@
     "type": "MEAN_REVERSION",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-05T20:25:57Z",
+    "enter_sent": false
+  },
+  "SUN_SQUEEZE_MEAN_REVERSION": {
+    "coin": "SUN",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-05T21:57:49Z",
     "enter_sent": false
   }
 }
