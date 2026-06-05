@@ -1,30 +1,4 @@
 {
-  "EIGEN_LONG_MOMENTUM": {
-    "coin": "EIGEN",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-04T05:06:25Z",
-    "enter_sent": true,
-    "entered_at": "2026-06-04T23:39:48Z"
-  },
-  "ONDO_LONG_MOMENTUM": {
-    "coin": "ONDO",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "NOW",
-    "alerted_at": "2026-06-04T05:06:25Z",
-    "enter_sent": true,
-    "entered_at": "2026-06-04T12:19:37Z"
-  },
-  "MOVE_LONG_MOMENTUM": {
-    "coin": "MOVE",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-04T05:06:25Z",
-    "enter_sent": false
-  },
   "ZK_LONG_MOMENTUM": {
     "coin": "ZK",
     "direction": "LONG",
@@ -147,6 +121,14 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-05T01:55:04Z",
+    "enter_sent": false
+  },
+  "SHIB_LONG_MOMENTUM": {
+    "coin": "SHIB",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-05T06:23:49Z",
     "enter_sent": false
   }
 }
