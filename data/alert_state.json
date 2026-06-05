@@ -1,39 +1,4 @@
 {
-  "ZK_LONG_MOMENTUM": {
-    "coin": "ZK",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "NOW",
-    "alerted_at": "2026-06-04T09:02:15Z",
-    "enter_sent": true,
-    "entered_at": "2026-06-05T01:55:04Z"
-  },
-  "JUP_LONG_MOMENTUM": {
-    "coin": "JUP",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-04T09:02:15Z",
-    "enter_sent": false
-  },
-  "LINK_LONG_MOMENTUM": {
-    "coin": "LINK",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "NOW",
-    "alerted_at": "2026-06-04T12:19:37Z",
-    "enter_sent": true,
-    "entered_at": "2026-06-04T15:59:47Z"
-  },
-  "STRK_LONG_MOMENTUM": {
-    "coin": "STRK",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-04T12:19:37Z",
-    "enter_sent": true,
-    "entered_at": "2026-06-04T20:33:47Z"
-  },
   "OP_LONG_MOMENTUM": {
     "coin": "OP",
     "direction": "LONG",
@@ -130,5 +95,29 @@
     "last_timing": "WAIT",
     "alerted_at": "2026-06-05T06:23:49Z",
     "enter_sent": false
+  },
+  "PENDLE_LONG_MOMENTUM": {
+    "coin": "PENDLE",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-05T13:44:28Z",
+    "enter_sent": true
+  },
+  "ME_LONG_MOMENTUM": {
+    "coin": "ME",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-05T13:44:28Z",
+    "enter_sent": true
+  },
+  "ZEN_LONG_MOMENTUM": {
+    "coin": "ZEN",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-05T13:44:28Z",
+    "enter_sent": true
   }
 }
