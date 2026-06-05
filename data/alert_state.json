@@ -1,28 +1,4 @@
 {
-  "TRX_LONG_MOMENTUM": {
-    "coin": "TRX",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-04T00:02:09Z",
-    "enter_sent": false
-  },
-  "CAKE_LONG_MOMENTUM": {
-    "coin": "CAKE",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-04T00:02:09Z",
-    "enter_sent": false
-  },
-  "ZEC_LONG_MOMENTUM": {
-    "coin": "ZEC",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "NOW",
-    "alerted_at": "2026-06-04T00:02:09Z",
-    "enter_sent": true
-  },
   "EIGEN_LONG_MOMENTUM": {
     "coin": "EIGEN",
     "direction": "LONG",
@@ -53,9 +29,10 @@
     "coin": "ZK",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-06-04T09:02:15Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-06-05T01:55:04Z"
   },
   "JUP_LONG_MOMENTUM": {
     "coin": "JUP",
@@ -112,7 +89,7 @@
     "coin": "LDO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "NOW",
+    "last_timing": "VALID",
     "alerted_at": "2026-06-04T18:26:13Z",
     "enter_sent": true
   },
@@ -154,6 +131,22 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-04T22:13:25Z",
+    "enter_sent": false
+  },
+  "WIF_LONG_MOMENTUM": {
+    "coin": "WIF",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-05T01:55:04Z",
+    "enter_sent": true
+  },
+  "MANA_LONG_MOMENTUM": {
+    "coin": "MANA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-05T01:55:04Z",
     "enter_sent": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-06-04",
-    "generated_at": "2026-06-04T23:39:47Z"
+    "date": "2026-06-05",
+    "generated_at": "2026-06-05T01:55:04Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -18,10 +18,10 @@
     "saturn_retro": false,
     "moon_phase": "Waning Gibbous",
     "moon_nakshatra": "Shravana",
-    "day_ruler": "Jupiter",
+    "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,47 +40,47 @@
     },
     "top_sectors_on_similar_days": [
       {
+        "name": "Meme",
+        "avg_score": 70.1
+      },
+      {
+        "name": "DeFi",
+        "avg_score": 69.8
+      },
+      {
         "name": "Payments",
         "avg_score": 69.3
       },
       {
-        "name": "Meme",
-        "avg_score": 67.0
-      },
-      {
-        "name": "DeFi",
-        "avg_score": 65.9
-      },
-      {
         "name": "L1",
-        "avg_score": 65.5
+        "avg_score": 68.5
       },
       {
-        "name": "Emerging",
-        "avg_score": 65.5
+        "name": "L2",
+        "avg_score": 68.2
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waning Gibbous": 3,
-      "Waxing Gibbous": 4,
+      "Waning Gibbous": 4,
+      "Waxing Gibbous": 2,
       "Full Moon": 1,
-      "First Quarter": 1
+      "First Quarter": 2
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Payments, Meme, DeFi.",
-    "Mars in Aries + Day of Jupiter is the dominant sky signature today."
+    "Strongest sectors on similar days: Meme, DeFi, Payments.",
+    "Mars in Aries + Day of Venus is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "similarity_pct": 100.0,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "L1",
+      "day_ruler": "Venus",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,12 +96,35 @@
       }
     },
     {
-      "date": "2026-06-03",
+      "date": "2026-06-04",
+      "similarity_pct": 92.0,
+      "cosmo_score": 35.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 92.0,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Jupiter \u2192 now Venus"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-02",
       "similarity_pct": 88.4,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mercury",
-      "strongest_sector": "L1",
+      "day_ruler": "Mars",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -114,7 +137,7 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mercury \u2192 now Jupiter",
+          "Day ruler: Mars \u2192 now Venus",
           "Moon in: Sagittarius \u2192 now Capricorn"
         ]
       }
@@ -138,18 +161,18 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Jupiter",
+          "Day ruler: Moon \u2192 now Venus",
           "Moon in: Sagittarius \u2192 now Capricorn"
         ]
       }
     },
     {
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "similarity_pct": 85.7,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mars",
-      "strongest_sector": "DeFi",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -162,33 +185,8 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mars \u2192 now Jupiter",
+          "Day ruler: Mercury \u2192 now Venus",
           "Moon in: Sagittarius \u2192 now Capricorn"
-        ]
-      }
-    },
-    {
-      "date": "2026-05-28",
-      "similarity_pct": 71.4,
-      "cosmo_score": 35.2,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "Gaming",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 71.4,
-        "matched": [
-          "Mars in Aries",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Day ruler Jupiter",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Jupiter in: Gemini \u2192 now Cancer",
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Moon in: Libra \u2192 now Capricorn"
         ]
       }
     }
