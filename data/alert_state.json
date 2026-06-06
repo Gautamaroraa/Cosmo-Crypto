@@ -1,12 +1,4 @@
 {
-  "TRX_SQUEEZE_MEAN_REVERSION": {
-    "coin": "TRX",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-05T20:25:57Z",
-    "enter_sent": false
-  },
   "SUN_SQUEEZE_MEAN_REVERSION": {
     "coin": "SUN",
     "direction": "SQUEEZE",
@@ -78,5 +70,21 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-06T20:10:40Z",
     "enter_sent": true
+  },
+  "GLM_SQUEEZE_MEAN_REVERSION": {
+    "coin": "GLM",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-06T21:19:22Z",
+    "enter_sent": false
+  },
+  "KSM_SQUEEZE_MEAN_REVERSION": {
+    "coin": "KSM",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-06T21:19:22Z",
+    "enter_sent": false
   }
 }
