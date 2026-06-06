@@ -1,12 +1,4 @@
 {
-  "SUN_SQUEEZE_MEAN_REVERSION": {
-    "coin": "SUN",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-05T21:57:49Z",
-    "enter_sent": false
-  },
   "TRX_LONG_MOMENTUM": {
     "coin": "TRX",
     "direction": "LONG",
@@ -59,9 +51,10 @@
     "coin": "PENDLE",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "VALID",
     "alerted_at": "2026-06-06T16:20:12Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-06-06T22:37:27Z"
   },
   "EDEN_LONG_MOMENTUM": {
     "coin": "EDEN",
@@ -85,6 +78,14 @@
     "type": "MEAN_REVERSION",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-06T21:19:22Z",
+    "enter_sent": false
+  },
+  "BERA_LONG_MOMENTUM": {
+    "coin": "BERA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-06T22:37:27Z",
     "enter_sent": false
   }
 }
