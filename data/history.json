@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-06T16:20:12Z",
+    "generated_at": "2026-06-06T17:43:29Z",
     "total_days": 15,
     "version": "1.0"
   },
@@ -9,12 +9,12 @@
     "days_with_outcomes": 14,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "Payments": 69.3,
-      "L1": 67.8,
-      "Meme": 67.6,
-      "DeFi": 66.6,
+      "Meme": 68.7,
+      "L1": 68.2,
+      "Payments": 67.3,
+      "DeFi": 66.4,
       "Gaming": 66.3,
-      "L2": 66.2,
+      "L2": 65.8,
       "AI": 63.0,
       "Emerging": 62.8,
       "Infra": 60.5
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-06T16:20:12Z"
+    "generated_at": "2026-06-06T17:43:29Z"
   },
   "anomalies": [
     {
@@ -3100,7 +3100,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "L2",
+      "strongest_sector": "L1",
       "weakest_sector": "AI",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
@@ -3160,10 +3160,17 @@
       "conjunctions": [
         {
           "planets": [
+            "Moon",
+            "Rahu"
+          ],
+          "orb": 7.51
+        },
+        {
+          "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 3.07
+          "orb": 3.02
         }
       ],
       "aspects": [
@@ -3173,7 +3180,15 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.27
+          "orb": 3.32
+        },
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 7.51
         },
         {
           "planets": [
@@ -3181,7 +3196,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 5.81
+          "orb": 5.77
         },
         {
           "planets": [
@@ -3189,7 +3204,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.56
+          "orb": 4.48
         },
         {
           "planets": [
@@ -3197,7 +3212,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 4.27
+          "orb": 4.36
         },
         {
           "planets": [
@@ -3205,7 +3220,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 4.27
+          "orb": 4.36
         },
         {
           "planets": [
@@ -3221,28 +3236,28 @@
       "declining": 1191,
       "top_sectors": [
         {
-          "name": "L2",
-          "cosmo_score": 71.1,
-          "astro_bias": "Strong Bullish"
-        },
-        {
           "name": "L1",
-          "cosmo_score": 69.0,
+          "cosmo_score": 73.7,
           "astro_bias": "Bullish"
         },
         {
+          "name": "L2",
+          "cosmo_score": 68.0,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 63.2,
+          "astro_bias": "Neutral"
+        },
+        {
           "name": "DeFi",
-          "cosmo_score": 63.9,
+          "cosmo_score": 61.7,
           "astro_bias": "Bullish"
         },
         {
           "name": "Emerging",
           "cosmo_score": 61.0,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 59.2,
           "astro_bias": "Neutral"
         }
       ],
@@ -3252,7 +3267,7 @@
         "Moon moving Aquarius to Pisces within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: MANTA, LAYER, RUNE \u2014 longs crowded"
+        "High funding rates: PI, SUI, TAO \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
