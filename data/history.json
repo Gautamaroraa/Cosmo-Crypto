@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-06T18:55:41Z",
+    "generated_at": "2026-06-06T20:10:40Z",
     "total_days": 15,
     "version": "1.0"
   },
@@ -11,12 +11,12 @@
     "sector_avg_scores": {
       "Payments": 69.3,
       "Meme": 68.7,
-      "L1": 67.7,
-      "DeFi": 66.9,
+      "L1": 67.4,
       "Gaming": 66.3,
-      "L2": 65.6,
-      "Emerging": 63.2,
-      "AI": 63.0,
+      "DeFi": 65.9,
+      "L2": 65.0,
+      "Emerging": 62.8,
+      "AI": 62.1,
       "Infra": 60.5
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-06T18:55:41Z"
+    "generated_at": "2026-06-06T20:10:40Z"
   },
   "anomalies": [
     {
@@ -44,14 +44,6 @@
       ],
       "cosmo_score": 33.0,
       "moon_phase": "Full Moon"
-    },
-    {
-      "date": "2026-06-06",
-      "flags": [
-        "UNUSUALLY_HIGH_COSMO_SCORE"
-      ],
-      "cosmo_score": 57.7,
-      "moon_phase": "Waning Gibbous"
     }
   ],
   "history": [
@@ -3104,12 +3096,12 @@
     },
     {
       "date": "2026-06-06",
-      "day_cosmo_score": 57.7,
-      "market_direction": "Neutral",
+      "day_cosmo_score": 35.2,
+      "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "",
-      "weakest_sector": "",
+      "strongest_sector": "L1",
+      "weakest_sector": "Gaming",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Saturn",
@@ -3171,14 +3163,14 @@
             "Moon",
             "Rahu"
           ],
-          "orb": 6.87
+          "orb": 6.23
         },
         {
           "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 2.97
+          "orb": 2.92
         }
       ],
       "aspects": [
@@ -3188,7 +3180,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.37
+          "orb": 3.41
         },
         {
           "planets": [
@@ -3196,7 +3188,7 @@
             "Ketu"
           ],
           "aspect": "Opposition",
-          "orb": 6.87
+          "orb": 6.23
         },
         {
           "planets": [
@@ -3204,7 +3196,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 5.73
+          "orb": 5.69
         },
         {
           "planets": [
@@ -3212,7 +3204,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.41
+          "orb": 4.34
         },
         {
           "planets": [
@@ -3220,7 +3212,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 4.44
+          "orb": 4.51
         },
         {
           "planets": [
@@ -3228,7 +3220,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 4.44
+          "orb": 4.51
         },
         {
           "planets": [
@@ -3239,16 +3231,43 @@
           "orb": 0.0
         }
       ],
-      "breadth_ratio": 50,
+      "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 0,
-      "top_sectors": [],
+      "declining": 1191,
+      "top_sectors": [
+        {
+          "name": "L1",
+          "cosmo_score": 63.7,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 61.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 59.2,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 57.2,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 55.8,
+          "astro_bias": "Bullish"
+        }
+      ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Rahu, Ketu",
         "Moon moving Aquarius to Pisces within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
-        "Day of Saturn - favors Infra, L2"
+        "Day of Saturn - favors Infra, L2",
+        "High funding rates: MANTA, ETC, LAYER \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
