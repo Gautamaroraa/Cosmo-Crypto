@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-06T11:54:39Z",
+    "generated_at": "2026-06-06T13:44:06Z",
     "total_days": 15,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 14,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "Payments": 70.5,
       "Meme": 68.7,
-      "L1": 67.1,
-      "DeFi": 66.7,
+      "L1": 68.3,
+      "Payments": 67.5,
+      "DeFi": 66.9,
       "Gaming": 66.3,
-      "L2": 65.6,
+      "L2": 66.2,
+      "Emerging": 63.2,
       "AI": 63.0,
-      "Emerging": 62.8,
-      "Infra": 60.3
+      "Infra": 61.1
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-06T11:54:39Z"
+    "generated_at": "2026-06-06T13:44:06Z"
   },
   "anomalies": [
     {
@@ -3100,7 +3100,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "Payments",
+      "strongest_sector": "L1",
       "weakest_sector": "Gaming",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
@@ -3117,7 +3117,7 @@
           "retrograde": false
         },
         "Moon": {
-          "rashi": "Capricorn",
+          "rashi": "Aquarius",
           "nakshatra": "Dhanishtha",
           "retrograde": false
         },
@@ -3163,25 +3163,17 @@
             "Jupiter",
             "Venus"
           ],
-          "orb": 3.26
+          "orb": 3.18
         }
       ],
       "aspects": [
         {
           "planets": [
             "Sun",
-            "Moon"
-          ],
-          "aspect": "Trine",
-          "orb": 7.56
-        },
-        {
-          "planets": [
-            "Sun",
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.11
+          "orb": 3.18
         },
         {
           "planets": [
@@ -3189,7 +3181,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 5.94
+          "orb": 5.88
         },
         {
           "planets": [
@@ -3197,7 +3189,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.81
+          "orb": 4.71
         },
         {
           "planets": [
@@ -3205,7 +3197,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 4.0
+          "orb": 4.11
         },
         {
           "planets": [
@@ -3213,7 +3205,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 4.0
+          "orb": 4.11
         },
         {
           "planets": [
@@ -3226,41 +3218,41 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1305,
+      "declining": 1188,
       "top_sectors": [
         {
-          "name": "Payments",
-          "cosmo_score": 72.9,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 64.5,
+          "name": "L1",
+          "cosmo_score": 75.8,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Emerging",
-          "cosmo_score": 61.0,
-          "astro_bias": "Neutral"
+          "name": "L2",
+          "cosmo_score": 71.0,
+          "astro_bias": "Strong Bullish"
         },
         {
-          "name": "L1",
-          "cosmo_score": 59.7,
+          "name": "DeFi",
+          "cosmo_score": 67.0,
           "astro_bias": "Bullish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 58.7,
+          "cosmo_score": 65.1,
           "astro_bias": "Bullish"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 63.8,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Rahu, Ketu",
-        "Moon moving Capricorn to Pisces within 3 days",
+        "Moon moving Aquarius to Pisces within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: DOT, SUI, UNI \u2014 longs crowded"
+        "High funding rates: MANTA, ADA, RUNE \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
