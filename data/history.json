@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-06T17:43:29Z",
+    "generated_at": "2026-06-06T18:55:41Z",
     "total_days": 15,
     "version": "1.0"
   },
@@ -9,14 +9,14 @@
     "days_with_outcomes": 14,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
+      "Payments": 69.3,
       "Meme": 68.7,
-      "L1": 68.2,
-      "Payments": 67.3,
-      "DeFi": 66.4,
+      "L1": 67.7,
+      "DeFi": 66.9,
       "Gaming": 66.3,
-      "L2": 65.8,
+      "L2": 65.6,
+      "Emerging": 63.2,
       "AI": 63.0,
-      "Emerging": 62.8,
       "Infra": 60.5
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-06T17:43:29Z"
+    "generated_at": "2026-06-06T18:55:41Z"
   },
   "anomalies": [
     {
@@ -44,6 +44,14 @@
       ],
       "cosmo_score": 33.0,
       "moon_phase": "Full Moon"
+    },
+    {
+      "date": "2026-06-06",
+      "flags": [
+        "UNUSUALLY_HIGH_COSMO_SCORE"
+      ],
+      "cosmo_score": 57.7,
+      "moon_phase": "Waning Gibbous"
     }
   ],
   "history": [
@@ -3096,12 +3104,12 @@
     },
     {
       "date": "2026-06-06",
-      "day_cosmo_score": 35.2,
-      "market_direction": "Bearish",
+      "day_cosmo_score": 57.7,
+      "market_direction": "Neutral",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "L1",
-      "weakest_sector": "AI",
+      "strongest_sector": "",
+      "weakest_sector": "",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Saturn",
@@ -3163,14 +3171,14 @@
             "Moon",
             "Rahu"
           ],
-          "orb": 7.51
+          "orb": 6.87
         },
         {
           "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 3.02
+          "orb": 2.97
         }
       ],
       "aspects": [
@@ -3180,7 +3188,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.32
+          "orb": 3.37
         },
         {
           "planets": [
@@ -3188,7 +3196,7 @@
             "Ketu"
           ],
           "aspect": "Opposition",
-          "orb": 7.51
+          "orb": 6.87
         },
         {
           "planets": [
@@ -3196,7 +3204,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 5.77
+          "orb": 5.73
         },
         {
           "planets": [
@@ -3204,7 +3212,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.48
+          "orb": 4.41
         },
         {
           "planets": [
@@ -3212,7 +3220,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 4.36
+          "orb": 4.44
         },
         {
           "planets": [
@@ -3220,7 +3228,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 4.36
+          "orb": 4.44
         },
         {
           "planets": [
@@ -3231,43 +3239,16 @@
           "orb": 0.0
         }
       ],
-      "breadth_ratio": 0.0,
+      "breadth_ratio": 50,
       "advancing": 0,
-      "declining": 1191,
-      "top_sectors": [
-        {
-          "name": "L1",
-          "cosmo_score": 73.7,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 68.0,
-          "astro_bias": "Strong Bullish"
-        },
-        {
-          "name": "Payments",
-          "cosmo_score": 63.2,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 61.7,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 61.0,
-          "astro_bias": "Neutral"
-        }
-      ],
+      "declining": 0,
+      "top_sectors": [],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Rahu, Ketu",
         "Moon moving Aquarius to Pisces within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
-        "Day of Saturn - favors Infra, L2",
-        "High funding rates: PI, SUI, TAO \u2014 longs crowded"
+        "Day of Saturn - favors Infra, L2"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
