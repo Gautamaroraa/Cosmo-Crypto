@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-06",
-    "generated_at": "2026-06-06T22:37:27Z"
+    "generated_at": "2026-06-06T23:46:16Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -21,7 +21,7 @@
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -80,7 +80,7 @@
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Saturn",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,12 +96,12 @@
       }
     },
     {
-      "date": "2026-06-02",
+      "date": "2026-06-01",
       "similarity_pct": 88.4,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mars",
-      "strongest_sector": "DeFi",
+      "day_ruler": "Moon",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -114,42 +114,18 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mars \u2192 now Saturn",
+          "Day ruler: Moon \u2192 now Saturn",
           "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
     },
     {
-      "date": "2026-06-05",
-      "similarity_pct": 88.4,
-      "cosmo_score": 35.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Venus",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 88.4,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Venus \u2192 now Saturn",
-          "Moon in: Capricorn \u2192 now Aquarius"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-01",
+      "date": "2026-06-02",
       "similarity_pct": 85.7,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Moon",
-      "strongest_sector": "L2",
+      "day_ruler": "Mars",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -162,7 +138,7 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Saturn",
+          "Day ruler: Mars \u2192 now Saturn",
           "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
@@ -188,6 +164,30 @@
         "different": [
           "Day ruler: Mercury \u2192 now Saturn",
           "Moon in: Sagittarius \u2192 now Aquarius"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "similarity_pct": 85.7,
+      "cosmo_score": 35.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 85.7,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Jupiter \u2192 now Saturn",
+          "Moon in: Capricorn \u2192 now Aquarius"
         ]
       }
     }
