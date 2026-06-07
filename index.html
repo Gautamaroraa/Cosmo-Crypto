@@ -701,24 +701,21 @@ function render(data, fno, strategy) {
       html += `<div id="expired-toggle" style="margin:12px 0;"><button onclick="toggleExpired()" style="font-size:11px;color:var(--text3);background:none;border:1px solid var(--border);border-radius:2px;padding:4px 12px;cursor:pointer;font-family:'DM Mono',monospace;">Show expired signals</button></div>`;
       html += `<div id="expired-setups" style="display:none;"></div>`;
       s.setups.forEach(setup => {
-        // ── Hard skip rules check ──────────────────────────────────────
-        const skipReasons = [];
+        // ── Informational warnings only — engine already decided this is clean ──
+        const warnReasons = [];
         const fr = setup.funding_note ? parseFloat((setup.funding_note.match(/([+-]?\d+\.?\d*)\%/) || [])[1] || 0) : 0;
-        if (fr > 1.0)            skipReasons.push(`Funding ${fr}% — longs overcrowded`);
-        if (setup.rsi > 80)      skipReasons.push(`RSI ${setup.rsi} — extreme overbought`);
-        if (setup.adx < 20)      skipReasons.push(`ADX ${setup.adx} — weak trend`);
-        if (setup.bb_width > 50) skipReasons.push(`BB Width ${setup.bb_width}% — move extended`);
-        if (setup.oi_trend === 'Falling') skipReasons.push('OI Falling — momentum fading');
+        if (setup.adx < 20)      warnReasons.push(`ADX ${setup.adx} — weak trend, trade carefully`);
+        if (setup.oi_trend === 'Falling') warnReasons.push('OI Falling — confirm momentum before entering');
+        if (setup.bb_width > 40) warnReasons.push(`BB Width ${setup.bb_width}% — volatility elevated`);
 
-        const isSkip = skipReasons.length > 0;
-        const c = isSkip ? 'var(--red)' : setup.confidence >= 70 ? 'var(--green)' : setup.confidence >= 50 ? 'var(--purple)' : 'var(--amber)';
+        const c = setup.confidence >= 70 ? 'var(--green)' : setup.confidence >= 50 ? 'var(--purple)' : 'var(--text2)';
         const dirColor = setup.direction === 'LONG' || setup.direction === 'SQUEEZE' ? 'var(--green)' : 'var(--red)';
         const ichColor = setup.ichimoku_cloud && setup.ichimoku_cloud.includes('Above') ? 'var(--green)' :
                          setup.ichimoku_cloud && setup.ichimoku_cloud.includes('Below') ? 'var(--red)' : 'var(--text3)';
         const stColor  = setup.supertrend === 'Bullish' ? 'var(--green)' : 'var(--red)';
         const macdColor = setup.macd_histogram > 0 ? 'var(--green)' : 'var(--red)';
 
-        html += `<div class="card" style="margin-bottom:14px;border-left:2px solid ${isSkip ? 'var(--red)' : dirColor};${isSkip ? 'opacity:0.7;' : ''}"
+        html += `<div class="card" style="margin-bottom:14px;border-left:2px solid ${dirColor};"
           data-setup-symbol="${setup.symbol}"
           data-signal-price="${setup.current_price}"
           data-atr-pct="${setup.atr_pct}"
@@ -730,12 +727,12 @@ function render(data, fno, strategy) {
               <span style="font-size:10px;color:var(--text3);margin-left:8px;">${setup.type} · ${setup.sector}</span>
             </div>
             <div style="text-align:right;">
-              <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:${c}">${isSkip ? 'SKIP' : setup.confidence + '/100'}</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:${c}">${setup.confidence}/100</div>
             </div>
           </div>
 
-          ${isSkip ? `<div style="background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.3);border-radius:2px;padding:8px 12px;margin-bottom:12px;">
-            ${skipReasons.map(r => `<div style="font-size:11px;color:var(--red);margin-bottom:2px;">✗ ${r}</div>`).join('')}
+          ${warnReasons.length ? `<div style="background:rgba(251,191,36,0.06);border:1px solid rgba(251,191,36,0.2);border-radius:2px;padding:8px 12px;margin-bottom:12px;">
+            ${warnReasons.map(r => `<div style="font-size:11px;color:var(--gold);margin-bottom:2px;">⚠ ${r}</div>`).join('')}
           </div>` : ''}
 
           <!-- Expired signal warning — updated by live ticker -->
@@ -806,7 +803,7 @@ function render(data, fno, strategy) {
               return `<span style="font-size:10px;background:${bearish ? 'rgba(248,113,113,0.1)' : 'rgba(167,139,250,0.1)'};color:${bearish ? 'var(--red)' : 'var(--purple)'};border:1px solid ${bearish ? 'rgba(248,113,113,0.2)' : 'rgba(167,139,250,0.2)'};padding:2px 7px;border-radius:1px;margin-right:4px;">${p}${bearish ? ' ⚠' : ''}</span>`;
             }).join('')}</div>` : ''}
 
-          ${setup.funding_note ? `<div style="font-size:11px;color:${fr > 1.0 ? 'var(--red)' : 'var(--amber)'};margin-bottom:8px;">⚡ ${setup.funding_note}${fr > 1.0 ? ' — SKIP' : ''}</div>` : ''}
+          ${setup.funding_note ? `<div style="font-size:11px;color:var(--amber);margin-bottom:8px;">⚡ ${setup.funding_note}</div>` : ''}
 
           ${setup.commentary && setup.commentary.length ? `
           <div style="margin-bottom:12px;padding:10px 12px;background:rgba(96,165,250,0.05);border:1px solid rgba(96,165,250,0.15);border-radius:2px;">
