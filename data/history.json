@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-06-06T23:46:16Z",
-    "total_days": 15,
+    "generated_at": "2026-06-07T02:00:05Z",
+    "total_days": 16,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 15,
-    "days_with_outcomes": 14,
+    "total_days": 16,
+    "days_with_outcomes": 15,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "Payments": 69.3,
       "Meme": 68.2,
       "L1": 67.9,
-      "DeFi": 67.0,
-      "L2": 66.8,
+      "L2": 66.6,
+      "DeFi": 66.6,
       "Gaming": 66.3,
       "Emerging": 63.2,
-      "AI": 63.0,
+      "AI": 62.7,
       "Infra": 61.6
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-06T23:46:16Z"
+    "generated_at": "2026-06-07T02:00:05Z"
   },
   "anomalies": [
     {
@@ -3268,6 +3268,192 @@
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Saturn - favors Infra, L2",
         "High funding rates: BCH, NEAR, SOL \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-06-07",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "day_cosmo_score": 35.2,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Medium",
+      "strongest_sector": "L1",
+      "weakest_sector": "Payments",
+      "moon_phase": "Waning Gibbous",
+      "moon_phase_emoji": "\ud83c\udf16",
+      "day_ruler": "Sun",
+      "astro_score": 68,
+      "retrograde_planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Taurus",
+          "nakshatra": "Rohini",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Aries",
+          "nakshatra": "Bharani",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Moon",
+            "Rahu"
+          ],
+          "orb": 3.19
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "orb": 2.68
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 3.63
+        },
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 3.19
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Sextile",
+          "orb": 5.53
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 4.01
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 4.87
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.87
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1194,
+      "top_sectors": [
+        {
+          "name": "L1",
+          "cosmo_score": 67.8,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 64.7,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 62.6,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 61.8,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 60.8,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Rahu, Ketu",
+        "Moon moving Aquarius to Pisces within 3 days",
+        "Waning Gibbous - Distribution phase. Take profits.",
+        "Day of Sun - favors L1, Infra",
+        "High funding rates: BCH, ZRO, DOT \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
