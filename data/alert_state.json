@@ -1,20 +1,4 @@
 {
-  "GLM_SQUEEZE_MEAN_REVERSION": {
-    "coin": "GLM",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-06T21:19:22Z",
-    "enter_sent": false
-  },
-  "KSM_SQUEEZE_MEAN_REVERSION": {
-    "coin": "KSM",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-06T21:19:22Z",
-    "enter_sent": false
-  },
   "BERA_LONG_MOMENTUM": {
     "coin": "BERA",
     "direction": "LONG",
@@ -78,5 +62,13 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-07T18:05:33Z",
     "enter_sent": true
+  },
+  "RSR_LONG_MOMENTUM": {
+    "coin": "RSR",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-07T22:19:52Z",
+    "enter_sent": false
   }
 }
