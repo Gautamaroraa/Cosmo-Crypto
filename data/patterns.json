@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-08",
-    "generated_at": "2026-06-08T12:10:21Z"
+    "generated_at": "2026-06-08T16:20:19Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -9,7 +9,7 @@
     "mars_rashi": "Aries",
     "mercury_rashi": "Gemini",
     "jupiter_rashi": "Cancer",
-    "venus_rashi": "Gemini",
+    "venus_rashi": "Cancer",
     "saturn_rashi": "Pisces",
     "mercury_retro": false,
     "venus_retro": false,
@@ -21,7 +21,7 @@
     "day_ruler": "Moon",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "Meme",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -79,7 +79,7 @@
       "cosmo_score": 34.0,
       "moon_phase": "Last Quarter",
       "day_ruler": "Moon",
-      "strongest_sector": "L1",
+      "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -95,32 +95,8 @@
       }
     },
     {
-      "date": "2026-06-07",
-      "similarity_pct": 85.7,
-      "cosmo_score": 35.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 85.7,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Waning Gibbous \u2192 now Last Quarter",
-          "Day ruler: Sun \u2192 now Moon"
-        ]
-      }
-    },
-    {
       "date": "2026-06-01",
-      "similarity_pct": 84.8,
+      "similarity_pct": 80.4,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Moon",
@@ -128,7 +104,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 84.8,
+        "similarity_pct": 80.4,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -144,7 +120,7 @@
     },
     {
       "date": "2026-06-06",
-      "similarity_pct": 83.0,
+      "similarity_pct": 78.6,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Saturn",
@@ -152,7 +128,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 83.0,
+        "similarity_pct": 78.6,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -167,16 +143,16 @@
       }
     },
     {
-      "date": "2026-06-03",
-      "similarity_pct": 82.1,
+      "date": "2026-06-07",
+      "similarity_pct": 78.6,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mercury",
+      "day_ruler": "Sun",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 82.1,
+        "similarity_pct": 78.6,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -186,7 +162,31 @@
         ],
         "different": [
           "Moon phase: Waning Gibbous \u2192 now Last Quarter",
-          "Day ruler: Mercury \u2192 now Moon",
+          "Day ruler: Sun \u2192 now Moon"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "similarity_pct": 75.0,
+      "cosmo_score": 35.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mars",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 75.0,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Waning Gibbous \u2192 now Last Quarter",
+          "Day ruler: Mars \u2192 now Moon",
           "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
