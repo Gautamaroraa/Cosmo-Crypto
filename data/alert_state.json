@@ -1,12 +1,4 @@
 {
-  "IOTA_LONG_MOMENTUM": {
-    "coin": "IOTA",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-07T23:37:34Z",
-    "enter_sent": true
-  },
   "BLUR_LONG_MOMENTUM": {
     "coin": "BLUR",
     "direction": "LONG",
@@ -45,6 +37,22 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-08T21:09:54Z",
+    "enter_sent": false
+  },
+  "MEME_LONG_MOMENTUM": {
+    "coin": "MEME",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-09T00:07:27Z",
+    "enter_sent": false
+  },
+  "HBAR_SQUEEZE_MEAN_REVERSION": {
+    "coin": "HBAR",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-09T00:07:27Z",
     "enter_sent": false
   }
 }
