@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-09T19:15:18Z",
+    "generated_at": "2026-06-09T21:16:07Z",
     "total_days": 18,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 17,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 69.6,
+      "L1": 69.1,
       "Payments": 68.8,
       "Meme": 67.3,
-      "L2": 67.1,
-      "DeFi": 67.1,
       "Gaming": 66.5,
-      "Emerging": 63.1,
-      "AI": 63.0,
-      "Infra": 62.7
+      "L2": 66.4,
+      "DeFi": 66.3,
+      "Emerging": 63.0,
+      "AI": 62.6,
+      "Infra": 61.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-09T19:15:18Z"
+    "generated_at": "2026-06-09T21:16:07Z"
   },
   "anomalies": [
     {
@@ -3677,7 +3677,7 @@
       "volatility_bias": "Low",
       "risk_level": "High",
       "strongest_sector": "L1",
-      "weakest_sector": "AI",
+      "weakest_sector": "Payments",
       "moon_phase": "Last Quarter",
       "moon_phase_emoji": "\ud83c\udf17",
       "day_ruler": "Mars",
@@ -3739,14 +3739,14 @@
             "Moon",
             "Saturn"
           ],
-          "orb": 6.95
+          "orb": 5.82
         },
         {
           "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 0.03
+          "orb": 0.05
         }
       ],
       "aspects": [
@@ -3756,7 +3756,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 6.02
+          "orb": 6.1
         },
         {
           "planets": [
@@ -3764,7 +3764,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 6.43
+          "orb": 5.4
         },
         {
           "planets": [
@@ -3772,7 +3772,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 3.83
+          "orb": 3.78
         },
         {
           "planets": [
@@ -3780,7 +3780,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 0.52
+          "orb": 0.42
         },
         {
           "planets": [
@@ -3797,27 +3797,27 @@
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 79.3,
+          "cosmo_score": 70.4,
           "astro_bias": "Bullish"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 62.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 60.2,
+          "astro_bias": "Neutral"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 72.4,
+          "cosmo_score": 59.7,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Infra",
-          "cosmo_score": 71.6,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 67.5,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "L2",
-          "cosmo_score": 67.1,
+          "cosmo_score": 57.7,
           "astro_bias": "Bullish"
         }
       ],
@@ -3827,7 +3827,7 @@
         "Moon moving Pisces to Aries within 3 days",
         "Last Quarter - Declining energy. Reduce exposure.",
         "Day of Mars - favors L1, Meme",
-        "High funding rates: ETC, SOL, BNB \u2014 longs crowded"
+        "High funding rates: ETC, XLM, LTC \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
