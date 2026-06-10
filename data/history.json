@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-10T08:49:49Z",
+    "generated_at": "2026-06-10T12:21:23Z",
     "total_days": 19,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 18,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 69.0,
+      "L1": 69.3,
       "Payments": 68.8,
-      "Meme": 67.3,
+      "Meme": 67.7,
+      "DeFi": 66.6,
       "Gaming": 66.5,
-      "DeFi": 66.5,
       "L2": 66.4,
+      "AI": 63.0,
       "Emerging": 63.0,
-      "AI": 62.2,
-      "Infra": 61.9
+      "Infra": 62.1
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-10T08:49:49Z"
+    "generated_at": "2026-06-10T12:21:23Z"
   },
   "anomalies": [
     {
@@ -3846,7 +3846,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L1",
       "weakest_sector": "Payments",
       "moon_phase": "Last Quarter",
       "moon_phase_emoji": "\ud83c\udf17",
@@ -3909,14 +3909,14 @@
             "Moon",
             "Saturn"
           ],
-          "orb": 0.76
+          "orb": 2.79
         },
         {
           "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 0.52
+          "orb": 0.66
         }
       ],
       "aspects": [
@@ -3926,7 +3926,7 @@
             "Moon"
           ],
           "aspect": "Sextile",
-          "orb": 5.76
+          "orb": 3.87
         },
         {
           "planets": [
@@ -3934,7 +3934,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 6.52
+          "orb": 6.65
         },
         {
           "planets": [
@@ -3942,7 +3942,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 0.6
+          "orb": 2.46
         },
         {
           "planets": [
@@ -3950,7 +3950,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 3.52
+          "orb": 3.45
         },
         {
           "planets": [
@@ -3958,7 +3958,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 0.16
+          "orb": 0.33
         },
         {
           "planets": [
@@ -3971,31 +3971,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1152,
+      "declining": 1099,
       "top_sectors": [
         {
-          "name": "DeFi",
-          "cosmo_score": 72.1,
+          "name": "L1",
+          "cosmo_score": 76.6,
           "astro_bias": "Bullish"
         },
         {
-          "name": "L1",
-          "cosmo_score": 71.3,
+          "name": "DeFi",
+          "cosmo_score": 74.9,
           "astro_bias": "Bullish"
         },
         {
           "name": "Meme",
-          "cosmo_score": 67.0,
+          "cosmo_score": 71.0,
           "astro_bias": "Neutral"
         },
         {
-          "name": "L2",
-          "cosmo_score": 66.3,
-          "astro_bias": "Strong Bullish"
+          "name": "AI",
+          "cosmo_score": 67.9,
+          "astro_bias": "Neutral"
         },
         {
           "name": "Infra",
-          "cosmo_score": 64.7,
+          "cosmo_score": 66.3,
           "astro_bias": "Neutral"
         }
       ],
