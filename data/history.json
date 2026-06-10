@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-10T21:29:38Z",
+    "generated_at": "2026-06-10T23:11:20Z",
     "total_days": 19,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 18,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 69.4,
+      "L1": 68.8,
       "Payments": 68.8,
-      "Meme": 67.7,
-      "L2": 67.5,
-      "DeFi": 66.8,
+      "Meme": 67.3,
       "Gaming": 66.5,
+      "L2": 66.3,
+      "DeFi": 66.3,
       "Emerging": 64.7,
       "AI": 62.2,
-      "Infra": 61.6
+      "Infra": 61.7
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-10T21:29:38Z"
+    "generated_at": "2026-06-10T23:11:20Z"
   },
   "anomalies": [
     {
@@ -3846,8 +3846,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L2",
-      "weakest_sector": "Payments",
+      "strongest_sector": "Emerging",
+      "weakest_sector": "Gaming",
       "moon_phase": "Last Quarter",
       "moon_phase_emoji": "\ud83c\udf17",
       "day_ruler": "Mercury",
@@ -3909,7 +3909,7 @@
             "Jupiter",
             "Venus"
           ],
-          "orb": 1.03
+          "orb": 1.1
         }
       ],
       "aspects": [
@@ -3919,7 +3919,7 @@
             "Moon"
           ],
           "aspect": "Sextile",
-          "orb": 1.09
+          "orb": 2.02
         },
         {
           "planets": [
@@ -3927,15 +3927,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 6.99
-        },
-        {
-          "planets": [
-            "Moon",
-            "Mercury"
-          ],
-          "aspect": "Square",
-          "orb": 7.31
+          "orb": 7.05
         },
         {
           "planets": [
@@ -3943,7 +3935,7 @@
             "Jupiter"
           ],
           "aspect": "Square",
-          "orb": 4.89
+          "orb": 3.9
         },
         {
           "planets": [
@@ -3951,7 +3943,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 5.92
+          "orb": 5.0
         },
         {
           "planets": [
@@ -3959,7 +3951,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 3.25
+          "orb": 3.22
         },
         {
           "planets": [
@@ -3967,7 +3959,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 0.78
+          "orb": 0.86
         },
         {
           "planets": [
@@ -3983,28 +3975,28 @@
       "declining": 1125,
       "top_sectors": [
         {
-          "name": "L2",
-          "cosmo_score": 81.1,
-          "astro_bias": "Strong Bullish"
-        },
-        {
-          "name": "L1",
-          "cosmo_score": 78.7,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 78.1,
-          "astro_bias": "Bullish"
-        },
-        {
           "name": "Emerging",
           "cosmo_score": 74.6,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 71.4,
+          "name": "DeFi",
+          "cosmo_score": 69.5,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 69.3,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 64.3,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 62.6,
           "astro_bias": "Neutral"
         }
       ],
@@ -4014,7 +4006,7 @@
         "Moon moving Pisces to Taurus within 3 days",
         "Last Quarter - Declining energy. Reduce exposure.",
         "Day of Mercury - favors DeFi, L2",
-        "High funding rates: ARB, AAVE, LDO \u2014 longs crowded"
+        "High funding rates: AAVE, MOVE, SOL \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
