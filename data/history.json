@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-12T18:08:59Z",
+    "generated_at": "2026-06-12T20:27:18Z",
     "total_days": 21,
     "version": "1.0"
   },
@@ -9,13 +9,13 @@
     "days_with_outcomes": 20,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 69.3,
+      "L1": 69.7,
       "Payments": 68.8,
+      "L2": 67.0,
       "Gaming": 66.9,
+      "Meme": 66.8,
+      "DeFi": 66.8,
       "Emerging": 66.8,
-      "DeFi": 66.7,
-      "L2": 66.5,
-      "Meme": 66.1,
       "AI": 62.2,
       "Infra": 61.7
     },
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-12T18:08:59Z"
+    "generated_at": "2026-06-12T20:27:18Z"
   },
   "anomalies": [
     {
@@ -4202,10 +4202,10 @@
       "date": "2026-06-12",
       "day_cosmo_score": 34.0,
       "market_direction": "Bearish",
-      "volatility_bias": "Medium",
+      "volatility_bias": "Low",
       "risk_level": "High",
       "strongest_sector": "Emerging",
-      "weakest_sector": "Gaming",
+      "weakest_sector": "Payments",
       "moon_phase": "Waning Crescent",
       "moon_phase_emoji": "\ud83c\udf18",
       "day_ruler": "Venus",
@@ -4267,14 +4267,14 @@
             "Moon",
             "Mars"
           ],
-          "orb": 0.29
+          "orb": 1.08
         },
         {
           "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 2.83
+          "orb": 2.92
         }
       ],
       "aspects": [
@@ -4284,7 +4284,15 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 2.11
+          "orb": 3.45
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.83
         },
         {
           "planets": [
@@ -4292,7 +4300,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 2.41
+          "orb": 2.37
         },
         {
           "planets": [
@@ -4300,7 +4308,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 7.95
+          "orb": 7.9
         },
         {
           "planets": [
@@ -4308,7 +4316,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 2.85
+          "orb": 2.95
         },
         {
           "planets": [
@@ -4330,22 +4338,22 @@
         },
         {
           "name": "L1",
-          "cosmo_score": 65.0,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 64.1,
+          "cosmo_score": 71.9,
           "astro_bias": "Bullish"
         },
         {
           "name": "L2",
-          "cosmo_score": 60.8,
+          "cosmo_score": 68.9,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 65.3,
           "astro_bias": "Bullish"
         },
         {
           "name": "Meme",
-          "cosmo_score": 54.2,
+          "cosmo_score": 61.8,
           "astro_bias": "Neutral"
         }
       ],
@@ -4355,7 +4363,7 @@
         "Sun moving Taurus to Gemini within 3 days",
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: ETC, LAYER, ARB \u2014 longs crowded"
+        "High funding rates: TAO, ETC, LAYER \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
