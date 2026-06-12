@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-12T22:09:00Z",
+    "generated_at": "2026-06-12T23:51:30Z",
     "total_days": 21,
     "version": "1.0"
   },
@@ -9,14 +9,14 @@
     "days_with_outcomes": 20,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 70.1,
+      "L1": 70.0,
       "Payments": 68.8,
-      "Meme": 68.1,
-      "Gaming": 67.6,
-      "DeFi": 67.3,
+      "DeFi": 67.4,
+      "Meme": 67.3,
+      "Gaming": 67.2,
       "L2": 66.9,
-      "Emerging": 66.8,
-      "AI": 62.2,
+      "Emerging": 66.4,
+      "AI": 63.7,
       "Infra": 61.7
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-12T22:09:00Z"
+    "generated_at": "2026-06-12T23:51:30Z"
   },
   "anomalies": [
     {
@@ -4222,7 +4222,7 @@
         },
         "Moon": {
           "rashi": "Aries",
-          "nakshatra": "Bharani",
+          "nakshatra": "Krittika",
           "retrograde": false
         },
         "Mars": {
@@ -4267,14 +4267,14 @@
             "Moon",
             "Mars"
           ],
-          "orb": 2.07
+          "orb": 3.09
         },
         {
           "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 2.99
+          "orb": 3.06
         }
       ],
       "aspects": [
@@ -4284,7 +4284,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 4.41
+          "orb": 5.4
         },
         {
           "planets": [
@@ -4292,7 +4292,15 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 5.79
+          "orb": 4.74
+        },
+        {
+          "planets": [
+            "Moon",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.8
         },
         {
           "planets": [
@@ -4300,7 +4308,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 2.34
+          "orb": 2.31
         },
         {
           "planets": [
@@ -4308,7 +4316,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 7.86
+          "orb": 7.83
         },
         {
           "planets": [
@@ -4316,7 +4324,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 3.02
+          "orb": 3.1
         },
         {
           "planets": [
@@ -4333,27 +4341,27 @@
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 79.2,
+          "cosmo_score": 78.0,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 75.3,
+          "name": "DeFi",
+          "cosmo_score": 76.2,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 72.7,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 70.1,
           "astro_bias": "Neutral"
         },
         {
           "name": "Gaming",
-          "cosmo_score": 74.8,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 74.6,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 73.8,
+          "cosmo_score": 69.9,
           "astro_bias": "Neutral"
         }
       ],
@@ -4363,7 +4371,7 @@
         "Sun moving Taurus to Gemini within 3 days",
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: XLM, BCH, ETC \u2014 longs crowded"
+        "High funding rates: XLM, BCH, TAO \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
