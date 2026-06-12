@@ -11,7 +11,7 @@
     "coin": "ONDO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "VALID",
     "alerted_at": "2026-06-11T22:29:55Z",
     "enter_sent": true
   },
@@ -19,7 +19,7 @@
     "coin": "ZRO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "VALID",
     "alerted_at": "2026-06-12T09:13:56Z",
     "enter_sent": true
   },
@@ -95,5 +95,13 @@
     "last_timing": "WAIT",
     "alerted_at": "2026-06-12T20:27:18Z",
     "enter_sent": false
+  },
+  "ETHFI_LONG_MOMENTUM": {
+    "coin": "ETHFI",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-12T22:09:01Z",
+    "enter_sent": true
   }
 }
