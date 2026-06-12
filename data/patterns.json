@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-12",
-    "generated_at": "2026-06-12T05:04:55Z"
+    "generated_at": "2026-06-12T09:13:55Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -20,8 +20,8 @@
     "moon_nakshatra": "Bharani",
     "day_ruler": "Venus",
     "market_direction": "Bearish",
-    "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "volatility_bias": "Medium",
+    "strongest_sector": "Emerging",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -63,8 +63,8 @@
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Crescent": 1,
-      "Waning Gibbous": 5,
-      "Last Quarter": 3
+      "Last Quarter": 3,
+      "Waning Gibbous": 5
     }
   },
   "narratives": [
@@ -79,7 +79,7 @@
       "cosmo_score": 34.0,
       "moon_phase": "Waning Crescent",
       "day_ruler": "Venus",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,7 +96,7 @@
     },
     {
       "date": "2026-06-11",
-      "similarity_pct": 89.3,
+      "similarity_pct": 85.7,
       "cosmo_score": 34.0,
       "moon_phase": "Waning Crescent",
       "day_ruler": "Jupiter",
@@ -104,7 +104,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 89.3,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -118,8 +118,33 @@
       }
     },
     {
+      "date": "2026-06-10",
+      "similarity_pct": 78.6,
+      "cosmo_score": 34.0,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Mercury",
+      "strongest_sector": "Emerging",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 78.6,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now Waning Crescent",
+          "Day ruler: Mercury \u2192 now Venus",
+          "Moon in: Pisces \u2192 now Aries"
+        ]
+      }
+    },
+    {
       "date": "2026-06-05",
-      "similarity_pct": 83.0,
+      "similarity_pct": 76.8,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Venus",
@@ -127,7 +152,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 83.0,
+        "similarity_pct": 76.8,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -143,7 +168,7 @@
     },
     {
       "date": "2026-06-08",
-      "similarity_pct": 79.5,
+      "similarity_pct": 75.9,
       "cosmo_score": 34.0,
       "moon_phase": "Last Quarter",
       "day_ruler": "Moon",
@@ -151,7 +176,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 75.9,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -162,31 +187,6 @@
         "different": [
           "Moon phase: Last Quarter \u2192 now Waning Crescent",
           "Day ruler: Moon \u2192 now Venus",
-          "Moon in: Pisces \u2192 now Aries"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-09",
-      "similarity_pct": 79.5,
-      "cosmo_score": 34.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Mars",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Last Quarter \u2192 now Waning Crescent",
-          "Day ruler: Mars \u2192 now Venus",
           "Moon in: Pisces \u2192 now Aries"
         ]
       }
