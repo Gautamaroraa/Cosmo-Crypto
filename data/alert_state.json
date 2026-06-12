@@ -1,13 +1,4 @@
 {
-  "JUP_LONG_MOMENTUM": {
-    "coin": "JUP",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-11T11:11:52Z",
-    "enter_sent": true,
-    "entered_at": "2026-06-11T18:15:33Z"
-  },
   "ENA_LONG_MOMENTUM": {
     "coin": "ENA",
     "direction": "LONG",
@@ -28,7 +19,7 @@
     "coin": "ZRO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "NOW",
+    "last_timing": "WAIT",
     "alerted_at": "2026-06-12T09:13:56Z",
     "enter_sent": true
   },
@@ -38,6 +29,14 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-12T09:13:56Z",
+    "enter_sent": false
+  },
+  "USUAL_LONG_MOMENTUM": {
+    "coin": "USUAL",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-12T12:34:20Z",
     "enter_sent": false
   }
 }
