@@ -1,12 +1,4 @@
 {
-  "ETHFI_LONG_MOMENTUM": {
-    "coin": "ETHFI",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-12T22:09:01Z",
-    "enter_sent": true
-  },
   "OP_LONG_MOMENTUM": {
     "coin": "OP",
     "direction": "LONG",
@@ -38,5 +30,21 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-13T17:41:11Z",
     "enter_sent": true
+  },
+  "MANTA_LONG_MOMENTUM": {
+    "coin": "MANTA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-13T23:05:41Z",
+    "enter_sent": true
+  },
+  "CAKE_LONG_MOMENTUM": {
+    "coin": "CAKE",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-13T23:05:41Z",
+    "enter_sent": false
   }
 }
