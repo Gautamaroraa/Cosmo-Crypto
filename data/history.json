@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-13T20:19:56Z",
+    "generated_at": "2026-06-13T21:46:43Z",
     "total_days": 22,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 21,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 70.0,
+      "L1": 70.6,
       "Payments": 68.8,
-      "DeFi": 67.7,
+      "DeFi": 67.9,
       "L2": 67.5,
       "Meme": 67.3,
       "Gaming": 67.2,
-      "Emerging": 66.4,
+      "Emerging": 66.9,
       "AI": 63.7,
-      "Infra": 62.4
+      "Infra": 62.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-13T20:19:56Z"
+    "generated_at": "2026-06-13T21:46:43Z"
   },
   "anomalies": [
     {
@@ -4390,8 +4390,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L2",
-      "weakest_sector": "Emerging",
+      "strongest_sector": "L1",
+      "weakest_sector": "Payments",
       "moon_phase": "Waning Crescent",
       "moon_phase_emoji": "\ud83c\udf18",
       "day_ruler": "Saturn",
@@ -4453,25 +4453,25 @@
             "Jupiter",
             "Venus"
           ],
-          "orb": 3.88
+          "orb": 3.94
         }
       ],
       "aspects": [
         {
           "planets": [
             "Moon",
-            "Jupiter"
+            "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 7.99
+          "orb": 4.95
         },
         {
           "planets": [
             "Moon",
-            "Venus"
+            "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 4.11
+          "orb": 7.75
         },
         {
           "planets": [
@@ -4479,7 +4479,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 1.07
+          "orb": 1.99
         },
         {
           "planets": [
@@ -4487,7 +4487,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 1.07
+          "orb": 1.99
         },
         {
           "planets": [
@@ -4495,7 +4495,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 2.0
+          "orb": 1.98
         },
         {
           "planets": [
@@ -4503,7 +4503,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 7.38
+          "orb": 7.35
         },
         {
           "planets": [
@@ -4511,7 +4511,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 3.98
+          "orb": 4.04
         },
         {
           "planets": [
@@ -4524,32 +4524,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 985,
+      "declining": 986,
       "top_sectors": [
         {
-          "name": "L2",
-          "cosmo_score": 75.8,
-          "astro_bias": "Strong Bullish"
+          "name": "L1",
+          "cosmo_score": 81.0,
+          "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 72.9,
+          "cosmo_score": 77.0,
           "astro_bias": "Bullish"
         },
         {
-          "name": "L1",
-          "cosmo_score": 69.1,
-          "astro_bias": "Bullish"
+          "name": "L2",
+          "cosmo_score": 76.8,
+          "astro_bias": "Strong Bullish"
         },
         {
-          "name": "Infra",
-          "cosmo_score": 68.5,
+          "name": "Emerging",
+          "cosmo_score": 71.5,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Gaming",
-          "cosmo_score": 67.2,
-          "astro_bias": "Bullish"
+          "name": "Infra",
+          "cosmo_score": 70.9,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -4558,7 +4558,7 @@
         "Sun moving Taurus to Gemini within 3 days",
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: ARB, SKL, LAYER \u2014 longs crowded"
+        "High funding rates: AAVE, SKL, LAYER \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
