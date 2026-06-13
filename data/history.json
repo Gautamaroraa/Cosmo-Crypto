@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-13T10:17:32Z",
+    "generated_at": "2026-06-13T12:10:22Z",
     "total_days": 22,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 21,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 70.0,
+      "L1": 70.5,
       "Payments": 68.8,
-      "Meme": 67.4,
-      "DeFi": 67.4,
+      "Meme": 68.1,
+      "DeFi": 68.1,
+      "L2": 67.8,
       "Gaming": 67.2,
-      "L2": 67.0,
-      "Emerging": 66.8,
+      "Emerging": 66.4,
       "AI": 63.7,
-      "Infra": 62.4
+      "Infra": 62.9
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-13T10:17:32Z"
+    "generated_at": "2026-06-13T12:10:22Z"
   },
   "anomalies": [
     {
@@ -4388,9 +4388,9 @@
       "date": "2026-06-13",
       "day_cosmo_score": 34.0,
       "market_direction": "Bearish",
-      "volatility_bias": "Low",
+      "volatility_bias": "Medium",
       "risk_level": "High",
-      "strongest_sector": "L1",
+      "strongest_sector": "L2",
       "weakest_sector": "Gaming",
       "moon_phase": "Waning Crescent",
       "moon_phase_emoji": "\ud83c\udf18",
@@ -4453,7 +4453,7 @@
             "Jupiter",
             "Venus"
           ],
-          "orb": 3.48
+          "orb": 3.55
         }
       ],
       "aspects": [
@@ -4463,7 +4463,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 1.73
+          "orb": 2.89
         },
         {
           "planets": [
@@ -4471,7 +4471,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 1.75
+          "orb": 0.67
         },
         {
           "planets": [
@@ -4479,7 +4479,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 5.29
+          "orb": 4.11
         },
         {
           "planets": [
@@ -4487,7 +4487,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 5.29
+          "orb": 4.11
         },
         {
           "planets": [
@@ -4495,7 +4495,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 2.15
+          "orb": 2.12
         },
         {
           "planets": [
@@ -4503,7 +4503,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 7.6
+          "orb": 7.56
         },
         {
           "planets": [
@@ -4511,7 +4511,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 3.55
+          "orb": 3.63
         },
         {
           "planets": [
@@ -4524,32 +4524,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1026,
+      "declining": 974,
       "top_sectors": [
         {
-          "name": "L1",
-          "cosmo_score": 70.6,
+          "name": "L2",
+          "cosmo_score": 80.9,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 79.7,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Emerging",
-          "cosmo_score": 70.1,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Infra",
-          "cosmo_score": 68.5,
-          "astro_bias": "Neutral"
+          "name": "L1",
+          "cosmo_score": 79.4,
+          "astro_bias": "Bullish"
         },
         {
           "name": "Meme",
-          "cosmo_score": 68.4,
+          "cosmo_score": 76.2,
           "astro_bias": "Bullish"
         },
         {
-          "name": "L2",
-          "cosmo_score": 68.4,
-          "astro_bias": "Strong Bullish"
+          "name": "Infra",
+          "cosmo_score": 73.2,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -4558,7 +4558,7 @@
         "Sun moving Taurus to Gemini within 3 days",
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: ARB, MANTA, MOVE \u2014 longs crowded"
+        "High funding rates: ADA, LTC, LISTA \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
