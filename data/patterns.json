@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-13",
-    "generated_at": "2026-06-13T07:36:28Z"
+    "generated_at": "2026-06-13T10:17:32Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -19,11 +19,11 @@
     "moon_phase": "Waning Crescent",
     "moon_nakshatra": "Krittika",
     "day_ruler": "Saturn",
-    "market_direction": "Neutral",
+    "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "",
-    "cosmo_score_bucket": "medium",
-    "breadth_bucket": "neutral"
+    "strongest_sector": "L1",
+    "cosmo_score_bucket": "low",
+    "breadth_bucket": "bear"
   },
   "similar_days_found": 10,
   "patterns": {
@@ -34,54 +34,53 @@
     "avg_stock_change_pct": null,
     "direction_pattern": {
       "bullish": 0,
-      "bearish": 8,
-      "neutral": 1,
+      "bearish": 9,
+      "neutral": 0,
       "dominant": "Bearish"
     },
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 72.5
-      },
-      {
-        "name": "Gaming",
-        "avg_score": 69.5
+        "avg_score": 75.2
       },
       {
         "name": "L2",
-        "avg_score": 69.1
+        "avg_score": 71.0
       },
       {
         "name": "DeFi",
-        "avg_score": 68.4
+        "avg_score": 70.6
       },
       {
-        "name": "Emerging",
-        "avg_score": 68.4
+        "name": "Infra",
+        "avg_score": 69.6
+      },
+      {
+        "name": "Payments",
+        "avg_score": 69.4
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Crescent": 2,
-      "First Quarter": 1,
-      "Waning Gibbous": 3,
-      "Last Quarter": 3
+      "Last Quarter": 3,
+      "Waning Gibbous": 4
     }
   },
   "narratives": [
-    "Market was Bearish on most similar past days (0B / 8Bear / 1N).",
-    "Strongest sectors on similar days: L1, Gaming, L2.",
+    "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
+    "Strongest sectors on similar days: L1, L2, DeFi.",
     "Mars in Aries + Day of Saturn is the dominant sky signature today."
   ],
   "similar_days": [
     {
       "date": "2026-06-13",
       "similarity_pct": 100.0,
-      "cosmo_score": 56.5,
+      "cosmo_score": 34.0,
       "moon_phase": "Waning Crescent",
       "day_ruler": "Saturn",
-      "strongest_sector": "",
-      "market_direction": "Neutral",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
         "similarity_pct": 100.0,
@@ -97,7 +96,7 @@
     },
     {
       "date": "2026-06-12",
-      "similarity_pct": 77.7,
+      "similarity_pct": 91.1,
       "cosmo_score": 34.0,
       "moon_phase": "Waning Crescent",
       "day_ruler": "Venus",
@@ -105,7 +104,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 77.7,
+        "similarity_pct": 91.1,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -121,7 +120,7 @@
     },
     {
       "date": "2026-06-11",
-      "similarity_pct": 75.0,
+      "similarity_pct": 88.4,
       "cosmo_score": 34.0,
       "moon_phase": "Waning Crescent",
       "day_ruler": "Jupiter",
@@ -129,7 +128,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 75.0,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -144,51 +143,52 @@
       }
     },
     {
-      "date": "2026-05-23",
-      "similarity_pct": 69.6,
-      "cosmo_score": 57.7,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "",
-      "market_direction": "Neutral",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 69.6,
-        "matched": [
-          "Mars in Aries",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Day ruler Saturn",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Jupiter in: Gemini \u2192 now Cancer",
-          "Moon phase: First Quarter \u2192 now Waning Crescent",
-          "Moon in: Leo \u2192 now Taurus"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-06",
-      "similarity_pct": 69.6,
-      "cosmo_score": 35.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Saturn",
-      "strongest_sector": "L2",
+      "date": "2026-06-08",
+      "similarity_pct": 82.1,
+      "cosmo_score": 34.0,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 69.6,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Taurus",
-          "Day ruler Saturn"
+          "Mercury retrograde False"
         ],
         "different": [
-          "Moon phase: Waning Gibbous \u2192 now Waning Crescent",
-          "Moon in: Aquarius \u2192 now Taurus"
+          "Moon phase: Last Quarter \u2192 now Waning Crescent",
+          "Day ruler: Moon \u2192 now Saturn",
+          "Moon in: Pisces \u2192 now Taurus"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "similarity_pct": 82.1,
+      "cosmo_score": 34.0,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Mars",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now Waning Crescent",
+          "Day ruler: Mars \u2192 now Saturn",
+          "Moon in: Pisces \u2192 now Taurus"
         ]
       }
     }
