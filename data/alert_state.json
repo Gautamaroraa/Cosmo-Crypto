@@ -1,12 +1,4 @@
 {
-  "ONDO_LONG_MOMENTUM": {
-    "coin": "ONDO",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-13T03:43:04Z",
-    "enter_sent": true
-  },
   "PENDLE_LONG_MOMENTUM": {
     "coin": "PENDLE",
     "direction": "LONG",
@@ -53,6 +45,14 @@
     "type": "MEAN_REVERSION",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-14T00:21:28Z",
+    "enter_sent": false
+  },
+  "LINK_LONG_MOMENTUM": {
+    "coin": "LINK",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-14T05:16:55Z",
     "enter_sent": false
   }
 }
