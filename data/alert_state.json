@@ -1,20 +1,4 @@
 {
-  "OP_LONG_MOMENTUM": {
-    "coin": "OP",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-12T23:51:30Z",
-    "enter_sent": true
-  },
-  "APT_LONG_MOMENTUM": {
-    "coin": "APT",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-12T23:51:30Z",
-    "enter_sent": true
-  },
   "ONDO_LONG_MOMENTUM": {
     "coin": "ONDO",
     "direction": "LONG",
@@ -27,7 +11,7 @@
     "coin": "PENDLE",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "VALID",
+    "last_timing": "WAIT",
     "alerted_at": "2026-06-13T17:41:11Z",
     "enter_sent": true
   },
@@ -45,6 +29,30 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-13T23:05:41Z",
+    "enter_sent": false
+  },
+  "PNUT_LONG_MOMENTUM": {
+    "coin": "PNUT",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-14T00:21:28Z",
+    "enter_sent": true
+  },
+  "PNUT_SQUEEZE_MEAN_REVERSION": {
+    "coin": "PNUT",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-14T00:21:28Z",
+    "enter_sent": true
+  },
+  "PENDLE_SQUEEZE_MEAN_REVERSION": {
+    "coin": "PENDLE",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-14T00:21:28Z",
     "enter_sent": false
   }
 }
