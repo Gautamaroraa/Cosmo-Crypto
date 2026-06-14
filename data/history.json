@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-14T05:16:55Z",
+    "generated_at": "2026-06-14T08:53:38Z",
     "total_days": 23,
     "version": "1.0"
   },
@@ -9,11 +9,11 @@
     "days_with_outcomes": 22,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 70.5,
+      "L1": 70.6,
       "Meme": 68.8,
       "Payments": 68.8,
-      "DeFi": 68.4,
-      "L2": 68.0,
+      "DeFi": 68.5,
+      "L2": 67.8,
       "Gaming": 67.2,
       "Emerging": 66.9,
       "AI": 63.7,
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-14T05:16:55Z"
+    "generated_at": "2026-06-14T08:53:38Z"
   },
   "anomalies": [
     {
@@ -4586,7 +4586,7 @@
       "volatility_bias": "Low",
       "risk_level": "High",
       "strongest_sector": "DeFi",
-      "weakest_sector": "Gaming",
+      "weakest_sector": "AI",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Sun",
@@ -4648,7 +4648,7 @@
             "Jupiter",
             "Venus"
           ],
-          "orb": 4.24
+          "orb": 4.38
         }
       ],
       "aspects": [
@@ -4658,23 +4658,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.0
-        },
-        {
-          "planets": [
-            "Moon",
-            "Rahu"
-          ],
-          "aspect": "Square",
-          "orb": 6.77
-        },
-        {
-          "planets": [
-            "Moon",
-            "Ketu"
-          ],
-          "aspect": "Square",
-          "orb": 6.77
+          "orb": 0.71
         },
         {
           "planets": [
@@ -4682,7 +4666,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 1.88
+          "orb": 1.83
         },
         {
           "planets": [
@@ -4690,7 +4674,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 7.18
+          "orb": 7.1
         },
         {
           "planets": [
@@ -4698,7 +4682,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.35
+          "orb": 4.5
         },
         {
           "planets": [
@@ -4715,27 +4699,27 @@
       "top_sectors": [
         {
           "name": "DeFi",
-          "cosmo_score": 77.2,
+          "cosmo_score": 78.6,
           "astro_bias": "Bullish"
         },
         {
+          "name": "L1",
+          "cosmo_score": 76.4,
+          "astro_bias": "Strong Bullish"
+        },
+        {
           "name": "Meme",
-          "cosmo_score": 76.0,
+          "cosmo_score": 75.6,
           "astro_bias": "Bullish"
         },
         {
           "name": "L2",
-          "cosmo_score": 74.6,
-          "astro_bias": "Strong Bullish"
-        },
-        {
-          "name": "L1",
-          "cosmo_score": 74.2,
+          "cosmo_score": 72.7,
           "astro_bias": "Strong Bullish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 69.3,
+          "cosmo_score": 69.4,
           "astro_bias": "Bullish"
         }
       ],
@@ -4745,7 +4729,7 @@
         "Sun moving Taurus to Gemini within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Sun - favors L1, Infra",
-        "High funding rates: POPCAT, POL, BCH \u2014 longs crowded"
+        "High funding rates: POPCAT, ADA, BCH \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
