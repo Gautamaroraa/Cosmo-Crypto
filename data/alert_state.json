@@ -1,36 +1,4 @@
 {
-  "PNUT_LONG_MOMENTUM": {
-    "coin": "PNUT",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-14T00:21:28Z",
-    "enter_sent": true
-  },
-  "PNUT_SQUEEZE_MEAN_REVERSION": {
-    "coin": "PNUT",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-14T00:21:28Z",
-    "enter_sent": true
-  },
-  "PENDLE_SQUEEZE_MEAN_REVERSION": {
-    "coin": "PENDLE",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-14T00:21:28Z",
-    "enter_sent": false
-  },
-  "LINK_LONG_MOMENTUM": {
-    "coin": "LINK",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-14T05:16:55Z",
-    "enter_sent": false
-  },
   "VVV_LONG_MOMENTUM": {
     "coin": "VVV",
     "direction": "LONG",
@@ -70,5 +38,21 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-14T21:40:35Z",
     "enter_sent": true
+  },
+  "HIVE_LONG_MOMENTUM": {
+    "coin": "HIVE",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-15T05:29:30Z",
+    "enter_sent": false
+  },
+  "ARC_SQUEEZE_MEAN_REVERSION": {
+    "coin": "ARC",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-15T05:29:30Z",
+    "enter_sent": false
   }
 }

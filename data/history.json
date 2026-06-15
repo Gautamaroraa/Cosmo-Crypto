@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-15T00:10:11Z",
+    "generated_at": "2026-06-15T05:29:29Z",
     "total_days": 24,
     "version": "1.0"
   },
@@ -9,13 +9,13 @@
     "days_with_outcomes": 23,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 69.6,
+      "L1": 70.3,
       "Payments": 68.8,
       "Meme": 67.9,
-      "Gaming": 67.2,
       "L2": 66.8,
       "DeFi": 66.8,
-      "Emerging": 66.8,
+      "Emerging": 65.5,
+      "Gaming": 65.4,
       "AI": 63.7,
       "Infra": 60.5
     },
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-15T00:10:11Z"
+    "generated_at": "2026-06-15T05:29:29Z"
   },
   "anomalies": [
     {
@@ -4755,8 +4755,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "Emerging",
-      "weakest_sector": "AI",
+      "strongest_sector": "L2",
+      "weakest_sector": "Meme",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Moon",
@@ -4772,7 +4772,7 @@
           "retrograde": false
         },
         "Moon": {
-          "rashi": "Taurus",
+          "rashi": "Gemini",
           "nakshatra": "Mrigashira",
           "retrograde": false
         },
@@ -4818,24 +4818,40 @@
             "Sun",
             "Moon"
           ],
-          "orb": 1.65
+          "orb": 1.53
         },
         {
           "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 5.0
+          "orb": 5.21
         }
       ],
       "aspects": [
+        {
+          "planets": [
+            "Moon",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 7.74
+        },
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.74
+        },
         {
           "planets": [
             "Mars",
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 1.64
+          "orb": 1.58
         },
         {
           "planets": [
@@ -4843,7 +4859,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 6.77
+          "orb": 6.65
         },
         {
           "planets": [
@@ -4851,7 +4867,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.11
+          "orb": 5.31
         },
         {
           "planets": [
@@ -4864,32 +4880,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1049,
+      "declining": 1052,
       "top_sectors": [
         {
-          "name": "Emerging",
-          "cosmo_score": 66.1,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "L1",
-          "cosmo_score": 54.5,
-          "astro_bias": "Bullish"
-        },
-        {
           "name": "L2",
-          "cosmo_score": 54.2,
+          "cosmo_score": 55.7,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "Infra",
-          "cosmo_score": 47.0,
+          "name": "Emerging",
+          "cosmo_score": 51.1,
           "astro_bias": "Neutral"
         },
         {
-          "name": "DeFi",
-          "cosmo_score": 46.4,
+          "name": "Gaming",
+          "cosmo_score": 47.5,
           "astro_bias": "Bullish"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 47.4,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 47.2,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -4898,7 +4914,7 @@
         "Sun moving Taurus to Gemini within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: XLM, FRAX, LTC \u2014 longs crowded"
+        "High funding rates: XLM, LTC, AXS \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
