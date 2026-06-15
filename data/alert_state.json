@@ -1,20 +1,4 @@
 {
-  "HBAR_SQUEEZE_MEAN_REVERSION": {
-    "coin": "HBAR",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-14T13:20:19Z",
-    "enter_sent": false
-  },
-  "JTO_SHORT_MOMENTUM": {
-    "coin": "JTO",
-    "direction": "SHORT",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-14T13:20:19Z",
-    "enter_sent": false
-  },
   "GOAT_LONG_MOMENTUM": {
     "coin": "GOAT",
     "direction": "LONG",
@@ -46,5 +30,29 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-15T11:32:39Z",
     "enter_sent": true
+  },
+  "POL_LONG_MOMENTUM": {
+    "coin": "POL",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-15T16:33:44Z",
+    "enter_sent": false
+  },
+  "ACT_LONG_MOMENTUM": {
+    "coin": "ACT",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-15T16:33:44Z",
+    "enter_sent": true
+  },
+  "FLOKI_LONG_MOMENTUM": {
+    "coin": "FLOKI",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-15T16:33:44Z",
+    "enter_sent": false
   }
 }

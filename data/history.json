@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-15T11:32:39Z",
+    "generated_at": "2026-06-15T16:33:44Z",
     "total_days": 24,
     "version": "1.0"
   },
@@ -9,14 +9,14 @@
     "days_with_outcomes": 23,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 69.7,
+      "L1": 70.4,
       "Payments": 68.8,
-      "Meme": 67.9,
-      "Gaming": 67.2,
-      "DeFi": 67.1,
-      "L2": 66.6,
-      "Emerging": 65.5,
-      "AI": 62.4,
+      "Meme": 68.5,
+      "L2": 68.2,
+      "Gaming": 68.1,
+      "DeFi": 67.9,
+      "Emerging": 66.8,
+      "AI": 63.7,
       "Infra": 61.9
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-15T11:32:39Z"
+    "generated_at": "2026-06-15T16:33:44Z"
   },
   "anomalies": [
     {
@@ -4755,8 +4755,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L1",
-      "weakest_sector": "Payments",
+      "strongest_sector": "L2",
+      "weakest_sector": "Emerging",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Moon",
@@ -4773,7 +4773,7 @@
         },
         "Moon": {
           "rashi": "Gemini",
-          "nakshatra": "Mrigashira",
+          "nakshatra": "Ardra",
           "retrograde": false
         },
         "Mars": {
@@ -4815,17 +4815,17 @@
       "conjunctions": [
         {
           "planets": [
-            "Sun",
-            "Moon"
+            "Mercury",
+            "Jupiter"
           ],
-          "orb": 5.15
+          "orb": 7.87
         },
         {
           "planets": [
             "Jupiter",
             "Venus"
           ],
-          "orb": 5.45
+          "orb": 5.65
         }
       ],
       "aspects": [
@@ -4835,7 +4835,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 3.86
+          "orb": 0.66
         },
         {
           "planets": [
@@ -4843,7 +4843,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 3.86
+          "orb": 0.66
         },
         {
           "planets": [
@@ -4851,7 +4851,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 1.51
+          "orb": 1.46
         },
         {
           "planets": [
@@ -4859,7 +4859,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 6.52
+          "orb": 6.41
         },
         {
           "planets": [
@@ -4867,7 +4867,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.55
+          "orb": 5.74
         },
         {
           "planets": [
@@ -4880,32 +4880,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1076,
+      "declining": 1101,
       "top_sectors": [
         {
-          "name": "L1",
-          "cosmo_score": 56.2,
+          "name": "L2",
+          "cosmo_score": 78.6,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 77.7,
           "astro_bias": "Bullish"
         },
         {
-          "name": "AI",
-          "cosmo_score": 53.4,
-          "astro_bias": "Neutral"
+          "name": "Meme",
+          "cosmo_score": 76.2,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 72.7,
+          "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 53.3,
+          "cosmo_score": 70.8,
           "astro_bias": "Bullish"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 51.1,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 51.1,
-          "astro_bias": "Strong Bullish"
         }
       ],
       "top_stocks": [],
@@ -4914,7 +4914,7 @@
         "Moon moving Gemini to Cancer within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: MANTA, RUNE, AVAX \u2014 longs crowded"
+        "High funding rates: DOT, PI, UNI \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
