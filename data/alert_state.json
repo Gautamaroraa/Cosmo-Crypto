@@ -1,12 +1,4 @@
 {
-  "GOAT_LONG_MOMENTUM": {
-    "coin": "GOAT",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-14T21:40:35Z",
-    "enter_sent": true
-  },
   "HIVE_LONG_MOMENTUM": {
     "coin": "HIVE",
     "direction": "LONG",
@@ -53,6 +45,22 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-15T16:33:44Z",
+    "enter_sent": false
+  },
+  "MEME_LONG_MOMENTUM": {
+    "coin": "MEME",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "NOW",
+    "alerted_at": "2026-06-15T22:34:51Z",
+    "enter_sent": true
+  },
+  "ZRO_LONG_MOMENTUM": {
+    "coin": "ZRO",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-15T22:34:51Z",
     "enter_sent": false
   }
 }
