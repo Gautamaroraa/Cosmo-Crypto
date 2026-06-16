@@ -1,20 +1,4 @@
 {
-  "HIVE_LONG_MOMENTUM": {
-    "coin": "HIVE",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-15T05:29:30Z",
-    "enter_sent": false
-  },
-  "ARC_SQUEEZE_MEAN_REVERSION": {
-    "coin": "ARC",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-15T05:29:30Z",
-    "enter_sent": false
-  },
   "ENA_LONG_MOMENTUM": {
     "coin": "ENA",
     "direction": "LONG",
@@ -59,8 +43,17 @@
     "coin": "ZRO",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-06-15T22:34:51Z",
+    "enter_sent": true,
+    "entered_at": "2026-06-16T06:06:50Z"
+  },
+  "HBAR_LONG_MOMENTUM": {
+    "coin": "HBAR",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-16T06:06:50Z",
     "enter_sent": false
   }
 }
