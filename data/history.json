@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-06-15T22:34:51Z",
-    "total_days": 24,
+    "generated_at": "2026-06-16T00:17:30Z",
+    "total_days": 25,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 24,
-    "days_with_outcomes": 23,
+    "total_days": 25,
+    "days_with_outcomes": 24,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 69.8,
+      "L1": 69.6,
       "Meme": 67.9,
-      "DeFi": 67.4,
       "L2": 67.3,
       "Gaming": 67.2,
+      "DeFi": 67.0,
       "Emerging": 66.8,
-      "Payments": 66.3,
-      "AI": 63.7,
-      "Infra": 61.7
+      "Payments": 64.8,
+      "AI": 62.8,
+      "Infra": 61.4
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-15T22:34:51Z"
+    "generated_at": "2026-06-16T00:17:30Z"
   },
   "anomalies": [
     {
@@ -55,6 +55,14 @@
     },
     {
       "date": "2026-06-15",
+      "flags": [
+        "NEW_MOON_DAY"
+      ],
+      "cosmo_score": 35.2,
+      "moon_phase": "New Moon"
+    },
+    {
+      "date": "2026-06-16",
       "flags": [
         "NEW_MOON_DAY"
       ],
@@ -4923,6 +4931,192 @@
         "New Moon - New cycle. Accumulation phase.",
         "Day of Moon - favors Meme, Gaming",
         "High funding rates: JTO, MANTA, PI \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-06-16",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "day_cosmo_score": 35.2,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "High",
+      "strongest_sector": "L1",
+      "weakest_sector": "Emerging",
+      "moon_phase": "New Moon",
+      "moon_phase_emoji": "\ud83c\udf11",
+      "day_ruler": "Mars",
+      "astro_score": 68,
+      "retrograde_planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Gemini",
+          "nakshatra": "Mrigashira",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Aries",
+          "nakshatra": "Bharani",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Mercury",
+            "Jupiter"
+          ],
+          "orb": 7.62
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "orb": 5.96
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 5.72
+        },
+        {
+          "planets": [
+            "Moon",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 4.27
+        },
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.27
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.38
+        },
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.24
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 6.03
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1108,
+      "top_sectors": [
+        {
+          "name": "L1",
+          "cosmo_score": 64.4,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 59.8,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 58.9,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 58.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 56.8,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Rahu, Ketu",
+        "Moon moving Gemini to Cancer within 3 days",
+        "New Moon - New cycle. Accumulation phase.",
+        "Day of Mars - favors L1, Meme",
+        "High funding rates: JTO, PI, MANTA \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
