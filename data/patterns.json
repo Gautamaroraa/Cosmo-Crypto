@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-17",
-    "generated_at": "2026-06-17T19:14:14Z"
+    "generated_at": "2026-06-17T21:22:55Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -19,11 +19,11 @@
     "moon_phase": "Waxing Crescent",
     "moon_nakshatra": "Pushya",
     "day_ruler": "Mercury",
-    "market_direction": "Bearish",
+    "market_direction": "Neutral",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
-    "cosmo_score_bucket": "low",
-    "breadth_bucket": "bear"
+    "strongest_sector": "",
+    "cosmo_score_bucket": "medium",
+    "breadth_bucket": "neutral"
   },
   "similar_days_found": 10,
   "patterns": {
@@ -45,7 +45,7 @@
       },
       {
         "name": "Meme",
-        "avg_score": 70.4
+        "avg_score": 70.3
       },
       {
         "name": "Gaming",
@@ -65,8 +65,8 @@
       "Waxing Crescent": 1,
       "New Moon": 1,
       "Last Quarter": 3,
-      "Waning Crescent": 3,
-      "Waning Gibbous": 1
+      "Waning Gibbous": 1,
+      "Waning Crescent": 3
     }
   },
   "narratives": [
@@ -78,11 +78,11 @@
     {
       "date": "2026-06-17",
       "similarity_pct": 100.0,
-      "cosmo_score": 36.7,
+      "cosmo_score": 59.2,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mercury",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
+      "strongest_sector": "",
+      "market_direction": "Neutral",
       "outcome_accuracy": null,
       "explanation": {
         "similarity_pct": 100.0,
@@ -98,7 +98,7 @@
     },
     {
       "date": "2026-06-16",
-      "similarity_pct": 85.7,
+      "similarity_pct": 75.0,
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mars",
@@ -106,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 75.0,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -122,7 +122,7 @@
     },
     {
       "date": "2026-06-15",
-      "similarity_pct": 79.5,
+      "similarity_pct": 68.8,
       "cosmo_score": 35.2,
       "moon_phase": "New Moon",
       "day_ruler": "Moon",
@@ -130,7 +130,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 68.8,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -147,7 +147,7 @@
     },
     {
       "date": "2026-06-10",
-      "similarity_pct": 77.7,
+      "similarity_pct": 67.0,
       "cosmo_score": 34.0,
       "moon_phase": "Last Quarter",
       "day_ruler": "Mercury",
@@ -155,7 +155,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 77.7,
+        "similarity_pct": 67.0,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -171,26 +171,27 @@
       }
     },
     {
-      "date": "2026-06-13",
-      "similarity_pct": 75.0,
-      "cosmo_score": 34.0,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Saturn",
-      "strongest_sector": "DeFi",
+      "date": "2026-06-03",
+      "similarity_pct": 62.5,
+      "cosmo_score": 35.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 75.0,
+        "similarity_pct": 62.5,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
           "Saturn in Pisces",
+          "Day ruler Mercury",
           "Mercury retrograde False"
         ],
         "different": [
           "Sun in: Taurus \u2192 now Gemini",
-          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
-          "Day ruler: Saturn \u2192 now Mercury"
+          "Moon phase: Waning Gibbous \u2192 now Waxing Crescent",
+          "Moon in: Sagittarius \u2192 now Cancer"
         ]
       }
     }

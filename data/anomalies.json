@@ -1,13 +1,13 @@
 {
   "meta": {
     "date": "2026-06-17",
-    "generated_at": "2026-06-17T19:14:15Z"
+    "generated_at": "2026-06-17T21:22:55Z"
   },
   "summary": {
     "overall_level": "POSITIVE ANOMALY",
-    "total_anomalies": 3,
+    "total_anomalies": 5,
     "risk_count": 0,
-    "positive_count": 3,
+    "positive_count": 5,
     "medium_count": 0,
     "priority_alerts": [
       {
@@ -54,6 +54,22 @@
       "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
       "severity": "POSITIVE",
       "type": "planetary"
+    },
+    {
+      "id": "UNUSUALLY_HIGH_COSMO_SCORE",
+      "label": "Unusually high Cosmo Score (59.2)",
+      "description": "Today's score is 3.6 standard deviations above average (36.7)",
+      "severity": "POSITIVE",
+      "value": 59.2,
+      "avg": 36.7,
+      "z_score": 3.56
+    },
+    {
+      "id": "UNUSUALLY_HIGH_BREADTH",
+      "label": "Unusually broad advance (50% stocks advancing)",
+      "description": "Market-wide buying. Strong bullish breadth anomaly.",
+      "severity": "POSITIVE",
+      "value": 50
     }
   ]
 }
