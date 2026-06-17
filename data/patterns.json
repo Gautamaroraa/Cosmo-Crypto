@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-17",
-    "generated_at": "2026-06-17T04:07:45Z"
+    "generated_at": "2026-06-17T09:14:59Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -17,11 +17,11 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "Waxing Crescent",
-    "moon_nakshatra": "Punarvasu",
+    "moon_nakshatra": "Pushya",
     "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,7 +41,11 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 72.6
+        "avg_score": 73.4
+      },
+      {
+        "name": "Meme",
+        "avg_score": 70.3
       },
       {
         "name": "Gaming",
@@ -49,29 +53,25 @@
       },
       {
         "name": "DeFi",
-        "avg_score": 68.4
+        "avg_score": 69.7
       },
       {
         "name": "Emerging",
-        "avg_score": 68.4
-      },
-      {
-        "name": "Payments",
-        "avg_score": 67.9
+        "avg_score": 69.3
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Crescent": 1,
-      "New Moon": 2,
+      "New Moon": 1,
       "Last Quarter": 3,
       "Waning Gibbous": 1,
-      "Waning Crescent": 2
+      "Waning Crescent": 3
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, Gaming, DeFi.",
+    "Strongest sectors on similar days: L1, Meme, Gaming.",
     "Mars in Aries + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +81,7 @@
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mercury",
-      "strongest_sector": "L1",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +98,7 @@
     },
     {
       "date": "2026-06-16",
-      "similarity_pct": 91.1,
+      "similarity_pct": 85.7,
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mars",
@@ -106,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 91.1,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -122,7 +122,7 @@
     },
     {
       "date": "2026-06-15",
-      "similarity_pct": 79.5,
+      "similarity_pct": 82.1,
       "cosmo_score": 35.2,
       "moon_phase": "New Moon",
       "day_ruler": "Moon",
@@ -130,7 +130,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -172,7 +172,7 @@
     },
     {
       "date": "2026-06-03",
-      "similarity_pct": 75.9,
+      "similarity_pct": 73.2,
       "cosmo_score": 35.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Mercury",
@@ -180,7 +180,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 75.9,
+        "similarity_pct": 73.2,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
