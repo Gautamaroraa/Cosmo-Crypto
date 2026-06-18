@@ -1,20 +1,4 @@
 {
-  "WCT_LONG_MOMENTUM": {
-    "coin": "WCT",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-17T09:15:00Z",
-    "enter_sent": true
-  },
-  "STBL_LONG_MOMENTUM": {
-    "coin": "STBL",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-17T09:15:00Z",
-    "enter_sent": true
-  },
   "LAYER_LONG_MOMENTUM": {
     "coin": "LAYER",
     "direction": "LONG",
@@ -30,5 +14,13 @@
     "last_timing": "WAIT",
     "alerted_at": "2026-06-18T00:20:13Z",
     "enter_sent": false
+  },
+  "VVV_LONG_MOMENTUM": {
+    "coin": "VVV",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "NOW",
+    "alerted_at": "2026-06-18T12:52:51Z",
+    "enter_sent": true
   }
 }

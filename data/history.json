@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-18T09:53:47Z",
+    "generated_at": "2026-06-18T12:52:51Z",
     "total_days": 27,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 26,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 70.0,
+      "L1": 69.8,
       "Meme": 68.3,
+      "DeFi": 67.8,
       "Payments": 67.8,
-      "DeFi": 67.6,
-      "L2": 67.3,
       "Gaming": 67.2,
+      "L2": 67.2,
       "Emerging": 66.8,
-      "AI": 63.7,
-      "Infra": 61.7
+      "AI": 64.1,
+      "Infra": 62.1
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-18T09:53:47Z"
+    "generated_at": "2026-06-18T12:52:51Z"
   },
   "anomalies": [
     {
@@ -63,14 +63,6 @@
     },
     {
       "date": "2026-06-17",
-      "flags": [
-        "UNUSUALLY_HIGH_COSMO_SCORE"
-      ],
-      "cosmo_score": 59.2,
-      "moon_phase": "Waxing Crescent"
-    },
-    {
-      "date": "2026-06-18",
       "flags": [
         "UNUSUALLY_HIGH_COSMO_SCORE"
       ],
@@ -5319,12 +5311,12 @@
     },
     {
       "date": "2026-06-18",
-      "day_cosmo_score": 59.2,
-      "market_direction": "Neutral",
+      "day_cosmo_score": 36.7,
+      "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "",
-      "weakest_sector": "",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "Meme",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
       "day_ruler": "Jupiter",
@@ -5383,17 +5375,10 @@
       "conjunctions": [
         {
           "planets": [
-            "Moon",
-            "Venus"
-          ],
-          "orb": 7.44
-        },
-        {
-          "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 6.0
+          "orb": 5.93
         }
       ],
       "aspects": [
@@ -5403,7 +5388,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 6.06
+          "orb": 5.93
         },
         {
           "planets": [
@@ -5411,7 +5396,15 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 6.06
+          "orb": 5.93
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Square",
+          "orb": 7.64
         },
         {
           "planets": [
@@ -5419,7 +5412,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 0.32
+          "orb": 1.44
         },
         {
           "planets": [
@@ -5427,7 +5420,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 1.01
+          "orb": 1.0
         },
         {
           "planets": [
@@ -5435,15 +5428,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 4.99
-        },
-        {
-          "planets": [
-            "Mercury",
-            "Saturn"
-          ],
-          "aspect": "Square",
-          "orb": 7.99
+          "orb": 4.93
         },
         {
           "planets": [
@@ -5451,7 +5436,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 7.76
+          "orb": 7.62
         },
         {
           "planets": [
@@ -5462,16 +5447,43 @@
           "orb": 0.0
         }
       ],
-      "breadth_ratio": 50,
+      "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 0,
-      "top_sectors": [],
+      "declining": 1014,
+      "top_sectors": [
+        {
+          "name": "DeFi",
+          "cosmo_score": 72.0,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 67.3,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 67.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 65.9,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 65.3,
+          "astro_bias": "Strong Bullish"
+        }
+      ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Rahu, Ketu",
-        "Moon moving Cancer to Leo within 3 days",
+        "Moon moving Cancer to Virgo within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
-        "Day of Jupiter - favors L1, DeFi"
+        "Day of Jupiter - favors L1, DeFi",
+        "High funding rates: PI, EIGEN, LAYER \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
