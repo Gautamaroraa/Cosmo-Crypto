@@ -1,13 +1,13 @@
 {
   "meta": {
     "date": "2026-06-18",
-    "generated_at": "2026-06-18T05:18:11Z"
+    "generated_at": "2026-06-18T09:53:47Z"
   },
   "summary": {
     "overall_level": "POSITIVE ANOMALY",
-    "total_anomalies": 2,
+    "total_anomalies": 4,
     "risk_count": 0,
-    "positive_count": 2,
+    "positive_count": 4,
     "medium_count": 0,
     "priority_alerts": [
       {
@@ -23,6 +23,15 @@
         "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
         "severity": "POSITIVE",
         "type": "planetary"
+      },
+      {
+        "id": "UNUSUALLY_HIGH_COSMO_SCORE",
+        "label": "Unusually high Cosmo Score (59.2)",
+        "description": "Today's score is 2.9 standard deviations above average (37.5)",
+        "severity": "POSITIVE",
+        "value": 59.2,
+        "avg": 37.5,
+        "z_score": 2.88
       }
     ]
   },
@@ -40,6 +49,22 @@
       "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
       "severity": "POSITIVE",
       "type": "planetary"
+    },
+    {
+      "id": "UNUSUALLY_HIGH_COSMO_SCORE",
+      "label": "Unusually high Cosmo Score (59.2)",
+      "description": "Today's score is 2.9 standard deviations above average (37.5)",
+      "severity": "POSITIVE",
+      "value": 59.2,
+      "avg": 37.5,
+      "z_score": 2.88
+    },
+    {
+      "id": "UNUSUALLY_HIGH_BREADTH",
+      "label": "Unusually broad advance (50% stocks advancing)",
+      "description": "Market-wide buying. Strong bullish breadth anomaly.",
+      "severity": "POSITIVE",
+      "value": 50
     }
   ]
 }
