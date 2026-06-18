@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-18",
-    "generated_at": "2026-06-18T00:20:13Z"
+    "generated_at": "2026-06-18T05:18:11Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,37 +41,37 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 73.2
+        "avg_score": 73.0
       },
       {
         "name": "Gaming",
         "avg_score": 69.9
       },
       {
+        "name": "Meme",
+        "avg_score": 69.7
+      },
+      {
         "name": "DeFi",
-        "avg_score": 68.5
+        "avg_score": 69.2
       },
       {
-        "name": "L2",
-        "avg_score": 68.5
-      },
-      {
-        "name": "AI",
-        "avg_score": 68.2
+        "name": "Emerging",
+        "avg_score": 69.2
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Crescent": 2,
+      "New Moon": 1,
       "Waning Crescent": 2,
-      "New Moon": 2,
       "Waning Gibbous": 1,
-      "Last Quarter": 2
+      "Last Quarter": 3
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 8Bear / 1N).",
-    "Strongest sectors on similar days: L1, Gaming, DeFi.",
+    "Strongest sectors on similar days: L1, Gaming, Meme.",
     "Mars in Aries + Day of Jupiter is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +81,7 @@
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Jupiter",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +98,7 @@
     },
     {
       "date": "2026-06-16",
-      "similarity_pct": 88.4,
+      "similarity_pct": 85.7,
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mars",
@@ -106,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 88.4,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -144,31 +144,6 @@
       }
     },
     {
-      "date": "2026-06-11",
-      "similarity_pct": 80.4,
-      "cosmo_score": 34.0,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 80.4,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Day ruler Jupiter",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Sun in: Taurus \u2192 now Gemini",
-          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
-          "Moon in: Aries \u2192 now Cancer"
-        ]
-      }
-    },
-    {
       "date": "2026-06-15",
       "similarity_pct": 79.5,
       "cosmo_score": 35.2,
@@ -190,6 +165,31 @@
           "Moon phase: New Moon \u2192 now Waxing Crescent",
           "Day ruler: Moon \u2192 now Jupiter",
           "Moon in: Gemini \u2192 now Cancer"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "similarity_pct": 77.7,
+      "cosmo_score": 34.0,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 77.7,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Day ruler Jupiter",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Sun in: Taurus \u2192 now Gemini",
+          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
+          "Moon in: Aries \u2192 now Cancer"
         ]
       }
     }

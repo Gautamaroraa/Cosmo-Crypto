@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-18T00:20:13Z",
+    "generated_at": "2026-06-18T05:18:11Z",
     "total_days": 27,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 26,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 70.2,
-      "Meme": 68.4,
-      "DeFi": 67.8,
+      "L1": 70.1,
+      "Meme": 68.3,
+      "DeFi": 67.9,
       "Payments": 67.8,
-      "L2": 67.5,
+      "L2": 67.4,
       "Gaming": 67.2,
       "Emerging": 66.8,
-      "AI": 63.7,
-      "Infra": 62.5
+      "AI": 64.5,
+      "Infra": 62.3
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-18T00:20:13Z"
+    "generated_at": "2026-06-18T05:18:11Z"
   },
   "anomalies": [
     {
@@ -5315,7 +5315,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "weakest_sector": "Gaming",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
@@ -5378,21 +5378,14 @@
             "Moon",
             "Venus"
           ],
-          "orb": 2.15
+          "orb": 4.9
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 6.25
-        },
-        {
-          "planets": [
-            "Jupiter",
-            "Venus"
-          ],
-          "orb": 7.87
+          "orb": 6.12
         }
       ],
       "aspects": [
@@ -5402,7 +5395,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 6.46
+          "orb": 6.25
         },
         {
           "planets": [
@@ -5410,7 +5403,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 6.46
+          "orb": 6.25
         },
         {
           "planets": [
@@ -5418,7 +5411,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 6.05
+          "orb": 3.08
         },
         {
           "planets": [
@@ -5426,7 +5419,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 1.05
+          "orb": 1.03
         },
         {
           "planets": [
@@ -5434,7 +5427,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 5.2
+          "orb": 5.09
         },
         {
           "planets": [
@@ -5442,7 +5435,15 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 7.69
+          "orb": 7.84
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 7.97
         },
         {
           "planets": [
@@ -5455,32 +5456,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1062,
+      "declining": 1067,
       "top_sectors": [
         {
-          "name": "L1",
-          "cosmo_score": 73.7,
+          "name": "DeFi",
+          "cosmo_score": 75.3,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "DeFi",
-          "cosmo_score": 73.7,
+          "name": "L1",
+          "cosmo_score": 71.9,
           "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 70.2,
+          "astro_bias": "Neutral"
         },
         {
           "name": "L2",
-          "cosmo_score": 72.6,
+          "cosmo_score": 69.7,
           "astro_bias": "Strong Bullish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 71.2,
+          "cosmo_score": 69.2,
           "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 70.1,
-          "astro_bias": "Bullish"
         }
       ],
       "top_stocks": [],
@@ -5489,7 +5490,7 @@
         "Moon moving Cancer to Leo within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Jupiter - favors L1, DeFi",
-        "High funding rates: XRP, PI, EIGEN \u2014 longs crowded"
+        "High funding rates: PI, LISTA, LAYER \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
