@@ -1,12 +1,4 @@
 {
-  "LAYER_LONG_MOMENTUM": {
-    "coin": "LAYER",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-17T19:14:15Z",
-    "enter_sent": true
-  },
   "APT_LONG_MOMENTUM": {
     "coin": "APT",
     "direction": "LONG",
@@ -46,5 +38,29 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-18T19:11:15Z",
     "enter_sent": true
+  },
+  "TRX_LONG_MOMENTUM": {
+    "coin": "TRX",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-18T21:29:40Z",
+    "enter_sent": false
+  },
+  "EIGEN_LONG_MOMENTUM": {
+    "coin": "EIGEN",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-18T21:29:40Z",
+    "enter_sent": true
+  },
+  "FRAX_LONG_MOMENTUM": {
+    "coin": "FRAX",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-18T21:29:40Z",
+    "enter_sent": false
   }
 }
