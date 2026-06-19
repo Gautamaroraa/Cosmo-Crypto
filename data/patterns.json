@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-06-18",
-    "generated_at": "2026-06-18T23:21:19Z"
+    "date": "2026-06-19",
+    "generated_at": "2026-06-19T02:17:47Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -18,7 +18,7 @@
     "saturn_retro": false,
     "moon_phase": "Waxing Crescent",
     "moon_nakshatra": "Ashlesha",
-    "day_ruler": "Jupiter",
+    "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
     "strongest_sector": "L1",
@@ -41,7 +41,7 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 73.2
+        "avg_score": 72.8
       },
       {
         "name": "Gaming",
@@ -49,38 +49,37 @@
       },
       {
         "name": "DeFi",
-        "avg_score": 68.5
+        "avg_score": 67.2
+      },
+      {
+        "name": "Emerging",
+        "avg_score": 66.8
       },
       {
         "name": "L2",
-        "avg_score": 68.5
-      },
-      {
-        "name": "AI",
-        "avg_score": 68.2
+        "avg_score": 66.6
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Crescent": 2,
+      "Waxing Crescent": 3,
       "Waning Crescent": 2,
       "New Moon": 2,
-      "Waning Gibbous": 1,
       "Last Quarter": 2
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 8Bear / 1N).",
     "Strongest sectors on similar days: L1, Gaming, DeFi.",
-    "Mars in Aries + Day of Jupiter is the dominant sky signature today."
+    "Mars in Aries + Day of Venus is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "similarity_pct": 100.0,
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
-      "day_ruler": "Jupiter",
+      "day_ruler": "Venus",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -94,6 +93,29 @@
           "Moon phase Waxing Crescent"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "similarity_pct": 94.6,
+      "cosmo_score": 36.7,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 94.6,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Moon phase Waxing Crescent"
+        ],
+        "different": [
+          "Day ruler: Jupiter \u2192 now Venus"
+        ]
       }
     },
     {
@@ -115,17 +137,17 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Mars \u2192 now Jupiter",
+          "Day ruler: Mars \u2192 now Venus",
           "Moon in: Gemini \u2192 now Cancer"
         ]
       }
     },
     {
-      "date": "2026-06-11",
+      "date": "2026-06-12",
       "similarity_pct": 80.4,
       "cosmo_score": 34.0,
       "moon_phase": "Waning Crescent",
-      "day_ruler": "Jupiter",
+      "day_ruler": "Venus",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -135,7 +157,7 @@
           "Mars in Aries",
           "Jupiter in Cancer",
           "Saturn in Pisces",
-          "Day ruler Jupiter",
+          "Day ruler Venus",
           "Mercury retrograde False"
         ],
         "different": [
@@ -165,31 +187,8 @@
         ],
         "different": [
           "Moon phase: New Moon \u2192 now Waxing Crescent",
-          "Day ruler: Moon \u2192 now Jupiter",
+          "Day ruler: Moon \u2192 now Venus",
           "Moon in: Gemini \u2192 now Cancer"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-17",
-      "similarity_pct": 78.6,
-      "cosmo_score": 59.2,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Mercury",
-      "strongest_sector": "",
-      "market_direction": "Neutral",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 78.6,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Moon phase Waxing Crescent"
-        ],
-        "different": [
-          "Day ruler: Mercury \u2192 now Jupiter"
         ]
       }
     }
