@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T20:51:59Z",
+    "generated_at": "2026-06-19T22:05:17Z",
     "total_days": 28,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 27,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 70.0,
+      "L1": 69.8,
+      "Meme": 68.3,
       "Payments": 67.8,
-      "Meme": 67.3,
-      "Gaming": 67.2,
-      "DeFi": 67.1,
-      "L2": 67.0,
+      "L2": 67.6,
+      "DeFi": 67.5,
       "Emerging": 66.6,
-      "AI": 62.5,
-      "Infra": 61.7
+      "Gaming": 66.4,
+      "AI": 63.7,
+      "Infra": 61.2
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-19T20:51:59Z"
+    "generated_at": "2026-06-19T22:05:17Z"
   },
   "anomalies": [
     {
@@ -5510,8 +5510,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "L1",
-      "weakest_sector": "Infra",
+      "strongest_sector": "L2",
+      "weakest_sector": "Payments",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
       "day_ruler": "Venus",
@@ -5573,14 +5573,14 @@
             "Moon",
             "Ketu"
           ],
-          "orb": 0.39
+          "orb": 1.07
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 5.19
+          "orb": 5.17
         }
       ],
       "aspects": [
@@ -5590,7 +5590,7 @@
             "Moon"
           ],
           "aspect": "Sextile",
-          "orb": 4.98
+          "orb": 5.61
         },
         {
           "planets": [
@@ -5598,7 +5598,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 4.59
+          "orb": 4.54
         },
         {
           "planets": [
@@ -5606,7 +5606,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 4.59
+          "orb": 4.54
         },
         {
           "planets": [
@@ -5614,7 +5614,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 0.39
+          "orb": 1.07
         },
         {
           "planets": [
@@ -5630,7 +5630,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 4.24
+          "orb": 4.21
         },
         {
           "planets": [
@@ -5638,7 +5638,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 6.16
+          "orb": 6.11
         },
         {
           "planets": [
@@ -5654,29 +5654,29 @@
       "declining": 990,
       "top_sectors": [
         {
-          "name": "L1",
-          "cosmo_score": 61.5,
-          "astro_bias": "Bullish"
-        },
-        {
           "name": "L2",
-          "cosmo_score": 60.9,
+          "cosmo_score": 73.3,
           "astro_bias": "Strong Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 54.8,
+          "cosmo_score": 63.1,
           "astro_bias": "Bullish"
         },
         {
-          "name": "AI",
-          "cosmo_score": 54.3,
+          "name": "Gaming",
+          "cosmo_score": 58.7,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 58.5,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 55.4,
           "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 54.0,
-          "astro_bias": "Bullish"
         }
       ],
       "top_stocks": [],
@@ -5685,7 +5685,7 @@
         "Moon moving Leo to Virgo within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: MOVE, RUNE, JTO \u2014 longs crowded"
+        "High funding rates: MOVE, RUNE, SUSHI \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
