@@ -102,5 +102,29 @@
     "last_timing": "VALID",
     "alerted_at": "2026-06-19T02:17:48Z",
     "enter_sent": true
+  },
+  "KSM_LONG_MOMENTUM": {
+    "coin": "KSM",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "NOW",
+    "alerted_at": "2026-06-19T07:40:17Z",
+    "enter_sent": true
+  },
+  "STBL_LONG_MOMENTUM": {
+    "coin": "STBL",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-19T07:40:17Z",
+    "enter_sent": true
+  },
+  "BMT_SQUEEZE_MEAN_REVERSION": {
+    "coin": "BMT",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-19T07:40:17Z",
+    "enter_sent": false
   }
 }

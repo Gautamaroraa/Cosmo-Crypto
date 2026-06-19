@@ -1,14 +1,14 @@
 {
   "meta": {
     "date": "2026-06-19",
-    "generated_at": "2026-06-19T02:17:47Z"
+    "generated_at": "2026-06-19T07:40:17Z"
   },
   "summary": {
     "overall_level": "POSITIVE ANOMALY",
-    "total_anomalies": 2,
+    "total_anomalies": 3,
     "risk_count": 0,
     "positive_count": 2,
-    "medium_count": 0,
+    "medium_count": 1,
     "priority_alerts": [
       {
         "id": "JUPITER_EXALTED",
@@ -23,10 +23,24 @@
         "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
         "severity": "POSITIVE",
         "type": "planetary"
+      },
+      {
+        "id": "MOON_KETU_CONJUNCTION",
+        "label": "Moon conjunct Ketu",
+        "description": "Emotional detachment. Unpredictable market sentiment.",
+        "severity": "MEDIUM",
+        "type": "planetary"
       }
     ]
   },
   "anomalies": [
+    {
+      "id": "MOON_KETU_CONJUNCTION",
+      "label": "Moon conjunct Ketu",
+      "description": "Emotional detachment. Unpredictable market sentiment.",
+      "severity": "MEDIUM",
+      "type": "planetary"
+    },
     {
       "id": "JUPITER_EXALTED",
       "label": "Jupiter exalted in Cancer",
