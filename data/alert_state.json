@@ -1,12 +1,4 @@
 {
-  "VVV_LONG_MOMENTUM": {
-    "coin": "VVV",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "NOW",
-    "alerted_at": "2026-06-18T12:52:51Z",
-    "enter_sent": true
-  },
   "LINK_LONG_MOMENTUM": {
     "coin": "LINK",
     "direction": "LONG",
@@ -147,8 +139,32 @@
     "coin": "SUN",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "NOW",
+    "last_timing": "VALID",
     "alerted_at": "2026-06-19T11:55:27Z",
     "enter_sent": true
+  },
+  "IOTA_SQUEEZE_MEAN_REVERSION": {
+    "coin": "IOTA",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-19T15:16:46Z",
+    "enter_sent": false
+  },
+  "TST_SQUEEZE_MEAN_REVERSION": {
+    "coin": "TST",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-19T15:16:46Z",
+    "enter_sent": false
+  },
+  "LISTA_SQUEEZE_MEAN_REVERSION": {
+    "coin": "LISTA",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-19T15:16:46Z",
+    "enter_sent": false
   }
 }
