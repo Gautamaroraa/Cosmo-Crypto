@@ -1,28 +1,4 @@
 {
-  "IOTA_SQUEEZE_MEAN_REVERSION": {
-    "coin": "IOTA",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-19T15:16:46Z",
-    "enter_sent": false
-  },
-  "TST_SQUEEZE_MEAN_REVERSION": {
-    "coin": "TST",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-19T15:16:46Z",
-    "enter_sent": false
-  },
-  "LISTA_SQUEEZE_MEAN_REVERSION": {
-    "coin": "LISTA",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-19T15:16:46Z",
-    "enter_sent": false
-  },
   "MEME_SQUEEZE_MEAN_REVERSION": {
     "coin": "MEME",
     "direction": "SQUEEZE",
@@ -110,6 +86,30 @@
     "type": "MEAN_REVERSION",
     "last_timing": "VALID",
     "alerted_at": "2026-06-20T13:14:20Z",
+    "enter_sent": true
+  },
+  "RED_LONG_MOMENTUM": {
+    "coin": "RED",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-20T15:17:15Z",
+    "enter_sent": false
+  },
+  "TOWNS_LONG_MOMENTUM": {
+    "coin": "TOWNS",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-20T15:17:15Z",
+    "enter_sent": false
+  },
+  "DUSK_LONG_MOMENTUM": {
+    "coin": "DUSK",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-20T15:17:15Z",
     "enter_sent": true
   }
 }
