@@ -1,12 +1,4 @@
 {
-  "SATS_SQUEEZE_MEAN_REVERSION": {
-    "coin": "SATS",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-19T20:52:00Z",
-    "enter_sent": false
-  },
   "MEME_LONG_MOMENTUM": {
     "coin": "MEME",
     "direction": "LONG",
@@ -108,8 +100,25 @@
     "coin": "VIRTUAL",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "VALID",
     "alerted_at": "2026-06-20T18:46:00Z",
+    "enter_sent": true,
+    "entered_at": "2026-06-20T21:42:57Z"
+  },
+  "ENA_LONG_MOMENTUM": {
+    "coin": "ENA",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-20T21:42:57Z",
+    "enter_sent": true
+  },
+  "FIL_LONG_MOMENTUM": {
+    "coin": "FIL",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-20T21:42:57Z",
     "enter_sent": false
   }
 }
