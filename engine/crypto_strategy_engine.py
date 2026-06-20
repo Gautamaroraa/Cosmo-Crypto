@@ -6,21 +6,12 @@ Generates high-confidence trade setups.
 
 import json
 import os
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timezone
 
 DATA_DIR     = os.path.join(os.path.dirname(__file__), '..', 'data')
 LATEST_PATH  = os.path.join(DATA_DIR, 'latest.json')
 FNO_PATH     = os.path.join(DATA_DIR, 'fno.json')
 STRATEGY_OUT = os.path.join(DATA_DIR, 'strategy.json')
-ALERT_STATE  = os.path.join(DATA_DIR, 'alert_state.json')
-
-# Email config from GitHub Secrets
-EMAIL_FROM = os.environ.get('ALERT_EMAIL_FROM', '')
-EMAIL_PASS = os.environ.get('ALERT_EMAIL_PASS', '')
-EMAIL_TO   = os.environ.get('ALERT_EMAIL_TO', '')
 
 MOON_BIAS = {
     'New Moon':'neutral','Waxing Crescent':'bullish','First Quarter':'bullish',
@@ -549,146 +540,6 @@ def build_trend_summary(latest, astro, fno):
     return ' '.join(lines)
 
 
-# ── Alert State ───────────────────────────────────────────────────────────
-def load_alert_state():
-    try:
-        with open(ALERT_STATE, 'r') as f:
-            return json.load(f)
-    except:
-        return {}
-
-def save_alert_state(state):
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(ALERT_STATE, 'w') as f:
-        json.dump(state, f, indent=2)
-
-# ── Email sender ──────────────────────────────────────────────────────────
-def send_email(subject, body):
-    if not EMAIL_FROM or not EMAIL_PASS or not EMAIL_TO:
-        print("   ⚠ Email not configured — skipping alert")
-        return
-    try:
-        msg = MIMEMultipart('alternative')
-        msg['Subject'] = subject
-        msg['From']    = EMAIL_FROM
-        msg['To']      = EMAIL_TO
-        msg.attach(MIMEText(body, 'plain'))
-        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as s:
-            s.login(EMAIL_FROM, EMAIL_PASS)
-            s.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
-        print(f"   ✅ Alert sent: {subject}")
-    except Exception as e:
-        print(f"   ⚠ Email failed: {e}")
-
-# ── Entry timing from commentary ──────────────────────────────────────────
-def get_entry_timing(commentary):
-    for line in commentary:
-        if '✅ Entry timing: NOW' in line:   return 'NOW'
-        if '✅ Entry timing: Valid' in line:  return 'VALID'
-        if '⏳ Entry timing: WAIT' in line:   return 'WAIT'
-        if '⚠️ Entry timing: CAUTION' in line: return 'CAUTION'
-    return 'UNKNOWN'
-
-# ── Build alert message ───────────────────────────────────────────────────
-def build_alert_body(setup, alert_type, timing):
-    direction_icon = '🟢' if setup['direction'] in ['LONG','SQUEEZE'] else '🔴'
-    lines = [
-        f"{direction_icon} COSMO CRYPTO — {alert_type}",
-        f"",
-        f"{setup['coin']} — {setup['direction']} ({setup['type']})",
-        f"Score: {setup['confidence']}/100 · {setup['sector']}",
-        f"",
-        f"Entry:  {setup['entry']}",
-        f"SL:     {setup['stop_loss']}",
-        f"Target: {setup['target']}",
-        f"R:R:    {setup['risk_reward']}",
-        f"",
-        f"ADX: {setup['adx']} {setup['adx_strength']} · RSI: {setup['rsi']}",
-        f"Trend: {setup['trend']} · OI: {setup['oi_trend']}",
-    ]
-    if setup.get('funding_note'):
-        lines.append(f"⚡ {setup['funding_note']}")
-    lines.append("")
-
-    # Key commentary lines
-    if setup.get('commentary'):
-        for line in setup['commentary']:
-            if any(line.startswith(x) for x in ['✅','⏳','⚠️','⚠']):
-                lines.append(line)
-    lines.append("")
-    lines.append(f"🌐 https://gautamaroraa.github.io/Cosmo-Crypto/")
-    return '\n'.join(lines)
-
-# ── Process alerts for all clean setups ──────────────────────────────────
-def process_alerts(clean_setups):
-    if not clean_setups:
-        return
-
-    state      = load_alert_state()
-    now        = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-    sent_count = 0
-    MAX_PER_RUN = 3
-    MIN_SCORE   = 70
-
-    # Sort by score descending — best setups alert first
-    sorted_setups = sorted(clean_setups, key=lambda x: x['confidence'], reverse=True)
-
-    for setup in sorted_setups:
-        if sent_count >= MAX_PER_RUN:
-            break
-
-        # Skip low confidence setups for Alert 1
-        if setup['confidence'] < MIN_SCORE:
-            continue
-
-        key    = f"{setup['coin']}_{setup['direction']}_{setup['type']}"
-        timing = get_entry_timing(setup.get('commentary', []))
-        prev   = state.get(key, {})
-
-        if not prev:
-            # Alert 1 — new setup
-            subject = f"🪐 Cosmo: {setup['coin']} {setup['direction']} {setup['confidence']}/100 — {timing}"
-            body    = build_alert_body(setup, f"NEW SETUP DETECTED · {timing}", timing)
-            send_email(subject, body)
-            sent_count += 1
-            state[key] = {
-                'coin':        setup['coin'],
-                'direction':   setup['direction'],
-                'type':        setup['type'],
-                'last_timing': timing,
-                'alerted_at':  now,
-                'enter_sent':  timing in ['NOW', 'VALID'],
-            }
-
-        elif timing in ['NOW', 'VALID'] and not prev.get('enter_sent'):
-            # Alert 2 — status upgraded to ENTER NOW (no score filter — always send)
-            subject = f"✅ ENTER NOW: {setup['coin']} {setup['direction']} — All Signals Aligned"
-            body    = build_alert_body(setup, "ENTER NOW — ALL SIGNALS ALIGNED", timing)
-            send_email(subject, body)
-            sent_count += 1
-            state[key]['enter_sent']  = True
-            state[key]['last_timing'] = timing
-            state[key]['entered_at']  = now
-
-        else:
-            state[key]['last_timing'] = timing
-
-    # Clean up stale setups older than 24h
-    cutoff = datetime.now(timezone.utc)
-    stale  = []
-    for key, val in state.items():
-        try:
-            alerted = datetime.fromisoformat(val.get('alerted_at','').replace('Z','+00:00'))
-            if (cutoff - alerted).total_seconds() > 86400:
-                stale.append(key)
-        except:
-            pass
-    for key in stale:
-        del state[key]
-
-    save_alert_state(state)
-
-
 def run_strategy_engine():
     print("\n🎯 Crypto Strategy Engine (Full TA) starting...")
     latest = load_json(LATEST_PATH)
@@ -774,9 +625,6 @@ def run_strategy_engine():
     print(f"   Recommendation: {recommendation}")
     for s in all_setups[:5]:
         print(f"   [{s['confidence']}] {s['type']} {s['direction']} {s['coin']} — RSI:{s['rsi']} ADX:{s['adx']} {s['trend']}")
-
-    # Send alerts
-    process_alerts(clean_setups)
 
     return output
 
