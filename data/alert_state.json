@@ -1,28 +1,4 @@
 {
-  "ORDER_LONG_MOMENTUM": {
-    "coin": "ORDER",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-19T02:17:48Z",
-    "enter_sent": true
-  },
-  "NEIRO_LONG_MOMENTUM": {
-    "coin": "NEIRO",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-19T02:17:48Z",
-    "enter_sent": true
-  },
-  "TOWNS_LONG_MOMENTUM": {
-    "coin": "TOWNS",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-19T02:17:48Z",
-    "enter_sent": true
-  },
   "KSM_LONG_MOMENTUM": {
     "coin": "KSM",
     "direction": "LONG",
@@ -131,9 +107,10 @@
     "coin": "MEME",
     "direction": "LONG",
     "type": "MOMENTUM",
-    "last_timing": "WAIT",
+    "last_timing": "NOW",
     "alerted_at": "2026-06-19T22:05:18Z",
-    "enter_sent": false
+    "enter_sent": true,
+    "entered_at": "2026-06-20T06:04:51Z"
   },
   "STX_LONG_MOMENTUM": {
     "coin": "STX",
@@ -141,6 +118,22 @@
     "type": "MOMENTUM",
     "last_timing": "WAIT",
     "alerted_at": "2026-06-20T01:34:25Z",
+    "enter_sent": false
+  },
+  "AIOT_LONG_MOMENTUM": {
+    "coin": "AIOT",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-20T06:04:51Z",
+    "enter_sent": true
+  },
+  "HBAR_LONG_MOMENTUM": {
+    "coin": "HBAR",
+    "direction": "LONG",
+    "type": "MOMENTUM",
+    "last_timing": "WAIT",
+    "alerted_at": "2026-06-20T06:04:51Z",
     "enter_sent": false
   }
 }

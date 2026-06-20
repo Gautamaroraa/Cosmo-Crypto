@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-20T01:34:25Z",
+    "generated_at": "2026-06-20T06:04:51Z",
     "total_days": 29,
     "version": "1.0"
   },
@@ -10,12 +10,12 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 69.5,
-      "DeFi": 67.5,
-      "Meme": 67.3,
-      "Payments": 67.3,
-      "L2": 67.2,
+      "Meme": 67.4,
+      "L2": 67.0,
+      "DeFi": 66.9,
+      "Payments": 66.8,
       "Emerging": 66.6,
-      "Gaming": 66.5,
+      "Gaming": 65.9,
       "AI": 63.7,
       "Infra": 61.7
     },
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-20T01:34:25Z"
+    "generated_at": "2026-06-20T06:04:51Z"
   },
   "anomalies": [
     {
@@ -5704,8 +5704,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "DeFi",
-      "weakest_sector": "Gaming",
+      "strongest_sector": "L1",
+      "weakest_sector": "Infra",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
       "day_ruler": "Saturn",
@@ -5722,7 +5722,7 @@
         },
         "Moon": {
           "rashi": "Leo",
-          "nakshatra": "Magha",
+          "nakshatra": "Purva Phalguni",
           "retrograde": false
         },
         "Mars": {
@@ -5767,32 +5767,24 @@
             "Moon",
             "Ketu"
           ],
-          "orb": 3.05
+          "orb": 5.6
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 5.09
+          "orb": 5.0
         }
       ],
       "aspects": [
         {
           "planets": [
             "Sun",
-            "Moon"
-          ],
-          "aspect": "Sextile",
-          "orb": 7.45
-        },
-        {
-          "planets": [
-            "Sun",
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 4.39
+          "orb": 4.2
         },
         {
           "planets": [
@@ -5800,7 +5792,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 4.39
+          "orb": 4.2
         },
         {
           "planets": [
@@ -5808,7 +5800,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 3.05
+          "orb": 5.6
         },
         {
           "planets": [
@@ -5824,7 +5816,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 4.14
+          "orb": 4.04
         },
         {
           "planets": [
@@ -5832,7 +5824,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.95
+          "orb": 5.74
         },
         {
           "planets": [
@@ -5845,31 +5837,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 991,
+      "declining": 1001,
       "top_sectors": [
         {
-          "name": "DeFi",
-          "cosmo_score": 70.2,
+          "name": "L1",
+          "cosmo_score": 64.4,
           "astro_bias": "Bullish"
         },
         {
           "name": "L2",
-          "cosmo_score": 67.2,
+          "cosmo_score": 63.8,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 66.2,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "Payments",
-          "cosmo_score": 65.0,
+          "cosmo_score": 61.7,
           "astro_bias": "Neutral"
         },
         {
-          "name": "L1",
-          "cosmo_score": 63.5,
+          "name": "Gaming",
+          "cosmo_score": 59.9,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 55.6,
           "astro_bias": "Bullish"
         }
       ],
@@ -5879,7 +5871,7 @@
         "Moon moving Leo to Virgo within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: DYDX, MOVE, BCH \u2014 longs crowded"
+        "High funding rates: LDO, RUNE, FRAX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
