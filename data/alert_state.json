@@ -1,28 +1,4 @@
 {
-  "TST_LONG_MOMENTUM": {
-    "coin": "TST",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-19T11:55:27Z",
-    "enter_sent": false
-  },
-  "NEIRO_SQUEEZE_MEAN_REVERSION": {
-    "coin": "NEIRO",
-    "direction": "SQUEEZE",
-    "type": "MEAN_REVERSION",
-    "last_timing": "WAIT",
-    "alerted_at": "2026-06-19T11:55:27Z",
-    "enter_sent": false
-  },
-  "SUN_LONG_MOMENTUM": {
-    "coin": "SUN",
-    "direction": "LONG",
-    "type": "MOMENTUM",
-    "last_timing": "VALID",
-    "alerted_at": "2026-06-19T11:55:27Z",
-    "enter_sent": true
-  },
   "IOTA_SQUEEZE_MEAN_REVERSION": {
     "coin": "IOTA",
     "direction": "SQUEEZE",
@@ -127,5 +103,13 @@
     "last_timing": "WAIT",
     "alerted_at": "2026-06-20T09:43:09Z",
     "enter_sent": false
+  },
+  "WCT_SQUEEZE_MEAN_REVERSION": {
+    "coin": "WCT",
+    "direction": "SQUEEZE",
+    "type": "MEAN_REVERSION",
+    "last_timing": "VALID",
+    "alerted_at": "2026-06-20T13:14:20Z",
+    "enter_sent": true
   }
 }
