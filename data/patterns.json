@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-20",
-    "generated_at": "2026-06-20T15:17:14Z"
+    "generated_at": "2026-06-20T17:02:02Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -34,43 +34,44 @@
     "avg_stock_change_pct": null,
     "direction_pattern": {
       "bullish": 0,
-      "bearish": 9,
-      "neutral": 0,
+      "bearish": 8,
+      "neutral": 1,
       "dominant": "Bearish"
     },
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 71.7
-      },
-      {
-        "name": "DeFi",
-        "avg_score": 67.9
+        "avg_score": 69.5
       },
       {
         "name": "L2",
-        "avg_score": 67.7
+        "avg_score": 67.9
       },
       {
-        "name": "Emerging",
-        "avg_score": 67.6
+        "name": "Payments",
+        "avg_score": 66.3
       },
       {
-        "name": "Gaming",
-        "avg_score": 66.6
+        "name": "Meme",
+        "avg_score": 66.1
+      },
+      {
+        "name": "DeFi",
+        "avg_score": 65.9
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Crescent": 3,
+      "Waxing Crescent": 4,
+      "Waning Crescent": 1,
       "New Moon": 1,
-      "Waning Crescent": 3,
+      "Waning Gibbous": 1,
       "Last Quarter": 2
     }
   },
   "narratives": [
-    "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, DeFi, L2.",
+    "Market was Bearish on most similar past days (0B / 8Bear / 1N).",
+    "Strongest sectors on similar days: L1, L2, Payments.",
     "Mars in Aries + Day of Saturn is the dominant sky signature today."
   ],
   "similar_days": [
@@ -80,7 +81,7 @@
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Saturn",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -120,7 +121,7 @@
     },
     {
       "date": "2026-06-16",
-      "similarity_pct": 88.4,
+      "similarity_pct": 85.7,
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mars",
@@ -128,7 +129,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 88.4,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -144,7 +145,7 @@
     },
     {
       "date": "2026-06-18",
-      "similarity_pct": 88.4,
+      "similarity_pct": 85.7,
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Jupiter",
@@ -152,7 +153,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 88.4,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -167,27 +168,27 @@
       }
     },
     {
-      "date": "2026-06-15",
-      "similarity_pct": 79.5,
-      "cosmo_score": 35.2,
-      "moon_phase": "New Moon",
-      "day_ruler": "Moon",
-      "strongest_sector": "L2",
+      "date": "2026-06-13",
+      "similarity_pct": 80.4,
+      "cosmo_score": 34.0,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Saturn",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 80.4,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
           "Saturn in Pisces",
-          "Sun in Gemini",
+          "Day ruler Saturn",
           "Mercury retrograde False"
         ],
         "different": [
-          "Moon phase: New Moon \u2192 now Waxing Crescent",
-          "Day ruler: Moon \u2192 now Saturn",
-          "Moon in: Gemini \u2192 now Leo"
+          "Sun in: Taurus \u2192 now Gemini",
+          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
+          "Moon in: Taurus \u2192 now Leo"
         ]
       }
     }
