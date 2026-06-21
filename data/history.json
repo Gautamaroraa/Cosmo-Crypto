@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-21T00:06:52Z",
+    "generated_at": "2026-06-21T05:19:39Z",
     "total_days": 30,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 29,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 68.9,
+      "L1": 69.5,
       "Payments": 67.8,
-      "DeFi": 66.9,
-      "L2": 66.6,
+      "L2": 67.4,
+      "DeFi": 67.3,
+      "Meme": 66.6,
+      "Emerging": 66.6,
       "Gaming": 66.5,
-      "Meme": 66.4,
-      "Emerging": 65.8,
       "AI": 63.7,
-      "Infra": 60.8
+      "Infra": 61.7
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-21T00:06:52Z"
+    "generated_at": "2026-06-21T05:19:39Z"
   },
   "anomalies": [
     {
@@ -5891,7 +5891,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L2",
       "weakest_sector": "Gaming",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
@@ -5909,7 +5909,7 @@
         },
         "Moon": {
           "rashi": "Leo",
-          "nakshatra": "Purva Phalguni",
+          "nakshatra": "Uttara Phalguni",
           "retrograde": false
         },
         "Mars": {
@@ -5954,7 +5954,7 @@
             "Mercury",
             "Jupiter"
           ],
-          "orb": 4.66
+          "orb": 4.57
         }
       ],
       "aspects": [
@@ -5964,7 +5964,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 3.45
+          "orb": 3.23
         },
         {
           "planets": [
@@ -5972,7 +5972,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 3.45
+          "orb": 3.23
         },
         {
           "planets": [
@@ -5980,7 +5980,7 @@
             "Mars"
           ],
           "aspect": "Trine",
-          "orb": 5.65
+          "orb": 2.96
         },
         {
           "planets": [
@@ -5988,7 +5988,15 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 4.64
+          "orb": 1.94
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.5
         },
         {
           "planets": [
@@ -5996,7 +6004,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 1.01
+          "orb": 1.03
         },
         {
           "planets": [
@@ -6004,7 +6012,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 3.65
+          "orb": 3.54
         },
         {
           "planets": [
@@ -6012,7 +6020,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.92
+          "orb": 4.68
         },
         {
           "planets": [
@@ -6025,32 +6033,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 976,
+      "declining": 981,
       "top_sectors": [
         {
-          "name": "DeFi",
-          "cosmo_score": 61.5,
-          "astro_bias": "Bullish"
-        },
-        {
           "name": "L2",
-          "cosmo_score": 60.4,
+          "cosmo_score": 78.2,
           "astro_bias": "Strong Bullish"
         },
         {
           "name": "L1",
-          "cosmo_score": 59.2,
+          "cosmo_score": 74.2,
           "astro_bias": "Bullish"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 71.7,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 69.9,
+          "astro_bias": "Bearish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 56.6,
+          "cosmo_score": 69.2,
           "astro_bias": "Bullish"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 56.2,
-          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -6059,7 +6067,7 @@
         "Moon moving Leo to Libra within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Sun - favors L1, Infra",
-        "High funding rates: GLM, AAVE, LAYER \u2014 longs crowded"
+        "High funding rates: SKL, MOVE, ARB \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
