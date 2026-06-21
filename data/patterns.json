@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-21",
-    "generated_at": "2026-06-21T17:55:02Z"
+    "generated_at": "2026-06-21T19:41:48Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Payments",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -80,7 +80,7 @@
       "cosmo_score": 35.5,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Sun",
-      "strongest_sector": "Payments",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -97,7 +97,7 @@
     },
     {
       "date": "2026-06-20",
-      "similarity_pct": 85.7,
+      "similarity_pct": 88.4,
       "cosmo_score": 35.5,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Saturn",
@@ -105,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -115,6 +115,31 @@
         ],
         "different": [
           "Day ruler: Saturn \u2192 now Sun",
+          "Moon in: Leo \u2192 now Virgo"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "similarity_pct": 79.5,
+      "cosmo_score": 36.7,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Venus",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 79.5,
+        "matched": [
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Moon phase Waxing Crescent",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Mars in: Aries \u2192 now Taurus",
+          "Day ruler: Venus \u2192 now Sun",
           "Moon in: Leo \u2192 now Virgo"
         ]
       }
@@ -166,31 +191,6 @@
           "Mars in: Aries \u2192 now Taurus",
           "Day ruler: Jupiter \u2192 now Sun",
           "Moon in: Cancer \u2192 now Virgo"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-19",
-      "similarity_pct": 76.8,
-      "cosmo_score": 36.7,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Venus",
-      "strongest_sector": "L2",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 76.8,
-        "matched": [
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Moon phase Waxing Crescent",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Mars in: Aries \u2192 now Taurus",
-          "Day ruler: Venus \u2192 now Sun",
-          "Moon in: Leo \u2192 now Virgo"
         ]
       }
     }
