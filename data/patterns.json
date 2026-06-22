@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-22",
-    "generated_at": "2026-06-22T21:35:37Z"
+    "generated_at": "2026-06-22T23:07:17Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Moon",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,24 +40,24 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "AI",
-        "avg_score": 67.9
-      },
-      {
         "name": "Payments",
         "avg_score": 66.3
       },
       {
         "name": "L1",
-        "avg_score": 65.2
-      },
-      {
-        "name": "DeFi",
         "avg_score": 64.8
       },
       {
-        "name": "L2",
-        "avg_score": 63.7
+        "name": "DeFi",
+        "avg_score": 63.4
+      },
+      {
+        "name": "Emerging",
+        "avg_score": 63.2
+      },
+      {
+        "name": "Meme",
+        "avg_score": 62.6
       }
     ],
     "recurring_stocks": [],
@@ -65,13 +65,12 @@
       "First Quarter": 2,
       "Waxing Crescent": 4,
       "New Moon": 1,
-      "Last Quarter": 1,
-      "Waning Gibbous": 1
+      "Last Quarter": 2
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: AI, Payments, L1.",
+    "Strongest sectors on similar days: Payments, L1, DeFi.",
     "Mars in Taurus + Day of Moon is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +80,7 @@
       "cosmo_score": 35.5,
       "moon_phase": "First Quarter",
       "day_ruler": "Moon",
-      "strongest_sector": "L2",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -121,7 +120,7 @@
     },
     {
       "date": "2026-06-20",
-      "similarity_pct": 77.7,
+      "similarity_pct": 75.0,
       "cosmo_score": 35.5,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Saturn",
@@ -129,7 +128,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 77.7,
+        "similarity_pct": 75.0,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -146,7 +145,7 @@
     },
     {
       "date": "2026-06-15",
-      "similarity_pct": 74.1,
+      "similarity_pct": 71.4,
       "cosmo_score": 35.2,
       "moon_phase": "New Moon",
       "day_ruler": "Moon",
@@ -154,7 +153,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 74.1,
+        "similarity_pct": 71.4,
         "matched": [
           "Jupiter in Cancer",
           "Saturn in Pisces",
@@ -170,12 +169,12 @@
       }
     },
     {
-      "date": "2026-06-19",
+      "date": "2026-06-16",
       "similarity_pct": 68.8,
       "cosmo_score": 36.7,
       "moon_phase": "Waxing Crescent",
-      "day_ruler": "Venus",
-      "strongest_sector": "L2",
+      "day_ruler": "Mars",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -189,7 +188,7 @@
         "different": [
           "Mars in: Aries \u2192 now Taurus",
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Day ruler: Venus \u2192 now Moon"
+          "Day ruler: Mars \u2192 now Moon"
         ]
       }
     }
