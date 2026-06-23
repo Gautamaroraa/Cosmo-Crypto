@@ -1,11 +1,11 @@
 {
   "meta": {
     "date": "2026-06-23",
-    "generated_at": "2026-06-23T17:26:38Z"
+    "generated_at": "2026-06-23T19:27:53Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
-    "moon_rashi": "Virgo",
+    "moon_rashi": "Libra",
     "mars_rashi": "Taurus",
     "mercury_rashi": "Cancer",
     "jupiter_rashi": "Cancer",
@@ -40,37 +40,38 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "L1",
-        "avg_score": 66.5
-      },
-      {
         "name": "Payments",
         "avg_score": 66.3
       },
       {
-        "name": "Gaming",
-        "avg_score": 63.7
-      },
-      {
-        "name": "Meme",
-        "avg_score": 63.3
+        "name": "L1",
+        "avg_score": 66.0
       },
       {
         "name": "DeFi",
-        "avg_score": 62.9
+        "avg_score": 63.7
+      },
+      {
+        "name": "L2",
+        "avg_score": 63.4
+      },
+      {
+        "name": "Meme",
+        "avg_score": 62.6
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "First Quarter": 3,
+      "First Quarter": 2,
       "Waxing Crescent": 4,
       "New Moon": 1,
-      "Last Quarter": 1
+      "Last Quarter": 1,
+      "Waning Gibbous": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, Payments, Gaming.",
+    "Strongest sectors on similar days: Payments, L1, DeFi.",
     "Mars in Taurus + Day of Mars is the dominant sky signature today."
   ],
   "similar_days": [
@@ -97,7 +98,7 @@
     },
     {
       "date": "2026-06-22",
-      "similarity_pct": 89.3,
+      "similarity_pct": 85.7,
       "cosmo_score": 35.5,
       "moon_phase": "First Quarter",
       "day_ruler": "Moon",
@@ -105,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 89.3,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -114,13 +115,14 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Mars"
+          "Day ruler: Moon \u2192 now Mars",
+          "Moon in: Virgo \u2192 now Libra"
         ]
       }
     },
     {
       "date": "2026-06-21",
-      "similarity_pct": 84.8,
+      "similarity_pct": 81.2,
       "cosmo_score": 35.5,
       "moon_phase": "First Quarter",
       "day_ruler": "Sun",
@@ -128,7 +130,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 84.8,
+        "similarity_pct": 81.2,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -137,7 +139,8 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Sun \u2192 now Mars"
+          "Day ruler: Sun \u2192 now Mars",
+          "Moon in: Virgo \u2192 now Libra"
         ]
       }
     },
@@ -162,7 +165,7 @@
         "different": [
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
           "Day ruler: Saturn \u2192 now Mars",
-          "Moon in: Leo \u2192 now Virgo"
+          "Moon in: Leo \u2192 now Libra"
         ]
       }
     },
@@ -187,7 +190,7 @@
         "different": [
           "Mars in: Aries \u2192 now Taurus",
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Moon in: Gemini \u2192 now Virgo"
+          "Moon in: Gemini \u2192 now Libra"
         ]
       }
     }
