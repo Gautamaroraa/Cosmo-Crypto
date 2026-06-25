@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-25T17:25:43Z",
+    "generated_at": "2026-06-25T19:25:08Z",
     "total_days": 34,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 33,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 68.7,
-      "DeFi": 66.7,
-      "L2": 65.9,
+      "L1": 68.9,
+      "DeFi": 67.1,
+      "L2": 66.1,
+      "Gaming": 65.4,
       "Meme": 65.1,
-      "Gaming": 64.9,
-      "Emerging": 64.6,
+      "Emerging": 65.0,
       "Payments": 64.1,
       "AI": 62.5,
-      "Infra": 61.9
+      "Infra": 61.5
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-25T17:25:43Z"
+    "generated_at": "2026-06-25T19:25:08Z"
   },
   "anomalies": [
     {
@@ -6759,7 +6759,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "Infra",
+      "strongest_sector": "DeFi",
       "weakest_sector": "Payments",
       "moon_phase": "First Quarter",
       "moon_phase_emoji": "\ud83c\udf13",
@@ -6822,7 +6822,7 @@
             "Mercury",
             "Jupiter"
           ],
-          "orb": 3.4
+          "orb": 3.39
         }
       ],
       "aspects": [
@@ -6832,7 +6832,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 1.31
+          "orb": 1.39
         },
         {
           "planets": [
@@ -6840,7 +6840,15 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 1.31
+          "orb": 1.39
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Trine",
+          "orb": 7.24
         },
         {
           "planets": [
@@ -6848,7 +6856,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 3.25
+          "orb": 4.15
         },
         {
           "planets": [
@@ -6856,7 +6864,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 2.15
+          "orb": 2.19
         },
         {
           "planets": [
@@ -6864,7 +6872,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 1.25
+          "orb": 1.2
         },
         {
           "planets": [
@@ -6872,7 +6880,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 5.07
+          "orb": 5.01
         },
         {
           "planets": [
@@ -6880,7 +6888,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 5.07
+          "orb": 5.01
         },
         {
           "planets": [
@@ -6888,7 +6896,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 0.25
+          "orb": 0.34
         },
         {
           "planets": [
@@ -6904,29 +6912,29 @@
       "declining": 1076,
       "top_sectors": [
         {
-          "name": "Infra",
-          "cosmo_score": 68.5,
-          "astro_bias": "Neutral"
+          "name": "DeFi",
+          "cosmo_score": 75.4,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 72.5,
+          "astro_bias": "Bearish"
         },
         {
           "name": "L1",
-          "cosmo_score": 65.8,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 65.0,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 64.3,
+          "cosmo_score": 71.6,
           "astro_bias": "Bullish"
         },
         {
           "name": "Emerging",
-          "cosmo_score": 62.5,
+          "cosmo_score": 69.3,
           "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 68.9,
+          "astro_bias": "Bullish"
         }
       ],
       "top_stocks": [],
@@ -6935,7 +6943,7 @@
         "Moon moving Libra to Scorpio within 3 days",
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Jupiter - favors L1, DeFi",
-        "High funding rates: JTO, MANTA, ARB \u2014 longs crowded"
+        "High funding rates: JTO, SKL, MOVE \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
