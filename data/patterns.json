@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-06-28",
-    "generated_at": "2026-06-28T10:41:13Z"
+    "generated_at": "2026-06-28T12:10:22Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Emerging",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,31 +41,30 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 64.6
+        "avg_score": 66.8
       },
       {
         "name": "DeFi",
-        "avg_score": 64.2
+        "avg_score": 65.9
       },
       {
         "name": "L2",
-        "avg_score": 63.6
+        "avg_score": 64.2
       },
       {
         "name": "Infra",
-        "avg_score": 61.6
+        "avg_score": 61.9
       },
       {
-        "name": "Gaming",
-        "avg_score": 58.7
+        "name": "Payments",
+        "avg_score": 61.8
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Gibbous": 3,
       "First Quarter": 4,
-      "Waxing Crescent": 1,
-      "New Moon": 1
+      "Waxing Crescent": 2
     }
   },
   "narratives": [
@@ -80,7 +79,7 @@
       "cosmo_score": 35.5,
       "moon_phase": "Waxing Gibbous",
       "day_ruler": "Sun",
-      "strongest_sector": "Emerging",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -166,25 +165,26 @@
       }
     },
     {
-      "date": "2026-06-21",
-      "similarity_pct": 80.4,
+      "date": "2026-06-22",
+      "similarity_pct": 82.1,
       "cosmo_score": 35.5,
       "moon_phase": "First Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "Infra",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 80.4,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Day ruler Sun"
+          "Mercury retrograde False"
         ],
         "different": [
           "Moon phase: First Quarter \u2192 now Waxing Gibbous",
+          "Day ruler: Moon \u2192 now Sun",
           "Moon in: Virgo \u2192 now Scorpio"
         ]
       }
