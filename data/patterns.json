@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-01",
-    "generated_at": "2026-07-01T15:54:41Z"
+    "generated_at": "2026-07-01T17:56:19Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "Payments",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -48,11 +48,11 @@
         "avg_score": 62.0
       },
       {
-        "name": "Infra",
+        "name": "L1",
         "avg_score": 61.6
       },
       {
-        "name": "L1",
+        "name": "Infra",
         "avg_score": 61.6
       },
       {
@@ -62,14 +62,14 @@
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
+      "Full Moon": 1,
       "First Quarter": 3,
-      "Waxing Gibbous": 5,
-      "Full Moon": 1
+      "Waxing Gibbous": 5
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: DeFi, L2, Infra.",
+    "Strongest sectors on similar days: DeFi, L2, L1.",
     "Mars in Taurus + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
@@ -79,7 +79,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Mercury",
-      "strongest_sector": "L2",
+      "strongest_sector": "Payments",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -95,8 +95,33 @@
       }
     },
     {
-      "date": "2026-06-24",
+      "date": "2026-06-30",
       "similarity_pct": 82.1,
+      "cosmo_score": 32.5,
+      "moon_phase": "Full Moon",
+      "day_ruler": "Mars",
+      "strongest_sector": "Payments",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Full Moon \u2192 now Waning Gibbous",
+          "Day ruler: Mars \u2192 now Mercury",
+          "Moon in: Sagittarius \u2192 now Capricorn"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "similarity_pct": 79.5,
       "cosmo_score": 35.5,
       "moon_phase": "First Quarter",
       "day_ruler": "Mercury",
@@ -104,7 +129,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 82.1,
+        "similarity_pct": 79.5,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -145,37 +170,12 @@
       }
     },
     {
-      "date": "2026-06-30",
-      "similarity_pct": 79.5,
-      "cosmo_score": 32.5,
-      "moon_phase": "Full Moon",
-      "day_ruler": "Mars",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Mercury retrograde True"
-        ],
-        "different": [
-          "Moon phase: Full Moon \u2192 now Waning Gibbous",
-          "Day ruler: Mars \u2192 now Mercury",
-          "Moon in: Sagittarius \u2192 now Capricorn"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-23",
+      "date": "2026-06-28",
       "similarity_pct": 76.8,
       "cosmo_score": 35.5,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Mars",
-      "strongest_sector": "L2",
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Sun",
+      "strongest_sector": "Payments",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -187,8 +187,8 @@
           "Sun in Gemini"
         ],
         "different": [
-          "Moon phase: First Quarter \u2192 now Waning Gibbous",
-          "Day ruler: Mars \u2192 now Mercury",
+          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
+          "Day ruler: Sun \u2192 now Mercury",
           "Mercury retrograde: False \u2192 now True"
         ]
       }
