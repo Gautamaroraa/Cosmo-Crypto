@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T23:15:21Z",
-    "total_days": 39,
+    "generated_at": "2026-07-01T01:35:35Z",
+    "total_days": 40,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 39,
-    "days_with_outcomes": 38,
+    "total_days": 40,
+    "days_with_outcomes": 39,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 67.6,
-      "DeFi": 66.5,
-      "L2": 65.3,
+      "L1": 67.3,
+      "DeFi": 66.3,
+      "L2": 65.0,
       "Payments": 63.9,
       "Meme": 63.8,
-      "Emerging": 63.5,
       "Gaming": 63.0,
-      "Infra": 61.8,
+      "Emerging": 63.0,
+      "Infra": 61.4,
       "AI": 61.3
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-06-30T23:15:21Z"
+    "generated_at": "2026-07-01T01:35:35Z"
   },
   "anomalies": [
     {
@@ -71,6 +71,14 @@
     },
     {
       "date": "2026-06-30",
+      "flags": [
+        "FULL_MOON_DAY"
+      ],
+      "cosmo_score": 32.5,
+      "moon_phase": "Full Moon"
+    },
+    {
+      "date": "2026-07-01",
       "flags": [
         "FULL_MOON_DAY"
       ],
@@ -8049,6 +8057,218 @@
         "Full Moon - Maximum speculation. Pump and dump risk.",
         "Day of Mars - favors L1, Meme",
         "High funding rates: DOT, TAO, XLM \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-07-01",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "day_cosmo_score": 32.5,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "Meme",
+      "moon_phase": "Full Moon",
+      "moon_phase_emoji": "\ud83c\udf15",
+      "day_ruler": "Mercury",
+      "astro_score": 50,
+      "retrograde_planets": [
+        "Mercury",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Sagittarius",
+          "nakshatra": "Uttara Ashadha",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Taurus",
+          "nakshatra": "Krittika",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Cancer",
+          "nakshatra": "Punarvasu",
+          "retrograde": true
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Mercury",
+            "Jupiter"
+          ],
+          "orb": 3.99
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 4.92
+        },
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 6.68
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.68
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Opposition",
+          "orb": 5.19
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 6.81
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Sextile",
+          "orb": 5.42
+        },
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.43
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 0.98
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 0.98
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 6.08
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 992,
+      "top_sectors": [
+        {
+          "name": "DeFi",
+          "cosmo_score": 59.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 57.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 55.3,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 55.2,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 54.6,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Mercury, Rahu, Ketu",
+        "Moon moving Sagittarius to Aquarius within 3 days",
+        "Full Moon - Maximum speculation. Pump and dump risk.",
+        "Day of Mercury - favors DeFi, L2",
+        "High funding rates: POL, OP, SKL \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
