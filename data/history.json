@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-07-01T22:50:40Z",
-    "total_days": 40,
+    "generated_at": "2026-07-02T00:07:50Z",
+    "total_days": 41,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 40,
-    "days_with_outcomes": 39,
+    "total_days": 41,
+    "days_with_outcomes": 40,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 67.5,
-      "DeFi": 66.4,
+      "L1": 67.3,
+      "DeFi": 66.1,
       "L2": 65.3,
-      "Payments": 63.9,
       "Emerging": 63.5,
       "Meme": 63.3,
-      "Gaming": 63.0,
+      "Payments": 62.8,
+      "Gaming": 62.3,
       "Infra": 61.2,
-      "AI": 60.3
+      "AI": 60.1
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-01T22:50:40Z"
+    "generated_at": "2026-07-02T00:07:50Z"
   },
   "anomalies": [
     {
@@ -8269,6 +8269,226 @@
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Mercury - favors DeFi, L2",
         "High funding rates: LAYER, BNB, XRP \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-07-02",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "day_cosmo_score": 33.2,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "High",
+      "strongest_sector": "L1",
+      "weakest_sector": "Infra",
+      "moon_phase": "Waning Gibbous",
+      "moon_phase_emoji": "\ud83c\udf16",
+      "day_ruler": "Jupiter",
+      "astro_score": 55,
+      "retrograde_planets": [
+        "Mercury",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Capricorn",
+          "nakshatra": "Uttara Ashadha",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Taurus",
+          "nakshatra": "Krittika",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Cancer",
+          "nakshatra": "Punarvasu",
+          "retrograde": true
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Mercury",
+            "Jupiter"
+          ],
+          "orb": 4.32
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 4.07
+        },
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 7.63
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.63
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Trine",
+          "orb": 0.02
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Opposition",
+          "orb": 6.23
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Opposition",
+          "orb": 1.91
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.21
+        },
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.9
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 0.26
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 0.26
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 7.1
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1027,
+      "top_sectors": [
+        {
+          "name": "L1",
+          "cosmo_score": 60.2,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 57.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 57.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 52.0,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 51.9,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Mercury, Rahu, Ketu",
+        "Moon moving Capricorn to Aquarius within 3 days",
+        "Waning Gibbous - Distribution phase. Take profits.",
+        "Day of Jupiter - favors L1, DeFi",
+        "High funding rates: BNB, XRP, DOT \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
