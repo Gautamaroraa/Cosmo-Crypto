@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-03T21:46:35Z",
+    "generated_at": "2026-07-03T23:04:24Z",
     "total_days": 42,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 41,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 67.4,
-      "DeFi": 65.7,
-      "L2": 64.7,
+      "L1": 67.3,
+      "DeFi": 65.6,
+      "L2": 64.6,
       "Meme": 63.3,
       "Gaming": 63.0,
       "Payments": 62.8,
       "Emerging": 62.7,
-      "Infra": 61.3,
-      "AI": 59.6
+      "Infra": 61.0,
+      "AI": 59.5
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-03T21:46:35Z"
+    "generated_at": "2026-07-03T23:04:24Z"
   },
   "anomalies": [
     {
@@ -8467,8 +8467,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "Meme",
-      "weakest_sector": "Payments",
+      "strongest_sector": "L2",
+      "weakest_sector": "Gaming",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Venus",
@@ -8531,14 +8531,14 @@
             "Moon",
             "Rahu"
           ],
-          "orb": 6.95
+          "orb": 6.28
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 5.19
+          "orb": 5.21
         }
       ],
       "aspects": [
@@ -8548,7 +8548,15 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 2.33
+          "orb": 2.28
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Square",
+          "orb": 7.51
         },
         {
           "planets": [
@@ -8556,7 +8564,7 @@
             "Venus"
           ],
           "aspect": "Opposition",
-          "orb": 2.01
+          "orb": 2.61
         },
         {
           "planets": [
@@ -8564,7 +8572,7 @@
             "Ketu"
           ],
           "aspect": "Opposition",
-          "orb": 6.95
+          "orb": 6.28
         },
         {
           "planets": [
@@ -8572,7 +8580,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 2.83
+          "orb": 2.86
         },
         {
           "planets": [
@@ -8580,7 +8588,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 1.19
+          "orb": 1.23
         },
         {
           "planets": [
@@ -8588,7 +8596,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 1.19
+          "orb": 1.23
         },
         {
           "planets": [
@@ -8601,32 +8609,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 999,
+      "declining": 1000,
       "top_sectors": [
         {
-          "name": "Meme",
-          "cosmo_score": 65.2,
+          "name": "L2",
+          "cosmo_score": 60.2,
           "astro_bias": "Neutral"
         },
         {
           "name": "L1",
-          "cosmo_score": 64.1,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Infra",
-          "cosmo_score": 63.8,
-          "astro_bias": "Strong Bearish"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 61.6,
+          "cosmo_score": 59.5,
           "astro_bias": "Neutral"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 61.0,
+          "cosmo_score": 59.3,
           "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 58.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 57.9,
+          "astro_bias": "Strong Bearish"
         }
       ],
       "top_stocks": [],
@@ -8635,7 +8643,7 @@
         "Moon moving Aquarius to Pisces within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: AVAX, NEAR, TAO \u2014 longs crowded"
+        "High funding rates: BNB, TRX, TAO \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
