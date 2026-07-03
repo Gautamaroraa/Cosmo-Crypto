@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-03T07:36:48Z",
+    "generated_at": "2026-07-03T10:19:23Z",
     "total_days": 42,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 41,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 67.5,
-      "DeFi": 65.6,
-      "L2": 64.7,
-      "Meme": 63.3,
+      "L1": 67.4,
+      "DeFi": 65.8,
+      "L2": 64.8,
+      "Meme": 63.1,
+      "Gaming": 63.0,
       "Payments": 62.8,
-      "Emerging": 62.6,
-      "Gaming": 62.1,
+      "Emerging": 62.7,
       "Infra": 61.2,
-      "AI": 58.8
+      "AI": 59.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-03T07:36:48Z"
+    "generated_at": "2026-07-03T10:19:23Z"
   },
   "anomalies": [
     {
@@ -8467,8 +8467,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L2",
-      "weakest_sector": "Infra",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "Payments",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Venus",
@@ -8531,7 +8531,7 @@
             "Mercury",
             "Jupiter"
           ],
-          "orb": 4.89
+          "orb": 4.94
         }
       ],
       "aspects": [
@@ -8541,7 +8541,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 2.87
+          "orb": 2.77
         },
         {
           "planets": [
@@ -8549,7 +8549,7 @@
             "Venus"
           ],
           "aspect": "Opposition",
-          "orb": 4.58
+          "orb": 3.33
         },
         {
           "planets": [
@@ -8557,7 +8557,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.95
+          "orb": 5.33
         },
         {
           "planets": [
@@ -8565,7 +8565,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 7.43
+          "orb": 7.54
         },
         {
           "planets": [
@@ -8573,7 +8573,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 2.54
+          "orb": 2.6
         },
         {
           "planets": [
@@ -8581,7 +8581,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 0.74
+          "orb": 0.82
         },
         {
           "planets": [
@@ -8589,7 +8589,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 0.74
+          "orb": 0.82
         },
         {
           "planets": [
@@ -8602,32 +8602,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1030,
+      "declining": 1037,
       "top_sectors": [
         {
-          "name": "L2",
-          "cosmo_score": 63.3,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 60.2,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "DeFi",
-          "cosmo_score": 56.7,
+          "cosmo_score": 65.4,
           "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 64.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 63.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 60.4,
+          "astro_bias": "Bearish"
         },
         {
           "name": "AI",
-          "cosmo_score": 48.8,
+          "cosmo_score": 58.9,
           "astro_bias": "Neutral"
-        },
-        {
-          "name": "Gaming",
-          "cosmo_score": 48.4,
-          "astro_bias": "Bearish"
         }
       ],
       "top_stocks": [],
@@ -8636,7 +8636,7 @@
         "Moon moving Capricorn to Pisces within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: TAO, LTC, MOVE \u2014 longs crowded"
+        "High funding rates: NEAR, TAO, ETC \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
