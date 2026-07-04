@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-04",
-    "generated_at": "2026-07-04T17:46:44Z"
+    "generated_at": "2026-07-04T19:13:21Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "AI",
+    "strongest_sector": "Payments",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,20 +40,20 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "L1",
-        "avg_score": 59.0
-      },
-      {
-        "name": "L2",
-        "avg_score": 58.0
-      },
-      {
         "name": "Payments",
-        "avg_score": 57.7
+        "avg_score": 59.6
+      },
+      {
+        "name": "L1",
+        "avg_score": 58.8
       },
       {
         "name": "DeFi",
         "avg_score": 57.5
+      },
+      {
+        "name": "L2",
+        "avg_score": 57.2
       },
       {
         "name": "Infra",
@@ -63,15 +63,15 @@
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Gibbous": 3,
-      "Waxing Gibbous": 2,
       "Full Moon": 1,
+      "Waxing Gibbous": 3,
       "Waxing Crescent": 1,
-      "First Quarter": 2
+      "First Quarter": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, L2, Payments.",
+    "Strongest sectors on similar days: Payments, L1, DeFi.",
     "Mars in Taurus + Day of Saturn is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +81,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Saturn",
-      "strongest_sector": "AI",
+      "strongest_sector": "Payments",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -120,6 +120,30 @@
       }
     },
     {
+      "date": "2026-07-02",
+      "similarity_pct": 83.9,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "Payments",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 83.9,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Jupiter \u2192 now Saturn",
+          "Moon in: Capricorn \u2192 now Aquarius"
+        ]
+      }
+    },
+    {
       "date": "2026-07-01",
       "similarity_pct": 81.2,
       "cosmo_score": 33.2,
@@ -144,36 +168,12 @@
       }
     },
     {
-      "date": "2026-07-02",
-      "similarity_pct": 81.2,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 81.2,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Jupiter \u2192 now Saturn",
-          "Moon in: Capricorn \u2192 now Aquarius"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "similarity_pct": 77.7,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Moon",
-      "strongest_sector": "AI",
+      "cosmo_score": 32.5,
+      "moon_phase": "Full Moon",
+      "day_ruler": "Mars",
+      "strongest_sector": "Payments",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -186,8 +186,8 @@
           "Mercury retrograde True"
         ],
         "different": [
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Day ruler: Moon \u2192 now Saturn",
+          "Moon phase: Full Moon \u2192 now Waning Gibbous",
+          "Day ruler: Mars \u2192 now Saturn",
           "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
