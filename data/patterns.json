@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-04",
-    "generated_at": "2026-07-04T16:42:48Z"
+    "generated_at": "2026-07-04T17:46:44Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "AI",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -65,8 +65,8 @@
       "Waning Gibbous": 3,
       "Waxing Gibbous": 2,
       "Full Moon": 1,
-      "First Quarter": 2,
-      "Waxing Crescent": 1
+      "Waxing Crescent": 1,
+      "First Quarter": 2
     }
   },
   "narratives": [
@@ -81,7 +81,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Saturn",
-      "strongest_sector": "L1",
+      "strongest_sector": "AI",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -121,7 +121,7 @@
     },
     {
       "date": "2026-07-01",
-      "similarity_pct": 83.9,
+      "similarity_pct": 81.2,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Mercury",
@@ -129,7 +129,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 83.9,
+        "similarity_pct": 81.2,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -168,27 +168,27 @@
       }
     },
     {
-      "date": "2026-06-27",
-      "similarity_pct": 75.0,
-      "cosmo_score": 35.5,
+      "date": "2026-06-29",
+      "similarity_pct": 77.7,
+      "cosmo_score": 34.8,
       "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Saturn",
-      "strongest_sector": "L2",
+      "day_ruler": "Moon",
+      "strongest_sector": "AI",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 75.0,
+        "similarity_pct": 77.7,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Day ruler Saturn"
+          "Mercury retrograde True"
         ],
         "different": [
           "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Mercury retrograde: False \u2192 now True",
-          "Moon in: Scorpio \u2192 now Aquarius"
+          "Day ruler: Moon \u2192 now Saturn",
+          "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
     }
