@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-04T15:31:38Z",
+    "generated_at": "2026-07-04T16:42:48Z",
     "total_days": 43,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 42,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 67.3,
-      "DeFi": 65.2,
-      "L2": 64.4,
+      "L1": 67.2,
+      "DeFi": 65.4,
+      "L2": 64.6,
       "Meme": 63.3,
       "Gaming": 63.0,
-      "Payments": 62.8,
-      "Emerging": 61.9,
-      "Infra": 60.5,
-      "AI": 59.0
+      "Emerging": 62.7,
+      "Payments": 62.0,
+      "Infra": 60.8,
+      "AI": 59.5
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-04T15:31:38Z"
+    "generated_at": "2026-07-04T16:42:48Z"
   },
   "anomalies": [
     {
@@ -8662,7 +8662,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L2",
+      "strongest_sector": "L1",
       "weakest_sector": "Gaming",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
@@ -8726,24 +8726,32 @@
             "Moon",
             "Rahu"
           ],
-          "orb": 2.28
+          "orb": 2.9
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 5.59
+          "orb": 5.62
         }
       ],
       "aspects": [
         {
           "planets": [
             "Sun",
+            "Moon"
+          ],
+          "aspect": "Trine",
+          "orb": 7.43
+        },
+        {
+          "planets": [
+            "Sun",
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 1.65
+          "orb": 1.61
         },
         {
           "planets": [
@@ -8751,7 +8759,7 @@
             "Mars"
           ],
           "aspect": "Square",
-          "orb": 0.53
+          "orb": 1.11
         },
         {
           "planets": [
@@ -8759,7 +8767,7 @@
             "Ketu"
           ],
           "aspect": "Opposition",
-          "orb": 2.28
+          "orb": 2.9
         },
         {
           "planets": [
@@ -8767,7 +8775,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 3.2
+          "orb": 3.22
         },
         {
           "planets": [
@@ -8775,7 +8783,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 1.75
+          "orb": 1.79
         },
         {
           "planets": [
@@ -8783,7 +8791,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 1.75
+          "orb": 1.79
         },
         {
           "planets": [
@@ -8796,31 +8804,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 949,
+      "declining": 956,
       "top_sectors": [
         {
-          "name": "L2",
-          "cosmo_score": 56.3,
-          "astro_bias": "Bullish"
+          "name": "L1",
+          "cosmo_score": 62.1,
+          "astro_bias": "Neutral"
         },
         {
           "name": "AI",
-          "cosmo_score": 52.4,
+          "cosmo_score": 59.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 56.4,
           "astro_bias": "Neutral"
         },
         {
           "name": "Infra",
-          "cosmo_score": 50.8,
+          "cosmo_score": 56.3,
           "astro_bias": "Bearish"
         },
         {
-          "name": "DeFi",
-          "cosmo_score": 50.5,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 48.0,
+          "name": "Payments",
+          "cosmo_score": 52.5,
           "astro_bias": "Neutral"
         }
       ],
@@ -8830,7 +8838,7 @@
         "Moon moving Aquarius to Pisces within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: SKYAI, TRX, LIGHT \u2014 longs crowded"
+        "High funding rates: MANTA, SKYAI, VANA \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
