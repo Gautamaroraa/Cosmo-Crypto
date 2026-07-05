@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-05T08:31:53Z",
+    "generated_at": "2026-07-05T10:52:20Z",
     "total_days": 44,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 43,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 67.3,
-      "DeFi": 65.1,
-      "L2": 64.1,
+      "L1": 66.8,
+      "DeFi": 64.7,
+      "L2": 63.7,
+      "Meme": 63.3,
       "Gaming": 63.0,
-      "Meme": 62.9,
       "Emerging": 62.1,
       "Payments": 61.8,
-      "Infra": 60.2,
-      "AI": 59.5
+      "Infra": 59.6,
+      "AI": 58.3
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-05T08:31:53Z"
+    "generated_at": "2026-07-05T10:52:20Z"
   },
   "anomalies": [
     {
@@ -8873,7 +8873,7 @@
       "volatility_bias": "Low",
       "risk_level": "High",
       "strongest_sector": "L1",
-      "weakest_sector": "Gaming",
+      "weakest_sector": "Payments",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Sun",
@@ -8891,7 +8891,7 @@
         },
         "Moon": {
           "rashi": "Aquarius",
-          "nakshatra": "Shatabhisha",
+          "nakshatra": "Purva Bhadrapada",
           "retrograde": false
         },
         "Mars": {
@@ -8936,14 +8936,14 @@
             "Mercury",
             "Jupiter"
           ],
-          "orb": 6.02
+          "orb": 6.08
         },
         {
           "planets": [
             "Venus",
             "Ketu"
           ],
-          "orb": 7.25
+          "orb": 7.13
         }
       ],
       "aspects": [
@@ -8953,7 +8953,7 @@
             "Moon"
           ],
           "aspect": "Trine",
-          "orb": 0.24
+          "orb": 1.38
         },
         {
           "planets": [
@@ -8961,7 +8961,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 1.01
+          "orb": 0.92
         },
         {
           "planets": [
@@ -8969,7 +8969,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 3.55
+          "orb": 3.59
         },
         {
           "planets": [
@@ -8977,7 +8977,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 2.29
+          "orb": 2.36
         },
         {
           "planets": [
@@ -8985,7 +8985,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 2.29
+          "orb": 2.36
         },
         {
           "planets": [
@@ -8993,7 +8993,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 7.25
+          "orb": 7.13
         },
         {
           "planets": [
@@ -9006,41 +9006,41 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 992,
+      "declining": 993,
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 65.6,
+          "cosmo_score": 48.6,
           "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 62.7,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 58.3,
+          "cosmo_score": 47.2,
           "astro_bias": "Neutral"
         },
         {
           "name": "Infra",
-          "cosmo_score": 56.3,
+          "cosmo_score": 43.7,
           "astro_bias": "Bearish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 54.9,
-          "astro_bias": "Bearish"
+          "name": "L2",
+          "cosmo_score": 43.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 42.5,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Mercury, Rahu, Ketu",
-        "Moon moving Aquarius to Pisces within 3 days",
+        "Moon moving Aquarius to Aries within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Sun - favors L1, Infra",
-        "High funding rates: BNB, LTC, MANTA \u2014 longs crowded"
+        "High funding rates: XLM, LTC, DYDX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
