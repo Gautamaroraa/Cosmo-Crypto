@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T01:16:24Z",
+    "generated_at": "2026-07-06T05:40:08Z",
     "total_days": 45,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 44,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 66.4,
-      "DeFi": 64.6,
+      "L1": 66.3,
+      "DeFi": 64.3,
       "L2": 63.8,
-      "Meme": 62.8,
-      "Gaming": 62.1,
+      "Meme": 62.6,
+      "Gaming": 62.3,
+      "Payments": 61.8,
       "Emerging": 61.2,
-      "Payments": 61.2,
       "Infra": 60.4,
-      "AI": 58.8
+      "AI": 58.9
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-06T01:16:24Z"
+    "generated_at": "2026-07-06T05:40:08Z"
   },
   "anomalies": [
     {
@@ -9085,7 +9085,7 @@
           "retrograde": false
         },
         "Moon": {
-          "rashi": "Aquarius",
+          "rashi": "Pisces",
           "nakshatra": "Purva Bhadrapada",
           "retrograde": false
         },
@@ -9131,14 +9131,14 @@
             "Mercury",
             "Jupiter"
           ],
-          "orb": 6.46
+          "orb": 6.58
         },
         {
           "planets": [
             "Venus",
             "Ketu"
           ],
-          "orb": 6.43
+          "orb": 6.21
         }
       ],
       "aspects": [
@@ -9148,7 +9148,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 0.36
+          "orb": 0.2
         },
         {
           "planets": [
@@ -9156,7 +9156,15 @@
             "Mercury"
           ],
           "aspect": "Trine",
-          "orb": 2.28
+          "orb": 0.16
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Trine",
+          "orb": 6.42
         },
         {
           "planets": [
@@ -9164,7 +9172,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 3.89
+          "orb": 3.98
         },
         {
           "planets": [
@@ -9172,7 +9180,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 2.82
+          "orb": 2.96
         },
         {
           "planets": [
@@ -9180,7 +9188,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 2.82
+          "orb": 2.96
         },
         {
           "planets": [
@@ -9188,7 +9196,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 6.43
+          "orb": 6.21
         },
         {
           "planets": [
@@ -9205,37 +9213,37 @@
       "top_sectors": [
         {
           "name": "AI",
-          "cosmo_score": 54.9,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "L1",
-          "cosmo_score": 53.3,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Payments",
-          "cosmo_score": 53.2,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 53.1,
+          "cosmo_score": 55.9,
           "astro_bias": "Neutral"
         },
         {
           "name": "Gaming",
-          "cosmo_score": 48.0,
+          "cosmo_score": 52.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 51.5,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 48.3,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 47.5,
           "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Mercury, Rahu, Ketu",
-        "Moon moving Aquarius to Aries within 3 days",
+        "Moon moving Pisces to Aries within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: SKL, KAITO, COOKIE \u2014 longs crowded"
+        "High funding rates: XLM, SKYAI, KAITO \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
