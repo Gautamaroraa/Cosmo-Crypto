@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T18:34:41Z",
+    "generated_at": "2026-07-06T20:35:08Z",
     "total_days": 45,
     "version": "1.0"
   },
@@ -10,14 +10,14 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 66.5,
-      "DeFi": 64.6,
-      "L2": 63.5,
+      "DeFi": 64.3,
+      "L2": 63.4,
+      "Meme": 63.3,
       "Gaming": 63.0,
-      "Meme": 62.9,
-      "Payments": 61.2,
-      "Emerging": 61.1,
+      "Payments": 61.8,
+      "Emerging": 60.9,
       "Infra": 60.4,
-      "AI": 59.1
+      "AI": 58.3
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-06T18:34:41Z"
+    "generated_at": "2026-07-06T20:35:08Z"
   },
   "anomalies": [
     {
@@ -9068,7 +9068,7 @@
       "volatility_bias": "Low",
       "risk_level": "High",
       "strongest_sector": "Emerging",
-      "weakest_sector": "AI",
+      "weakest_sector": "Gaming",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Moon",
@@ -9131,14 +9131,14 @@
             "Mercury",
             "Jupiter"
           ],
-          "orb": 6.95
+          "orb": 7.01
         },
         {
           "planets": [
             "Venus",
             "Ketu"
           ],
-          "orb": 5.58
+          "orb": 5.48
         }
       ],
       "aspects": [
@@ -9148,7 +9148,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 0.3
+          "orb": 0.37
         },
         {
           "planets": [
@@ -9156,15 +9156,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 3.77
-        },
-        {
-          "planets": [
-            "Moon",
-            "Mercury"
-          ],
-          "aspect": "Trine",
-          "orb": 7.42
+          "orb": 2.73
         },
         {
           "planets": [
@@ -9172,7 +9164,7 @@
             "Jupiter"
           ],
           "aspect": "Trine",
-          "orb": 0.47
+          "orb": 1.55
         },
         {
           "planets": [
@@ -9180,7 +9172,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 4.24
+          "orb": 4.28
         },
         {
           "planets": [
@@ -9188,7 +9180,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 3.37
+          "orb": 3.43
         },
         {
           "planets": [
@@ -9196,7 +9188,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 3.37
+          "orb": 3.43
         },
         {
           "planets": [
@@ -9204,7 +9196,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 5.58
+          "orb": 5.48
         },
         {
           "planets": [
@@ -9221,27 +9213,27 @@
       "top_sectors": [
         {
           "name": "Emerging",
-          "cosmo_score": 58.6,
+          "cosmo_score": 55.3,
           "astro_bias": "Neutral"
         },
         {
           "name": "L1",
-          "cosmo_score": 57.4,
+          "cosmo_score": 54.8,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 55.1,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Payments",
-          "cosmo_score": 54.0,
-          "astro_bias": "Neutral"
+          "name": "DeFi",
+          "cosmo_score": 53.1,
+          "astro_bias": "Bearish"
         },
         {
           "name": "L2",
-          "cosmo_score": 53.8,
+          "cosmo_score": 50.3,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 47.5,
           "astro_bias": "Neutral"
         }
       ],
@@ -9251,7 +9243,7 @@
         "Moon moving Pisces to Aries within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: BNB, POL, XRP \u2014 longs crowded"
+        "High funding rates: POL, MANTA, DUSK \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
