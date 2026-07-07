@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-07T20:59:25Z",
+    "generated_at": "2026-07-07T22:18:27Z",
     "total_days": 46,
     "version": "1.0"
   },
@@ -11,13 +11,13 @@
     "sector_avg_scores": {
       "L1": 66.2,
       "DeFi": 64.0,
-      "L2": 63.4,
       "Meme": 63.3,
-      "Gaming": 62.6,
-      "Payments": 61.6,
-      "Infra": 60.6,
+      "L2": 63.1,
+      "Gaming": 62.4,
+      "Payments": 61.8,
       "Emerging": 60.5,
-      "AI": 58.3
+      "Infra": 60.1,
+      "AI": 58.2
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-07T20:59:25Z"
+    "generated_at": "2026-07-07T22:18:27Z"
   },
   "anomalies": [
     {
@@ -9262,8 +9262,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "Infra",
-      "weakest_sector": "L2",
+      "strongest_sector": "AI",
+      "weakest_sector": "Meme",
       "moon_phase": "Last Quarter",
       "moon_phase_emoji": "\ud83c\udf17",
       "day_ruler": "Mars",
@@ -9326,21 +9326,21 @@
             "Moon",
             "Saturn"
           ],
-          "orb": 2.09
+          "orb": 2.83
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 7.76
+          "orb": 7.8
         },
         {
           "planets": [
             "Venus",
             "Ketu"
           ],
-          "orb": 4.29
+          "orb": 4.22
         }
       ],
       "aspects": [
@@ -9350,7 +9350,7 @@
             "Moon"
           ],
           "aspect": "Square",
-          "orb": 0.78
+          "orb": 1.47
         },
         {
           "planets": [
@@ -9358,7 +9358,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 1.31
+          "orb": 1.36
         },
         {
           "planets": [
@@ -9366,7 +9366,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 7.35
+          "orb": 6.58
         },
         {
           "planets": [
@@ -9374,7 +9374,15 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 4.78
+          "orb": 4.8
+        },
+        {
+          "planets": [
+            "Mars",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.99
         },
         {
           "planets": [
@@ -9382,7 +9390,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 4.2
+          "orb": 4.24
         },
         {
           "planets": [
@@ -9390,7 +9398,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 4.2
+          "orb": 4.24
         },
         {
           "planets": [
@@ -9398,7 +9406,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 4.29
+          "orb": 4.22
         },
         {
           "planets": [
@@ -9414,28 +9422,28 @@
       "declining": 1007,
       "top_sectors": [
         {
-          "name": "Infra",
-          "cosmo_score": 64.4,
-          "astro_bias": "Bearish"
-        },
-        {
-          "name": "Payments",
-          "cosmo_score": 59.1,
+          "name": "AI",
+          "cosmo_score": 56.8,
           "astro_bias": "Neutral"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 58.6,
+          "cosmo_score": 56.0,
           "astro_bias": "Neutral"
         },
         {
-          "name": "AI",
-          "cosmo_score": 58.2,
+          "name": "L2",
+          "cosmo_score": 54.7,
           "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 54.6,
+          "astro_bias": "Bearish"
         },
         {
           "name": "Gaming",
-          "cosmo_score": 56.4,
+          "cosmo_score": 54.0,
           "astro_bias": "Bearish"
         }
       ],
@@ -9445,7 +9453,7 @@
         "Moon moving Pisces to Taurus within 3 days",
         "Last Quarter - Declining energy. Reduce exposure.",
         "Day of Mars - favors L1, Meme",
-        "High funding rates: DOT, TAO, ETC \u2014 longs crowded"
+        "High funding rates: DOT, SUI, ETC \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
