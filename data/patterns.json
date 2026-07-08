@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-08",
-    "generated_at": "2026-07-08T04:33:03Z"
+    "generated_at": "2026-07-08T07:16:04Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Payments",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -45,32 +45,32 @@
       },
       {
         "name": "L1",
-        "avg_score": 58.4
-      },
-      {
-        "name": "Infra",
-        "avg_score": 57.6
+        "avg_score": 58.3
       },
       {
         "name": "L2",
-        "avg_score": 55.9
+        "avg_score": 57.9
       },
       {
-        "name": "Payments",
-        "avg_score": 55.5
+        "name": "Infra",
+        "avg_score": 57.3
+      },
+      {
+        "name": "DeFi",
+        "avg_score": 57.1
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Last Quarter": 2,
       "Waning Gibbous": 5,
-      "Full Moon": 1,
-      "First Quarter": 1
+      "First Quarter": 1,
+      "Waxing Crescent": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Gaming, L1, Infra.",
+    "Strongest sectors on similar days: Gaming, L1, L2.",
     "Mars in Taurus + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
@@ -80,7 +80,7 @@
       "cosmo_score": 32.0,
       "moon_phase": "Last Quarter",
       "day_ruler": "Mercury",
-      "strongest_sector": "Payments",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -120,7 +120,7 @@
     },
     {
       "date": "2026-07-06",
-      "similarity_pct": 78.6,
+      "similarity_pct": 81.2,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Moon",
@@ -128,7 +128,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 78.6,
+        "similarity_pct": 81.2,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -139,6 +139,31 @@
         "different": [
           "Moon phase: Waning Gibbous \u2192 now Last Quarter",
           "Day ruler: Moon \u2192 now Mercury"
+        ]
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "similarity_pct": 77.7,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Saturn",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 77.7,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Waning Gibbous \u2192 now Last Quarter",
+          "Day ruler: Saturn \u2192 now Mercury",
+          "Moon in: Aquarius \u2192 now Pisces"
         ]
       }
     },
@@ -163,31 +188,6 @@
         "different": [
           "Moon phase: Waning Gibbous \u2192 now Last Quarter",
           "Moon in: Capricorn \u2192 now Pisces"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-04",
-      "similarity_pct": 75.0,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Saturn",
-      "strongest_sector": "L2",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 75.0,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Mercury retrograde True"
-        ],
-        "different": [
-          "Moon phase: Waning Gibbous \u2192 now Last Quarter",
-          "Day ruler: Saturn \u2192 now Mercury",
-          "Moon in: Aquarius \u2192 now Pisces"
         ]
       }
     }
