@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-11",
-    "generated_at": "2026-07-11T04:29:14Z"
+    "generated_at": "2026-07-11T06:38:46Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -16,12 +16,12 @@
     "mars_retro": false,
     "jupiter_retro": false,
     "saturn_retro": false,
-    "moon_phase": "Last Quarter",
-    "moon_nakshatra": "Krittika",
+    "moon_phase": "Waning Crescent",
+    "moon_nakshatra": "Rohini",
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "Meme",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,24 +40,24 @@
     },
     "top_sectors_on_similar_days": [
       {
+        "name": "Meme",
+        "avg_score": 63.7
+      },
+      {
         "name": "Gaming",
-        "avg_score": 60.9
+        "avg_score": 62.2
       },
       {
         "name": "L2",
-        "avg_score": 58.3
+        "avg_score": 59.7
       },
       {
-        "name": "Infra",
-        "avg_score": 58.0
-      },
-      {
-        "name": "Meme",
-        "avg_score": 57.4
+        "name": "L1",
+        "avg_score": 59.7
       },
       {
         "name": "DeFi",
-        "avg_score": 57.1
+        "avg_score": 59.1
       }
     ],
     "recurring_stocks": [],
@@ -65,12 +65,12 @@
       "Last Quarter": 4,
       "Waning Gibbous": 3,
       "Waxing Crescent": 1,
-      "Waxing Gibbous": 1
+      "Waning Crescent": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Gaming, L2, Infra.",
+    "Strongest sectors on similar days: Meme, Gaming, L2.",
     "Mars in Taurus + Day of Saturn is the dominant sky signature today."
   ],
   "similar_days": [
@@ -78,9 +78,9 @@
       "date": "2026-07-11",
       "similarity_pct": 100.0,
       "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
+      "moon_phase": "Waning Crescent",
       "day_ruler": "Saturn",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -90,14 +90,14 @@
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Moon phase Last Quarter"
+          "Moon phase Waning Crescent"
         ],
         "different": []
       }
     },
     {
       "date": "2026-07-10",
-      "similarity_pct": 92.0,
+      "similarity_pct": 85.7,
       "cosmo_score": 32.0,
       "moon_phase": "Last Quarter",
       "day_ruler": "Venus",
@@ -105,22 +105,47 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 92.0,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Moon phase Last Quarter"
+          "Mercury retrograde True"
         ],
         "different": [
+          "Moon phase: Last Quarter \u2192 now Waning Crescent",
           "Day ruler: Venus \u2192 now Saturn"
         ]
       }
     },
     {
+      "date": "2026-07-04",
+      "similarity_pct": 80.4,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Saturn",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 80.4,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Day ruler Saturn"
+        ],
+        "different": [
+          "Moon phase: Waning Gibbous \u2192 now Waning Crescent",
+          "Moon in: Aquarius \u2192 now Taurus"
+        ]
+      }
+    },
+    {
       "date": "2026-07-07",
-      "similarity_pct": 85.7,
+      "similarity_pct": 79.5,
       "cosmo_score": 32.0,
       "moon_phase": "Last Quarter",
       "day_ruler": "Mars",
@@ -128,15 +153,16 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 79.5,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Moon phase Last Quarter"
+          "Mercury retrograde True"
         ],
         "different": [
+          "Moon phase: Last Quarter \u2192 now Waning Crescent",
           "Day ruler: Mars \u2192 now Saturn",
           "Moon in: Pisces \u2192 now Taurus"
         ]
@@ -144,7 +170,7 @@
     },
     {
       "date": "2026-07-08",
-      "similarity_pct": 85.7,
+      "similarity_pct": 79.5,
       "cosmo_score": 32.0,
       "moon_phase": "Last Quarter",
       "day_ruler": "Mercury",
@@ -152,40 +178,17 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 79.5,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Moon phase Last Quarter"
+          "Mercury retrograde True"
         ],
         "different": [
+          "Moon phase: Last Quarter \u2192 now Waning Crescent",
           "Day ruler: Mercury \u2192 now Saturn",
-          "Moon in: Aries \u2192 now Taurus"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-09",
-      "similarity_pct": 85.7,
-      "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 85.7,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Moon phase Last Quarter"
-        ],
-        "different": [
-          "Day ruler: Jupiter \u2192 now Saturn",
           "Moon in: Aries \u2192 now Taurus"
         ]
       }
