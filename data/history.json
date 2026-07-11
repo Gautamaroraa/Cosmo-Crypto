@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11T13:57:24Z",
+    "generated_at": "2026-07-11T14:56:49Z",
     "total_days": 50,
     "version": "1.0"
   },
@@ -10,13 +10,13 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 66.0,
-      "DeFi": 64.0,
-      "L2": 63.5,
+      "DeFi": 64.1,
+      "L2": 63.6,
       "Meme": 63.2,
       "Gaming": 62.9,
       "Payments": 61.8,
+      "Emerging": 61.0,
       "Infra": 60.8,
-      "Emerging": 60.6,
       "AI": 58.4
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-11T13:57:24Z"
+    "generated_at": "2026-07-11T14:56:49Z"
   },
   "anomalies": [
     {
@@ -10208,21 +10208,21 @@
             "Sun",
             "Mercury"
           ],
-          "orb": 2.36
+          "orb": 2.3
         },
         {
           "planets": [
             "Moon",
             "Mars"
           ],
-          "orb": 0.39
+          "orb": 0.98
         },
         {
           "planets": [
             "Venus",
             "Ketu"
           ],
-          "orb": 0.04
+          "orb": 0.09
         }
       ],
       "aspects": [
@@ -10232,7 +10232,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.74
+          "orb": 4.78
         },
         {
           "planets": [
@@ -10240,7 +10240,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 6.96
+          "orb": 7.57
         },
         {
           "planets": [
@@ -10248,7 +10248,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 7.35
+          "orb": 7.92
         },
         {
           "planets": [
@@ -10256,23 +10256,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 5.13
-        },
-        {
-          "planets": [
-            "Moon",
-            "Rahu"
-          ],
-          "aspect": "Square",
-          "orb": 7.39
-        },
-        {
-          "planets": [
-            "Moon",
-            "Ketu"
-          ],
-          "aspect": "Square",
-          "orb": 7.39
+          "orb": 4.52
         },
         {
           "planets": [
@@ -10280,7 +10264,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 6.57
+          "orb": 6.59
         },
         {
           "planets": [
@@ -10288,7 +10272,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 6.96
+          "orb": 6.94
         },
         {
           "planets": [
@@ -10296,7 +10280,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 5.53
+          "orb": 5.5
         },
         {
           "planets": [
@@ -10304,7 +10288,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 7.0
+          "orb": 7.03
         },
         {
           "planets": [
@@ -10312,7 +10296,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 7.0
+          "orb": 7.03
         },
         {
           "planets": [
@@ -10320,7 +10304,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 7.1
+          "orb": 7.08
         },
         {
           "planets": [
@@ -10328,7 +10312,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 0.04
+          "orb": 0.09
         },
         {
           "planets": [
@@ -10341,31 +10325,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 904,
+      "declining": 909,
       "top_sectors": [
         {
           "name": "L2",
-          "cosmo_score": 66.8,
+          "cosmo_score": 72.3,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Infra",
-          "cosmo_score": 62.3,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 62.1,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "Emerging",
-          "cosmo_score": 61.7,
+          "cosmo_score": 70.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 65.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 62.7,
           "astro_bias": "Neutral"
         },
         {
           "name": "Meme",
-          "cosmo_score": 61.3,
+          "cosmo_score": 61.8,
           "astro_bias": "Bearish"
         }
       ],
@@ -10375,7 +10359,7 @@
         "Moon moving Taurus to Cancer within 3 days",
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: BLUR, MANTA, SKL \u2014 longs crowded"
+        "High funding rates: MANTA, BLUR, ARB \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
