@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-12",
-    "generated_at": "2026-07-12T18:09:46Z"
+    "generated_at": "2026-07-12T19:32:08Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -63,8 +63,8 @@
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Crescent": 1,
-      "Last Quarter": 4,
       "Waning Gibbous": 3,
+      "Last Quarter": 4,
       "First Quarter": 1
     }
   },
@@ -80,7 +80,7 @@
       "cosmo_score": 32.0,
       "moon_phase": "Waning Crescent",
       "day_ruler": "Sun",
-      "strongest_sector": "L2",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -97,7 +97,7 @@
     },
     {
       "date": "2026-07-11",
-      "similarity_pct": 88.4,
+      "similarity_pct": 85.7,
       "cosmo_score": 32.0,
       "moon_phase": "Waning Crescent",
       "day_ruler": "Saturn",
@@ -105,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 88.4,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -116,31 +116,6 @@
         "different": [
           "Day ruler: Saturn \u2192 now Sun",
           "Moon in: Taurus \u2192 now Gemini"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-08",
-      "similarity_pct": 82.1,
-      "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Mercury",
-      "strongest_sector": "L2",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 82.1,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Mercury retrograde True"
-        ],
-        "different": [
-          "Moon phase: Last Quarter \u2192 now Waning Crescent",
-          "Day ruler: Mercury \u2192 now Sun",
-          "Moon in: Aries \u2192 now Gemini"
         ]
       }
     },
@@ -190,6 +165,31 @@
           "Moon phase: Last Quarter \u2192 now Waning Crescent",
           "Day ruler: Mars \u2192 now Sun",
           "Moon in: Pisces \u2192 now Gemini"
+        ]
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "similarity_pct": 79.5,
+      "cosmo_score": 32.0,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 79.5,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now Waning Crescent",
+          "Day ruler: Mercury \u2192 now Sun",
+          "Moon in: Aries \u2192 now Gemini"
         ]
       }
     }
