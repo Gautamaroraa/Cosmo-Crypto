@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-14",
-    "generated_at": "2026-07-14T10:12:42Z"
+    "generated_at": "2026-07-14T11:46:23Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Mars",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,24 +40,24 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Meme",
-        "avg_score": 61.7
-      },
-      {
-        "name": "L2",
-        "avg_score": 59.0
+        "name": "Payments",
+        "avg_score": 66.6
       },
       {
         "name": "L1",
-        "avg_score": 58.9
+        "avg_score": 63.3
+      },
+      {
+        "name": "L2",
+        "avg_score": 62.9
+      },
+      {
+        "name": "Meme",
+        "avg_score": 62.6
       },
       {
         "name": "DeFi",
-        "avg_score": 56.4
-      },
-      {
-        "name": "Payments",
-        "avg_score": 55.9
+        "avg_score": 59.8
       }
     ],
     "recurring_stocks": [],
@@ -65,12 +65,13 @@
       "New Moon": 1,
       "Last Quarter": 4,
       "Waning Crescent": 2,
-      "Waning Gibbous": 2
+      "Full Moon": 1,
+      "Waxing Crescent": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Meme, L2, L1.",
+    "Strongest sectors on similar days: Payments, L1, L2.",
     "Mars in Taurus + Day of Mars is the dominant sky signature today."
   ],
   "similar_days": [
@@ -80,7 +81,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "New Moon",
       "day_ruler": "Mars",
-      "strongest_sector": "L2",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -167,12 +168,12 @@
       }
     },
     {
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "similarity_pct": 82.1,
       "cosmo_score": 32.0,
       "moon_phase": "Last Quarter",
-      "day_ruler": "Mercury",
-      "strongest_sector": "L2",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -186,7 +187,7 @@
         ],
         "different": [
           "Moon phase: Last Quarter \u2192 now New Moon",
-          "Day ruler: Mercury \u2192 now Mars",
+          "Day ruler: Jupiter \u2192 now Mars",
           "Moon in: Aries \u2192 now Gemini"
         ]
       }
