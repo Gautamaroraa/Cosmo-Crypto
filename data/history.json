@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-07-13T23:14:10Z",
-    "total_days": 52,
+    "generated_at": "2026-07-14T00:09:50Z",
+    "total_days": 53,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 52,
-    "days_with_outcomes": 51,
+    "total_days": 53,
+    "days_with_outcomes": 52,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 65.7,
+      "L1": 65.4,
       "DeFi": 63.3,
       "L2": 63.2,
-      "Meme": 63.1,
+      "Meme": 62.7,
       "Gaming": 61.8,
       "Payments": 61.8,
-      "Emerging": 60.2,
-      "Infra": 60.0,
-      "AI": 57.7
+      "Emerging": 59.6,
+      "Infra": 59.3,
+      "AI": 57.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-13T23:14:10Z"
+    "generated_at": "2026-07-14T00:09:50Z"
   },
   "anomalies": [
     {
@@ -79,6 +79,14 @@
     },
     {
       "date": "2026-07-13",
+      "flags": [
+        "NEW_MOON_DAY"
+      ],
+      "cosmo_score": 33.2,
+      "moon_phase": "New Moon"
+    },
+    {
+      "date": "2026-07-14",
       "flags": [
         "NEW_MOON_DAY"
       ],
@@ -10771,6 +10779,215 @@
         "Sun moving Gemini to Cancer within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Moon - favors Meme, Gaming",
+        "High funding rates: BLUR, SKYAI, COAI \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-07-14",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "day_cosmo_score": 33.2,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "L1",
+      "weakest_sector": "Payments",
+      "moon_phase": "New Moon",
+      "moon_phase_emoji": "\ud83c\udf11",
+      "day_ruler": "Mars",
+      "astro_score": 55,
+      "retrograde_planets": [
+        "Mercury",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Taurus",
+          "nakshatra": "Rohini",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": true
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "orb": 5.63
+        },
+        {
+          "planets": [
+            "Sun",
+            "Mercury"
+          ],
+          "orb": 1.51
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "orb": 4.12
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "orb": 2.85
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 7.0
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 1.37
+        },
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.73
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Square",
+          "orb": 5.97
+        },
+        {
+          "planets": [
+            "Mars",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 3.89
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 5.49
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 2.85
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 949,
+      "top_sectors": [
+        {
+          "name": "L1",
+          "cosmo_score": 54.7,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 54.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 53.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 45.4,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 45.0,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Mercury, Rahu, Ketu",
+        "Sun moving Gemini to Cancer within 3 days",
+        "New Moon - New cycle. Accumulation phase.",
+        "Day of Mars - favors L1, Meme",
         "High funding rates: BLUR, SKYAI, COAI \u2014 longs crowded"
       ],
       "nifty50": null,
