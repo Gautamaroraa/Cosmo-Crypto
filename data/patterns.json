@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-15",
-    "generated_at": "2026-07-15T08:42:46Z"
+    "generated_at": "2026-07-15T10:30:07Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -16,7 +16,7 @@
     "mars_retro": false,
     "jupiter_retro": false,
     "saturn_retro": false,
-    "moon_phase": "New Moon",
+    "moon_phase": "Waxing Crescent",
     "moon_nakshatra": "Pushya",
     "day_ruler": "Mercury",
     "market_direction": "Bearish",
@@ -40,45 +40,45 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Meme",
-        "avg_score": 61.7
+        "name": "L2",
+        "avg_score": 60.7
       },
       {
         "name": "L1",
-        "avg_score": 60.5
+        "avg_score": 60.2
       },
       {
-        "name": "L2",
-        "avg_score": 59.9
+        "name": "Meme",
+        "avg_score": 59.1
       },
       {
         "name": "DeFi",
-        "avg_score": 57.6
+        "avg_score": 58.9
       },
       {
         "name": "Emerging",
-        "avg_score": 56.7
+        "avg_score": 58.3
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "New Moon": 2,
       "Last Quarter": 4,
+      "New Moon": 2,
       "Waning Crescent": 2,
-      "Waning Gibbous": 1
+      "Waxing Crescent": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Meme, L1, L2.",
+    "Strongest sectors on similar days: L2, L1, Meme.",
     "Mars in Taurus + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
     {
       "date": "2026-07-15",
       "similarity_pct": 100.0,
-      "cosmo_score": 33.2,
-      "moon_phase": "New Moon",
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Crescent",
       "day_ruler": "Mercury",
       "strongest_sector": "L2",
       "market_direction": "Bearish",
@@ -90,32 +90,9 @@
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Moon phase New Moon"
+          "Moon phase Waxing Crescent"
         ],
         "different": []
-      }
-    },
-    {
-      "date": "2026-07-14",
-      "similarity_pct": 92.0,
-      "cosmo_score": 33.2,
-      "moon_phase": "New Moon",
-      "day_ruler": "Mars",
-      "strongest_sector": "Gaming",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 92.0,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Moon phase New Moon"
-        ],
-        "different": [
-          "Day ruler: Mars \u2192 now Mercury"
-        ]
       }
     },
     {
@@ -137,18 +114,18 @@
           "Day ruler Mercury"
         ],
         "different": [
-          "Moon phase: Last Quarter \u2192 now New Moon",
+          "Moon phase: Last Quarter \u2192 now Waxing Crescent",
           "Moon in: Aries \u2192 now Cancer"
         ]
       }
     },
     {
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "similarity_pct": 85.7,
       "cosmo_score": 33.2,
       "moon_phase": "New Moon",
-      "day_ruler": "Moon",
-      "strongest_sector": "Meme",
+      "day_ruler": "Mars",
+      "strongest_sector": "Gaming",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -158,11 +135,11 @@
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Moon phase New Moon"
+          "Mercury retrograde True"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Mercury",
-          "Moon in: Gemini \u2192 now Cancer"
+          "Moon phase: New Moon \u2192 now Waxing Crescent",
+          "Day ruler: Mars \u2192 now Mercury"
         ]
       }
     },
@@ -185,9 +162,34 @@
           "Mercury retrograde True"
         ],
         "different": [
-          "Moon phase: Waning Crescent \u2192 now New Moon",
+          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
           "Day ruler: Saturn \u2192 now Mercury",
           "Moon in: Taurus \u2192 now Cancer"
+        ]
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "similarity_pct": 79.5,
+      "cosmo_score": 32.0,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Mars",
+      "strongest_sector": "Gaming",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 79.5,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now Waxing Crescent",
+          "Day ruler: Mars \u2192 now Mercury",
+          "Moon in: Pisces \u2192 now Cancer"
         ]
       }
     }
