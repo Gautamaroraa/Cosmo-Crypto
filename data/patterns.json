@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-15",
-    "generated_at": "2026-07-15T03:58:35Z"
+    "generated_at": "2026-07-15T06:20:57Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Emerging",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,24 +40,24 @@
     },
     "top_sectors_on_similar_days": [
       {
+        "name": "Meme",
+        "avg_score": 61.7
+      },
+      {
         "name": "L1",
-        "avg_score": 61.0
+        "avg_score": 60.5
       },
       {
         "name": "L2",
-        "avg_score": 60.8
-      },
-      {
-        "name": "Meme",
-        "avg_score": 59.4
+        "avg_score": 59.9
       },
       {
         "name": "DeFi",
-        "avg_score": 59.0
+        "avg_score": 57.6
       },
       {
         "name": "Emerging",
-        "avg_score": 58.3
+        "avg_score": 56.7
       }
     ],
     "recurring_stocks": [],
@@ -70,7 +70,7 @@
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, L2, Meme.",
+    "Strongest sectors on similar days: Meme, L1, L2.",
     "Mars in Taurus + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
@@ -80,7 +80,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "New Moon",
       "day_ruler": "Mercury",
-      "strongest_sector": "Emerging",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -119,6 +119,30 @@
       }
     },
     {
+      "date": "2026-07-08",
+      "similarity_pct": 87.5,
+      "cosmo_score": 32.0,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 87.5,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Day ruler Mercury"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now New Moon",
+          "Moon in: Aries \u2192 now Cancer"
+        ]
+      }
+    },
+    {
       "date": "2026-07-13",
       "similarity_pct": 85.7,
       "cosmo_score": 33.2,
@@ -143,40 +167,16 @@
       }
     },
     {
-      "date": "2026-07-08",
-      "similarity_pct": 84.8,
+      "date": "2026-07-11",
+      "similarity_pct": 82.1,
       "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Mercury",
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Saturn",
       "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 84.8,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Day ruler Mercury"
-        ],
-        "different": [
-          "Moon phase: Last Quarter \u2192 now New Moon",
-          "Moon in: Aries \u2192 now Cancer"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-07",
-      "similarity_pct": 79.5,
-      "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Mars",
-      "strongest_sector": "Gaming",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -185,9 +185,9 @@
           "Mercury retrograde True"
         ],
         "different": [
-          "Moon phase: Last Quarter \u2192 now New Moon",
-          "Day ruler: Mars \u2192 now Mercury",
-          "Moon in: Pisces \u2192 now Cancer"
+          "Moon phase: Waning Crescent \u2192 now New Moon",
+          "Day ruler: Saturn \u2192 now Mercury",
+          "Moon in: Taurus \u2192 now Cancer"
         ]
       }
     }
