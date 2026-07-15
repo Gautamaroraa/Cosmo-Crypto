@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-15T15:50:51Z",
+    "generated_at": "2026-07-15T17:18:15Z",
     "total_days": 54,
     "version": "1.0"
   },
@@ -9,14 +9,14 @@
     "days_with_outcomes": 53,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 65.4,
-      "DeFi": 63.3,
-      "Meme": 63.1,
-      "L2": 63.0,
+      "L1": 65.7,
+      "DeFi": 63.6,
+      "Meme": 63.5,
+      "L2": 63.3,
       "Gaming": 61.5,
-      "Payments": 61.3,
+      "Payments": 61.2,
+      "Infra": 60.4,
       "Emerging": 60.2,
-      "Infra": 60.0,
       "AI": 57.5
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-15T15:50:51Z"
+    "generated_at": "2026-07-15T17:18:15Z"
   },
   "anomalies": [
     {
@@ -10984,8 +10984,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L2",
-      "weakest_sector": "Meme",
+      "strongest_sector": "L1",
+      "weakest_sector": "Payments",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
       "day_ruler": "Mercury",
@@ -11003,7 +11003,7 @@
         },
         "Moon": {
           "rashi": "Cancer",
-          "nakshatra": "Pushya",
+          "nakshatra": "Ashlesha",
           "retrograde": false
         },
         "Mars": {
@@ -11048,21 +11048,14 @@
             "Sun",
             "Mercury"
           ],
-          "orb": 4.1
-        },
-        {
-          "planets": [
-            "Moon",
-            "Jupiter"
-          ],
-          "orb": 7.27
+          "orb": 4.19
         },
         {
           "planets": [
             "Venus",
             "Ketu"
           ],
-          "orb": 4.76
+          "orb": 4.83
         }
       ],
       "aspects": [
@@ -11072,7 +11065,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 1.25
+          "orb": 0.4
         },
         {
           "planets": [
@@ -11080,7 +11073,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.03
+          "orb": 3.14
         },
         {
           "planets": [
@@ -11088,7 +11081,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 5.3
+          "orb": 5.28
         },
         {
           "planets": [
@@ -11096,7 +11089,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 2.78
+          "orb": 2.73
         },
         {
           "planets": [
@@ -11104,7 +11097,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.44
+          "orb": 4.41
         },
         {
           "planets": [
@@ -11112,7 +11105,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 4.76
+          "orb": 4.83
         },
         {
           "planets": [
@@ -11128,28 +11121,28 @@
       "declining": 966,
       "top_sectors": [
         {
-          "name": "L2",
-          "cosmo_score": 65.3,
-          "astro_bias": "Bullish"
+          "name": "L1",
+          "cosmo_score": 77.8,
+          "astro_bias": "Neutral"
         },
         {
-          "name": "L1",
-          "cosmo_score": 65.2,
-          "astro_bias": "Neutral"
+          "name": "L2",
+          "cosmo_score": 75.3,
+          "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 63.7,
+          "cosmo_score": 74.4,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Payments",
-          "cosmo_score": 61.9,
+          "name": "Meme",
+          "cosmo_score": 73.6,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Emerging",
-          "cosmo_score": 61.3,
+          "name": "Infra",
+          "cosmo_score": 69.9,
           "astro_bias": "Neutral"
         }
       ],
@@ -11159,7 +11152,7 @@
         "Sun moving Gemini to Cancer within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Mercury - favors DeFi, L2",
-        "High funding rates: SKL, MOVE, SUSHI \u2014 longs crowded"
+        "High funding rates: ZK, MOVE, OP \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
