@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-16T17:17:04Z",
+    "generated_at": "2026-07-16T18:41:09Z",
     "total_days": 55,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 54,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 65.7,
-      "DeFi": 63.7,
+      "L1": 65.6,
+      "DeFi": 63.8,
       "Meme": 63.2,
       "L2": 63.1,
       "Gaming": 61.5,
       "Payments": 61.2,
-      "Emerging": 60.5,
-      "Infra": 60.4,
-      "AI": 57.5
+      "Emerging": 60.4,
+      "Infra": 60.3,
+      "AI": 57.8
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-16T17:17:04Z"
+    "generated_at": "2026-07-16T18:41:09Z"
   },
   "anomalies": [
     {
@@ -11171,8 +11171,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L1",
-      "weakest_sector": "Gaming",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "L2",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
       "day_ruler": "Jupiter",
@@ -11184,7 +11184,7 @@
       ],
       "planets": {
         "Sun": {
-          "rashi": "Gemini",
+          "rashi": "Cancer",
           "nakshatra": "Punarvasu",
           "retrograde": false
         },
@@ -11235,21 +11235,21 @@
             "Sun",
             "Mercury"
           ],
-          "orb": 5.71
+          "orb": 5.79
         },
         {
           "planets": [
             "Moon",
             "Ketu"
           ],
-          "orb": 5.81
+          "orb": 4.97
         },
         {
           "planets": [
             "Venus",
             "Ketu"
           ],
-          "orb": 5.98
+          "orb": 6.04
         }
       ],
       "aspects": [
@@ -11259,7 +11259,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 5.81
+          "orb": 4.97
         },
         {
           "planets": [
@@ -11267,7 +11267,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 4.88
+          "orb": 4.85
         },
         {
           "planets": [
@@ -11275,7 +11275,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 2.06
+          "orb": 2.02
         },
         {
           "planets": [
@@ -11283,7 +11283,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 3.83
+          "orb": 3.79
         },
         {
           "planets": [
@@ -11291,7 +11291,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 5.98
+          "orb": 6.04
         },
         {
           "planets": [
@@ -11307,38 +11307,38 @@
       "declining": 927,
       "top_sectors": [
         {
+          "name": "DeFi",
+          "cosmo_score": 72.6,
+          "astro_bias": "Bullish"
+        },
+        {
           "name": "L1",
-          "cosmo_score": 74.2,
+          "cosmo_score": 71.2,
           "astro_bias": "Bullish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 69.4,
+          "cosmo_score": 68.1,
           "astro_bias": "Neutral"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 68.8,
-          "astro_bias": "Bullish"
         },
         {
           "name": "Emerging",
-          "cosmo_score": 67.9,
+          "cosmo_score": 65.1,
           "astro_bias": "Neutral"
         },
         {
-          "name": "L2",
-          "cosmo_score": 64.2,
-          "astro_bias": "Bullish"
+          "name": "AI",
+          "cosmo_score": 63.1,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Mercury, Rahu, Ketu",
-        "Sun moving Gemini to Cancer within 3 days",
+        "Moon moving Leo to Virgo within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Jupiter - favors L1, DeFi",
-        "High funding rates: ZK, SKL, ARB \u2014 longs crowded"
+        "High funding rates: OP, SKL, UNI \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
