@@ -1,11 +1,11 @@
 {
   "meta": {
     "date": "2026-07-16",
-    "generated_at": "2026-07-16T12:10:25Z"
+    "generated_at": "2026-07-16T14:23:30Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
-    "moon_rashi": "Cancer",
+    "moon_rashi": "Leo",
     "mars_rashi": "Taurus",
     "mercury_rashi": "Gemini",
     "jupiter_rashi": "Cancer",
@@ -17,7 +17,7 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "Waxing Crescent",
-    "moon_nakshatra": "Ashlesha",
+    "moon_nakshatra": "Magha",
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
@@ -40,37 +40,37 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Meme",
-        "avg_score": 63.0
-      },
-      {
         "name": "L2",
-        "avg_score": 61.8
+        "avg_score": 62.5
       },
       {
         "name": "L1",
-        "avg_score": 61.5
+        "avg_score": 62.1
+      },
+      {
+        "name": "Payments",
+        "avg_score": 61.1
       },
       {
         "name": "DeFi",
         "avg_score": 60.6
       },
       {
-        "name": "Emerging",
-        "avg_score": 59.2
+        "name": "Meme",
+        "avg_score": 60.6
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Crescent": 1,
+      "Waxing Crescent": 2,
       "Last Quarter": 4,
-      "New Moon": 2,
-      "Waning Crescent": 2
+      "Waning Crescent": 2,
+      "New Moon": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Meme, L2, L1.",
+    "Strongest sectors on similar days: L2, L1, Payments.",
     "Mars in Taurus + Day of Jupiter is the dominant sky signature today."
   ],
   "similar_days": [
@@ -97,7 +97,7 @@
     },
     {
       "date": "2026-07-15",
-      "similarity_pct": 94.6,
+      "similarity_pct": 88.4,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mercury",
@@ -105,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 94.6,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -114,7 +114,8 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Mercury \u2192 now Jupiter"
+          "Day ruler: Mercury \u2192 now Jupiter",
+          "Moon in: Cancer \u2192 now Leo"
         ]
       }
     },
@@ -138,31 +139,31 @@
         ],
         "different": [
           "Moon phase: Last Quarter \u2192 now Waxing Crescent",
-          "Moon in: Aries \u2192 now Cancer"
+          "Moon in: Aries \u2192 now Leo"
         ]
       }
     },
     {
-      "date": "2026-07-14",
-      "similarity_pct": 83.0,
-      "cosmo_score": 33.2,
-      "moon_phase": "New Moon",
-      "day_ruler": "Mars",
-      "strongest_sector": "Gaming",
+      "date": "2026-06-20",
+      "similarity_pct": 79.5,
+      "cosmo_score": 35.5,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Saturn",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 83.0,
+        "similarity_pct": 79.5,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Gemini",
-          "Mercury retrograde True"
+          "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Moon phase: New Moon \u2192 now Waxing Crescent",
-          "Day ruler: Mars \u2192 now Jupiter"
+          "Day ruler: Saturn \u2192 now Jupiter",
+          "Mercury retrograde: False \u2192 now True"
         ]
       }
     },
@@ -187,7 +188,7 @@
         "different": [
           "Moon phase: Last Quarter \u2192 now Waxing Crescent",
           "Day ruler: Mars \u2192 now Jupiter",
-          "Moon in: Pisces \u2192 now Cancer"
+          "Moon in: Pisces \u2192 now Leo"
         ]
       }
     }
