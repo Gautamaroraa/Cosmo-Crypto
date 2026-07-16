@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-16",
-    "generated_at": "2026-07-16T15:56:49Z"
+    "generated_at": "2026-07-16T17:17:04Z"
   },
   "today_conditions": {
     "sun_rashi": "Gemini",
@@ -21,7 +21,7 @@
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -62,8 +62,8 @@
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Crescent": 2,
       "Last Quarter": 4,
+      "Waxing Crescent": 2,
       "Waning Crescent": 2,
       "New Moon": 1
     }
@@ -80,7 +80,7 @@
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Jupiter",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,32 +96,8 @@
       }
     },
     {
-      "date": "2026-07-15",
-      "similarity_pct": 88.4,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Mercury",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 88.4,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Gemini",
-          "Moon phase Waxing Crescent"
-        ],
-        "different": [
-          "Day ruler: Mercury \u2192 now Jupiter",
-          "Moon in: Cancer \u2192 now Leo"
-        ]
-      }
-    },
-    {
       "date": "2026-07-09",
-      "similarity_pct": 84.8,
+      "similarity_pct": 87.5,
       "cosmo_score": 32.0,
       "moon_phase": "Last Quarter",
       "day_ruler": "Jupiter",
@@ -129,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 84.8,
+        "similarity_pct": 87.5,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -140,6 +116,30 @@
         "different": [
           "Moon phase: Last Quarter \u2192 now Waxing Crescent",
           "Moon in: Aries \u2192 now Leo"
+        ]
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "similarity_pct": 85.7,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Mercury",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 85.7,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Gemini",
+          "Moon phase Waxing Crescent"
+        ],
+        "different": [
+          "Day ruler: Mercury \u2192 now Jupiter",
+          "Moon in: Cancer \u2192 now Leo"
         ]
       }
     },
