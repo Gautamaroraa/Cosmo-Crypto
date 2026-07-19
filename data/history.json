@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-19T11:58:25Z",
+    "generated_at": "2026-07-19T13:28:08Z",
     "total_days": 58,
     "version": "1.0"
   },
@@ -10,13 +10,13 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 65.1,
-      "DeFi": 63.4,
-      "L2": 62.7,
-      "Meme": 62.6,
-      "Gaming": 61.3,
+      "DeFi": 63.5,
+      "Meme": 62.8,
+      "L2": 62.8,
       "Payments": 61.2,
-      "Infra": 59.9,
-      "Emerging": 59.9,
+      "Gaming": 61.0,
+      "Emerging": 60.0,
+      "Infra": 59.7,
       "AI": 57.5
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-19T11:58:25Z"
+    "generated_at": "2026-07-19T13:28:08Z"
   },
   "anomalies": [
     {
@@ -11731,7 +11731,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "weakest_sector": "Payments",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
@@ -11750,7 +11750,7 @@
         },
         "Moon": {
           "rashi": "Virgo",
-          "nakshatra": "Uttara Phalguni",
+          "nakshatra": "Hasta",
           "retrograde": false
         },
         "Mars": {
@@ -11795,7 +11795,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 7.35
+          "orb": 7.3
         }
       ],
       "aspects": [
@@ -11805,7 +11805,7 @@
             "Moon"
           ],
           "aspect": "Sextile",
-          "orb": 6.98
+          "orb": 7.73
         },
         {
           "planets": [
@@ -11813,7 +11813,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 0.37
+          "orb": 0.42
         },
         {
           "planets": [
@@ -11821,7 +11821,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 3.77
+          "orb": 3.74
         },
         {
           "planets": [
@@ -11829,7 +11829,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 0.18
+          "orb": 0.13
         },
         {
           "planets": [
@@ -11837,7 +11837,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 6.43
+          "orb": 6.34
         },
         {
           "planets": [
@@ -11845,7 +11845,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 2.49
+          "orb": 2.47
         },
         {
           "planets": [
@@ -11858,32 +11858,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 930,
+      "declining": 899,
       "top_sectors": [
         {
-          "name": "L1",
-          "cosmo_score": 59.2,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 58.2,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 57.1,
-          "astro_bias": "Bearish"
-        },
-        {
           "name": "DeFi",
-          "cosmo_score": 56.9,
+          "cosmo_score": 62.5,
           "astro_bias": "Bullish"
         },
         {
           "name": "L2",
-          "cosmo_score": 55.5,
+          "cosmo_score": 62.2,
           "astro_bias": "Bullish"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 59.3,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 55.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 55.6,
+          "astro_bias": "Bearish"
         }
       ],
       "top_stocks": [],
@@ -11892,7 +11892,7 @@
         "Moon moving Virgo to Libra within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Sun - favors L1, Infra",
-        "High funding rates: LAYER, SOL, BCH \u2014 longs crowded"
+        "High funding rates: OP, POL, ARB \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,

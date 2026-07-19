@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-19",
-    "generated_at": "2026-07-19T11:58:25Z"
+    "generated_at": "2026-07-19T13:28:08Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -17,11 +17,11 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "Waxing Crescent",
-    "moon_nakshatra": "Uttara Phalguni",
+    "moon_nakshatra": "Hasta",
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,12 +40,16 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "L1",
-        "avg_score": 62.1
-      },
-      {
         "name": "Payments",
         "avg_score": 61.1
+      },
+      {
+        "name": "L1",
+        "avg_score": 60.7
+      },
+      {
+        "name": "L2",
+        "avg_score": 60.4
       },
       {
         "name": "DeFi",
@@ -54,24 +58,19 @@
       {
         "name": "Meme",
         "avg_score": 60.1
-      },
-      {
-        "name": "Infra",
-        "avg_score": 59.9
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Crescent": 4,
       "Waning Crescent": 1,
-      "Last Quarter": 2,
-      "First Quarter": 1,
-      "Waning Gibbous": 1
+      "Waning Gibbous": 1,
+      "Last Quarter": 3
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, Payments, DeFi.",
+    "Strongest sectors on similar days: Payments, L1, L2.",
     "Mars in Taurus + Day of Sun is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +80,7 @@
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Sun",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +97,7 @@
     },
     {
       "date": "2026-07-18",
-      "similarity_pct": 92.0,
+      "similarity_pct": 89.3,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Saturn",
@@ -106,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 92.0,
+        "similarity_pct": 89.3,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -116,6 +115,30 @@
         ],
         "different": [
           "Day ruler: Saturn \u2192 now Sun"
+        ]
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "similarity_pct": 88.4,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Venus",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 88.4,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Moon phase Waxing Crescent"
+        ],
+        "different": [
+          "Day ruler: Venus \u2192 now Sun",
+          "Moon in: Leo \u2192 now Virgo"
         ]
       }
     },
@@ -144,32 +167,8 @@
       }
     },
     {
-      "date": "2026-07-17",
-      "similarity_pct": 85.7,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Venus",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 85.7,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Moon phase Waxing Crescent"
-        ],
-        "different": [
-          "Day ruler: Venus \u2192 now Sun",
-          "Moon in: Leo \u2192 now Virgo"
-        ]
-      }
-    },
-    {
       "date": "2026-07-15",
-      "similarity_pct": 78.6,
+      "similarity_pct": 81.2,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mercury",
@@ -177,7 +176,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 78.6,
+        "similarity_pct": 81.2,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
