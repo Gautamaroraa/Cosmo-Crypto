@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-21",
-    "generated_at": "2026-07-21T20:19:32Z"
+    "generated_at": "2026-07-21T21:40:01Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -21,7 +21,7 @@
     "day_ruler": "Mars",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "AI",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,37 +41,36 @@
     "top_sectors_on_similar_days": [
       {
         "name": "DeFi",
-        "avg_score": 62.1
-      },
-      {
-        "name": "L2",
-        "avg_score": 61.0
+        "avg_score": 63.8
       },
       {
         "name": "L1",
-        "avg_score": 60.9
+        "avg_score": 61.9
       },
       {
-        "name": "Meme",
-        "avg_score": 57.5
+        "name": "Infra",
+        "avg_score": 61.4
       },
       {
-        "name": "Payments",
-        "avg_score": 57.4
+        "name": "L2",
+        "avg_score": 60.7
+      },
+      {
+        "name": "Gaming",
+        "avg_score": 59.6
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Crescent": 5,
-      "Last Quarter": 1,
+      "Last Quarter": 2,
       "New Moon": 1,
-      "Waning Crescent": 1,
       "First Quarter": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: DeFi, L2, L1.",
+    "Strongest sectors on similar days: DeFi, L1, Infra.",
     "Mars in Taurus + Day of Mars is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +80,7 @@
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
       "day_ruler": "Mars",
-      "strongest_sector": "AI",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -94,6 +93,31 @@
           "Moon phase First Quarter"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "similarity_pct": 82.1,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Sun",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Waxing Crescent \u2192 now First Quarter",
+          "Day ruler: Sun \u2192 now Mars",
+          "Moon in: Virgo \u2192 now Libra"
+        ]
       }
     },
     {
@@ -167,31 +191,6 @@
         "different": [
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
           "Day ruler: Saturn \u2192 now Mars",
-          "Moon in: Virgo \u2192 now Libra"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-19",
-      "similarity_pct": 79.5,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Sun",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Mercury retrograde True"
-        ],
-        "different": [
-          "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Day ruler: Sun \u2192 now Mars",
           "Moon in: Virgo \u2192 now Libra"
         ]
       }
