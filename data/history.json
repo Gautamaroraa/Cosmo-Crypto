@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T17:03:20Z",
+    "generated_at": "2026-07-22T18:35:15Z",
     "total_days": 61,
     "version": "1.0"
   },
@@ -15,9 +15,9 @@
       "L2": 62.7,
       "Payments": 61.3,
       "Gaming": 61.0,
-      "Emerging": 60.0,
-      "Infra": 59.8,
-      "AI": 57.6
+      "Infra": 59.9,
+      "Emerging": 59.8,
+      "AI": 57.4
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-22T17:03:20Z"
+    "generated_at": "2026-07-22T18:35:15Z"
   },
   "anomalies": [
     {
@@ -12311,8 +12311,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L1",
-      "weakest_sector": "Gaming",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "Payments",
       "moon_phase": "First Quarter",
       "moon_phase_emoji": "\ud83c\udf13",
       "day_ruler": "Mercury",
@@ -12330,7 +12330,7 @@
         },
         "Moon": {
           "rashi": "Libra",
-          "nakshatra": "Swati",
+          "nakshatra": "Vishakha",
           "retrograde": false
         },
         "Mars": {
@@ -12375,7 +12375,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 4.99
+          "orb": 4.94
         }
       ],
       "aspects": [
@@ -12385,7 +12385,7 @@
             "Mercury"
           ],
           "aspect": "Trine",
-          "orb": 2.42
+          "orb": 1.64
         },
         {
           "planets": [
@@ -12393,7 +12393,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 0.27
+          "orb": 0.44
         },
         {
           "planets": [
@@ -12401,7 +12401,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 2.51
+          "orb": 2.48
         },
         {
           "planets": [
@@ -12409,7 +12409,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 2.0
+          "orb": 2.05
         },
         {
           "planets": [
@@ -12417,7 +12417,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 2.16
+          "orb": 2.08
         },
         {
           "planets": [
@@ -12441,28 +12441,28 @@
       "declining": 933,
       "top_sectors": [
         {
-          "name": "L1",
-          "cosmo_score": 65.7,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "DeFi",
-          "cosmo_score": 65.1,
+          "cosmo_score": 60.7,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 61.2,
+          "name": "Gaming",
+          "cosmo_score": 60.0,
           "astro_bias": "Bearish"
         },
         {
           "name": "L2",
-          "cosmo_score": 60.0,
+          "cosmo_score": 59.9,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Infra",
-          "cosmo_score": 57.6,
+          "name": "Emerging",
+          "cosmo_score": 53.9,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 53.6,
           "astro_bias": "Neutral"
         }
       ],
@@ -12472,7 +12472,7 @@
         "Moon moving Libra to Scorpio within 3 days",
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Mercury - favors DeFi, L2",
-        "High funding rates: ARB, GLM, OP \u2014 longs crowded"
+        "High funding rates: ARB, API3, DYDX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
