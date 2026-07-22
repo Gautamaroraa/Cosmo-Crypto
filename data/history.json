@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T04:34:59Z",
+    "generated_at": "2026-07-22T07:22:51Z",
     "total_days": 61,
     "version": "1.0"
   },
@@ -9,13 +9,13 @@
     "days_with_outcomes": 60,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 65.0,
+      "L1": 65.1,
       "DeFi": 63.8,
+      "L2": 62.8,
       "Meme": 62.7,
-      "L2": 62.7,
       "Payments": 61.3,
       "Gaming": 61.0,
-      "Emerging": 60.1,
+      "Emerging": 60.0,
       "Infra": 59.9,
       "AI": 57.9
     },
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-22T04:34:59Z"
+    "generated_at": "2026-07-22T07:22:51Z"
   },
   "anomalies": [
     {
@@ -12375,17 +12375,25 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 5.37
+          "orb": 5.29
         }
       ],
       "aspects": [
         {
           "planets": [
             "Moon",
+            "Mercury"
+          ],
+          "aspect": "Trine",
+          "orb": 7.37
+        },
+        {
+          "planets": [
+            "Moon",
             "Jupiter"
           ],
           "aspect": "Square",
-          "orb": 2.87
+          "orb": 4.26
         },
         {
           "planets": [
@@ -12393,7 +12401,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 6.02
+          "orb": 4.72
         },
         {
           "planets": [
@@ -12401,7 +12409,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 6.19
+          "orb": 7.62
         },
         {
           "planets": [
@@ -12409,7 +12417,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 6.19
+          "orb": 7.62
         },
         {
           "planets": [
@@ -12417,7 +12425,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 2.71
+          "orb": 2.66
         },
         {
           "planets": [
@@ -12425,23 +12433,23 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 1.65
-        },
-        {
-          "planets": [
-            "Mercury",
-            "Venus"
-          ],
-          "aspect": "Sextile",
-          "orb": 2.79
-        },
-        {
-          "planets": [
-            "Mercury",
-            "Saturn"
-          ],
-          "aspect": "Square",
           "orb": 1.73
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.64
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 1.71
         },
         {
           "planets": [
@@ -12454,31 +12462,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 956,
+      "declining": 960,
       "top_sectors": [
         {
           "name": "DeFi",
-          "cosmo_score": 72.0,
+          "cosmo_score": 73.4,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 64.9,
           "astro_bias": "Bullish"
         },
         {
           "name": "AI",
-          "cosmo_score": 65.4,
+          "cosmo_score": 64.6,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Emerging",
-          "cosmo_score": 62.5,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 60.4,
-          "astro_bias": "Bullish"
+          "name": "Meme",
+          "cosmo_score": 63.4,
+          "astro_bias": "Bearish"
         },
         {
           "name": "L1",
-          "cosmo_score": 57.7,
+          "cosmo_score": 63.0,
           "astro_bias": "Neutral"
         }
       ],
@@ -12488,7 +12496,7 @@
         "Moon moving Libra to Scorpio within 3 days",
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Mercury - favors DeFi, L2",
-        "High funding rates: ENA, SKL, LDO \u2014 longs crowded"
+        "High funding rates: ARB, SKL, DYDX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
