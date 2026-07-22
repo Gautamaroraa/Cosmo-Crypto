@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T10:00:03Z",
+    "generated_at": "2026-07-22T11:56:39Z",
     "total_days": 61,
     "version": "1.0"
   },
@@ -11,13 +11,13 @@
     "sector_avg_scores": {
       "L1": 65.1,
       "DeFi": 63.7,
-      "L2": 62.8,
+      "L2": 62.9,
       "Meme": 62.7,
-      "Payments": 61.8,
-      "Gaming": 61.0,
+      "Payments": 61.3,
+      "Gaming": 60.8,
       "Emerging": 60.0,
       "Infra": 59.9,
-      "AI": 58.0
+      "AI": 57.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-22T10:00:03Z"
+    "generated_at": "2026-07-22T11:56:39Z"
   },
   "anomalies": [
     {
@@ -12311,7 +12311,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "Payments",
+      "strongest_sector": "L2",
       "weakest_sector": "Meme",
       "moon_phase": "First Quarter",
       "moon_phase_emoji": "\ud83c\udf13",
@@ -12375,7 +12375,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 5.21
+          "orb": 5.15
         }
       ],
       "aspects": [
@@ -12385,7 +12385,7 @@
             "Mercury"
           ],
           "aspect": "Trine",
-          "orb": 6.02
+          "orb": 5.03
         },
         {
           "planets": [
@@ -12393,7 +12393,7 @@
             "Jupiter"
           ],
           "aspect": "Square",
-          "orb": 5.56
+          "orb": 6.53
         },
         {
           "planets": [
@@ -12401,23 +12401,23 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 3.51
-        },
-        {
-          "planets": [
-            "Mars",
-            "Venus"
-          ],
-          "aspect": "Square",
           "orb": 2.62
         },
         {
           "planets": [
             "Mars",
+            "Venus"
+          ],
+          "aspect": "Square",
+          "orb": 2.59
+        },
+        {
+          "planets": [
+            "Mars",
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 1.8
+          "orb": 1.86
         },
         {
           "planets": [
@@ -12425,7 +12425,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 2.51
+          "orb": 2.41
         },
         {
           "planets": [
@@ -12433,7 +12433,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 1.69
+          "orb": 1.68
         },
         {
           "planets": [
@@ -12446,32 +12446,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 960,
+      "declining": 966,
       "top_sectors": [
         {
-          "name": "Payments",
-          "cosmo_score": 69.9,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 69.7,
+          "name": "L2",
+          "cosmo_score": 70.9,
           "astro_bias": "Bullish"
         },
         {
-          "name": "AI",
-          "cosmo_score": 66.6,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 63.0,
+          "name": "DeFi",
+          "cosmo_score": 68.2,
           "astro_bias": "Bullish"
         },
         {
           "name": "L1",
-          "cosmo_score": 60.9,
+          "cosmo_score": 61.0,
           "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 59.3,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 56.8,
+          "astro_bias": "Bearish"
         }
       ],
       "top_stocks": [],
@@ -12480,7 +12480,7 @@
         "Moon moving Libra to Scorpio within 3 days",
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Mercury - favors DeFi, L2",
-        "High funding rates: ARB, OP, DYDX \u2014 longs crowded"
+        "High funding rates: POL, ARB, OP \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
