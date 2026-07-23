@@ -1,19 +1,26 @@
 {
   "meta": {
     "date": "2026-07-23",
-    "generated_at": "2026-07-23T22:33:33Z"
+    "generated_at": "2026-07-23T23:40:45Z"
   },
   "summary": {
-    "overall_level": "MINOR",
-    "total_anomalies": 1,
+    "overall_level": "POSITIVE ANOMALY",
+    "total_anomalies": 2,
     "risk_count": 0,
-    "positive_count": 1,
+    "positive_count": 2,
     "medium_count": 0,
     "priority_alerts": [
       {
         "id": "JUPITER_EXALTED",
         "label": "Jupiter exalted in Cancer",
         "description": "Maximum Jupiter strength. Exceptional for banking and finance.",
+        "severity": "POSITIVE",
+        "type": "planetary"
+      },
+      {
+        "id": "ALL_BENEFICS_DIRECT",
+        "label": "All benefics direct",
+        "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
         "severity": "POSITIVE",
         "type": "planetary"
       }
@@ -24,6 +31,13 @@
       "id": "JUPITER_EXALTED",
       "label": "Jupiter exalted in Cancer",
       "description": "Maximum Jupiter strength. Exceptional for banking and finance.",
+      "severity": "POSITIVE",
+      "type": "planetary"
+    },
+    {
+      "id": "ALL_BENEFICS_DIRECT",
+      "label": "All benefics direct",
+      "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
       "severity": "POSITIVE",
       "type": "planetary"
     }
