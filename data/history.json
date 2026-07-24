@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-24T22:18:49Z",
+    "generated_at": "2026-07-24T23:33:01Z",
     "total_days": 63,
     "version": "1.0"
   },
@@ -10,14 +10,14 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 64.9,
-      "DeFi": 63.3,
+      "DeFi": 63.4,
+      "Meme": 62.7,
       "L2": 62.7,
-      "Meme": 62.3,
-      "Gaming": 61.0,
-      "Payments": 60.9,
+      "Gaming": 60.8,
+      "Payments": 60.5,
+      "Emerging": 59.9,
       "Infra": 59.8,
-      "Emerging": 59.6,
-      "AI": 57.6
+      "AI": 57.2
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-24T22:18:49Z"
+    "generated_at": "2026-07-24T23:33:01Z"
   },
   "anomalies": [
     {
@@ -12686,7 +12686,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "Payments",
+      "strongest_sector": "L2",
       "weakest_sector": "Infra",
       "moon_phase": "First Quarter",
       "moon_phase_emoji": "\ud83c\udf13",
@@ -12704,7 +12704,7 @@
         },
         "Moon": {
           "rashi": "Scorpio",
-          "nakshatra": "Anuradha",
+          "nakshatra": "Jyeshtha",
           "retrograde": false
         },
         "Mars": {
@@ -12749,7 +12749,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 3.36
+          "orb": 3.33
         }
       ],
       "aspects": [
@@ -12759,7 +12759,7 @@
             "Mars"
           ],
           "aspect": "Opposition",
-          "orb": 7.77
+          "orb": 7.19
         },
         {
           "planets": [
@@ -12767,7 +12767,7 @@
             "Jupiter"
           ],
           "aspect": "Trine",
-          "orb": 5.1
+          "orb": 5.7
         },
         {
           "planets": [
@@ -12775,7 +12775,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 6.12
+          "orb": 5.56
         },
         {
           "planets": [
@@ -12783,7 +12783,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.26
+          "orb": 3.64
         },
         {
           "planets": [
@@ -12791,7 +12791,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 1.65
+          "orb": 1.63
         },
         {
           "planets": [
@@ -12799,7 +12799,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.51
+          "orb": 3.55
         },
         {
           "planets": [
@@ -12807,7 +12807,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 0.25
+          "orb": 0.3
         },
         {
           "planets": [
@@ -12815,7 +12815,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 1.61
+          "orb": 1.62
         },
         {
           "planets": [
@@ -12831,29 +12831,29 @@
       "declining": 987,
       "top_sectors": [
         {
-          "name": "Payments",
-          "cosmo_score": 62.6,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "L2",
-          "cosmo_score": 58.5,
+          "cosmo_score": 60.5,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "Emerging",
-          "cosmo_score": 51.2,
+          "name": "Gaming",
+          "cosmo_score": 56.2,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 54.7,
           "astro_bias": "Neutral"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 49.3,
+          "cosmo_score": 54.6,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 48.7,
-          "astro_bias": "Bearish"
+          "name": "AI",
+          "cosmo_score": 50.2,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -12862,7 +12862,7 @@
         "Moon moving Scorpio to Sagittarius within 3 days",
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: MANTA, ARB, BLUR \u2014 longs crowded"
+        "High funding rates: ARB, MANTA, BLUR \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,

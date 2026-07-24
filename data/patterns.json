@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-24",
-    "generated_at": "2026-07-24T22:18:49Z"
+    "generated_at": "2026-07-24T23:33:01Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -17,11 +17,11 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "First Quarter",
-    "moon_nakshatra": "Anuradha",
+    "moon_nakshatra": "Jyeshtha",
     "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Payments",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,30 +41,29 @@
     "top_sectors_on_similar_days": [
       {
         "name": "DeFi",
-        "avg_score": 63.6
+        "avg_score": 63.7
       },
       {
         "name": "Infra",
-        "avg_score": 62.6
+        "avg_score": 61.7
       },
       {
         "name": "L1",
-        "avg_score": 62.5
+        "avg_score": 61.6
       },
       {
         "name": "L2",
-        "avg_score": 61.5
+        "avg_score": 61.0
       },
       {
-        "name": "Payments",
-        "avg_score": 59.2
+        "name": "Meme",
+        "avg_score": 59.5
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "First Quarter": 4,
-      "Waxing Crescent": 4,
-      "Waxing Gibbous": 1
+      "Waxing Crescent": 5
     }
   },
   "narratives": [
@@ -79,7 +78,7 @@
       "cosmo_score": 35.5,
       "moon_phase": "First Quarter",
       "day_ruler": "Venus",
-      "strongest_sector": "Payments",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -118,31 +117,6 @@
       }
     },
     {
-      "date": "2026-07-22",
-      "similarity_pct": 83.0,
-      "cosmo_score": 34.8,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Mercury",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 83.0,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Moon phase First Quarter"
-        ],
-        "different": [
-          "Day ruler: Mercury \u2192 now Venus",
-          "Mercury retrograde: True \u2192 now False",
-          "Moon in: Libra \u2192 now Scorpio"
-        ]
-      }
-    },
-    {
       "date": "2026-07-21",
       "similarity_pct": 80.4,
       "cosmo_score": 34.8,
@@ -162,6 +136,31 @@
         ],
         "different": [
           "Day ruler: Mars \u2192 now Venus",
+          "Mercury retrograde: True \u2192 now False",
+          "Moon in: Libra \u2192 now Scorpio"
+        ]
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "similarity_pct": 80.4,
+      "cosmo_score": 34.8,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Mercury",
+      "strongest_sector": "Payments",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 80.4,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Moon phase First Quarter"
+        ],
+        "different": [
+          "Day ruler: Mercury \u2192 now Venus",
           "Mercury retrograde: True \u2192 now False",
           "Moon in: Libra \u2192 now Scorpio"
         ]
