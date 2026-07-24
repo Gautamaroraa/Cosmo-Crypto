@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-24T19:56:08Z",
+    "generated_at": "2026-07-24T21:04:15Z",
     "total_days": 63,
     "version": "1.0"
   },
@@ -11,13 +11,13 @@
     "sector_avg_scores": {
       "L1": 64.8,
       "DeFi": 63.5,
-      "Meme": 62.7,
-      "L2": 62.7,
+      "L2": 62.9,
+      "Meme": 62.6,
+      "Payments": 61.3,
       "Gaming": 61.0,
-      "Payments": 60.8,
       "Emerging": 59.9,
       "Infra": 59.8,
-      "AI": 57.8
+      "AI": 57.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-24T19:56:08Z"
+    "generated_at": "2026-07-24T21:04:15Z"
   },
   "anomalies": [
     {
@@ -12686,7 +12686,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Medium",
-      "strongest_sector": "AI",
+      "strongest_sector": "Payments",
       "weakest_sector": "Gaming",
       "moon_phase": "First Quarter",
       "moon_phase_emoji": "\ud83c\udf13",
@@ -12749,7 +12749,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 3.44
+          "orb": 3.4
         }
       ],
       "aspects": [
@@ -12759,7 +12759,7 @@
             "Moon"
           ],
           "aspect": "Trine",
-          "orb": 7.38
+          "orb": 7.89
         },
         {
           "planets": [
@@ -12767,7 +12767,7 @@
             "Jupiter"
           ],
           "aspect": "Trine",
-          "orb": 3.94
+          "orb": 4.49
         },
         {
           "planets": [
@@ -12775,7 +12775,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 7.19
+          "orb": 6.68
         },
         {
           "planets": [
@@ -12783,23 +12783,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.43
-        },
-        {
-          "planets": [
-            "Moon",
-            "Rahu"
-          ],
-          "aspect": "Square",
-          "orb": 7.99
-        },
-        {
-          "planets": [
-            "Moon",
-            "Ketu"
-          ],
-          "aspect": "Square",
-          "orb": 7.99
+          "orb": 4.87
         },
         {
           "planets": [
@@ -12807,7 +12791,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 1.69
+          "orb": 1.67
         },
         {
           "planets": [
@@ -12815,7 +12799,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.45
+          "orb": 3.48
         },
         {
           "planets": [
@@ -12823,7 +12807,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 0.15
+          "orb": 0.2
         },
         {
           "planets": [
@@ -12844,11 +12828,21 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 985,
+      "declining": 987,
       "top_sectors": [
         {
-          "name": "AI",
-          "cosmo_score": 63.1,
+          "name": "Payments",
+          "cosmo_score": 69.7,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 66.5,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 61.5,
           "astro_bias": "Neutral"
         },
         {
@@ -12857,19 +12851,9 @@
           "astro_bias": "Bullish"
         },
         {
-          "name": "L1",
-          "cosmo_score": 58.8,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Infra",
-          "cosmo_score": 58.6,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 58.4,
-          "astro_bias": "Strong Bullish"
+          "name": "Meme",
+          "cosmo_score": 57.8,
+          "astro_bias": "Bearish"
         }
       ],
       "top_stocks": [],
@@ -12878,7 +12862,7 @@
         "Moon moving Scorpio to Sagittarius within 3 days",
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: ARB, MANTA, BLUR \u2014 longs crowded"
+        "High funding rates: BLUR, MANTA, ZRO \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
