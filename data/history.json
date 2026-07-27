@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-27T07:52:01Z",
+    "generated_at": "2026-07-27T11:21:24Z",
     "total_days": 66,
     "version": "1.0"
   },
@@ -9,13 +9,13 @@
     "days_with_outcomes": 65,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 64.7,
-      "DeFi": 63.4,
-      "L2": 62.9,
+      "L1": 64.8,
+      "DeFi": 63.5,
+      "L2": 62.8,
       "Meme": 62.7,
-      "Gaming": 60.9,
-      "Payments": 60.6,
-      "Emerging": 59.9,
+      "Payments": 61.3,
+      "Gaming": 61.0,
+      "Emerging": 60.1,
       "Infra": 59.8,
       "AI": 57.2
     },
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-27T07:52:01Z"
+    "generated_at": "2026-07-27T11:21:24Z"
   },
   "anomalies": [
     {
@@ -13240,8 +13240,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L2",
-      "weakest_sector": "Payments",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "Infra",
       "moon_phase": "Waxing Gibbous",
       "moon_phase_emoji": "\ud83c\udf14",
       "day_ruler": "Moon",
@@ -13304,7 +13304,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 1.6
+          "orb": 1.5
         }
       ],
       "aspects": [
@@ -13314,7 +13314,7 @@
             "Mercury"
           ],
           "aspect": "Opposition",
-          "orb": 7.88
+          "orb": 6.19
         },
         {
           "planets": [
@@ -13322,23 +13322,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.76
-        },
-        {
-          "planets": [
-            "Moon",
-            "Rahu"
-          ],
-          "aspect": "Sextile",
-          "orb": 7.8
-        },
-        {
-          "planets": [
-            "Moon",
-            "Ketu"
-          ],
-          "aspect": "Trine",
-          "orb": 7.8
+          "orb": 4.02
         },
         {
           "planets": [
@@ -13346,7 +13330,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 0.74
+          "orb": 0.68
         },
         {
           "planets": [
@@ -13354,7 +13338,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 5.15
+          "orb": 5.25
         },
         {
           "planets": [
@@ -13362,7 +13346,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 2.29
+          "orb": 2.4
         },
         {
           "planets": [
@@ -13370,7 +13354,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 2.12
+          "orb": 2.17
         },
         {
           "planets": [
@@ -13383,31 +13367,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1000,
+      "declining": 1001,
       "top_sectors": [
         {
-          "name": "L2",
-          "cosmo_score": 67.8,
-          "astro_bias": "Bullish"
-        },
-        {
           "name": "DeFi",
-          "cosmo_score": 66.5,
+          "cosmo_score": 74.7,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Gaming",
-          "cosmo_score": 64.3,
+          "name": "Payments",
+          "cosmo_score": 73.7,
           "astro_bias": "Neutral"
         },
         {
           "name": "L1",
-          "cosmo_score": 64.0,
+          "cosmo_score": 69.2,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 62.4,
+          "name": "Gaming",
+          "cosmo_score": 64.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 64.6,
           "astro_bias": "Neutral"
         }
       ],
@@ -13417,7 +13401,7 @@
         "Moon moving Sagittarius to Capricorn within 3 days",
         "Waxing Gibbous - Peak energy. Parabolic moves possible.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: MOVE, OP, MANTA \u2014 longs crowded"
+        "High funding rates: MANTA, BLUR, LINK \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
