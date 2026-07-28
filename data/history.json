@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-28T10:06:31Z",
+    "generated_at": "2026-07-28T12:14:26Z",
     "total_days": 67,
     "version": "1.0"
   },
@@ -10,14 +10,14 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 65.0,
-      "DeFi": 63.4,
+      "DeFi": 63.5,
+      "L2": 62.9,
       "Meme": 62.8,
-      "L2": 62.8,
       "Gaming": 60.8,
       "Payments": 60.6,
-      "Emerging": 60.1,
-      "Infra": 60.0,
-      "AI": 57.3
+      "Emerging": 60.0,
+      "Infra": 59.8,
+      "AI": 57.7
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-28T10:06:31Z"
+    "generated_at": "2026-07-28T12:14:26Z"
   },
   "anomalies": [
     {
@@ -13428,7 +13428,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "weakest_sector": "Gaming",
       "moon_phase": "Waxing Gibbous",
       "moon_phase_emoji": "\ud83c\udf14",
@@ -13492,7 +13492,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 0.8
+          "orb": 0.74
         }
       ],
       "aspects": [
@@ -13502,7 +13502,7 @@
             "Mercury"
           ],
           "aspect": "Opposition",
-          "orb": 4.81
+          "orb": 5.84
         },
         {
           "planets": [
@@ -13510,15 +13510,7 @@
             "Venus"
           ],
           "aspect": "Trine",
-          "orb": 1.79
-        },
-        {
-          "planets": [
-            "Moon",
-            "Saturn"
-          ],
-          "aspect": "Square",
-          "orb": 7.35
+          "orb": 2.76
         },
         {
           "planets": [
@@ -13526,7 +13518,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 0.33
+          "orb": 0.29
         },
         {
           "planets": [
@@ -13534,7 +13526,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 5.89
+          "orb": 5.96
         },
         {
           "planets": [
@@ -13542,7 +13534,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 3.02
+          "orb": 3.08
         },
         {
           "planets": [
@@ -13550,7 +13542,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 2.54
+          "orb": 2.58
         },
         {
           "planets": [
@@ -13563,31 +13555,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1089,
+      "declining": 1019,
       "top_sectors": [
         {
-          "name": "L1",
-          "cosmo_score": 72.6,
-          "astro_bias": "Bullish"
-        },
-        {
           "name": "DeFi",
-          "cosmo_score": 70.0,
+          "cosmo_score": 74.9,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Infra",
-          "cosmo_score": 65.1,
+          "name": "L1",
+          "cosmo_score": 72.4,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 69.2,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Emerging",
-          "cosmo_score": 64.4,
-          "astro_bias": "Neutral"
+          "name": "L2",
+          "cosmo_score": 68.9,
+          "astro_bias": "Bullish"
         },
         {
           "name": "Meme",
-          "cosmo_score": 63.8,
+          "cosmo_score": 65.8,
           "astro_bias": "Neutral"
         }
       ],
@@ -13597,7 +13589,7 @@
         "Moon moving Sagittarius to Aquarius within 3 days",
         "Waxing Gibbous - Peak energy. Parabolic moves possible.",
         "Day of Mars - favors L1, Meme",
-        "High funding rates: UNI, MANTA, BLUR \u2014 longs crowded"
+        "High funding rates: BNB, UNI, DYDX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
