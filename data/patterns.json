@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-07-28",
-    "generated_at": "2026-07-28T22:58:44Z"
+    "date": "2026-07-29",
+    "generated_at": "2026-07-29T00:02:53Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -18,7 +18,7 @@
     "saturn_retro": true,
     "moon_phase": "Waxing Gibbous",
     "moon_nakshatra": "Uttara Ashadha",
-    "day_ruler": "Mars",
+    "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
     "strongest_sector": "DeFi",
@@ -41,44 +41,44 @@
     "top_sectors_on_similar_days": [
       {
         "name": "DeFi",
-        "avg_score": 62.6
+        "avg_score": 62.3
       },
       {
         "name": "L2",
-        "avg_score": 61.7
+        "avg_score": 61.3
       },
       {
         "name": "L1",
-        "avg_score": 61.7
+        "avg_score": 60.1
       },
       {
-        "name": "Emerging",
-        "avg_score": 59.9
+        "name": "Payments",
+        "avg_score": 59.3
       },
       {
         "name": "Meme",
-        "avg_score": 59.5
+        "avg_score": 58.2
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Gibbous": 3,
+      "Waxing Gibbous": 4,
       "First Quarter": 3,
-      "Waxing Crescent": 3
+      "Waxing Crescent": 2
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
     "Strongest sectors on similar days: DeFi, L2, L1.",
-    "Mars in Taurus + Day of Mars is the dominant sky signature today."
+    "Mars in Taurus + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "similarity_pct": 100.0,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Mars",
+      "day_ruler": "Mercury",
       "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -92,6 +92,29 @@
           "Moon phase Waxing Gibbous"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "similarity_pct": 94.6,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Mars",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 94.6,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Moon phase Waxing Gibbous"
+        ],
+        "different": [
+          "Day ruler: Mars \u2192 now Mercury"
+        ]
       }
     },
     {
@@ -113,7 +136,7 @@
           "Moon phase Waxing Gibbous"
         ],
         "different": [
-          "Day ruler: Sun \u2192 now Mars",
+          "Day ruler: Sun \u2192 now Mercury",
           "Moon in: Sagittarius \u2192 now Capricorn"
         ]
       }
@@ -137,7 +160,7 @@
           "Moon phase Waxing Gibbous"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Mars",
+          "Day ruler: Moon \u2192 now Mercury",
           "Moon in: Sagittarius \u2192 now Capricorn"
         ]
       }
@@ -161,33 +184,8 @@
           "Moon phase Waxing Gibbous"
         ],
         "different": [
-          "Day ruler: Saturn \u2192 now Mars",
+          "Day ruler: Saturn \u2192 now Mercury",
           "Moon in: Scorpio \u2192 now Capricorn"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-21",
-      "similarity_pct": 75.0,
-      "cosmo_score": 34.8,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Mars",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 75.0,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Day ruler Mars"
-        ],
-        "different": [
-          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Mercury retrograde: True \u2192 now False",
-          "Moon in: Libra \u2192 now Capricorn"
         ]
       }
     }
