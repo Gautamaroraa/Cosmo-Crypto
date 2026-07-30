@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-30",
-    "generated_at": "2026-07-30T21:33:05Z"
+    "generated_at": "2026-07-30T22:47:25Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -21,7 +21,7 @@
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Infra",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -81,7 +81,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Jupiter",
-      "strongest_sector": "Infra",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -145,6 +145,31 @@
       }
     },
     {
+      "date": "2026-07-27",
+      "similarity_pct": 82.1,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
+          "Day ruler: Moon \u2192 now Jupiter",
+          "Moon in: Sagittarius \u2192 now Capricorn"
+        ]
+      }
+    },
+    {
       "date": "2026-07-23",
       "similarity_pct": 80.4,
       "cosmo_score": 35.5,
@@ -165,31 +190,6 @@
         "different": [
           "Moon phase: First Quarter \u2192 now Waning Gibbous",
           "Moon in: Scorpio \u2192 now Capricorn"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-26",
-      "similarity_pct": 79.5,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "L2",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Day ruler: Sun \u2192 now Jupiter",
-          "Moon in: Sagittarius \u2192 now Capricorn"
         ]
       }
     }
