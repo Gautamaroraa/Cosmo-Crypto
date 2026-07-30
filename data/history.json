@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-30T17:01:19Z",
+    "generated_at": "2026-07-30T18:25:59Z",
     "total_days": 69,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 68,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 64.4,
+      "L1": 64.6,
       "DeFi": 63.2,
       "Meme": 62.7,
-      "L2": 62.6,
+      "L2": 62.7,
       "Gaming": 60.8,
       "Payments": 60.6,
+      "Infra": 59.7,
       "Emerging": 59.7,
-      "Infra": 59.6,
-      "AI": 57.0
+      "AI": 57.1
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-30T17:01:19Z"
+    "generated_at": "2026-07-30T18:25:59Z"
   },
   "anomalies": [
     {
@@ -13828,7 +13828,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Very High",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L1",
       "weakest_sector": "Payments",
       "moon_phase": "Full Moon",
       "moon_phase_emoji": "\ud83c\udf15",
@@ -13892,7 +13892,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 0.88
+          "orb": 0.92
         }
       ],
       "aspects": [
@@ -13902,7 +13902,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 7.18
+          "orb": 7.13
         },
         {
           "planets": [
@@ -13910,7 +13910,7 @@
             "Mars"
           ],
           "aspect": "Trine",
-          "orb": 2.17
+          "orb": 1.48
         },
         {
           "planets": [
@@ -13918,7 +13918,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 5.29
+          "orb": 6.01
         },
         {
           "planets": [
@@ -13926,7 +13926,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 0.52
+          "orb": 0.54
         },
         {
           "planets": [
@@ -13934,7 +13934,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 7.46
+          "orb": 7.5
         },
         {
           "planets": [
@@ -13942,7 +13942,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 4.15
+          "orb": 4.17
         },
         {
           "planets": [
@@ -13950,7 +13950,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 3.83
+          "orb": 3.87
         },
         {
           "planets": [
@@ -13966,29 +13966,29 @@
       "declining": 996,
       "top_sectors": [
         {
+          "name": "L1",
+          "cosmo_score": 69.2,
+          "astro_bias": "Neutral"
+        },
+        {
           "name": "DeFi",
-          "cosmo_score": 61.6,
+          "cosmo_score": 65.1,
           "astro_bias": "Bullish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 59.4,
+          "cosmo_score": 62.9,
           "astro_bias": "Bearish"
         },
         {
-          "name": "L1",
-          "cosmo_score": 57.3,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "AI",
-          "cosmo_score": 56.8,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "L2",
-          "cosmo_score": 56.1,
+          "cosmo_score": 61.4,
           "astro_bias": "Bullish"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 61.1,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -13997,7 +13997,7 @@
         "Moon moving Capricorn to Pisces within 3 days",
         "Full Moon - Maximum speculation. Pump and dump risk.",
         "Day of Jupiter - favors L1, DeFi",
-        "High funding rates: DYDX, SUSHI, MANTA \u2014 longs crowded"
+        "High funding rates: UNI, SUSHI, DYDX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
