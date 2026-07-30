@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-07-29T23:43:25Z",
-    "total_days": 68,
+    "generated_at": "2026-07-30T01:03:53Z",
+    "total_days": 69,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 68,
-    "days_with_outcomes": 67,
+    "total_days": 69,
+    "days_with_outcomes": 68,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 64.5,
+      "L1": 64.2,
       "DeFi": 63.2,
       "Meme": 62.7,
-      "L2": 62.7,
+      "L2": 62.5,
       "Gaming": 60.8,
       "Payments": 60.6,
-      "Emerging": 59.7,
       "Infra": 59.6,
-      "AI": 57.1
+      "Emerging": 59.6,
+      "AI": 56.8
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-29T23:43:25Z"
+    "generated_at": "2026-07-30T01:03:53Z"
   },
   "anomalies": [
     {
@@ -95,6 +95,14 @@
     },
     {
       "date": "2026-07-29",
+      "flags": [
+        "FULL_MOON_DAY"
+      ],
+      "cosmo_score": 32.5,
+      "moon_phase": "Full Moon"
+    },
+    {
+      "date": "2026-07-30",
       "flags": [
         "FULL_MOON_DAY"
       ],
@@ -13802,6 +13810,202 @@
         "Full Moon - Maximum speculation. Pump and dump risk.",
         "Day of Mercury - favors DeFi, L2",
         "High funding rates: MANTA, JTO, ARB \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-07-30",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "day_cosmo_score": 32.5,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "Payments",
+      "moon_phase": "Full Moon",
+      "moon_phase_emoji": "\ud83c\udf15",
+      "day_ruler": "Jupiter",
+      "astro_score": 50,
+      "retrograde_planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Capricorn",
+          "nakshatra": "Shravana",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Taurus",
+          "nakshatra": "Mrigashira",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Leo",
+          "nakshatra": "Uttara Phalguni",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Sun",
+            "Jupiter"
+          ],
+          "orb": 0.39
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "aspect": "Opposition",
+          "orb": 4.91
+        },
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 7.82
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Opposition",
+          "orb": 5.3
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.91
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Square",
+          "orb": 0.28
+        },
+        {
+          "planets": [
+            "Mars",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.0
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 3.88
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 3.4
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1038,
+      "top_sectors": [
+        {
+          "name": "DeFi",
+          "cosmo_score": 63.0,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 55.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 50.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 50.5,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 50.0,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Saturn, Rahu, Ketu",
+        "Moon moving Capricorn to Aquarius within 3 days",
+        "Full Moon - Maximum speculation. Pump and dump risk.",
+        "Day of Jupiter - favors L1, DeFi",
+        "High funding rates: JTO, GLM, AVAX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
