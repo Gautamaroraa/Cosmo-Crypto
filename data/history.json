@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-30T18:25:59Z",
+    "generated_at": "2026-07-30T20:03:01Z",
     "total_days": 69,
     "version": "1.0"
   },
@@ -10,13 +10,13 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 64.6,
-      "DeFi": 63.2,
+      "DeFi": 63.3,
+      "L2": 62.8,
       "Meme": 62.7,
-      "L2": 62.7,
       "Gaming": 60.8,
       "Payments": 60.6,
+      "Emerging": 59.8,
       "Infra": 59.7,
-      "Emerging": 59.7,
       "AI": 57.1
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-07-30T18:25:59Z"
+    "generated_at": "2026-07-30T20:03:01Z"
   },
   "anomalies": [
     {
@@ -95,14 +95,6 @@
     },
     {
       "date": "2026-07-29",
-      "flags": [
-        "FULL_MOON_DAY"
-      ],
-      "cosmo_score": 32.5,
-      "moon_phase": "Full Moon"
-    },
-    {
-      "date": "2026-07-30",
       "flags": [
         "FULL_MOON_DAY"
       ],
@@ -13824,16 +13816,16 @@
     },
     {
       "date": "2026-07-30",
-      "day_cosmo_score": 32.5,
+      "day_cosmo_score": 33.2,
       "market_direction": "Bearish",
       "volatility_bias": "Low",
-      "risk_level": "Very High",
+      "risk_level": "High",
       "strongest_sector": "L1",
       "weakest_sector": "Payments",
-      "moon_phase": "Full Moon",
-      "moon_phase_emoji": "\ud83c\udf15",
+      "moon_phase": "Waning Gibbous",
+      "moon_phase_emoji": "\ud83c\udf16",
       "day_ruler": "Jupiter",
-      "astro_score": 50,
+      "astro_score": 55,
       "retrograde_planets": [
         "Saturn",
         "Rahu",
@@ -13892,7 +13884,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 0.92
+          "orb": 0.97
         }
       ],
       "aspects": [
@@ -13902,7 +13894,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 7.13
+          "orb": 7.06
         },
         {
           "planets": [
@@ -13910,7 +13902,7 @@
             "Mars"
           ],
           "aspect": "Trine",
-          "orb": 1.48
+          "orb": 0.69
         },
         {
           "planets": [
@@ -13918,7 +13910,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 6.01
+          "orb": 6.85
         },
         {
           "planets": [
@@ -13926,7 +13918,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 0.54
+          "orb": 0.57
         },
         {
           "planets": [
@@ -13934,7 +13926,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 7.5
+          "orb": 7.54
         },
         {
           "planets": [
@@ -13942,7 +13934,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 4.17
+          "orb": 4.19
         },
         {
           "planets": [
@@ -13950,7 +13942,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 3.87
+          "orb": 3.92
         },
         {
           "planets": [
@@ -13967,27 +13959,27 @@
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 69.2,
-          "astro_bias": "Neutral"
+          "cosmo_score": 69.9,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 69.0,
+          "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 65.1,
+          "cosmo_score": 65.6,
           "astro_bias": "Bullish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 62.9,
+          "cosmo_score": 63.2,
           "astro_bias": "Bearish"
         },
         {
-          "name": "L2",
-          "cosmo_score": 61.4,
-          "astro_bias": "Bullish"
-        },
-        {
           "name": "Emerging",
-          "cosmo_score": 61.1,
+          "cosmo_score": 62.5,
           "astro_bias": "Neutral"
         }
       ],
@@ -13995,9 +13987,9 @@
       "key_signals": [
         "Retrograde: Saturn, Rahu, Ketu",
         "Moon moving Capricorn to Pisces within 3 days",
-        "Full Moon - Maximum speculation. Pump and dump risk.",
+        "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Jupiter - favors L1, DeFi",
-        "High funding rates: UNI, SUSHI, DYDX \u2014 longs crowded"
+        "High funding rates: USUAL, UNI, ARB \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
