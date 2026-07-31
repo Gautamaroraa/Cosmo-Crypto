@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-07-31",
-    "generated_at": "2026-07-31T16:12:41Z"
+    "generated_at": "2026-07-31T17:53:54Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -20,8 +20,8 @@
     "moon_nakshatra": "Shatabhisha",
     "day_ruler": "Venus",
     "market_direction": "Bearish",
-    "volatility_bias": "Medium",
-    "strongest_sector": "DeFi",
+    "volatility_bias": "Low",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -63,8 +63,8 @@
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Gibbous": 1,
-      "Waxing Gibbous": 4,
       "First Quarter": 2,
+      "Waxing Gibbous": 4,
       "Full Moon": 1,
       "Waxing Crescent": 1
     }
@@ -81,7 +81,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Venus",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +98,7 @@
     },
     {
       "date": "2026-07-30",
-      "similarity_pct": 82.1,
+      "similarity_pct": 85.7,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Jupiter",
@@ -106,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 82.1,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -121,33 +121,8 @@
       }
     },
     {
-      "date": "2026-07-28",
-      "similarity_pct": 78.6,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Mars",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 78.6,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Day ruler: Mars \u2192 now Venus",
-          "Moon in: Capricorn \u2192 now Aquarius"
-        ]
-      }
-    },
-    {
       "date": "2026-07-24",
-      "similarity_pct": 76.8,
+      "similarity_pct": 83.0,
       "cosmo_score": 35.5,
       "moon_phase": "First Quarter",
       "day_ruler": "Venus",
@@ -155,7 +130,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 76.8,
+        "similarity_pct": 83.0,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -171,7 +146,7 @@
     },
     {
       "date": "2026-07-26",
-      "similarity_pct": 75.9,
+      "similarity_pct": 82.1,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Gibbous",
       "day_ruler": "Sun",
@@ -179,7 +154,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 75.9,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -191,6 +166,31 @@
           "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
           "Day ruler: Sun \u2192 now Venus",
           "Moon in: Sagittarius \u2192 now Aquarius"
+        ]
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "similarity_pct": 82.1,
+      "cosmo_score": 32.5,
+      "moon_phase": "Full Moon",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Full Moon \u2192 now Waning Gibbous",
+          "Day ruler: Mercury \u2192 now Venus",
+          "Moon in: Capricorn \u2192 now Aquarius"
         ]
       }
     }
