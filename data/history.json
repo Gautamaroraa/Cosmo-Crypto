@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-01T10:23:10Z",
+    "generated_at": "2026-08-01T11:43:53Z",
     "total_days": 71,
     "version": "1.0"
   },
@@ -11,13 +11,13 @@
     "sector_avg_scores": {
       "L1": 64.6,
       "DeFi": 63.3,
-      "L2": 62.7,
-      "Meme": 62.6,
+      "L2": 62.8,
+      "Meme": 62.7,
       "Payments": 61.2,
       "Gaming": 60.8,
-      "Infra": 59.8,
+      "Infra": 59.9,
       "Emerging": 59.7,
-      "AI": 57.5
+      "AI": 57.2
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-01T10:23:10Z"
+    "generated_at": "2026-08-01T11:43:53Z"
   },
   "anomalies": [
     {
@@ -14218,7 +14218,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "AI",
+      "strongest_sector": "L2",
       "weakest_sector": "Payments",
       "moon_phase": "Waning Gibbous",
       "moon_phase_emoji": "\ud83c\udf16",
@@ -14282,7 +14282,7 @@
             "Sun",
             "Jupiter"
           ],
-          "orb": 2.14
+          "orb": 2.19
         }
       ],
       "aspects": [
@@ -14292,7 +14292,15 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.52
+          "orb": 5.47
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Trine",
+          "orb": 7.58
         },
         {
           "planets": [
@@ -14300,7 +14308,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 1.15
+          "orb": 1.17
         },
         {
           "planets": [
@@ -14308,7 +14316,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 7.56
+          "orb": 7.52
         },
         {
           "planets": [
@@ -14316,7 +14324,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 7.56
+          "orb": 7.52
         },
         {
           "planets": [
@@ -14324,7 +14332,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 4.63
+          "orb": 4.64
         },
         {
           "planets": [
@@ -14332,7 +14340,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.15
+          "orb": 5.2
         },
         {
           "planets": [
@@ -14340,7 +14348,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 7.67
+          "orb": 7.65
         },
         {
           "planets": [
@@ -14356,29 +14364,29 @@
       "declining": 1021,
       "top_sectors": [
         {
-          "name": "AI",
-          "cosmo_score": 64.4,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "L2",
-          "cosmo_score": 62.8,
+          "cosmo_score": 65.8,
           "astro_bias": "Bullish"
         },
         {
-          "name": "DeFi",
-          "cosmo_score": 62.3,
+          "name": "Infra",
+          "cosmo_score": 60.9,
           "astro_bias": "Neutral"
         },
         {
           "name": "Emerging",
-          "cosmo_score": 58.6,
+          "cosmo_score": 58.2,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 58.0,
-          "astro_bias": "Strong Bearish"
+          "name": "DeFi",
+          "cosmo_score": 58.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 56.1,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -14387,7 +14395,7 @@
         "Moon moving Aquarius to Pisces within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: BLUR, LAYER, SKL \u2014 longs crowded"
+        "High funding rates: SKL, MANTA, LAYER \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
