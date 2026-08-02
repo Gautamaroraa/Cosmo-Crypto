@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-08-02",
-    "generated_at": "2026-08-02T00:05:16Z"
+    "generated_at": "2026-08-02T03:53:37Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -21,7 +21,7 @@
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,37 +40,37 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Payments",
-        "avg_score": 66.0
+        "name": "L2",
+        "avg_score": 62.9
       },
       {
         "name": "DeFi",
-        "avg_score": 61.9
-      },
-      {
-        "name": "L2",
-        "avg_score": 60.7
+        "avg_score": 62.6
       },
       {
         "name": "L1",
-        "avg_score": 60.5
+        "avg_score": 61.2
+      },
+      {
+        "name": "Payments",
+        "avg_score": 60.9
       },
       {
         "name": "Infra",
-        "avg_score": 59.9
+        "avg_score": 59.7
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waning Gibbous": 4,
+      "Waning Gibbous": 3,
       "Waxing Gibbous": 3,
       "Full Moon": 1,
-      "Waxing Crescent": 1
+      "First Quarter": 2
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Payments, DeFi, L2.",
+    "Strongest sectors on similar days: L2, DeFi, L1.",
     "Mars in Taurus + Day of Sun is the dominant sky signature today."
   ],
   "similar_days": [
@@ -80,7 +80,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Sun",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -97,7 +97,7 @@
     },
     {
       "date": "2026-08-01",
-      "similarity_pct": 94.6,
+      "similarity_pct": 92.0,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Saturn",
@@ -105,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 94.6,
+        "similarity_pct": 92.0,
         "matched": [
           "Mars in Taurus",
           "Jupiter in Cancer",
@@ -142,6 +142,30 @@
       }
     },
     {
+      "date": "2026-07-26",
+      "similarity_pct": 83.0,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Sun",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 83.0,
+        "matched": [
+          "Mars in Taurus",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Day ruler Sun"
+        ],
+        "different": [
+          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
+          "Moon in: Sagittarius \u2192 now Aquarius"
+        ]
+      }
+    },
+    {
       "date": "2026-07-30",
       "similarity_pct": 81.2,
       "cosmo_score": 33.2,
@@ -162,30 +186,6 @@
         "different": [
           "Day ruler: Jupiter \u2192 now Sun",
           "Moon in: Capricorn \u2192 now Aquarius"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-26",
-      "similarity_pct": 80.4,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "L2",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 80.4,
-        "matched": [
-          "Mars in Taurus",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Day ruler Sun"
-        ],
-        "different": [
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
     }
