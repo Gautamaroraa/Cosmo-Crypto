@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-08-02",
-    "generated_at": "2026-08-02T23:43:08Z"
+    "date": "2026-08-03",
+    "generated_at": "2026-08-03T01:17:10Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -18,7 +18,7 @@
     "saturn_retro": true,
     "moon_phase": "Waning Gibbous",
     "moon_nakshatra": "Uttara Bhadrapada",
-    "day_ruler": "Sun",
+    "day_ruler": "Moon",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
     "strongest_sector": "L2",
@@ -41,45 +41,44 @@
     "top_sectors_on_similar_days": [
       {
         "name": "Gaming",
-        "avg_score": 67.5
-      },
-      {
-        "name": "L2",
-        "avg_score": 64.3
-      },
-      {
-        "name": "DeFi",
-        "avg_score": 64.1
+        "avg_score": 68.8
       },
       {
         "name": "Payments",
-        "avg_score": 63.5
+        "avg_score": 66.0
+      },
+      {
+        "name": "DeFi",
+        "avg_score": 62.4
+      },
+      {
+        "name": "L2",
+        "avg_score": 62.0
       },
       {
         "name": "L1",
-        "avg_score": 62.8
+        "avg_score": 60.8
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waning Gibbous": 4,
+      "Waning Gibbous": 5,
       "Waxing Gibbous": 3,
-      "Full Moon": 1,
-      "First Quarter": 1
+      "Full Moon": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Gaming, L2, DeFi.",
-    "Mars in Gemini + Day of Sun is the dominant sky signature today."
+    "Strongest sectors on similar days: Gaming, Payments, DeFi.",
+    "Mars in Gemini + Day of Moon is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-08-02",
+      "date": "2026-08-03",
       "similarity_pct": 100.0,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Sun",
+      "day_ruler": "Moon",
       "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -93,6 +92,29 @@
           "Moon phase Waning Gibbous"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "similarity_pct": 94.6,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Sun",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 94.6,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Sun \u2192 now Moon"
+        ]
       }
     },
     {
@@ -115,33 +137,8 @@
         ],
         "different": [
           "Mars in: Taurus \u2192 now Gemini",
-          "Day ruler: Saturn \u2192 now Sun",
+          "Day ruler: Saturn \u2192 now Moon",
           "Moon in: Aquarius \u2192 now Pisces"
-        ]
-      }
-    },
-    {
-      "date": "2026-07-26",
-      "similarity_pct": 74.1,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "L2",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 74.1,
-        "matched": [
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Day ruler Sun",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Mars in: Taurus \u2192 now Gemini",
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Moon in: Sagittarius \u2192 now Pisces"
         ]
       }
     },
@@ -165,7 +162,7 @@
         ],
         "different": [
           "Mars in: Taurus \u2192 now Gemini",
-          "Day ruler: Jupiter \u2192 now Sun",
+          "Day ruler: Jupiter \u2192 now Moon",
           "Moon in: Capricorn \u2192 now Pisces"
         ]
       }
@@ -190,7 +187,7 @@
         ],
         "different": [
           "Mars in: Taurus \u2192 now Gemini",
-          "Day ruler: Venus \u2192 now Sun",
+          "Day ruler: Venus \u2192 now Moon",
           "Moon in: Aquarius \u2192 now Pisces"
         ]
       }
