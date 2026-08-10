@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-10T09:58:36Z",
+    "generated_at": "2026-08-10T11:13:30Z",
     "total_days": 80,
     "version": "1.0"
   },
@@ -11,13 +11,13 @@
     "sector_avg_scores": {
       "L1": 63.8,
       "DeFi": 62.7,
-      "Meme": 62.5,
+      "Meme": 62.3,
       "L2": 61.8,
-      "Payments": 61.6,
+      "Payments": 61.4,
       "Gaming": 60.5,
+      "Emerging": 59.4,
       "Infra": 59.3,
-      "Emerging": 59.3,
-      "AI": 57.1
+      "AI": 57.0
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-10T09:58:36Z"
+    "generated_at": "2026-08-10T11:13:30Z"
   },
   "anomalies": [
     {
@@ -16093,7 +16093,7 @@
       "volatility_bias": "Low",
       "risk_level": "High",
       "strongest_sector": "L1",
-      "weakest_sector": "Gaming",
+      "weakest_sector": "Emerging",
       "moon_phase": "Waning Crescent",
       "moon_phase_emoji": "\ud83c\udf18",
       "day_ruler": "Moon",
@@ -16156,7 +16156,7 @@
             "Mercury",
             "Jupiter"
           ],
-          "orb": 7.88
+          "orb": 7.8
         }
       ],
       "aspects": [
@@ -16166,7 +16166,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 3.24
+          "orb": 3.29
         },
         {
           "planets": [
@@ -16174,7 +16174,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 1.51
+          "orb": 2.28
         },
         {
           "planets": [
@@ -16182,7 +16182,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 4.24
+          "orb": 4.25
         },
         {
           "planets": [
@@ -16190,7 +16190,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 1.07
+          "orb": 1.03
         },
         {
           "planets": [
@@ -16198,7 +16198,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 1.07
+          "orb": 1.03
         },
         {
           "planets": [
@@ -16206,7 +16206,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 2.45
+          "orb": 2.41
         },
         {
           "planets": [
@@ -16214,7 +16214,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 5.43
+          "orb": 5.39
         },
         {
           "planets": [
@@ -16222,7 +16222,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.53
+          "orb": 5.52
         },
         {
           "planets": [
@@ -16235,30 +16235,30 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 919,
+      "declining": 922,
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 65.3,
+          "cosmo_score": 64.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 61.2,
           "astro_bias": "Neutral"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 61.7,
+          "cosmo_score": 60.9,
           "astro_bias": "Bearish"
         },
         {
-          "name": "L2",
+          "name": "Meme",
           "cosmo_score": 58.5,
-          "astro_bias": "Neutral"
+          "astro_bias": "Bearish"
         },
         {
-          "name": "AI",
-          "cosmo_score": 58.0,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Emerging",
+          "name": "Payments",
           "cosmo_score": 54.5,
           "astro_bias": "Neutral"
         }
@@ -16269,7 +16269,7 @@
         "Moon moving Gemini to Leo within 3 days",
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: XRP, DOT, XLM \u2014 longs crowded"
+        "High funding rates: DOT, NEAR, BNB \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
