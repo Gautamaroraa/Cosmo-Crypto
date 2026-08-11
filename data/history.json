@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-11T18:38:17Z",
+    "generated_at": "2026-08-11T19:47:19Z",
     "total_days": 81,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 80,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.8,
+      "L1": 63.7,
       "DeFi": 62.7,
       "Meme": 62.3,
-      "L2": 61.8,
-      "Payments": 61.2,
-      "Gaming": 60.5,
+      "L2": 61.7,
+      "Payments": 61.5,
+      "Gaming": 60.3,
       "Emerging": 59.4,
       "Infra": 59.3,
-      "AI": 56.9
+      "AI": 57.1
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-11T18:38:17Z"
+    "generated_at": "2026-08-11T19:47:19Z"
   },
   "anomalies": [
     {
@@ -16296,7 +16296,7 @@
       "volatility_bias": "Low",
       "risk_level": "Very High",
       "strongest_sector": "L1",
-      "weakest_sector": "Gaming",
+      "weakest_sector": "Payments",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Mars",
@@ -16359,21 +16359,21 @@
             "Moon",
             "Mercury"
           ],
-          "orb": 2.66
+          "orb": 3.28
         },
         {
           "planets": [
             "Moon",
             "Jupiter"
           ],
-          "orb": 3.24
+          "orb": 2.55
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 5.9
+          "orb": 5.83
         }
       ],
       "aspects": [
@@ -16383,7 +16383,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.58
+          "orb": 4.63
         },
         {
           "planets": [
@@ -16391,7 +16391,15 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 1.15
+          "orb": 1.8
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 7.73
         },
         {
           "planets": [
@@ -16399,7 +16407,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 4.68
+          "orb": 4.69
         },
         {
           "planets": [
@@ -16407,7 +16415,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 0.1
+          "orb": 0.06
         },
         {
           "planets": [
@@ -16415,7 +16423,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 0.1
+          "orb": 0.06
         },
         {
           "planets": [
@@ -16423,7 +16431,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 1.52
+          "orb": 1.48
         },
         {
           "planets": [
@@ -16431,7 +16439,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 4.39
+          "orb": 4.35
         },
         {
           "planets": [
@@ -16439,7 +16447,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.19
+          "orb": 5.18
         },
         {
           "planets": [
@@ -16452,31 +16460,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 963,
+      "declining": 969,
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 73.0,
+          "cosmo_score": 65.1,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Infra",
-          "cosmo_score": 59.4,
-          "astro_bias": "Bearish"
-        },
-        {
-          "name": "DeFi",
-          "cosmo_score": 57.2,
-          "astro_bias": "Bearish"
-        },
-        {
           "name": "AI",
-          "cosmo_score": 56.5,
+          "cosmo_score": 62.9,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Payments",
-          "cosmo_score": 55.3,
+          "name": "Meme",
+          "cosmo_score": 61.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 56.8,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 56.8,
           "astro_bias": "Neutral"
         }
       ],
@@ -16486,7 +16494,7 @@
         "Moon moving Cancer to Leo within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Mars - favors L1, Meme",
-        "High funding rates: ADA, LTC, NEAR \u2014 longs crowded"
+        "High funding rates: NEAR, LTC, AIN \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
