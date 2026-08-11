@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-11T02:53:07Z",
+    "generated_at": "2026-08-11T04:20:22Z",
     "total_days": 81,
     "version": "1.0"
   },
@@ -11,12 +11,12 @@
     "sector_avg_scores": {
       "L1": 63.6,
       "DeFi": 62.7,
-      "Meme": 62.0,
-      "L2": 61.8,
-      "Payments": 61.5,
-      "Gaming": 60.2,
+      "Meme": 62.1,
+      "L2": 61.9,
+      "Payments": 61.4,
+      "Gaming": 60.5,
+      "Emerging": 59.4,
       "Infra": 59.3,
-      "Emerging": 59.3,
       "AI": 56.9
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-11T02:53:07Z"
+    "generated_at": "2026-08-11T04:20:22Z"
   },
   "anomalies": [
     {
@@ -16287,8 +16287,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L1",
-      "weakest_sector": "DeFi",
+      "strongest_sector": "L2",
+      "weakest_sector": "Infra",
       "moon_phase": "Waning Crescent",
       "moon_phase_emoji": "\ud83c\udf18",
       "day_ruler": "Mars",
@@ -16351,14 +16351,14 @@
             "Moon",
             "Mercury"
           ],
-          "orb": 5.86
+          "orb": 5.07
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 6.87
+          "orb": 6.78
         }
       ],
       "aspects": [
@@ -16368,7 +16368,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 3.93
+          "orb": 3.99
         },
         {
           "planets": [
@@ -16376,7 +16376,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 7.84
+          "orb": 7.01
         },
         {
           "planets": [
@@ -16384,7 +16384,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 4.47
+          "orb": 4.48
         },
         {
           "planets": [
@@ -16392,7 +16392,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 0.57
+          "orb": 0.52
         },
         {
           "planets": [
@@ -16400,7 +16400,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 0.57
+          "orb": 0.52
         },
         {
           "planets": [
@@ -16408,7 +16408,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 1.98
+          "orb": 1.94
         },
         {
           "planets": [
@@ -16416,7 +16416,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 4.89
+          "orb": 4.84
         },
         {
           "planets": [
@@ -16424,7 +16424,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.36
+          "orb": 5.34
         },
         {
           "planets": [
@@ -16440,28 +16440,28 @@
       "declining": 988,
       "top_sectors": [
         {
+          "name": "L2",
+          "cosmo_score": 66.3,
+          "astro_bias": "Bearish"
+        },
+        {
           "name": "L1",
-          "cosmo_score": 61.2,
+          "cosmo_score": 61.6,
           "astro_bias": "Bullish"
         },
         {
-          "name": "AI",
-          "cosmo_score": 56.2,
+          "name": "Payments",
+          "cosmo_score": 58.6,
           "astro_bias": "Neutral"
         },
         {
           "name": "Emerging",
-          "cosmo_score": 53.8,
+          "cosmo_score": 57.2,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Gaming",
-          "cosmo_score": 53.3,
-          "astro_bias": "Bearish"
-        },
-        {
           "name": "Meme",
-          "cosmo_score": 52.8,
+          "cosmo_score": 56.3,
           "astro_bias": "Bearish"
         }
       ],
@@ -16471,7 +16471,7 @@
         "Moon moving Cancer to Leo within 3 days",
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Mars - favors L1, Meme",
-        "High funding rates: DOT, NEAR, ADA \u2014 longs crowded"
+        "High funding rates: XRP, DOT, NEAR \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
