@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T18:39:05Z",
+    "generated_at": "2026-08-12T19:49:06Z",
     "total_days": 82,
     "version": "1.0"
   },
@@ -10,14 +10,14 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 63.6,
-      "DeFi": 62.4,
+      "DeFi": 62.5,
+      "Meme": 61.8,
       "L2": 61.8,
-      "Meme": 61.6,
       "Payments": 60.9,
       "Gaming": 60.5,
       "Emerging": 59.4,
       "Infra": 59.3,
-      "AI": 56.9
+      "AI": 57.0
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-12T18:39:05Z"
+    "generated_at": "2026-08-12T19:49:06Z"
   },
   "anomalies": [
     {
@@ -16522,7 +16522,7 @@
       "volatility_bias": "Low",
       "risk_level": "Very High",
       "strongest_sector": "L1",
-      "weakest_sector": "AI",
+      "weakest_sector": "Emerging",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Mercury",
@@ -16585,14 +16585,14 @@
             "Sun",
             "Moon"
           ],
-          "orb": 0.57
+          "orb": 1.23
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 4.37
+          "orb": 4.3
         }
       ],
       "aspects": [
@@ -16602,7 +16602,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.57
+          "orb": 5.61
         },
         {
           "planets": [
@@ -16610,7 +16610,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 6.14
+          "orb": 6.84
         },
         {
           "planets": [
@@ -16618,7 +16618,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 4.99
+          "orb": 5.01
         },
         {
           "planets": [
@@ -16626,7 +16626,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 0.62
+          "orb": 0.65
         },
         {
           "planets": [
@@ -16634,7 +16634,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 0.62
+          "orb": 0.65
         },
         {
           "planets": [
@@ -16642,7 +16642,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 0.75
+          "orb": 0.71
         },
         {
           "planets": [
@@ -16650,7 +16650,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 3.63
+          "orb": 3.59
         },
         {
           "planets": [
@@ -16658,7 +16658,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.95
+          "orb": 4.93
         },
         {
           "planets": [
@@ -16671,31 +16671,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 933,
+      "declining": 934,
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 70.2,
+          "cosmo_score": 70.5,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Payments",
-          "cosmo_score": 61.3,
-          "astro_bias": "Neutral"
+          "name": "Meme",
+          "cosmo_score": 64.2,
+          "astro_bias": "Bearish"
         },
         {
           "name": "DeFi",
+          "cosmo_score": 63.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 61.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
           "cosmo_score": 60.1,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 58.6,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 57.1,
           "astro_bias": "Bearish"
         }
       ],
@@ -16705,7 +16705,7 @@
         "Moon moving Cancer to Virgo within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Mercury - favors DeFi, L2",
-        "High funding rates: SOL, XRP, AVAX \u2014 longs crowded"
+        "High funding rates: ADA, AVAX, DOT \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
