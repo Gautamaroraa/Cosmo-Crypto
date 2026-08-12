@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T20:43:50Z",
+    "generated_at": "2026-08-12T21:30:11Z",
     "total_days": 82,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 81,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.7,
+      "L1": 63.5,
       "DeFi": 62.4,
+      "Meme": 61.8,
       "L2": 61.8,
-      "Meme": 61.7,
-      "Payments": 60.9,
+      "Payments": 60.7,
       "Gaming": 60.5,
       "Emerging": 59.4,
       "Infra": 59.3,
-      "AI": 57.0
+      "AI": 56.9
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-12T20:43:50Z"
+    "generated_at": "2026-08-12T21:30:11Z"
   },
   "anomalies": [
     {
@@ -16522,7 +16522,7 @@
       "volatility_bias": "Low",
       "risk_level": "Very High",
       "strongest_sector": "L1",
-      "weakest_sector": "Infra",
+      "weakest_sector": "Gaming",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Mercury",
@@ -16585,14 +16585,21 @@
             "Sun",
             "Moon"
           ],
-          "orb": 1.73
+          "orb": 2.17
+        },
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "orb": 7.96
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 4.24
+          "orb": 4.19
         }
       ],
       "aspects": [
@@ -16602,7 +16609,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.65
+          "orb": 5.68
         },
         {
           "planets": [
@@ -16610,7 +16617,15 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 7.39
+          "orb": 7.85
+        },
+        {
+          "planets": [
+            "Moon",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 7.96
         },
         {
           "planets": [
@@ -16618,7 +16633,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 5.02
+          "orb": 5.03
         },
         {
           "planets": [
@@ -16626,7 +16641,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 0.68
+          "orb": 0.7
         },
         {
           "planets": [
@@ -16634,7 +16649,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 0.68
+          "orb": 0.7
         },
         {
           "planets": [
@@ -16642,7 +16657,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 0.68
+          "orb": 0.65
         },
         {
           "planets": [
@@ -16650,7 +16665,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 3.56
+          "orb": 3.54
         },
         {
           "planets": [
@@ -16658,7 +16673,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.93
+          "orb": 4.92
         },
         {
           "planets": [
@@ -16675,28 +16690,28 @@
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 71.8,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "AI",
           "cosmo_score": 62.5,
-          "astro_bias": "Neutral"
+          "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 61.5,
+          "cosmo_score": 58.6,
           "astro_bias": "Neutral"
         },
         {
-          "name": "L2",
-          "cosmo_score": 58.6,
-          "astro_bias": "Bullish"
+          "name": "Emerging",
+          "cosmo_score": 57.4,
+          "astro_bias": "Neutral"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 58.0,
-          "astro_bias": "Bearish"
+          "name": "Payments",
+          "cosmo_score": 56.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 56.1,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
