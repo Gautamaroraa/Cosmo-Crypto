@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T02:44:47Z",
+    "generated_at": "2026-08-12T04:29:18Z",
     "total_days": 82,
     "version": "1.0"
   },
@@ -9,7 +9,7 @@
     "days_with_outcomes": 81,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.4,
+      "L1": 63.5,
       "DeFi": 62.3,
       "Meme": 61.8,
       "L2": 61.6,
@@ -17,7 +17,7 @@
       "Payments": 60.4,
       "Emerging": 59.4,
       "Infra": 59.3,
-      "AI": 56.9
+      "AI": 57.0
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-12T02:44:47Z"
+    "generated_at": "2026-08-12T04:29:18Z"
   },
   "anomalies": [
     {
@@ -16522,7 +16522,7 @@
       "volatility_bias": "Low",
       "risk_level": "Very High",
       "strongest_sector": "AI",
-      "weakest_sector": "Gaming",
+      "weakest_sector": "Infra",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Mercury",
@@ -16582,24 +16582,31 @@
       "conjunctions": [
         {
           "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "orb": 7.41
+        },
+        {
+          "planets": [
             "Moon",
             "Mercury"
           ],
-          "orb": 7.01
+          "orb": 7.94
         },
         {
           "planets": [
             "Moon",
             "Jupiter"
           ],
-          "orb": 1.62
+          "orb": 2.66
         },
         {
           "planets": [
             "Mercury",
             "Jupiter"
           ],
-          "orb": 5.39
+          "orb": 5.28
         }
       ],
       "aspects": [
@@ -16609,7 +16616,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.91
+          "orb": 4.98
         },
         {
           "planets": [
@@ -16617,7 +16624,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 5.75
+          "orb": 6.74
         },
         {
           "planets": [
@@ -16625,7 +16632,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 3.49
+          "orb": 2.43
         },
         {
           "planets": [
@@ -16633,7 +16640,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 4.78
+          "orb": 4.81
         },
         {
           "planets": [
@@ -16641,7 +16648,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 0.15
+          "orb": 0.2
         },
         {
           "planets": [
@@ -16649,7 +16656,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 0.15
+          "orb": 0.2
         },
         {
           "planets": [
@@ -16657,7 +16664,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 1.26
+          "orb": 1.21
         },
         {
           "planets": [
@@ -16665,7 +16672,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 4.13
+          "orb": 4.07
         },
         {
           "planets": [
@@ -16673,7 +16680,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 5.11
+          "orb": 5.09
         },
         {
           "planets": [
@@ -16686,26 +16693,26 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 974,
+      "declining": 978,
       "top_sectors": [
         {
           "name": "AI",
-          "cosmo_score": 56.4,
+          "cosmo_score": 62.1,
           "astro_bias": "Neutral"
         },
         {
           "name": "L1",
-          "cosmo_score": 52.0,
+          "cosmo_score": 58.1,
           "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 50.4,
+          "cosmo_score": 51.0,
           "astro_bias": "Neutral"
         },
         {
           "name": "L2",
-          "cosmo_score": 47.2,
+          "cosmo_score": 50.9,
           "astro_bias": "Bullish"
         },
         {
@@ -16717,10 +16724,10 @@
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Saturn, Rahu, Ketu",
-        "Moon moving Cancer to Leo within 3 days",
+        "Moon moving Cancer to Virgo within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Mercury - favors DeFi, L2",
-        "High funding rates: ADA, AIN, SIREN \u2014 longs crowded"
+        "High funding rates: ADA, AVAX, DOT \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
