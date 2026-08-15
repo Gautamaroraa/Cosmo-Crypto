@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-08-15",
-    "generated_at": "2026-08-15T14:49:44Z"
+    "generated_at": "2026-08-15T15:20:23Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -21,7 +21,7 @@
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,32 +41,32 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 62.1
+        "avg_score": 61.8
       },
       {
         "name": "Payments",
-        "avg_score": 60.9
+        "avg_score": 61.1
       },
       {
         "name": "Emerging",
         "avg_score": 60.3
       },
       {
-        "name": "L2",
-        "avg_score": 57.3
+        "name": "Gaming",
+        "avg_score": 57.9
       },
       {
-        "name": "AI",
-        "avg_score": 57.0
+        "name": "L2",
+        "avg_score": 57.7
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Crescent": 2,
       "Last Quarter": 3,
-      "New Moon": 2,
+      "Waning Crescent": 2,
       "Waning Gibbous": 1,
-      "Waning Crescent": 1
+      "New Moon": 1
     }
   },
   "narratives": [
@@ -81,7 +81,7 @@
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Saturn",
-      "strongest_sector": "L1",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +98,7 @@
     },
     {
       "date": "2026-08-14",
-      "similarity_pct": 91.1,
+      "similarity_pct": 88.4,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Venus",
@@ -106,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 91.1,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -117,30 +117,6 @@
         "different": [
           "Day ruler: Venus \u2192 now Saturn",
           "Moon in: Leo \u2192 now Virgo"
-        ]
-      }
-    },
-    {
-      "date": "2026-08-08",
-      "similarity_pct": 87.5,
-      "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 87.5,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Day ruler Saturn"
-        ],
-        "different": [
-          "Moon phase: Last Quarter \u2192 now Waxing Crescent",
-          "Moon in: Gemini \u2192 now Virgo"
         ]
       }
     },
@@ -169,12 +145,36 @@
       }
     },
     {
-      "date": "2026-08-11",
-      "similarity_pct": 82.1,
-      "cosmo_score": 33.2,
-      "moon_phase": "New Moon",
-      "day_ruler": "Mars",
+      "date": "2026-08-08",
+      "similarity_pct": 84.8,
+      "cosmo_score": 32.0,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Saturn",
       "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 84.8,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Day ruler Saturn"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now Waxing Crescent",
+          "Moon in: Gemini \u2192 now Virgo"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "similarity_pct": 82.1,
+      "cosmo_score": 32.0,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Moon",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -187,8 +187,8 @@
           "Mercury retrograde False"
         ],
         "different": [
-          "Moon phase: New Moon \u2192 now Waxing Crescent",
-          "Day ruler: Mars \u2192 now Saturn",
+          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
+          "Day ruler: Moon \u2192 now Saturn",
           "Moon in: Cancer \u2192 now Virgo"
         ]
       }
