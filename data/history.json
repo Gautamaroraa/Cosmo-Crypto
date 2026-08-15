@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-08-14T23:53:04Z",
-    "total_days": 84,
+    "generated_at": "2026-08-15T01:11:56Z",
+    "total_days": 85,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 84,
-    "days_with_outcomes": 83,
+    "total_days": 85,
+    "days_with_outcomes": 84,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.8,
+      "L1": 63.7,
       "DeFi": 62.3,
       "L2": 61.9,
       "Meme": 61.8,
       "Payments": 61.1,
       "Gaming": 60.2,
-      "Infra": 59.5,
-      "Emerging": 59.5,
+      "Emerging": 59.4,
+      "Infra": 59.3,
       "AI": 56.9
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-14T23:53:04Z"
+    "generated_at": "2026-08-15T01:11:56Z"
   },
   "anomalies": [
     {
@@ -17152,6 +17152,225 @@
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Venus - favors Meme, Gaming",
         "High funding rates: SOL, XRP, DOT \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-08-15",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "day_cosmo_score": 34.8,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "High",
+      "strongest_sector": "L2",
+      "weakest_sector": "Gaming",
+      "moon_phase": "Waxing Crescent",
+      "moon_phase_emoji": "\ud83c\udf12",
+      "day_ruler": "Saturn",
+      "astro_score": 65,
+      "retrograde_planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Leo",
+          "nakshatra": "Uttara Phalguni",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Virgo",
+          "nakshatra": "Hasta",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "orb": 7.94
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Jupiter"
+          ],
+          "orb": 0.71
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 7.82
+        },
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 7.94
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Square",
+          "orb": 5.69
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 2.24
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.24
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.21
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 5.09
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.93
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 4.38
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Opposition",
+          "orb": 6.31
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 893,
+      "top_sectors": [
+        {
+          "name": "L2",
+          "cosmo_score": 62.3,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 57.1,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 56.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 56.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 55.2,
+          "astro_bias": "Bearish"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Saturn, Rahu, Ketu",
+        "Sun moving Cancer to Leo within 3 days",
+        "Waxing Crescent - Building momentum. Altcoin season energy.",
+        "Day of Saturn - favors Infra, L2",
+        "High funding rates: SOL, DOT, ADA \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
