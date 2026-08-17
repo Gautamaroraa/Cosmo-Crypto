@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-08-16",
-    "generated_at": "2026-08-17T00:00:13Z"
+    "date": "2026-08-17",
+    "generated_at": "2026-08-17T01:50:14Z"
   },
   "today_conditions": {
     "sun_rashi": "Cancer",
@@ -18,7 +18,7 @@
     "saturn_retro": true,
     "moon_phase": "Waxing Crescent",
     "moon_nakshatra": "Chitra",
-    "day_ruler": "Sun",
+    "day_ruler": "Moon",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
     "strongest_sector": "L1",
@@ -41,46 +41,46 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 61.1
+        "avg_score": 64.8
       },
       {
-        "name": "Payments",
-        "avg_score": 60.5
-      },
-      {
-        "name": "Infra",
-        "avg_score": 56.8
+        "name": "L2",
+        "avg_score": 61.3
       },
       {
         "name": "Emerging",
-        "avg_score": 56.4
+        "avg_score": 61.0
       },
       {
-        "name": "Gaming",
-        "avg_score": 56.2
+        "name": "Payments",
+        "avg_score": 58.4
+      },
+      {
+        "name": "Infra",
+        "avg_score": 57.1
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Crescent": 3,
+      "Waxing Crescent": 4,
       "Waning Crescent": 1,
+      "Waning Gibbous": 1,
       "Last Quarter": 1,
-      "New Moon": 2,
-      "Waning Gibbous": 2
+      "New Moon": 2
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, Payments, Infra.",
-    "Mars in Gemini + Day of Sun is the dominant sky signature today."
+    "Strongest sectors on similar days: L1, L2, Emerging.",
+    "Mars in Gemini + Day of Moon is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "similarity_pct": 100.0,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
-      "day_ruler": "Sun",
+      "day_ruler": "Moon",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -94,6 +94,29 @@
           "Moon phase Waxing Crescent"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "similarity_pct": 94.6,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Sun",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 94.6,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Cancer",
+          "Moon phase Waxing Crescent"
+        ],
+        "different": [
+          "Day ruler: Sun \u2192 now Moon"
+        ]
       }
     },
     {
@@ -115,7 +138,7 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Saturn \u2192 now Sun"
+          "Day ruler: Saturn \u2192 now Moon"
         ]
       }
     },
@@ -138,7 +161,7 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Venus \u2192 now Sun",
+          "Day ruler: Venus \u2192 now Moon",
           "Moon in: Leo \u2192 now Virgo"
         ]
       }
@@ -162,32 +185,8 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Jupiter \u2192 now Sun",
+          "Day ruler: Jupiter \u2192 now Moon",
           "Moon in: Leo \u2192 now Virgo"
-        ]
-      }
-    },
-    {
-      "date": "2026-08-09",
-      "similarity_pct": 84.8,
-      "cosmo_score": 32.0,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Sun",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 84.8,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Cancer",
-          "Day ruler Sun"
-        ],
-        "different": [
-          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
-          "Moon in: Gemini \u2192 now Virgo"
         ]
       }
     }
