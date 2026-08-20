@@ -1,14 +1,72 @@
 {
   "meta": {
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T19:19:33Z",
+    "generated_at": "2026-08-20T19:56:26Z",
     "market": "Crypto Perpetual Futures"
   },
-  "trend_summary": "Crypto market is Bearish with Low volatility. BTC +6.01% | ETH +10.96%. 0 coins advancing vs 1290 declining. Strongest sector: L1. Weakest: Gaming. Moon is First Quarter \u2014 bullish energy. Day of Jupiter. High funding: BEAT, ESPORTS, AIOT \u2014 longs crowded. Negative funding: FIL, SOLV, VELVET \u2014 squeeze risk.",
-  "recommendation": "MOMENTUM LONG PENDLE",
-  "rec_reason": "Confidence 88/100 \u2014 PENDLE Perpetual Futures",
+  "trend_summary": "Crypto market is Bearish with Low volatility. BTC +6.2% | ETH +10.64%. 0 coins advancing vs 1290 declining. Strongest sector: L1. Weakest: Gaming. Moon is First Quarter \u2014 bullish energy. Day of Jupiter. High funding: BEAT, AIOT, ESPORTS \u2014 longs crowded. Negative funding: FIL, SOLV, VELVET \u2014 squeeze risk.",
+  "recommendation": "MOMENTUM LONG SONIC",
+  "rec_reason": "Confidence 100/100 \u2014 SONIC Perpetual Futures",
   "no_trade_reasons": [],
   "setups": [
+    {
+      "type": "MOMENTUM",
+      "direction": "LONG",
+      "coin": "SONIC",
+      "symbol": "SONICUSD",
+      "sector": "Infra",
+      "instrument": "SONIC Perpetual Futures",
+      "entry": "Long SONIC near $0.018838",
+      "stop_loss": "SL: $0.018424 (ATR-based -2.0%) or below $0.0188",
+      "target": "T1: $0.019364 (+3.0%) | T2: $0.01974 (+5.0%) | Key resistance: $0.0189",
+      "risk_reward": "R:R 1:1.5 to 1:2.5",
+      "confidence": 100,
+      "reasons": [
+        "Strong Uptrend",
+        "RSI 64.52 momentum zone",
+        "MACD histogram positive",
+        "Supertrend Bullish",
+        "Above Ichimoku Cloud",
+        "Bullish TK Cross"
+      ],
+      "funding_note": "Funding -1.1339%/8h (~-1242% annualized)",
+      "current_price": 0.0188,
+      "rsi": 64.52,
+      "rsi_hourly": 71.56,
+      "trend": "Strong Uptrend",
+      "adx": 31.78,
+      "adx_strength": "Strong",
+      "supertrend": "Bullish",
+      "ichimoku_cloud": "Above Cloud (Bullish)",
+      "macd_histogram": 1e-05,
+      "atr_pct": 0.59,
+      "bb_width": 4.5,
+      "oi_trend": "Stable",
+      "candlestick_patterns": [
+        "Doji"
+      ],
+      "score_signals": [
+        "EMA Stack Bullish",
+        "RSI 64.52 momentum zone",
+        "MACD Bullish",
+        "BB squeeze \u2014 breakout imminent",
+        "ADX 31.78 \u2014 Strong trend",
+        "Supertrend Bullish",
+        "Above Ichimoku Cloud",
+        "OBV falling \u2014 selling pressure"
+      ],
+      "commentary": [
+        "BB squeeze detected (4.5% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
+        "ADX 31.78 \u2014 Moderate trend. Valid but watch for signs of weakening.",
+        "Funding is deeply negative (-1.1339%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "RSI 64.52 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
+        "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
+        "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
+      ],
+      "warning": "",
+      "quality": "CLEAN",
+      "risky_flags": []
+    },
     {
       "type": "MOMENTUM",
       "direction": "LONG",
@@ -27,14 +85,14 @@
         "MACD histogram positive",
         "Supertrend Bullish",
         "Above Ichimoku Cloud",
-        "ADX 36.66 \u2014 Strong trend"
+        "ADX 36.58 \u2014 Strong trend"
       ],
-      "funding_note": "Funding -1.1947%/8h (~-1308% annualized)",
+      "funding_note": "Funding -1.174%/8h (~-1286% annualized)",
       "current_price": 1.3177,
       "rsi": 64.76,
-      "rsi_hourly": 64.58,
+      "rsi_hourly": 64.72,
       "trend": "Recovery",
-      "adx": 36.66,
+      "adx": 36.58,
       "adx_strength": "Strong",
       "supertrend": "Bullish",
       "ichimoku_cloud": "Above Cloud (Bullish)",
@@ -50,15 +108,15 @@
         "MACD Bullish",
         "Price above BB upper (overbought)",
         "BB squeeze \u2014 breakout imminent",
-        "ADX 36.66 \u2014 Strong trend",
+        "ADX 36.58 \u2014 Strong trend",
         "Supertrend Bullish",
         "Above Ichimoku Cloud",
         "Williams %R overbought"
       ],
       "commentary": [
         "BB squeeze detected (4.92% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
-        "ADX 36.66 \u2014 Moderate trend. Valid but watch for signs of weakening.",
-        "Funding is deeply negative (-1.1947%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "ADX 36.58 \u2014 Moderate trend. Valid but watch for signs of weakening.",
+        "Funding is deeply negative (-1.174%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
         "RSI 64.76 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
@@ -80,17 +138,17 @@
       "risk_reward": "R:R 1:1.5 to 1:2.5",
       "confidence": 70,
       "reasons": [
-        "Funding -1.1947% \u2014 shorts paying",
+        "Funding -1.174% \u2014 shorts paying",
         "Extreme negative funding \u2014 violent squeeze likely",
         "MFI 17.63 oversold",
         "First Quarter \u2014 waxing energy"
       ],
-      "funding_note": "Funding -1.1947%/8h (~-1308% annualized)",
+      "funding_note": "Funding -1.174%/8h (~-1286% annualized)",
       "current_price": 1.3177,
       "rsi": 64.76,
-      "rsi_hourly": 64.58,
+      "rsi_hourly": 64.72,
       "trend": "Recovery",
-      "adx": 36.66,
+      "adx": 36.58,
       "adx_strength": "Strong",
       "supertrend": "Bullish",
       "ichimoku_cloud": "Above Cloud (Bullish)",
@@ -106,16 +164,71 @@
         "MACD Bullish",
         "Price above BB upper (overbought)",
         "BB squeeze \u2014 breakout imminent",
-        "ADX 36.66 \u2014 Strong trend",
+        "ADX 36.58 \u2014 Strong trend",
         "Supertrend Bullish",
         "Above Ichimoku Cloud",
         "Williams %R overbought"
       ],
       "commentary": [
         "BB squeeze detected (4.92% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
-        "ADX 36.66 \u2014 Moderate trend. Valid but watch for signs of weakening.",
-        "Funding is deeply negative (-1.1947%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "ADX 36.58 \u2014 Moderate trend. Valid but watch for signs of weakening.",
+        "Funding is deeply negative (-1.174%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
         "RSI 64.76 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
+        "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
+        "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
+      ],
+      "warning": "",
+      "quality": "CLEAN",
+      "risky_flags": []
+    },
+    {
+      "type": "MEAN_REVERSION",
+      "direction": "SQUEEZE",
+      "coin": "SONIC",
+      "symbol": "SONICUSD",
+      "sector": "Infra",
+      "instrument": "SONIC Perpetual Futures",
+      "entry": "Long SONIC near $0.018838",
+      "stop_loss": "SL: $0.018424 (ATR-based -2.0%) or below $0.0188",
+      "target": "T1: $0.019364 (+3.0%) | T2: $0.01974 (+5.0%) | Key resistance: $0.0189",
+      "risk_reward": "R:R 1:1.5 to 1:2.5",
+      "confidence": 60,
+      "reasons": [
+        "Funding -1.1339% \u2014 shorts paying",
+        "Extreme negative funding \u2014 violent squeeze likely",
+        "First Quarter \u2014 waxing energy"
+      ],
+      "funding_note": "Funding -1.1339%/8h (~-1242% annualized)",
+      "current_price": 0.0188,
+      "rsi": 64.52,
+      "rsi_hourly": 71.56,
+      "trend": "Strong Uptrend",
+      "adx": 31.78,
+      "adx_strength": "Strong",
+      "supertrend": "Bullish",
+      "ichimoku_cloud": "Above Cloud (Bullish)",
+      "macd_histogram": 1e-05,
+      "atr_pct": 0.59,
+      "bb_width": 4.5,
+      "oi_trend": "Stable",
+      "candlestick_patterns": [
+        "Doji"
+      ],
+      "score_signals": [
+        "EMA Stack Bullish",
+        "RSI 64.52 momentum zone",
+        "MACD Bullish",
+        "BB squeeze \u2014 breakout imminent",
+        "ADX 31.78 \u2014 Strong trend",
+        "Supertrend Bullish",
+        "Above Ichimoku Cloud",
+        "OBV falling \u2014 selling pressure"
+      ],
+      "commentary": [
+        "BB squeeze detected (4.5% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
+        "ADX 31.78 \u2014 Moderate trend. Valid but watch for signs of weakening.",
+        "Funding is deeply negative (-1.1339%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "RSI 64.52 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
       ],
@@ -136,15 +249,15 @@
       "risk_reward": "R:R 1:1.5 to 1:2.5",
       "confidence": 40,
       "reasons": [
-        "Extreme funding 0.3898% \u2014 long liquidation imminent",
+        "Extreme funding 0.7645% \u2014 long liquidation imminent",
         "Williams %R -3.85 extreme overbought"
       ],
-      "funding_note": "Funding +0.3898%/8h (~427% annualized)",
+      "funding_note": "Funding +0.7645%/8h (~837% annualized)",
       "current_price": 0.06532,
-      "rsi": 50.49,
-      "rsi_hourly": 59.97,
+      "rsi": 50.48,
+      "rsi_hourly": 59.56,
       "trend": "Recovery",
-      "adx": 23.46,
+      "adx": 23.5,
       "adx_strength": "Moderate",
       "supertrend": "Bullish",
       "ichimoku_cloud": "Inside Cloud (Neutral)",
@@ -157,7 +270,7 @@
         "Morning Star"
       ],
       "score_signals": [
-        "RSI 50.49 momentum zone",
+        "RSI 50.48 momentum zone",
         "MACD Bullish",
         "BB squeeze \u2014 breakout imminent",
         "Supertrend Bullish",
@@ -170,7 +283,7 @@
         "\u26a0\ufe0f Conflicting signals detected:",
         "  \u2192 Bullish Engulfing pattern conflicts with short direction",
         "BB squeeze detected (2.96% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
-        "High positive funding (0.3898%/8h) confirms shorts are needed \u2014 longs will be flushed.",
+        "High positive funding (0.7645%/8h) confirms shorts are needed \u2014 longs will be flushed.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
       ],
       "warning": "",
@@ -196,13 +309,13 @@
       "funding_note": "Funding +1.0%/8h (~1095% annualized)",
       "current_price": 75.557,
       "rsi": 52.51,
-      "rsi_hourly": 48.54,
+      "rsi_hourly": 48.58,
       "trend": "Recovery",
-      "adx": 29.38,
+      "adx": 29.44,
       "adx_strength": "Strong",
       "supertrend": "Bullish",
       "ichimoku_cloud": "Inside Cloud (Neutral)",
-      "macd_histogram": 0.090555,
+      "macd_histogram": 0.090544,
       "atr_pct": 0.68,
       "bb_width": 2.31,
       "oi_trend": "Rising",
@@ -213,7 +326,7 @@
         "RSI 52.51 momentum zone",
         "MACD Bullish",
         "BB squeeze \u2014 breakout imminent",
-        "ADX 29.38 \u2014 Strong trend",
+        "ADX 29.44 \u2014 Strong trend",
         "Supertrend Bullish",
         "Stoch RSI bearish cross",
         "Williams %R overbought",
@@ -221,7 +334,7 @@
       ],
       "commentary": [
         "BB squeeze detected (2.31% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
-        "ADX 29.38 \u2014 Moderate trend. Valid but watch for signs of weakening.",
+        "ADX 29.44 \u2014 Moderate trend. Valid but watch for signs of weakening.",
         "High positive funding (1.0%/8h) confirms shorts are needed \u2014 longs will be flushed.",
         "OI rising into a short setup \u2014 new shorts building. Watch for squeeze if it reverses.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
@@ -249,13 +362,13 @@
       "funding_note": "Funding +0.5%/8h (~548% annualized)",
       "current_price": 0.775,
       "rsi": 52.24,
-      "rsi_hourly": 46.75,
+      "rsi_hourly": 47.05,
       "trend": "Recovery",
       "adx": 24.21,
       "adx_strength": "Moderate",
       "supertrend": "Bullish",
       "ichimoku_cloud": "Inside Cloud (Neutral)",
-      "macd_histogram": 0.000761,
+      "macd_histogram": 0.00076,
       "atr_pct": 1.01,
       "bb_width": 7.84,
       "oi_trend": "Stable",
@@ -299,16 +412,16 @@
       "confidence": 100,
       "reasons": [
         "Strong Uptrend",
-        "RSI 60.97 momentum zone",
+        "RSI 60.96 momentum zone",
         "MACD histogram positive",
         "Supertrend Bullish",
         "Above Ichimoku Cloud",
         "Bullish TK Cross"
       ],
-      "funding_note": "Funding -2.7515%/8h (~-3013% annualized)",
+      "funding_note": "Funding -2.6395%/8h (~-2890% annualized)",
       "current_price": 0.514,
-      "rsi": 60.97,
-      "rsi_hourly": 51.95,
+      "rsi": 60.96,
+      "rsi_hourly": 51.78,
       "trend": "Strong Uptrend",
       "adx": 15.22,
       "adx_strength": "Weak",
@@ -323,7 +436,7 @@
       ],
       "score_signals": [
         "EMA Stack Bullish",
-        "RSI 60.97 momentum zone",
+        "RSI 60.96 momentum zone",
         "MACD Bullish",
         "BB squeeze \u2014 breakout imminent",
         "Supertrend Bullish",
@@ -334,8 +447,8 @@
       "commentary": [
         "BB squeeze detected (3.37% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
         "ADX 15.22 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
-        "Funding is deeply negative (-2.7515%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
-        "RSI 60.97 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
+        "Funding is deeply negative (-2.6395%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "RSI 60.96 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
       ],
@@ -365,7 +478,7 @@
         "Above Ichimoku Cloud",
         "Parabolic SAR Bullish"
       ],
-      "funding_note": "Funding -0.1263%/8h (~-138% annualized)",
+      "funding_note": "Funding -0.5842%/8h (~-640% annualized)",
       "current_price": 0.535,
       "rsi": 61.67,
       "rsi_hourly": 59.77,
@@ -394,7 +507,7 @@
       "commentary": [
         "BB squeeze detected (4.56% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
         "ADX 14.99 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
-        "Funding is deeply negative (-0.1263%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "Funding is deeply negative (-0.5842%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
         "Open Interest falling \u2014 longs are exiting. Momentum is fading. Wait for OI to stabilize.",
         "RSI 61.67 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
@@ -427,7 +540,7 @@
         "Above Ichimoku Cloud",
         "Parabolic SAR Bullish"
       ],
-      "funding_note": "Funding -2.0872%/8h (~-2285% annualized)",
+      "funding_note": "Funding -1.6836%/8h (~-1844% annualized)",
       "current_price": 0.3105,
       "rsi": 64.36,
       "rsi_hourly": 66.25,
@@ -454,7 +567,7 @@
       "commentary": [
         "BB squeeze detected (3.75% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
         "ADX 13.2 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
-        "Funding is deeply negative (-2.0872%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "Funding is deeply negative (-1.6836%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
         "RSI 64.36 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
@@ -478,13 +591,13 @@
       "risk_reward": "R:R 1:1.5 to 1:2.5",
       "confidence": 82,
       "reasons": [
-        "Funding -0.1263% \u2014 shorts paying",
+        "Funding -0.5842% \u2014 shorts paying",
         "Extreme negative funding \u2014 violent squeeze likely",
         "MFI 18.97 oversold",
         "First Quarter \u2014 waxing energy",
         "Pattern: Morning Star \u2014 reversal signal"
       ],
-      "funding_note": "Funding -0.1263%/8h (~-138% annualized)",
+      "funding_note": "Funding -0.5842%/8h (~-640% annualized)",
       "current_price": 0.535,
       "rsi": 61.67,
       "rsi_hourly": 59.77,
@@ -513,7 +626,7 @@
       "commentary": [
         "BB squeeze detected (4.56% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
         "ADX 14.99 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
-        "Funding is deeply negative (-0.1263%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "Funding is deeply negative (-0.5842%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
         "Open Interest falling \u2014 longs are exiting. Momentum is fading. Wait for OI to stabilize.",
         "RSI 61.67 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
@@ -546,7 +659,7 @@
         "Above Ichimoku Cloud",
         "Bullish TK Cross"
       ],
-      "funding_note": "Funding -0.9533%/8h (~-1044% annualized)",
+      "funding_note": "Funding -1.3006%/8h (~-1424% annualized)",
       "current_price": 2.918,
       "rsi": 62.95,
       "rsi_hourly": 55.92,
@@ -573,7 +686,7 @@
       "commentary": [
         "BB squeeze detected (1.73% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
         "ADX 16.38 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
-        "Funding is deeply negative (-0.9533%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "Funding is deeply negative (-1.3006%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
         "RSI 62.95 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
@@ -598,16 +711,16 @@
       "confidence": 74,
       "reasons": [
         "Recovery \u2014 bounce in progress",
-        "RSI 55.79 momentum zone",
+        "RSI 55.8 momentum zone",
         "MACD histogram positive",
         "Supertrend Bullish",
         "Above Ichimoku Cloud",
         "First Quarter \u2014 bullish moon"
       ],
-      "funding_note": "Funding -0.4446%/8h (~-487% annualized)",
+      "funding_note": "Funding -0.7689%/8h (~-842% annualized)",
       "current_price": 0.3507,
-      "rsi": 55.79,
-      "rsi_hourly": 59.35,
+      "rsi": 55.8,
+      "rsi_hourly": 59.44,
       "trend": "Recovery",
       "adx": 20.14,
       "adx_strength": "Moderate",
@@ -621,7 +734,7 @@
         "Doji"
       ],
       "score_signals": [
-        "RSI 55.79 momentum zone",
+        "RSI 55.8 momentum zone",
         "MACD Bullish",
         "BB squeeze \u2014 breakout imminent",
         "Supertrend Bullish",
@@ -632,8 +745,8 @@
       ],
       "commentary": [
         "BB squeeze detected (2.78% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
-        "Funding is deeply negative (-0.4446%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
-        "RSI 55.79 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
+        "Funding is deeply negative (-0.7689%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "RSI 55.8 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
       ],
@@ -656,12 +769,12 @@
       "risk_reward": "R:R 1:1.5 to 1:2.5",
       "confidence": 70,
       "reasons": [
-        "Funding -0.9533% \u2014 shorts paying",
+        "Funding -1.3006% \u2014 shorts paying",
         "Extreme negative funding \u2014 violent squeeze likely",
         "MFI 4.76 oversold",
         "First Quarter \u2014 waxing energy"
       ],
-      "funding_note": "Funding -0.9533%/8h (~-1044% annualized)",
+      "funding_note": "Funding -1.3006%/8h (~-1424% annualized)",
       "current_price": 2.918,
       "rsi": 62.95,
       "rsi_hourly": 55.92,
@@ -688,7 +801,7 @@
       "commentary": [
         "BB squeeze detected (1.73% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
         "ADX 16.38 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
-        "Funding is deeply negative (-0.9533%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "Funding is deeply negative (-1.3006%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
         "RSI 62.95 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
@@ -719,16 +832,16 @@
         "First Quarter \u2014 bullish moon",
         "Astro score 65/100"
       ],
-      "funding_note": "Funding -0.8516%/8h (~-933% annualized)",
+      "funding_note": "Funding -0.974%/8h (~-1067% annualized)",
       "current_price": 1.4585,
-      "rsi": 49.08,
-      "rsi_hourly": 35.83,
+      "rsi": 49.12,
+      "rsi_hourly": 36.13,
       "trend": "Recovery",
-      "adx": 15.7,
+      "adx": 15.66,
       "adx_strength": "Weak",
       "supertrend": "Bullish",
       "ichimoku_cloud": "Inside Cloud (Neutral)",
-      "macd_histogram": 0.001352,
+      "macd_histogram": 0.001351,
       "atr_pct": 0.25,
       "bb_width": 1.52,
       "oi_trend": "Stable",
@@ -744,14 +857,14 @@
       ],
       "commentary": [
         "BB squeeze detected (1.52% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
-        "ADX 15.7 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
-        "Funding is deeply negative (-0.8516%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "ADX 15.66 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
+        "Funding is deeply negative (-0.974%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
       ],
       "warning": "",
       "quality": "RISKY",
       "risky_flags": [
-        "ADX 15.7 < 20 \u2014 no trend (Wilder threshold)"
+        "ADX 15.66 < 20 \u2014 no trend (Wilder threshold)"
       ]
     },
     {
@@ -767,15 +880,15 @@
       "risk_reward": "R:R 1:1.5 to 1:2.5",
       "confidence": 70,
       "reasons": [
-        "Funding -0.4446% \u2014 shorts paying",
+        "Funding -0.7689% \u2014 shorts paying",
         "Extreme negative funding \u2014 violent squeeze likely",
         "MFI 4.98 oversold",
         "First Quarter \u2014 waxing energy"
       ],
-      "funding_note": "Funding -0.4446%/8h (~-487% annualized)",
+      "funding_note": "Funding -0.7689%/8h (~-842% annualized)",
       "current_price": 0.3507,
-      "rsi": 55.79,
-      "rsi_hourly": 59.35,
+      "rsi": 55.8,
+      "rsi_hourly": 59.44,
       "trend": "Recovery",
       "adx": 20.14,
       "adx_strength": "Moderate",
@@ -789,7 +902,7 @@
         "Doji"
       ],
       "score_signals": [
-        "RSI 55.79 momentum zone",
+        "RSI 55.8 momentum zone",
         "MACD Bullish",
         "BB squeeze \u2014 breakout imminent",
         "Supertrend Bullish",
@@ -800,8 +913,8 @@
       ],
       "commentary": [
         "BB squeeze detected (2.78% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
-        "Funding is deeply negative (-0.4446%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
-        "RSI 55.79 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
+        "Funding is deeply negative (-0.7689%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "RSI 55.8 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
       ],
@@ -824,14 +937,14 @@
       "risk_reward": "R:R 1:1.5 to 1:2.5",
       "confidence": 60,
       "reasons": [
-        "Funding -2.7515% \u2014 shorts paying",
+        "Funding -2.6395% \u2014 shorts paying",
         "Extreme negative funding \u2014 violent squeeze likely",
         "First Quarter \u2014 waxing energy"
       ],
-      "funding_note": "Funding -2.7515%/8h (~-3013% annualized)",
+      "funding_note": "Funding -2.6395%/8h (~-2890% annualized)",
       "current_price": 0.514,
-      "rsi": 60.97,
-      "rsi_hourly": 51.95,
+      "rsi": 60.96,
+      "rsi_hourly": 51.78,
       "trend": "Strong Uptrend",
       "adx": 15.22,
       "adx_strength": "Weak",
@@ -846,7 +959,7 @@
       ],
       "score_signals": [
         "EMA Stack Bullish",
-        "RSI 60.97 momentum zone",
+        "RSI 60.96 momentum zone",
         "MACD Bullish",
         "BB squeeze \u2014 breakout imminent",
         "Supertrend Bullish",
@@ -857,8 +970,8 @@
       "commentary": [
         "BB squeeze detected (3.37% width) \u2014 a large move is coming but direction not yet confirmed. Wait for price to break clearly above/below the bands before entering.",
         "ADX 15.22 \u2014 Trend is weak. Price may chop rather than trend. Reduce size.",
-        "Funding is deeply negative (-2.7515%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
-        "RSI 60.97 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
+        "Funding is deeply negative (-2.6395%/8h) \u2014 shorts are paying heavily. This is classic squeeze fuel. Any positive catalyst could trigger rapid short covering.",
+        "RSI 60.96 is in the ideal momentum zone \u2014 not overbought, not oversold. Clean entry conditions.",
         "Both Ichimoku Cloud and Supertrend agree \u2014 bullish structure confirmed on multiple timeframes.",
         "\u23f3 Entry timing: WAIT \u2014 BB squeeze means direction unclear. Enter only after clear breakout candle closes."
       ],
@@ -869,7 +982,7 @@
       ]
     }
   ],
-  "clean_count": 5,
+  "clean_count": 7,
   "risky_count": 24,
   "astro_summary": {
     "moon_phase": "First Quarter",
