@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T17:47:49Z"
+    "generated_at": "2026-08-20T18:38:43Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -21,7 +21,7 @@
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "AI",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,37 +40,36 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Payments",
-        "avg_score": 65.7
-      },
-      {
         "name": "L1",
-        "avg_score": 63.5
+        "avg_score": 64.5
       },
       {
-        "name": "Meme",
-        "avg_score": 58.6
+        "name": "Payments",
+        "avg_score": 60.4
       },
       {
-        "name": "Emerging",
+        "name": "L2",
+        "avg_score": 58.5
+      },
+      {
+        "name": "Infra",
         "avg_score": 58.3
       },
       {
-        "name": "Gaming",
-        "avg_score": 57.9
+        "name": "AI",
+        "avg_score": 58.1
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Crescent": 4,
-      "Last Quarter": 3,
-      "Waning Gibbous": 1,
-      "Waning Crescent": 1
+      "Waxing Crescent": 5,
+      "Last Quarter": 2,
+      "New Moon": 2
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Payments, L1, Meme.",
+    "Strongest sectors on similar days: L1, Payments, L2.",
     "Mars in Gemini + Day of Jupiter is the dominant sky signature today."
   ],
   "similar_days": [
@@ -80,7 +79,7 @@
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
       "day_ruler": "Jupiter",
-      "strongest_sector": "AI",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -97,7 +96,7 @@
     },
     {
       "date": "2026-08-19",
-      "similarity_pct": 83.0,
+      "similarity_pct": 85.7,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mercury",
@@ -105,7 +104,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 83.0,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -120,33 +119,8 @@
       }
     },
     {
-      "date": "2026-08-06",
-      "similarity_pct": 80.4,
-      "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "AI",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 80.4,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Day ruler Jupiter",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Sun in: Cancer \u2192 now Leo",
-          "Moon phase: Last Quarter \u2192 now First Quarter",
-          "Moon in: Aries \u2192 now Scorpio"
-        ]
-      }
-    },
-    {
       "date": "2026-08-17",
-      "similarity_pct": 79.5,
+      "similarity_pct": 82.1,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Moon",
@@ -154,7 +128,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -191,6 +165,31 @@
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
           "Day ruler: Mars \u2192 now Jupiter",
           "Moon in: Libra \u2192 now Scorpio"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "similarity_pct": 77.7,
+      "cosmo_score": 32.0,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "AI",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 77.7,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Day ruler Jupiter",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Sun in: Cancer \u2192 now Leo",
+          "Moon phase: Last Quarter \u2192 now First Quarter",
+          "Moon in: Aries \u2192 now Scorpio"
         ]
       }
     }
