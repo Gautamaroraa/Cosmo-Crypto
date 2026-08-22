@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-08-22",
-    "generated_at": "2026-08-22T17:46:54Z"
+    "generated_at": "2026-08-22T18:30:26Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -21,7 +21,7 @@
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Payments",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,23 +41,23 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 64.2
+        "avg_score": 64.7
       },
       {
         "name": "Payments",
-        "avg_score": 64.2
+        "avg_score": 60.1
       },
       {
-        "name": "Meme",
-        "avg_score": 55.5
+        "name": "AI",
+        "avg_score": 55.7
       },
       {
-        "name": "Emerging",
+        "name": "L2",
         "avg_score": 55.3
       },
       {
-        "name": "DeFi",
-        "avg_score": 55.2
+        "name": "Emerging",
+        "avg_score": 55.1
       }
     ],
     "recurring_stocks": [],
@@ -66,12 +66,12 @@
       "Waxing Crescent": 4,
       "Last Quarter": 1,
       "Waning Gibbous": 1,
-      "Waning Crescent": 1
+      "New Moon": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, Payments, Meme.",
+    "Strongest sectors on similar days: L1, Payments, AI.",
     "Mars in Gemini + Day of Saturn is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +81,7 @@
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
       "day_ruler": "Saturn",
-      "strongest_sector": "Payments",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +98,7 @@
     },
     {
       "date": "2026-08-20",
-      "similarity_pct": 81.2,
+      "similarity_pct": 83.9,
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
       "day_ruler": "Jupiter",
@@ -106,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 81.2,
+        "similarity_pct": 83.9,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -122,7 +122,7 @@
     },
     {
       "date": "2026-08-21",
-      "similarity_pct": 81.2,
+      "similarity_pct": 83.9,
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
       "day_ruler": "Venus",
@@ -130,7 +130,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 81.2,
+        "similarity_pct": 83.9,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -145,12 +145,12 @@
       }
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-08-17",
       "similarity_pct": 77.7,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
-      "day_ruler": "Mars",
-      "strongest_sector": "Payments",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -164,22 +164,22 @@
         ],
         "different": [
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Day ruler: Mars \u2192 now Saturn",
+          "Day ruler: Moon \u2192 now Saturn",
           "Moon in: Libra \u2192 now Sagittarius"
         ]
       }
     },
     {
-      "date": "2026-08-17",
-      "similarity_pct": 75.0,
+      "date": "2026-08-19",
+      "similarity_pct": 77.7,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
-      "day_ruler": "Moon",
+      "day_ruler": "Mercury",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 75.0,
+        "similarity_pct": 77.7,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -189,8 +189,8 @@
         ],
         "different": [
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Day ruler: Moon \u2192 now Saturn",
-          "Moon in: Libra \u2192 now Sagittarius"
+          "Day ruler: Mercury \u2192 now Saturn",
+          "Moon in: Scorpio \u2192 now Sagittarius"
         ]
       }
     }
