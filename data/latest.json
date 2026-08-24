@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-08-24",
-    "generated_at": "2026-08-24T20:03:31Z",
+    "generated_at": "2026-08-24T20:49:02Z",
     "version": "1.0",
     "type": "crypto"
   },
@@ -32,8 +32,8 @@
           "RSI_ASTRO_SWEET_SPOT"
         ],
         "funding_rate": {
-          "rate": 7.3336,
-          "annualized": 8030.3,
+          "rate": 7.0515,
+          "annualized": 7721.4,
           "sentiment": "Long Heavy"
         }
       },
@@ -67,7 +67,7 @@
         "direction": "Bullish",
         "price": 6.936,
         "change_pct": 1.54,
-        "rsi": 32.88,
+        "rsi": 32.87,
         "trend": "Downtrend",
         "rule_flags": [
           "HIGH_FUNDING_BULLISH_ASTRO",
@@ -95,8 +95,8 @@
           "VOLUME_SPIKE_ASTRO_ALIGNED"
         ],
         "funding_rate": {
-          "rate": -6.4613,
-          "annualized": -7075.1,
+          "rate": -6.6761,
+          "annualized": -7310.3,
           "sentiment": "Short Heavy"
         }
       },
@@ -113,8 +113,8 @@
         "trend": "Strong Uptrend",
         "rule_flags": [],
         "funding_rate": {
-          "rate": 2.5745,
-          "annualized": 2819.0,
+          "rate": 2.4845,
+          "annualized": 2720.5,
           "sentiment": "Long Heavy"
         }
       }
@@ -135,18 +135,18 @@
     },
     "reference": {
       "BTC": {
-        "price": 78609.0,
-        "change_pct": 1.65,
+        "price": 78884.0,
+        "change_pct": 1.95,
         "funding": {
           "rate": 1.0,
           "sentiment": "Long Heavy"
         }
       },
       "ETH": {
-        "price": 2467.1,
-        "change_pct": 0.91,
+        "price": 2472.8,
+        "change_pct": 1.06,
         "funding": {
-          "rate": 0.9013,
+          "rate": 0.8536,
           "sentiment": "Long Heavy"
         }
       }
@@ -164,98 +164,98 @@
     ],
     "planets": {
       "Sun": {
-        "longitude": 127.4462,
+        "longitude": 127.4765,
         "rashi": "Leo",
         "rashi_lord": "Sun",
-        "degrees_in_rashi": 7.4462,
+        "degrees_in_rashi": 7.4765,
         "nakshatra": "Magha",
         "nakshatra_pada": 3,
         "nakshatra_lord": "Ketu",
         "retrograde": false,
-        "speed": 0.964049
+        "speed": 0.96406
       },
       "Moon": {
-        "longitude": 269.2129,
+        "longitude": 269.5934,
         "rashi": "Sagittarius",
         "rashi_lord": "Jupiter",
-        "degrees_in_rashi": 29.2129,
+        "degrees_in_rashi": 29.5934,
         "nakshatra": "Uttara Ashadha",
         "nakshatra_pada": 1,
         "nakshatra_lord": "Sun",
         "retrograde": false,
-        "speed": 12.072172
+        "speed": 12.076981
       },
       "Mars": {
-        "longitude": 74.5832,
+        "longitude": 74.6035,
         "rashi": "Gemini",
         "rashi_lord": "Mercury",
-        "degrees_in_rashi": 14.5832,
+        "degrees_in_rashi": 14.6035,
         "nakshatra": "Ardra",
         "nakshatra_pada": 3,
         "nakshatra_lord": "Rahu",
         "retrograde": false,
-        "speed": 0.644415
+        "speed": 0.64437
       },
       "Mercury": {
-        "longitude": 124.5204,
+        "longitude": 124.5834,
         "rashi": "Leo",
         "rashi_lord": "Sun",
-        "degrees_in_rashi": 4.5204,
+        "degrees_in_rashi": 4.5834,
         "nakshatra": "Magha",
         "nakshatra_pada": 2,
         "nakshatra_lord": "Ketu",
         "retrograde": false,
-        "speed": 1.999262
+        "speed": 1.998952
       },
       "Jupiter": {
-        "longitude": 107.9493,
+        "longitude": 107.9561,
         "rashi": "Cancer",
         "rashi_lord": "Moon",
-        "degrees_in_rashi": 17.9493,
+        "degrees_in_rashi": 17.9561,
         "nakshatra": "Ashlesha",
         "nakshatra_pada": 1,
         "nakshatra_lord": "Mercury",
         "retrograde": false,
-        "speed": 0.214394
+        "speed": 0.214377
       },
       "Venus": {
-        "longitude": 172.9238,
+        "longitude": 172.9514,
         "rashi": "Virgo",
         "rashi_lord": "Mercury",
-        "degrees_in_rashi": 22.9238,
+        "degrees_in_rashi": 22.9514,
         "nakshatra": "Hasta",
         "nakshatra_pada": 4,
         "nakshatra_lord": "Moon",
         "retrograde": false,
-        "speed": 0.878659
+        "speed": 0.878347
       },
       "Saturn": {
-        "longitude": 349.8212,
+        "longitude": 349.8197,
         "rashi": "Pisces",
         "rashi_lord": "Jupiter",
-        "degrees_in_rashi": 19.8212,
+        "degrees_in_rashi": 19.8197,
         "nakshatra": "Revati",
         "nakshatra_pada": 1,
         "nakshatra_lord": "Mercury",
         "retrograde": true,
-        "speed": -0.046752
+        "speed": -0.046796
       },
       "Rahu": {
-        "longitude": 305.4542,
+        "longitude": 305.4526,
         "rashi": "Aquarius",
         "rashi_lord": "Saturn",
-        "degrees_in_rashi": 5.4542,
+        "degrees_in_rashi": 5.4526,
         "nakshatra": "Dhanishtha",
         "nakshatra_pada": 4,
         "nakshatra_lord": "Mars",
         "retrograde": true,
-        "speed": -0.052942
+        "speed": -0.052943
       },
       "Ketu": {
-        "longitude": 125.4542,
+        "longitude": 125.4526,
         "rashi": "Leo",
         "rashi_lord": "Sun",
-        "degrees_in_rashi": 5.4542,
+        "degrees_in_rashi": 5.4526,
         "nakshatra": "Magha",
         "nakshatra_pada": 2,
         "nakshatra_lord": "Ketu",
@@ -269,21 +269,21 @@
           "Sun",
           "Mercury"
         ],
-        "orb": 2.93
+        "orb": 2.89
       },
       {
         "planets": [
           "Sun",
           "Ketu"
         ],
-        "orb": 1.99
+        "orb": 2.02
       },
       {
         "planets": [
           "Mercury",
           "Ketu"
         ],
-        "orb": 0.93
+        "orb": 0.87
       }
     ],
     "aspects": [
@@ -293,7 +293,7 @@
           "Mars"
         ],
         "aspect": "Sextile",
-        "orb": 7.14
+        "orb": 7.13
       },
       {
         "planets": [
@@ -301,7 +301,7 @@
           "Rahu"
         ],
         "aspect": "Opposition",
-        "orb": 1.99
+        "orb": 2.02
       },
       {
         "planets": [
@@ -309,7 +309,7 @@
           "Venus"
         ],
         "aspect": "Square",
-        "orb": 6.29
+        "orb": 6.64
       },
       {
         "planets": [
@@ -317,7 +317,7 @@
           "Saturn"
         ],
         "aspect": "Square",
-        "orb": 5.24
+        "orb": 5.22
       },
       {
         "planets": [
@@ -325,7 +325,7 @@
           "Rahu"
         ],
         "aspect": "Opposition",
-        "orb": 0.93
+        "orb": 0.87
       },
       {
         "planets": [
@@ -333,7 +333,7 @@
           "Venus"
         ],
         "aspect": "Sextile",
-        "orb": 4.97
+        "orb": 5.0
       },
       {
         "planets": [
@@ -341,7 +341,7 @@
           "Saturn"
         ],
         "aspect": "Trine",
-        "orb": 1.87
+        "orb": 1.86
       },
       {
         "planets": [
@@ -349,7 +349,7 @@
           "Saturn"
         ],
         "aspect": "Opposition",
-        "orb": 3.1
+        "orb": 3.13
       },
       {
         "planets": [
@@ -382,18 +382,18 @@
     },
     "reference": {
       "BTC": {
-        "price": 78609.0,
-        "change_pct": 1.65,
+        "price": 78884.0,
+        "change_pct": 1.95,
         "funding": {
           "rate": 1.0,
           "sentiment": "Long Heavy"
         }
       },
       "ETH": {
-        "price": 2467.1,
-        "change_pct": 0.91,
+        "price": 2472.8,
+        "change_pct": 1.06,
         "funding": {
-          "rate": 0.9013,
+          "rate": 0.8536,
           "sentiment": "Long Heavy"
         }
       }
@@ -574,8 +574,8 @@
       "name": "XLM",
       "sector": "L1",
       "funding_rate": {
-        "rate": 7.3336,
-        "annualized": 8030.3,
+        "rate": 7.0515,
+        "annualized": 7721.4,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -684,12 +684,12 @@
       "volume_usd": 9809880.0,
       "ema9": 1.271365,
       "ema20": 1.305409,
-      "ema50": 1.37355,
-      "ema200": 1.418838,
+      "ema50": 1.373517,
+      "ema200": 1.418603,
       "rsi": 47.25,
-      "rsi_hourly": 37.78,
-      "macd": -0.043676,
-      "macd_signal": -0.045929,
+      "rsi_hourly": 37.88,
+      "macd": -0.043675,
+      "macd_signal": -0.045928,
       "macd_histogram": 0.002253,
       "bb_upper": 1.416873,
       "bb_mid": 1.307595,
@@ -697,7 +697,7 @@
       "bb_width": 16.71,
       "atr": 0.050982,
       "atr_pct": 3.89,
-      "vwap": 1.441042,
+      "vwap": 1.441065,
       "obv": 2843118.0,
       "obv_prev": 6094107.0,
       "support": 1.2207,
@@ -780,22 +780,22 @@
       "volume_usd": 407802.0,
       "ema9": 6.912488,
       "ema20": 7.094313,
-      "ema50": 7.43595,
-      "ema200": 7.616913,
-      "rsi": 32.88,
-      "rsi_hourly": 52.54,
-      "macd": -0.232367,
-      "macd_signal": -0.243746,
-      "macd_histogram": 0.011379,
+      "ema50": 7.436065,
+      "ema200": 7.619633,
+      "rsi": 32.87,
+      "rsi_hourly": 52.49,
+      "macd": -0.23237,
+      "macd_signal": -0.24375,
+      "macd_histogram": 0.011381,
       "bb_upper": 7.533786,
       "bb_mid": 7.0824,
       "bb_lower": 6.631014,
       "bb_width": 12.75,
-      "atr": 0.120034,
+      "atr": 0.120018,
       "atr_pct": 1.73,
-      "vwap": 7.885342,
-      "obv": -23561.0,
-      "obv_prev": -95265.0,
+      "vwap": 7.885003,
+      "obv": -23683.0,
+      "obv_prev": -95387.0,
       "support": 6.813,
       "resistance": 7.5,
       "key_support": 6.813,
@@ -816,7 +816,7 @@
         "cloud_signal": "Below Cloud (Bearish)",
         "tk_cross": "Bearish TK Cross"
       },
-      "supertrend": 6.645781,
+      "supertrend": 6.645785,
       "supertrend_signal": "Bullish",
       "pivots": {
         "pp": 6.841,
@@ -834,9 +834,9 @@
       "mfi": 53.97,
       "psar": 6.813,
       "psar_signal": "Bullish",
-      "keltner_upper": 7.374707,
+      "keltner_upper": 7.374493,
       "keltner_mid": 7.094313,
-      "keltner_lower": 6.813919,
+      "keltner_lower": 6.814133,
       "donchian_upper": 7.5,
       "donchian_lower": 6.813,
       "technical_score": 87,
@@ -865,8 +865,8 @@
       "name": "APT",
       "sector": "L1",
       "funding_rate": {
-        "rate": -6.4613,
-        "annualized": -7075.1,
+        "rate": -6.6761,
+        "annualized": -7310.3,
         "sentiment": "Short Heavy"
       },
       "open_interest": null,
@@ -961,8 +961,8 @@
       "name": "SKYAI",
       "sector": "AI",
       "funding_rate": {
-        "rate": 2.5745,
-        "annualized": 2819.0,
+        "rate": 2.4845,
+        "annualized": 2720.5,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -972,11 +972,11 @@
       "volume_usd": 16394.0,
       "ema9": 0.076518,
       "ema20": 0.076029,
-      "ema50": 0.074408,
-      "ema200": 0.070917,
+      "ema50": 0.074411,
+      "ema200": 0.070932,
       "rsi": 55.61,
-      "rsi_hourly": 39.22,
-      "macd": 0.000461,
+      "rsi_hourly": 39.2,
+      "macd": 0.00046,
       "macd_signal": 0.000192,
       "macd_histogram": 0.000269,
       "bb_upper": 0.078426,
@@ -985,7 +985,7 @@
       "bb_width": 8.5,
       "atr": 0.002777,
       "atr_pct": 3.58,
-      "vwap": 0.068862,
+      "vwap": 0.068824,
       "obv": 1013816.0,
       "obv_prev": 938614.0,
       "support": 0.07216,
@@ -1067,12 +1067,12 @@
       "volume_usd": 2.0,
       "ema9": 0.075512,
       "ema20": 0.075223,
-      "ema50": 0.074635,
-      "ema200": 0.074814,
-      "rsi": 54.48,
-      "rsi_hourly": 60.28,
+      "ema50": 0.074646,
+      "ema200": 0.074902,
+      "rsi": 54.47,
+      "rsi_hourly": 60.05,
       "macd": 0.000402,
-      "macd_signal": 0.000459,
+      "macd_signal": 0.000458,
       "macd_histogram": -5.7e-05,
       "bb_upper": 0.076733,
       "bb_mid": 0.075205,
@@ -1080,9 +1080,9 @@
       "bb_width": 4.06,
       "atr": 0.000716,
       "atr_pct": 0.95,
-      "vwap": 0.074517,
-      "obv": 401.0,
-      "obv_prev": 426.0,
+      "vwap": 0.074545,
+      "obv": 146.0,
+      "obv_prev": 171.0,
       "support": 0.0735,
       "resistance": 0.0765,
       "key_support": 0.0742,
@@ -1114,22 +1114,22 @@
         "s2": 0.0757,
         "s3": 0.0757
       },
-      "adx": 8.32,
+      "adx": 8.31,
       "adx_strength": "Weak",
       "cci": 53.48,
       "roc": -0.79,
       "mfi": 1.43,
       "psar": 0.073765,
       "psar_signal": "Bullish",
-      "keltner_upper": 0.076755,
+      "keltner_upper": 0.076757,
       "keltner_mid": 0.075223,
-      "keltner_lower": 0.073691,
+      "keltner_lower": 0.073689,
       "donchian_upper": 0.0765,
       "donchian_lower": 0.0735,
       "technical_score": 98,
       "score_signals": [
         "Price above EMA20/50",
-        "RSI 54.48 momentum zone",
+        "RSI 54.47 momentum zone",
         "MACD Bearish",
         "BB squeeze \u2014 breakout imminent",
         "Supertrend Bullish",
@@ -1149,8 +1149,8 @@
       "name": "DOGE",
       "sector": "Meme",
       "funding_rate": {
-        "rate": 5.0735,
-        "annualized": 5555.4,
+        "rate": 5.2621,
+        "annualized": 5762.0,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -1160,10 +1160,10 @@
       "volume_usd": 16720.0,
       "ema9": 0.081074,
       "ema20": 0.082383,
-      "ema50": 0.085588,
-      "ema200": 0.087677,
+      "ema50": 0.085595,
+      "ema200": 0.087728,
       "rsi": 48.13,
-      "rsi_hourly": 42.76,
+      "rsi_hourly": 42.41,
       "macd": -0.001828,
       "macd_signal": -0.00207,
       "macd_histogram": 0.000242,
@@ -1173,9 +1173,9 @@
       "bb_width": 8.6,
       "atr": 0.002182,
       "atr_pct": 2.63,
-      "vwap": 0.090199,
-      "obv": -151372.0,
-      "obv_prev": -508119.0,
+      "vwap": 0.090198,
+      "obv": -196178.0,
+      "obv_prev": -552925.0,
       "support": 0.07917,
       "resistance": 0.08583,
       "key_support": 0.07917,
@@ -1207,7 +1207,7 @@
         "s2": 0.07743,
         "s3": 0.07509
       },
-      "adx": 42.2,
+      "adx": 42.21,
       "adx_strength": "Strong",
       "cci": 39.66,
       "roc": 1.22,
@@ -1222,7 +1222,7 @@
       "technical_score": 100,
       "score_signals": [
         "MACD Bullish",
-        "ADX 42.2 \u2014 Strong trend",
+        "ADX 42.21 \u2014 Strong trend",
         "Supertrend Bullish",
         "Stoch RSI bullish cross",
         "OBV rising \u2014 buying pressure",
@@ -1242,8 +1242,8 @@
       "name": "GOAT",
       "sector": "Meme",
       "funding_rate": {
-        "rate": 1.9014,
-        "annualized": 2082.1,
+        "rate": 2.1768,
+        "annualized": 2383.6,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -1337,8 +1337,8 @@
       "name": "KAITO",
       "sector": "AI",
       "funding_rate": {
-        "rate": 1.2076,
-        "annualized": 1322.3,
+        "rate": 1.3058,
+        "annualized": 1429.8,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -1430,8 +1430,8 @@
       "name": "FIL",
       "sector": "Infra",
       "funding_rate": {
-        "rate": 7.8375,
-        "annualized": 8582.1,
+        "rate": 6.8884,
+        "annualized": 7542.8,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -1523,8 +1523,8 @@
       "name": "SUI",
       "sector": "L1",
       "funding_rate": {
-        "rate": 6.3806,
-        "annualized": 6986.8,
+        "rate": 6.4801,
+        "annualized": 7095.7,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -1534,12 +1534,12 @@
       "volume_usd": 118113.0,
       "ema9": 0.738586,
       "ema20": 0.757559,
-      "ema50": 0.788487,
-      "ema200": 0.802692,
+      "ema50": 0.788432,
+      "ema200": 0.802292,
       "rsi": 39.21,
-      "rsi_hourly": 49.81,
-      "macd": -0.023113,
-      "macd_signal": -0.023163,
+      "rsi_hourly": 50.01,
+      "macd": -0.023111,
+      "macd_signal": -0.023161,
       "macd_histogram": 5e-05,
       "bb_upper": 0.81497,
       "bb_mid": 0.7593,
@@ -1547,7 +1547,7 @@
       "bb_width": 14.66,
       "atr": 0.019597,
       "atr_pct": 2.64,
-      "vwap": 0.816894,
+      "vwap": 0.81687,
       "obv": -602551.0,
       "obv_prev": -612953.0,
       "support": 0.7227,
@@ -1581,7 +1581,7 @@
         "s2": 0.712733,
         "s3": 0.699867
       },
-      "adx": 41.53,
+      "adx": 41.51,
       "adx_strength": "Strong",
       "cci": -31.88,
       "roc": -0.65,
@@ -1596,7 +1596,7 @@
       "technical_score": 77,
       "score_signals": [
         "MACD Bullish",
-        "ADX 41.53 \u2014 Strong trend",
+        "ADX 41.51 \u2014 Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -1618,8 +1618,8 @@
       "name": "LTC",
       "sector": "L1",
       "funding_rate": {
-        "rate": 4.261,
-        "annualized": 4665.8,
+        "rate": 4.3924,
+        "annualized": 4809.7,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -1628,23 +1628,23 @@
       "change_pct": 0.6,
       "volume_usd": 1161902.0,
       "ema9": 48.249811,
-      "ema20": 48.992127,
-      "ema50": 50.348576,
-      "ema200": 51.083501,
+      "ema20": 48.992133,
+      "ema50": 50.350863,
+      "ema200": 51.100068,
       "rsi": 38.14,
-      "rsi_hourly": 52.47,
-      "macd": -0.945851,
-      "macd_signal": -0.999249,
-      "macd_histogram": 0.053398,
+      "rsi_hourly": 52.27,
+      "macd": -0.94591,
+      "macd_signal": -0.999336,
+      "macd_histogram": 0.053426,
       "bb_upper": 51.243697,
       "bb_mid": 48.9495,
       "bb_lower": 46.655303,
       "bb_width": 9.37,
       "atr": 0.779926,
       "atr_pct": 1.61,
-      "vwap": 51.583604,
-      "obv": 78357.0,
-      "obv_prev": 43237.0,
+      "vwap": 51.583683,
+      "obv": 60113.0,
+      "obv_prev": 24993.0,
       "support": 47.75,
       "resistance": 51.5,
       "key_support": 47.75,
@@ -1676,22 +1676,22 @@
         "s2": 47.466667,
         "s3": 47.043333
       },
-      "adx": 52.03,
+      "adx": 52.05,
       "adx_strength": "Very Strong",
       "cci": -39.2,
       "roc": -0.25,
       "mfi": 47.3,
       "psar": 47.78,
       "psar_signal": "Bullish",
-      "keltner_upper": 50.703701,
-      "keltner_mid": 48.992127,
-      "keltner_lower": 47.280553,
+      "keltner_upper": 50.703707,
+      "keltner_mid": 48.992133,
+      "keltner_lower": 47.280559,
       "donchian_upper": 51.5,
       "donchian_lower": 47.75,
       "technical_score": 77,
       "score_signals": [
         "MACD Bullish",
-        "ADX 52.03 \u2014 Very Strong trend",
+        "ADX 52.05 \u2014 Very Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -1809,8 +1809,8 @@
       "name": "SHIB",
       "sector": "Meme",
       "funding_rate": {
-        "rate": 0.8213,
-        "annualized": 899.3,
+        "rate": 0.9093,
+        "annualized": 995.7,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -1820,10 +1820,10 @@
       "volume_usd": 19.0,
       "ema9": 0.004945,
       "ema20": 0.005055,
-      "ema50": 0.005256,
-      "ema200": 0.005362,
-      "rsi": 39.26,
-      "rsi_hourly": 57.7,
+      "ema50": 0.005254,
+      "ema200": 0.00535,
+      "rsi": 39.27,
+      "rsi_hourly": 58.34,
       "macd": -0.000141,
       "macd_signal": -0.00015,
       "macd_histogram": 9e-06,
@@ -1834,8 +1834,8 @@
       "atr": 9.9e-05,
       "atr_pct": 1.99,
       "vwap": 0.005385,
-      "obv": -20310.0,
-      "obv_prev": -20478.0,
+      "obv": -20309.0,
+      "obv_prev": -20477.0,
       "support": 0.00485,
       "resistance": 0.005304,
       "key_support": 0.00485,
@@ -1870,7 +1870,7 @@
         "s2": 0.004874,
         "s3": 0.004852
       },
-      "adx": 34.11,
+      "adx": 34.07,
       "adx_strength": "Strong",
       "cci": -42.51,
       "roc": -0.42,
@@ -1885,7 +1885,7 @@
       "technical_score": 95,
       "score_signals": [
         "MACD Bullish",
-        "ADX 34.11 \u2014 Strong trend",
+        "ADX 34.07 \u2014 Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -1905,8 +1905,8 @@
       "name": "HBAR",
       "sector": "L1",
       "funding_rate": {
-        "rate": -1.6993,
-        "annualized": -1860.7,
+        "rate": -1.2561,
+        "annualized": -1375.5,
         "sentiment": "Short Heavy"
       },
       "open_interest": null,
@@ -1916,11 +1916,11 @@
       "volume_usd": 2958.0,
       "ema9": 0.073301,
       "ema20": 0.074446,
-      "ema50": 0.07615,
-      "ema200": 0.077204,
+      "ema50": 0.076162,
+      "ema200": 0.077318,
       "rsi": 42.4,
-      "rsi_hourly": 43.47,
-      "macd": -0.001307,
+      "rsi_hourly": 42.68,
+      "macd": -0.001308,
       "macd_signal": -0.001202,
       "macd_histogram": -0.000106,
       "bb_upper": 0.077833,
@@ -1929,7 +1929,7 @@
       "bb_width": 8.55,
       "atr": 0.001141,
       "atr_pct": 1.55,
-      "vwap": 0.078222,
+      "vwap": 0.078307,
       "obv": 60770.0,
       "obv_prev": 88617.0,
       "support": 0.07185,
@@ -1963,22 +1963,22 @@
         "s2": 0.070857,
         "s3": 0.069863
       },
-      "adx": 33.51,
+      "adx": 33.52,
       "adx_strength": "Strong",
       "cci": -44.6,
       "roc": -1.96,
       "mfi": 74.43,
       "psar": 0.07185,
       "psar_signal": "Bullish",
-      "keltner_upper": 0.076866,
+      "keltner_upper": 0.076864,
       "keltner_mid": 0.074446,
-      "keltner_lower": 0.072026,
+      "keltner_lower": 0.072028,
       "donchian_upper": 0.07757,
       "donchian_lower": 0.07185,
       "technical_score": 64,
       "score_signals": [
         "MACD Bearish",
-        "ADX 33.51 \u2014 Strong trend",
+        "ADX 33.52 \u2014 Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -2001,8 +2001,8 @@
       "name": "COOKIE",
       "sector": "AI",
       "funding_rate": {
-        "rate": 2.7233,
-        "annualized": 2982.0,
+        "rate": 4.5552,
+        "annualized": 4988.0,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -2105,22 +2105,22 @@
       "volume_usd": 141.0,
       "ema9": 0.31717,
       "ema20": 0.317666,
-      "ema50": 0.313256,
-      "ema200": 0.304413,
-      "rsi": 54.75,
-      "rsi_hourly": 47.81,
-      "macd": -8.3e-05,
-      "macd_signal": 0.000164,
-      "macd_histogram": -0.000247,
+      "ema50": 0.313321,
+      "ema200": 0.304737,
+      "rsi": 54.74,
+      "rsi_hourly": 47.52,
+      "macd": -8.4e-05,
+      "macd_signal": 0.000162,
+      "macd_histogram": -0.000246,
       "bb_upper": 0.322939,
       "bb_mid": 0.317285,
       "bb_lower": 0.311631,
       "bb_width": 3.56,
       "atr": 0.004828,
       "atr_pct": 1.51,
-      "vwap": 0.301403,
-      "obv": -1559.0,
-      "obv_prev": -1353.0,
+      "vwap": 0.301381,
+      "obv": -1609.0,
+      "obv_prev": -1403.0,
       "support": 0.3112,
       "resistance": 0.328,
       "key_support": 0.3112,
@@ -2152,7 +2152,7 @@
         "s2": 0.313033,
         "s3": 0.310167
       },
-      "adx": 10.98,
+      "adx": 10.95,
       "adx_strength": "Weak",
       "cci": 76.98,
       "roc": 1.36,
@@ -2167,7 +2167,7 @@
       "technical_score": 85,
       "score_signals": [
         "Price above EMA20/50",
-        "RSI 54.75 momentum zone",
+        "RSI 54.74 momentum zone",
         "MACD Bearish",
         "BB squeeze \u2014 breakout imminent",
         "Supertrend Bullish",
@@ -2291,22 +2291,22 @@
       "volume_usd": 33966.0,
       "ema9": 0.84251,
       "ema20": 0.858048,
-      "ema50": 0.885829,
-      "ema200": 0.898982,
+      "ema50": 0.885867,
+      "ema200": 0.899381,
       "rsi": 36.53,
-      "rsi_hourly": 49.71,
-      "macd": -0.019626,
-      "macd_signal": -0.020385,
+      "rsi_hourly": 49.58,
+      "macd": -0.019627,
+      "macd_signal": -0.020386,
       "macd_histogram": 0.000759,
       "bb_upper": 0.89938,
       "bb_mid": 0.8571,
       "bb_lower": 0.81482,
       "bb_width": 9.87,
-      "atr": 0.016435,
+      "atr": 0.016433,
       "atr_pct": 1.95,
-      "vwap": 0.918173,
-      "obv": -229271.0,
-      "obv_prev": -218650.0,
+      "vwap": 0.918163,
+      "obv": -230503.0,
+      "obv_prev": -219882.0,
       "support": 0.83,
       "resistance": 0.907,
       "key_support": 0.832,
@@ -2327,7 +2327,7 @@
         "cloud_signal": "Below Cloud (Bearish)",
         "tk_cross": "Bearish TK Cross"
       },
-      "supertrend": 0.798846,
+      "supertrend": 0.798847,
       "supertrend_signal": "Bullish",
       "pivots": {
         "pp": 0.837,
@@ -2338,22 +2338,22 @@
         "s2": 0.819,
         "s3": 0.808
       },
-      "adx": 38.9,
+      "adx": 38.91,
       "adx_strength": "Strong",
       "cci": -51.76,
       "roc": -0.82,
       "mfi": 26.35,
       "psar": 0.83,
       "psar_signal": "Bullish",
-      "keltner_upper": 0.894318,
+      "keltner_upper": 0.8943,
       "keltner_mid": 0.858048,
-      "keltner_lower": 0.821778,
+      "keltner_lower": 0.821796,
       "donchian_upper": 0.907,
       "donchian_lower": 0.83,
       "technical_score": 69,
       "score_signals": [
         "MACD Bullish",
-        "ADX 38.9 \u2014 Strong trend",
+        "ADX 38.91 \u2014 Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -2375,8 +2375,8 @@
       "name": "UNI",
       "sector": "DeFi",
       "funding_rate": {
-        "rate": 2.4887,
-        "annualized": 2725.1,
+        "rate": 2.4983,
+        "annualized": 2735.7,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -2385,21 +2385,21 @@
       "change_pct": 1.16,
       "volume_usd": 87902.0,
       "ema9": 3.755693,
-      "ema20": 3.827478,
-      "ema50": 3.98184,
-      "ema200": 4.105292,
+      "ema20": 3.827479,
+      "ema50": 3.982253,
+      "ema200": 4.108288,
       "rsi": 37.12,
-      "rsi_hourly": 45.2,
-      "macd": -0.090518,
-      "macd_signal": -0.091737,
-      "macd_histogram": 0.001219,
+      "rsi_hourly": 45.03,
+      "macd": -0.090529,
+      "macd_signal": -0.091753,
+      "macd_histogram": 0.001224,
       "bb_upper": 4.016712,
       "bb_mid": 3.830495,
       "bb_lower": 3.644278,
       "bb_width": 9.72,
-      "atr": 0.086921,
+      "atr": 0.086922,
       "atr_pct": 2.31,
-      "vwap": 4.221658,
+      "vwap": 4.221709,
       "obv": -502025.0,
       "obv_prev": -526706.0,
       "support": 3.694,
@@ -2435,22 +2435,22 @@
         "s2": 3.662667,
         "s3": 3.616333
       },
-      "adx": 49.03,
+      "adx": 49.02,
       "adx_strength": "Strong",
       "cci": -54.96,
       "roc": -1.8,
       "mfi": 47.26,
       "psar": 3.69578,
       "psar_signal": "Bullish",
-      "keltner_upper": 4.02057,
-      "keltner_mid": 3.827478,
-      "keltner_lower": 3.634386,
+      "keltner_upper": 4.020593,
+      "keltner_mid": 3.827479,
+      "keltner_lower": 3.634365,
       "donchian_upper": 4.059,
       "donchian_lower": 3.694,
       "technical_score": 87,
       "score_signals": [
         "MACD Bullish",
-        "ADX 49.03 \u2014 Strong trend",
+        "ADX 49.02 \u2014 Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -2470,8 +2470,8 @@
       "name": "MANTA",
       "sector": "L2",
       "funding_rate": {
-        "rate": 5.8441,
-        "annualized": 6399.3,
+        "rate": 6.1576,
+        "annualized": 6742.6,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -2563,8 +2563,8 @@
       "name": "SONIC",
       "sector": "Infra",
       "funding_rate": {
-        "rate": 3.5212,
-        "annualized": 3855.7,
+        "rate": 4.4829,
+        "annualized": 4908.8,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -2751,8 +2751,8 @@
       "name": "1MBABYDOGE",
       "sector": "Meme",
       "funding_rate": {
-        "rate": -0.96,
-        "annualized": -1051.3,
+        "rate": -0.5422,
+        "annualized": -593.7,
         "sentiment": "Short Heavy"
       },
       "open_interest": null,
@@ -2845,8 +2845,8 @@
       "name": "DUSK",
       "sector": "Emerging",
       "funding_rate": {
-        "rate": 5.532,
-        "annualized": 6057.5,
+        "rate": 6.1399,
+        "annualized": 6723.2,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -2938,8 +2938,8 @@
       "name": "WLD",
       "sector": "AI",
       "funding_rate": {
-        "rate": -1.3622,
-        "annualized": -1491.7,
+        "rate": -1.0827,
+        "annualized": -1185.6,
         "sentiment": "Short Heavy"
       },
       "open_interest": null,
@@ -3033,8 +3033,8 @@
       "name": "API3",
       "sector": "DeFi",
       "funding_rate": {
-        "rate": 3.8704,
-        "annualized": 4238.1,
+        "rate": 3.9233,
+        "annualized": 4296.0,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -3128,8 +3128,8 @@
       "name": "LIGHT",
       "sector": "Infra",
       "funding_rate": {
-        "rate": 0.7712,
-        "annualized": 844.4,
+        "rate": 0.5,
+        "annualized": 547.5,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -3139,12 +3139,12 @@
       "volume_usd": 3291.0,
       "ema9": 0.156516,
       "ema20": 0.158779,
-      "ema50": 0.158635,
-      "ema200": 0.155582,
-      "rsi": 38.65,
-      "rsi_hourly": 52.0,
-      "macd": -0.002033,
-      "macd_signal": -0.001351,
+      "ema50": 0.158616,
+      "ema200": 0.155444,
+      "rsi": 38.66,
+      "rsi_hourly": 52.13,
+      "macd": -0.002032,
+      "macd_signal": -0.00135,
       "macd_histogram": -0.000682,
       "bb_upper": 0.168903,
       "bb_mid": 0.159995,
@@ -3152,9 +3152,9 @@
       "bb_width": 11.13,
       "atr": 0.003584,
       "atr_pct": 2.32,
-      "vwap": 0.153176,
-      "obv": 19862.0,
-      "obv_prev": 43461.0,
+      "vwap": 0.153117,
+      "obv": 21226.0,
+      "obv_prev": 44825.0,
       "support": 0.1532,
       "resistance": 0.1715,
       "key_support": 0.1534,
@@ -3186,7 +3186,7 @@
         "s2": 0.1517,
         "s3": 0.1502
       },
-      "adx": 34.23,
+      "adx": 34.22,
       "adx_strength": "Strong",
       "cci": -64.91,
       "roc": -2.77,
@@ -3201,7 +3201,7 @@
       "technical_score": 80,
       "score_signals": [
         "MACD Bearish",
-        "ADX 34.23 \u2014 Strong trend",
+        "ADX 34.22 \u2014 Strong trend",
         "Supertrend Bullish",
         "Stoch RSI bullish cross",
         "Williams %R oversold",
@@ -3221,8 +3221,8 @@
       "name": "ADA",
       "sector": "L1",
       "funding_rate": {
-        "rate": 5.0919,
-        "annualized": 5575.6,
+        "rate": 5.0167,
+        "annualized": 5493.3,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -3232,22 +3232,22 @@
       "volume_usd": 159279.0,
       "ema9": 0.199961,
       "ema20": 0.205385,
-      "ema50": 0.213811,
-      "ema200": 0.217719,
+      "ema50": 0.213834,
+      "ema200": 0.21792,
       "rsi": 40.26,
-      "rsi_hourly": 33.14,
+      "rsi_hourly": 32.8,
       "macd": -0.006374,
-      "macd_signal": -0.006058,
-      "macd_histogram": -0.000316,
+      "macd_signal": -0.006059,
+      "macd_histogram": -0.000315,
       "bb_upper": 0.220202,
       "bb_mid": 0.20597,
       "bb_lower": 0.191738,
       "bb_width": 13.82,
       "atr": 0.00651,
       "atr_pct": 3.24,
-      "vwap": 0.221493,
-      "obv": -1331286.0,
-      "obv_prev": -2141147.0,
+      "vwap": 0.221492,
+      "obv": -1346134.0,
+      "obv_prev": -2155995.0,
       "support": 0.1935,
       "resistance": 0.2182,
       "key_support": 0.1935,
@@ -3281,22 +3281,22 @@
         "s2": 0.190767,
         "s3": 0.186133
       },
-      "adx": 63.76,
+      "adx": 63.75,
       "adx_strength": "Very Strong",
       "cci": -50.58,
       "roc": -3.51,
       "mfi": 31.12,
       "psar": 0.1935,
       "psar_signal": "Bullish",
-      "keltner_upper": 0.218895,
+      "keltner_upper": 0.218891,
       "keltner_mid": 0.205385,
-      "keltner_lower": 0.191875,
+      "keltner_lower": 0.191879,
       "donchian_upper": 0.2182,
       "donchian_lower": 0.1935,
       "technical_score": 59,
       "score_signals": [
         "MACD Bearish",
-        "ADX 63.76 \u2014 Very Strong trend",
+        "ADX 63.75 \u2014 Very Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -3318,8 +3318,8 @@
       "name": "SIREN",
       "sector": "Emerging",
       "funding_rate": {
-        "rate": 12.2164,
-        "annualized": 13376.9,
+        "rate": 14.0214,
+        "annualized": 15353.5,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -3505,8 +3505,8 @@
       "name": "ZEN",
       "sector": "Emerging",
       "funding_rate": {
-        "rate": -3.5114,
-        "annualized": -3845.0,
+        "rate": -3.4468,
+        "annualized": -3774.2,
         "sentiment": "Short Heavy"
       },
       "open_interest": null,
@@ -3515,21 +3515,21 @@
       "change_pct": 0.75,
       "volume_usd": 93.0,
       "ema9": 4.433756,
-      "ema20": 4.558077,
-      "ema50": 4.849768,
-      "ema200": 5.072777,
+      "ema20": 4.558074,
+      "ema50": 4.848701,
+      "ema200": 5.070968,
       "rsi": 31.94,
-      "rsi_hourly": 40.46,
-      "macd": -0.167503,
-      "macd_signal": -0.183455,
-      "macd_histogram": 0.015951,
+      "rsi_hourly": 41.04,
+      "macd": -0.167476,
+      "macd_signal": -0.183414,
+      "macd_histogram": 0.015939,
       "bb_upper": 4.899482,
       "bb_mid": 4.5497,
       "bb_lower": 4.199918,
       "bb_width": 15.38,
-      "atr": 0.074666,
+      "atr": 0.074649,
       "atr_pct": 1.68,
-      "vwap": 5.579584,
+      "vwap": 5.579448,
       "obv": 32930.0,
       "obv_prev": 32908.0,
       "support": 4.385,
@@ -3552,7 +3552,7 @@
         "cloud_signal": "Below Cloud (Bearish)",
         "tk_cross": "Bearish TK Cross"
       },
-      "supertrend": 4.260519,
+      "supertrend": 4.260522,
       "supertrend_signal": "Bullish",
       "pivots": {
         "pp": 4.404,
@@ -3563,22 +3563,22 @@
         "s2": 4.404,
         "s3": 4.404
       },
-      "adx": 62.38,
+      "adx": 62.36,
       "adx_strength": "Very Strong",
       "cci": -55.6,
       "roc": -1.81,
       "mfi": 57.7,
       "psar": 4.453794,
       "psar_signal": "Bearish",
-      "keltner_upper": 4.755871,
-      "keltner_mid": 4.558077,
-      "keltner_lower": 4.360283,
+      "keltner_upper": 4.755616,
+      "keltner_mid": 4.558074,
+      "keltner_lower": 4.360532,
       "donchian_upper": 4.897,
       "donchian_lower": 4.385,
       "technical_score": 67,
       "score_signals": [
         "MACD Bullish",
-        "ADX 62.38 \u2014 Very Strong trend",
+        "ADX 62.36 \u2014 Very Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -3600,8 +3600,8 @@
       "name": "JASMY",
       "sector": "Payments",
       "funding_rate": {
-        "rate": -3.821,
-        "annualized": -4184.0,
+        "rate": -2.056,
+        "annualized": -2251.3,
         "sentiment": "Short Heavy"
       },
       "open_interest": null,
@@ -3612,9 +3612,9 @@
       "ema9": 0.003943,
       "ema20": 0.004054,
       "ema50": 0.004221,
-      "ema200": 0.004305,
+      "ema200": 0.004309,
       "rsi": 34.78,
-      "rsi_hourly": 55.14,
+      "rsi_hourly": 54.98,
       "macd": -0.000133,
       "macd_signal": -0.000132,
       "macd_histogram": -1e-06,
@@ -3660,7 +3660,7 @@
         "s2": 0.003887,
         "s3": 0.003885
       },
-      "adx": 52.38,
+      "adx": 52.36,
       "adx_strength": "Very Strong",
       "cci": -54.36,
       "roc": -0.88,
@@ -3675,7 +3675,7 @@
       "technical_score": 65,
       "score_signals": [
         "MACD Bearish",
-        "ADX 52.38 \u2014 Very Strong trend",
+        "ADX 52.36 \u2014 Very Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -3697,8 +3697,8 @@
       "name": "TRUMP",
       "sector": "Meme",
       "funding_rate": {
-        "rate": 3.2056,
-        "annualized": 3510.1,
+        "rate": 3.0688,
+        "annualized": 3360.4,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -3708,22 +3708,22 @@
       "volume_usd": 263684.0,
       "ema9": 1.669056,
       "ema20": 1.731837,
-      "ema50": 1.957533,
-      "ema200": 2.151955,
+      "ema50": 1.957419,
+      "ema200": 2.151126,
       "rsi": 39.08,
-      "rsi_hourly": 38.82,
-      "macd": -0.101115,
-      "macd_signal": -0.124974,
-      "macd_histogram": 0.023859,
+      "rsi_hourly": 38.96,
+      "macd": -0.101112,
+      "macd_signal": -0.12497,
+      "macd_histogram": 0.023858,
       "bb_upper": 1.829517,
       "bb_mid": 1.70255,
       "bb_lower": 1.575583,
       "bb_width": 14.91,
       "atr": 0.083041,
       "atr_pct": 4.91,
-      "vwap": 2.602727,
-      "obv": 38099351.0,
-      "obv_prev": 37692938.0,
+      "vwap": 2.602579,
+      "obv": 38249725.0,
+      "obv_prev": 37843312.0,
       "support": 1.618,
       "resistance": 1.917,
       "key_support": 1.618,
@@ -3755,7 +3755,7 @@
         "s2": 1.617667,
         "s3": 1.591333
       },
-      "adx": 10.67,
+      "adx": 10.65,
       "adx_strength": "Weak",
       "cci": -4.74,
       "roc": 0.84,
@@ -3799,23 +3799,23 @@
       "change_pct": 1.34,
       "volume_usd": 151085.0,
       "ema9": 7.242964,
-      "ema20": 7.340183,
-      "ema50": 7.466532,
-      "ema200": 7.511515,
+      "ema20": 7.340185,
+      "ema50": 7.467142,
+      "ema200": 7.516326,
       "rsi": 42.07,
-      "rsi_hourly": 47.99,
-      "macd": -0.111629,
-      "macd_signal": -0.105357,
-      "macd_histogram": -0.006272,
+      "rsi_hourly": 47.73,
+      "macd": -0.111644,
+      "macd_signal": -0.10538,
+      "macd_histogram": -0.006264,
       "bb_upper": 7.675035,
       "bb_mid": 7.35845,
       "bb_lower": 7.041865,
       "bb_width": 8.6,
-      "atr": 0.144408,
+      "atr": 0.144401,
       "atr_pct": 1.99,
-      "vwap": 7.533829,
-      "obv": -126888.0,
-      "obv_prev": -173878.0,
+      "vwap": 7.533834,
+      "obv": -126979.0,
+      "obv_prev": -173969.0,
       "support": 7.13,
       "resistance": 7.7,
       "key_support": 7.13,
@@ -3836,7 +3836,7 @@
         "cloud_signal": "Below Cloud (Bearish)",
         "tk_cross": "Bearish TK Cross"
       },
-      "supertrend": 6.86504,
+      "supertrend": 6.865041,
       "supertrend_signal": "Bullish",
       "pivots": {
         "pp": 7.209333,
@@ -3854,9 +3854,9 @@
       "mfi": 27.63,
       "psar": 7.349294,
       "psar_signal": "Bearish",
-      "keltner_upper": 7.644977,
-      "keltner_mid": 7.340183,
-      "keltner_lower": 7.035389,
+      "keltner_upper": 7.644885,
+      "keltner_mid": 7.340185,
+      "keltner_lower": 7.035485,
       "donchian_upper": 7.7,
       "donchian_lower": 7.13,
       "technical_score": 52,
@@ -3884,8 +3884,8 @@
       "name": "NEAR",
       "sector": "L1",
       "funding_rate": {
-        "rate": 6.3549,
-        "annualized": 6958.6,
+        "rate": 5.7222,
+        "annualized": 6265.8,
         "sentiment": "Long Heavy"
       },
       "open_interest": null,
@@ -3895,20 +3895,20 @@
       "volume_usd": 3456.0,
       "ema9": 1.761377,
       "ema20": 1.803692,
-      "ema50": 1.8646,
-      "ema200": 1.898434,
+      "ema50": 1.86481,
+      "ema200": 1.899953,
       "rsi": 41.23,
-      "rsi_hourly": 56.23,
-      "macd": -0.048207,
-      "macd_signal": -0.04437,
-      "macd_histogram": -0.003837,
+      "rsi_hourly": 55.99,
+      "macd": -0.048212,
+      "macd_signal": -0.044378,
+      "macd_histogram": -0.003834,
       "bb_upper": 1.95356,
       "bb_mid": 1.81585,
       "bb_lower": 1.67814,
       "bb_width": 15.17,
       "atr": 0.03964,
       "atr_pct": 2.23,
-      "vwap": 1.938747,
+      "vwap": 1.938752,
       "obv": -13372.0,
       "obv_prev": -23820.0,
       "support": 1.709,
@@ -3942,7 +3942,7 @@
         "s2": 1.675,
         "s3": 1.641
       },
-      "adx": 48.83,
+      "adx": 48.87,
       "adx_strength": "Strong",
       "cci": -52.35,
       "roc": -1.99,
@@ -3957,7 +3957,7 @@
       "technical_score": 52,
       "score_signals": [
         "MACD Bearish",
-        "ADX 48.83 \u2014 Strong trend",
+        "ADX 48.87 \u2014 Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -3979,8 +3979,8 @@
       "name": "NOT",
       "sector": "Emerging",
       "funding_rate": {
-        "rate": -1.1182,
-        "annualized": -1224.4,
+        "rate": -1.9625,
+        "annualized": -2149.0,
         "sentiment": "Short Heavy"
       },
       "open_interest": null,
@@ -3992,8 +3992,8 @@
       "ema20": 0.000421,
       "ema50": 0.000428,
       "ema200": 0.000428,
-      "rsi": 40.47,
-      "rsi_hourly": 49.59,
+      "rsi": 40.46,
+      "rsi_hourly": 49.18,
       "macd": -7e-06,
       "macd_signal": -7e-06,
       "macd_histogram": -0.0,
@@ -4084,10 +4084,10 @@
       "volume_usd": 392.0,
       "ema9": 0.336945,
       "ema20": 0.342747,
-      "ema50": 0.354268,
-      "ema200": 0.362242,
+      "ema50": 0.354249,
+      "ema200": 0.3622,
       "rsi": 43.74,
-      "rsi_hourly": 59.73,
+      "rsi_hourly": 59.8,
       "macd": -0.007474,
       "macd_signal": -0.007995,
       "macd_histogram": 0.000521,
@@ -4097,9 +4097,9 @@
       "bb_width": 12.51,
       "atr": 0.003637,
       "atr_pct": 1.07,
-      "vwap": 0.376216,
-      "obv": -12469.0,
-      "obv_prev": -13617.0,
+      "vwap": 0.376166,
+      "obv": -10544.0,
+      "obv_prev": -11692.0,
       "support": 0.3335,
       "resistance": 0.369,
       "key_support": 0.3335,
@@ -4131,22 +4131,22 @@
         "s2": 0.3335,
         "s3": 0.3335
       },
-      "adx": 41.7,
+      "adx": 41.69,
       "adx_strength": "Strong",
       "cci": -15.22,
       "roc": 0.74,
       "mfi": 21.45,
       "psar": 0.343128,
       "psar_signal": "Bearish",
-      "keltner_upper": 0.351489,
+      "keltner_upper": 0.351483,
       "keltner_mid": 0.342747,
-      "keltner_lower": 0.334005,
+      "keltner_lower": 0.334011,
       "donchian_upper": 0.369,
       "donchian_lower": 0.3335,
       "technical_score": 72,
       "score_signals": [
         "MACD Bullish",
-        "ADX 41.7 \u2014 Strong trend",
+        "ADX 41.69 \u2014 Strong trend",
         "Supertrend Bullish",
         "Below Ichimoku Cloud",
         "Stoch RSI bullish cross",
@@ -4166,8 +4166,8 @@
       "name": "MOVE",
       "sector": "L2",
       "funding_rate": {
-        "rate": -5.3894,
-        "annualized": -5901.4,
+        "rate": -5.0965,
+        "annualized": -5580.6,
         "sentiment": "Short Heavy"
       },
       "open_interest": null,
@@ -4369,13 +4369,13 @@
       ]
     },
     "sector_astro_bias": {
-      "Meme": {
-        "astro_score": -13,
-        "bias": "Bearish",
+      "L1": {
+        "astro_score": 29,
+        "bias": "Bullish",
         "notes": [
-          "Venus Debilitated in Virgo",
-          "Rahu Retrograde-Weak in Aquarius",
-          "Day of Moon favors Meme"
+          "Sun Strong in Leo",
+          "Jupiter Exalted in Cancer",
+          "Rahu Retrograde-Weak in Aquarius"
         ]
       },
       "DeFi": {
@@ -4387,6 +4387,15 @@
           "Saturn Retrograde-Weak in Pisces"
         ]
       },
+      "L2": {
+        "astro_score": 7,
+        "bias": "Neutral",
+        "notes": [
+          "Jupiter Exalted in Cancer",
+          "Saturn Retrograde-Weak in Pisces",
+          "Saturn Rx \u2014 infrastructure projects delayed"
+        ]
+      },
       "Infra": {
         "astro_score": -17,
         "bias": "Bearish",
@@ -4396,13 +4405,13 @@
           "Ketu Retrograde-Weak in Leo"
         ]
       },
-      "L1": {
-        "astro_score": 29,
-        "bias": "Bullish",
+      "Meme": {
+        "astro_score": -13,
+        "bias": "Bearish",
         "notes": [
-          "Sun Strong in Leo",
-          "Jupiter Exalted in Cancer",
-          "Rahu Retrograde-Weak in Aquarius"
+          "Venus Debilitated in Virgo",
+          "Rahu Retrograde-Weak in Aquarius",
+          "Day of Moon favors Meme"
         ]
       },
       "Gaming": {
@@ -4412,15 +4421,6 @@
           "Venus Debilitated in Virgo",
           "Rahu Retrograde-Weak in Aquarius",
           "Day of Moon favors Gaming"
-        ]
-      },
-      "L2": {
-        "astro_score": 7,
-        "bias": "Neutral",
-        "notes": [
-          "Jupiter Exalted in Cancer",
-          "Saturn Retrograde-Weak in Pisces",
-          "Saturn Rx \u2014 infrastructure projects delayed"
         ]
       }
     }
