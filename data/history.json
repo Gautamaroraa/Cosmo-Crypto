@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-24T21:55:54Z",
+    "generated_at": "2026-08-24T22:26:15Z",
     "total_days": 94,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 93,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.6,
+      "L1": 63.5,
       "DeFi": 61.7,
-      "L2": 61.2,
+      "Meme": 61.5,
       "Payments": 61.0,
-      "Meme": 60.9,
+      "L2": 60.9,
       "Gaming": 60.2,
-      "Emerging": 58.5,
-      "Infra": 58.1,
-      "AI": 56.5
+      "Emerging": 58.3,
+      "Infra": 58.0,
+      "AI": 56.4
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-08-24T21:55:54Z"
+    "generated_at": "2026-08-24T22:26:15Z"
   },
   "anomalies": [
     {
@@ -19376,7 +19376,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "L1",
+      "strongest_sector": "AI",
       "weakest_sector": "Gaming",
       "moon_phase": "Waxing Gibbous",
       "moon_phase_emoji": "\ud83c\udf14",
@@ -19440,21 +19440,21 @@
             "Sun",
             "Mercury"
           ],
-          "orb": 2.84
+          "orb": 2.82
         },
         {
           "planets": [
             "Sun",
             "Ketu"
           ],
-          "orb": 2.07
+          "orb": 2.09
         },
         {
           "planets": [
             "Mercury",
             "Ketu"
           ],
-          "orb": 0.77
+          "orb": 0.73
         }
       ],
       "aspects": [
@@ -19472,7 +19472,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 2.07
+          "orb": 2.09
         },
         {
           "planets": [
@@ -19480,7 +19480,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 7.16
+          "orb": 7.4
         },
         {
           "planets": [
@@ -19488,7 +19488,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.18
+          "orb": 5.17
         },
         {
           "planets": [
@@ -19496,7 +19496,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 0.77
+          "orb": 0.73
         },
         {
           "planets": [
@@ -19504,7 +19504,7 @@
             "Venus"
           ],
           "aspect": "Sextile",
-          "orb": 5.03
+          "orb": 5.04
         },
         {
           "planets": [
@@ -19520,7 +19520,7 @@
             "Saturn"
           ],
           "aspect": "Opposition",
-          "orb": 3.17
+          "orb": 3.19
         },
         {
           "planets": [
@@ -19536,28 +19536,28 @@
       "declining": 1320,
       "top_sectors": [
         {
+          "name": "AI",
+          "cosmo_score": 46.9,
+          "astro_bias": "Neutral"
+        },
+        {
           "name": "L1",
-          "cosmo_score": 53.8,
+          "cosmo_score": 41.7,
           "astro_bias": "Bullish"
         },
         {
-          "name": "AI",
-          "cosmo_score": 52.4,
-          "astro_bias": "Neutral"
-        },
-        {
           "name": "Emerging",
-          "cosmo_score": 46.5,
+          "cosmo_score": 40.2,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 41.2,
-          "astro_bias": "Bearish"
+          "name": "L2",
+          "cosmo_score": 37.4,
+          "astro_bias": "Neutral"
         },
         {
           "name": "Infra",
-          "cosmo_score": 40.4,
+          "cosmo_score": 36.3,
           "astro_bias": "Bearish"
         }
       ],
@@ -19567,7 +19567,7 @@
         "Moon moving Capricorn to Aquarius within 3 days",
         "Waxing Gibbous - Peak energy. Parabolic moves possible.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: SKYAI, AIN, SIREN \u2014 longs crowded"
+        "High funding rates: TRX, SKYAI, SIREN \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
