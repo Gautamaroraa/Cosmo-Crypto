@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-08-30",
-    "generated_at": "2026-08-30T01:28:30Z"
+    "generated_at": "2026-08-30T07:14:07Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -21,7 +21,7 @@
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "Infra",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,30 +41,31 @@
     "top_sectors_on_similar_days": [
       {
         "name": "Payments",
-        "avg_score": 59.4
+        "avg_score": 57.9
       },
       {
         "name": "L1",
-        "avg_score": 58.2
+        "avg_score": 57.5
       },
       {
         "name": "L2",
-        "avg_score": 57.0
+        "avg_score": 56.9
+      },
+      {
+        "name": "AI",
+        "avg_score": 53.4
       },
       {
         "name": "DeFi",
-        "avg_score": 52.4
-      },
-      {
-        "name": "Infra",
-        "avg_score": 52.3
+        "avg_score": 51.7
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waning Gibbous": 3,
+      "Waning Gibbous": 2,
       "First Quarter": 2,
-      "Waxing Gibbous": 4
+      "Waxing Gibbous": 4,
+      "Full Moon": 1
     }
   },
   "narratives": [
@@ -79,7 +80,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Sun",
-      "strongest_sector": "L1",
+      "strongest_sector": "Infra",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,7 +97,7 @@
     },
     {
       "date": "2026-08-29",
-      "similarity_pct": 94.6,
+      "similarity_pct": 92.0,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Saturn",
@@ -104,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 94.6,
+        "similarity_pct": 92.0,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -114,30 +115,6 @@
         ],
         "different": [
           "Day ruler: Saturn \u2192 now Sun"
-        ]
-      }
-    },
-    {
-      "date": "2026-08-23",
-      "similarity_pct": 87.5,
-      "cosmo_score": 34.8,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 87.5,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Leo",
-          "Day ruler Sun"
-        ],
-        "different": [
-          "Moon phase: First Quarter \u2192 now Waning Gibbous",
-          "Moon in: Sagittarius \u2192 now Pisces"
         ]
       }
     },
@@ -165,12 +142,36 @@
       }
     },
     {
-      "date": "2026-08-24",
+      "date": "2026-08-23",
+      "similarity_pct": 84.8,
+      "cosmo_score": 34.8,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Sun",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 84.8,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Leo",
+          "Day ruler Sun"
+        ],
+        "different": [
+          "Moon phase: First Quarter \u2192 now Waning Gibbous",
+          "Moon in: Sagittarius \u2192 now Pisces"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-22",
       "similarity_pct": 82.1,
       "cosmo_score": 34.8,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Moon",
-      "strongest_sector": "L1",
+      "moon_phase": "First Quarter",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Infra",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -183,9 +184,9 @@
           "Mercury retrograde False"
         ],
         "different": [
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Day ruler: Moon \u2192 now Sun",
-          "Moon in: Capricorn \u2192 now Pisces"
+          "Moon phase: First Quarter \u2192 now Waning Gibbous",
+          "Day ruler: Saturn \u2192 now Sun",
+          "Moon in: Sagittarius \u2192 now Pisces"
         ]
       }
     }
