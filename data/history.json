@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-01T17:58:47Z",
+    "generated_at": "2026-09-01T20:52:55Z",
     "total_days": 102,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 101,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.7,
-      "DeFi": 61.4,
+      "L1": 63.6,
+      "DeFi": 61.5,
       "L2": 61.3,
-      "Payments": 61.0,
-      "Meme": 60.8,
+      "Payments": 60.8,
+      "Meme": 60.7,
       "Gaming": 59.7,
-      "Emerging": 58.5,
+      "Emerging": 58.3,
       "Infra": 58.1,
-      "AI": 56.7
+      "AI": 56.4
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-01T17:58:47Z"
+    "generated_at": "2026-09-01T20:52:55Z"
   },
   "anomalies": [
     {
@@ -21179,7 +21179,7 @@
             "Sun",
             "Mercury"
           ],
-          "orb": 4.79
+          "orb": 4.9
         }
       ],
       "aspects": [
@@ -21189,7 +21189,7 @@
             "Moon"
           ],
           "aspect": "Trine",
-          "orb": 3.62
+          "orb": 2.07
         },
         {
           "planets": [
@@ -21197,23 +21197,31 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 4.55
+          "orb": 4.51
         },
         {
           "planets": [
             "Moon",
-            "Rahu"
+            "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 6.43
+          "orb": 6.58
         },
         {
           "planets": [
             "Moon",
-            "Ketu"
+            "Mercury"
           ],
           "aspect": "Trine",
-          "orb": 6.43
+          "orb": 6.97
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Square",
+          "orb": 6.52
         },
         {
           "planets": [
@@ -21221,7 +21229,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 0.24
+          "orb": 0.39
         },
         {
           "planets": [
@@ -21229,7 +21237,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 0.23
+          "orb": 0.31
         },
         {
           "planets": [
@@ -21237,7 +21245,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 0.22
+          "orb": 0.25
         },
         {
           "planets": [
@@ -21245,7 +21253,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 5.5
+          "orb": 5.4
         },
         {
           "planets": [
@@ -21253,7 +21261,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 5.5
+          "orb": 5.4
         },
         {
           "planets": [
@@ -21266,31 +21274,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1263,
+      "declining": 1285,
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 84.7,
+          "cosmo_score": 78.4,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 71.7,
+          "name": "DeFi",
+          "cosmo_score": 68.2,
           "astro_bias": "Bearish"
         },
         {
+          "name": "Meme",
+          "cosmo_score": 65.4,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 59.7,
+          "astro_bias": "Neutral"
+        },
+        {
           "name": "AI",
-          "cosmo_score": 70.6,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 70.2,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Payments",
-          "cosmo_score": 68.7,
+          "cosmo_score": 56.5,
           "astro_bias": "Neutral"
         }
       ],
@@ -21300,7 +21308,7 @@
         "Moon moving Aries to Taurus within 3 days",
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Mars - favors L1, Meme",
-        "High funding rates: SOL, XRP, ADA \u2014 longs crowded"
+        "High funding rates: BCH, XRP, ETC \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
