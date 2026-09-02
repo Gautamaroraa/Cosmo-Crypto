@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-09-01",
-    "generated_at": "2026-09-01T23:04:00Z"
+    "date": "2026-09-02",
+    "generated_at": "2026-09-02T01:02:27Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -18,7 +18,7 @@
     "saturn_retro": true,
     "moon_phase": "Waning Gibbous",
     "moon_nakshatra": "Bharani",
-    "day_ruler": "Mars",
+    "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
     "strongest_sector": "L1",
@@ -40,45 +40,46 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "L2",
-        "avg_score": 59.6
-      },
-      {
         "name": "L1",
-        "avg_score": 58.8
+        "avg_score": 61.2
       },
       {
-        "name": "Payments",
-        "avg_score": 57.3
+        "name": "Gaming",
+        "avg_score": 58.4
       },
       {
-        "name": "DeFi",
-        "avg_score": 54.3
+        "name": "L2",
+        "avg_score": 56.6
       },
       {
         "name": "Emerging",
-        "avg_score": 54.2
+        "avg_score": 55.8
+      },
+      {
+        "name": "Payments",
+        "avg_score": 55.5
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waning Gibbous": 4,
-      "Waxing Gibbous": 4,
+      "Waning Gibbous": 5,
+      "Waxing Gibbous": 2,
+      "Waxing Crescent": 1,
       "First Quarter": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L2, L1, Payments.",
-    "Mars in Gemini + Day of Mars is the dominant sky signature today."
+    "Strongest sectors on similar days: L1, Gaming, L2.",
+    "Mars in Gemini + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "similarity_pct": 100.0,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mars",
+      "day_ruler": "Mercury",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -92,6 +93,29 @@
           "Moon phase Waning Gibbous"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "similarity_pct": 94.6,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mars",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 94.6,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Leo",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Mars \u2192 now Mercury"
+        ]
       }
     },
     {
@@ -113,7 +137,7 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Mars"
+          "Day ruler: Moon \u2192 now Mercury"
         ]
       }
     },
@@ -136,52 +160,28 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Saturn \u2192 now Mars",
+          "Day ruler: Saturn \u2192 now Mercury",
           "Moon in: Pisces \u2192 now Aries"
         ]
       }
     },
     {
-      "date": "2026-08-30",
-      "similarity_pct": 85.7,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "Emerging",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 85.7,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Leo",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Sun \u2192 now Mars",
-          "Moon in: Pisces \u2192 now Aries"
-        ]
-      }
-    },
-    {
-      "date": "2026-08-25",
-      "similarity_pct": 84.8,
+      "date": "2026-08-26",
+      "similarity_pct": 87.5,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Mars",
-      "strongest_sector": "Payments",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 84.8,
+        "similarity_pct": 87.5,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Leo",
-          "Day ruler Mars"
+          "Day ruler Mercury"
         ],
         "different": [
           "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
