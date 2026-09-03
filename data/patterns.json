@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-03",
-    "generated_at": "2026-09-03T18:39:57Z"
+    "generated_at": "2026-09-03T21:22:13Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -17,11 +17,11 @@
     "jupiter_retro": false,
     "saturn_retro": true,
     "moon_phase": "Waning Gibbous",
-    "moon_nakshatra": "Krittika",
+    "moon_nakshatra": "Rohini",
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,7 +41,7 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 61.8
+        "avg_score": 61.3
       },
       {
         "name": "Gaming",
@@ -52,19 +52,19 @@
         "avg_score": 58.0
       },
       {
-        "name": "Meme",
-        "avg_score": 55.5
+        "name": "L2",
+        "avg_score": 56.1
       },
       {
         "name": "Emerging",
-        "avg_score": 55.2
+        "avg_score": 54.5
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Gibbous": 5,
-      "Waxing Gibbous": 1,
-      "First Quarter": 3
+      "Waxing Gibbous": 2,
+      "First Quarter": 2
     }
   },
   "narratives": [
@@ -79,7 +79,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Jupiter",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,7 +96,7 @@
     },
     {
       "date": "2026-09-02",
-      "similarity_pct": 88.4,
+      "similarity_pct": 85.7,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Mercury",
@@ -104,7 +104,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 88.4,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -120,7 +120,7 @@
     },
     {
       "date": "2026-08-29",
-      "similarity_pct": 81.2,
+      "similarity_pct": 83.9,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Saturn",
@@ -128,7 +128,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 81.2,
+        "similarity_pct": 83.9,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -143,32 +143,8 @@
       }
     },
     {
-      "date": "2026-08-30",
-      "similarity_pct": 81.2,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "Emerging",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 81.2,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Leo",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Sun \u2192 now Jupiter",
-          "Moon in: Pisces \u2192 now Taurus"
-        ]
-      }
-    },
-    {
       "date": "2026-08-31",
-      "similarity_pct": 81.2,
+      "similarity_pct": 83.9,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Moon",
@@ -176,7 +152,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 81.2,
+        "similarity_pct": 83.9,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -186,6 +162,30 @@
         ],
         "different": [
           "Day ruler: Moon \u2192 now Jupiter",
+          "Moon in: Aries \u2192 now Taurus"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "similarity_pct": 83.9,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mars",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 83.9,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Leo",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Mars \u2192 now Jupiter",
           "Moon in: Aries \u2192 now Taurus"
         ]
       }
