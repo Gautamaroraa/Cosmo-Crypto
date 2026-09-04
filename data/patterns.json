@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-04",
-    "generated_at": "2026-09-04T01:11:07Z"
+    "generated_at": "2026-09-04T05:55:20Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -20,8 +20,8 @@
     "moon_nakshatra": "Rohini",
     "day_ruler": "Venus",
     "market_direction": "Bearish",
-    "volatility_bias": "Medium",
-    "strongest_sector": "L1",
+    "volatility_bias": "Low",
+    "strongest_sector": "Meme",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -45,31 +45,32 @@
       },
       {
         "name": "L1",
-        "avg_score": 63.8
-      },
-      {
-        "name": "Meme",
-        "avg_score": 60.0
+        "avg_score": 64.5
       },
       {
         "name": "Payments",
-        "avg_score": 59.0
+        "avg_score": 61.2
       },
       {
-        "name": "DeFi",
-        "avg_score": 58.6
+        "name": "Meme",
+        "avg_score": 60.7
+      },
+      {
+        "name": "Emerging",
+        "avg_score": 59.0
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Gibbous": 6,
       "Full Moon": 1,
-      "First Quarter": 2
+      "First Quarter": 1,
+      "Last Quarter": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Gaming, L1, Meme.",
+    "Strongest sectors on similar days: Gaming, L1, Payments.",
     "Mars in Gemini + Day of Venus is the dominant sky signature today."
   ],
   "similar_days": [
@@ -79,7 +80,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Venus",
-      "strongest_sector": "L1",
+      "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,7 +97,7 @@
     },
     {
       "date": "2026-09-03",
-      "similarity_pct": 91.1,
+      "similarity_pct": 92.0,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Jupiter",
@@ -104,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 91.1,
+        "similarity_pct": 92.0,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -119,7 +120,7 @@
     },
     {
       "date": "2026-09-02",
-      "similarity_pct": 82.1,
+      "similarity_pct": 85.7,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Mercury",
@@ -127,7 +128,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 82.1,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -143,7 +144,7 @@
     },
     {
       "date": "2026-08-29",
-      "similarity_pct": 80.4,
+      "similarity_pct": 81.2,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Saturn",
@@ -151,7 +152,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 80.4,
+        "similarity_pct": 81.2,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -166,16 +167,16 @@
       }
     },
     {
-      "date": "2026-08-31",
-      "similarity_pct": 80.4,
+      "date": "2026-08-30",
+      "similarity_pct": 81.2,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Moon",
-      "strongest_sector": "L1",
+      "day_ruler": "Sun",
+      "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 80.4,
+        "similarity_pct": 81.2,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -184,8 +185,8 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Venus",
-          "Moon in: Aries \u2192 now Taurus"
+          "Day ruler: Sun \u2192 now Venus",
+          "Moon in: Pisces \u2192 now Taurus"
         ]
       }
     }
