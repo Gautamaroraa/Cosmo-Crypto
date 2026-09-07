@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-07T16:01:01Z",
+    "generated_at": "2026-09-07T19:52:14Z",
     "total_days": 108,
     "version": "1.0"
   },
@@ -9,15 +9,15 @@
     "days_with_outcomes": 107,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.6,
-      "DeFi": 61.1,
+      "L1": 63.7,
+      "DeFi": 61.2,
+      "L2": 61.0,
+      "Meme": 60.9,
       "Payments": 60.9,
-      "L2": 60.8,
-      "Meme": 60.2,
       "Gaming": 60.0,
       "Emerging": 58.0,
-      "Infra": 57.5,
-      "AI": 56.0
+      "Infra": 57.6,
+      "AI": 56.4
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-07T16:01:01Z"
+    "generated_at": "2026-09-07T19:52:14Z"
   },
   "anomalies": [
     {
@@ -22356,9 +22356,9 @@
       "volatility_bias": "Low",
       "risk_level": "High",
       "strongest_sector": "L1",
-      "weakest_sector": "Infra",
-      "moon_phase": "Last Quarter",
-      "moon_phase_emoji": "\ud83c\udf17",
+      "weakest_sector": "Payments",
+      "moon_phase": "Waning Crescent",
+      "moon_phase_emoji": "\ud83c\udf18",
       "day_ruler": "Moon",
       "astro_score": 47,
       "retrograde_planets": [
@@ -22421,7 +22421,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 2.54
+          "orb": 2.48
         },
         {
           "planets": [
@@ -22429,7 +22429,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 4.69
+          "orb": 6.71
         },
         {
           "planets": [
@@ -22437,7 +22437,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 1.32
+          "orb": 3.5
         },
         {
           "planets": [
@@ -22445,7 +22445,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 7.22
+          "orb": 7.4
         },
         {
           "planets": [
@@ -22453,7 +22453,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 4.31
+          "orb": 4.42
         },
         {
           "planets": [
@@ -22461,7 +22461,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 1.8
+          "orb": 1.85
         },
         {
           "planets": [
@@ -22469,7 +22469,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 0.77
+          "orb": 0.65
         },
         {
           "planets": [
@@ -22477,7 +22477,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 0.77
+          "orb": 0.65
         },
         {
           "planets": [
@@ -22490,41 +22490,41 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1104,
+      "declining": 1100,
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 60.1,
+          "cosmo_score": 71.5,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 71.3,
           "astro_bias": "Bullish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 51.8,
-          "astro_bias": "Bullish"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 45.3,
+          "cosmo_score": 65.2,
           "astro_bias": "Bullish"
         },
         {
           "name": "AI",
-          "cosmo_score": 45.2,
+          "cosmo_score": 61.3,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 43.1,
-          "astro_bias": "Bullish"
+          "name": "Infra",
+          "cosmo_score": 60.5,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Saturn, Rahu, Ketu",
         "Moon moving Cancer to Leo within 3 days",
-        "Last Quarter - Declining energy. Reduce exposure.",
+        "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: RUNE, EIGEN, COAI \u2014 longs crowded"
+        "High funding rates: ZRO, SUI, BCH \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,

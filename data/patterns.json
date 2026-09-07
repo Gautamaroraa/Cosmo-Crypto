@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-07",
-    "generated_at": "2026-09-07T16:01:01Z"
+    "generated_at": "2026-09-07T19:52:14Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -16,7 +16,7 @@
     "mars_retro": false,
     "jupiter_retro": false,
     "saturn_retro": true,
-    "moon_phase": "Last Quarter",
+    "moon_phase": "Waning Crescent",
     "moon_nakshatra": "Pushya",
     "day_ruler": "Moon",
     "market_direction": "Bearish",
@@ -40,16 +40,16 @@
     },
     "top_sectors_on_similar_days": [
       {
+        "name": "Gaming",
+        "avg_score": 62.2
+      },
+      {
         "name": "L1",
-        "avg_score": 63.1
+        "avg_score": 62.0
       },
       {
         "name": "Payments",
-        "avg_score": 62.2
-      },
-      {
-        "name": "Gaming",
-        "avg_score": 62.2
+        "avg_score": 61.3
       },
       {
         "name": "Meme",
@@ -57,20 +57,21 @@
       },
       {
         "name": "DeFi",
-        "avg_score": 56.2
+        "avg_score": 55.3
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Last Quarter": 3,
-      "Waxing Crescent": 2,
+      "Waning Crescent": 1,
+      "Waxing Crescent": 1,
       "Waxing Gibbous": 1,
-      "Waning Gibbous": 3
+      "Waning Gibbous": 3,
+      "Last Quarter": 3
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, Payments, Gaming.",
+    "Strongest sectors on similar days: Gaming, L1, Payments.",
     "Mars in Gemini + Day of Moon is the dominant sky signature today."
   ],
   "similar_days": [
@@ -78,7 +79,7 @@
       "date": "2026-09-07",
       "similarity_pct": 100.0,
       "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
+      "moon_phase": "Waning Crescent",
       "day_ruler": "Moon",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
@@ -90,80 +91,31 @@
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Leo",
-          "Moon phase Last Quarter"
+          "Moon phase Waning Crescent"
         ],
         "different": []
       }
     },
     {
-      "date": "2026-09-04",
-      "similarity_pct": 81.2,
+      "date": "2026-08-10",
+      "similarity_pct": 78.6,
       "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Venus",
-      "strongest_sector": "Meme",
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Moon",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 81.2,
+        "similarity_pct": 78.6,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
           "Saturn in Pisces",
-          "Sun in Leo",
-          "Moon phase Last Quarter"
+          "Moon phase Waning Crescent",
+          "Day ruler Moon"
         ],
         "different": [
-          "Day ruler: Venus \u2192 now Moon",
-          "Moon in: Taurus \u2192 now Cancer"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-05",
-      "similarity_pct": 81.2,
-      "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 81.2,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Leo",
-          "Moon phase Last Quarter"
-        ],
-        "different": [
-          "Day ruler: Saturn \u2192 now Moon",
-          "Moon in: Gemini \u2192 now Cancer"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-06",
-      "similarity_pct": 81.2,
-      "cosmo_score": 32.0,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 81.2,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Leo",
-          "Moon phase Last Quarter"
-        ],
-        "different": [
-          "Day ruler: Sun \u2192 now Moon",
-          "Moon in: Gemini \u2192 now Cancer"
+          "Sun in: Cancer \u2192 now Leo"
         ]
       }
     },
@@ -186,8 +138,56 @@
           "Day ruler Moon"
         ],
         "different": [
-          "Moon phase: Waxing Crescent \u2192 now Last Quarter",
+          "Moon phase: Waxing Crescent \u2192 now Waning Crescent",
           "Moon in: Libra \u2192 now Cancer"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "similarity_pct": 78.6,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 78.6,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Leo",
+          "Day ruler Moon"
+        ],
+        "different": [
+          "Moon phase: Waxing Gibbous \u2192 now Waning Crescent",
+          "Moon in: Capricorn \u2192 now Cancer"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "similarity_pct": 78.6,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 78.6,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Leo",
+          "Day ruler Moon"
+        ],
+        "different": [
+          "Moon phase: Waning Gibbous \u2192 now Waning Crescent",
+          "Moon in: Aries \u2192 now Cancer"
         ]
       }
     }
