@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-07T00:43:23Z",
+    "generated_at": "2026-09-07T05:16:18Z",
     "total_days": 108,
     "version": "1.0"
   },
@@ -9,13 +9,13 @@
     "days_with_outcomes": 107,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.4,
+      "L1": 63.6,
+      "DeFi": 61.1,
       "L2": 61.0,
-      "DeFi": 60.9,
-      "Payments": 60.5,
-      "Meme": 60.2,
+      "Payments": 60.7,
+      "Meme": 60.5,
       "Gaming": 60.0,
-      "Emerging": 57.7,
+      "Emerging": 57.9,
       "Infra": 57.5,
       "AI": 56.3
     },
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-07T00:43:23Z"
+    "generated_at": "2026-09-07T05:16:18Z"
   },
   "anomalies": [
     {
@@ -22419,25 +22419,17 @@
             "Moon",
             "Mars"
           ],
-          "orb": 3.2
+          "orb": 5.79
         }
       ],
       "aspects": [
         {
           "planets": [
             "Sun",
-            "Moon"
-          ],
-          "aspect": "Sextile",
-          "orb": 5.95
-        },
-        {
-          "planets": [
-            "Sun",
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 2.76
+          "orb": 2.69
         },
         {
           "planets": [
@@ -22445,7 +22437,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 3.3
+          "orb": 0.92
         },
         {
           "planets": [
@@ -22453,15 +22445,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 7.34
-        },
-        {
-          "planets": [
-            "Moon",
-            "Saturn"
-          ],
-          "aspect": "Square",
-          "orb": 7.07
+          "orb": 4.77
         },
         {
           "planets": [
@@ -22469,7 +22453,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 6.5
+          "orb": 6.72
         },
         {
           "planets": [
@@ -22477,7 +22461,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 3.87
+          "orb": 4.0
         },
         {
           "planets": [
@@ -22485,7 +22469,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 1.63
+          "orb": 1.68
         },
         {
           "planets": [
@@ -22493,7 +22477,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 1.25
+          "orb": 1.11
         },
         {
           "planets": [
@@ -22501,7 +22485,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 1.25
+          "orb": 1.11
         },
         {
           "planets": [
@@ -22514,31 +22498,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1109,
+      "declining": 1123,
       "top_sectors": [
         {
           "name": "L1",
-          "cosmo_score": 46.5,
+          "cosmo_score": 60.5,
           "astro_bias": "Bullish"
         },
         {
+          "name": "Meme",
+          "cosmo_score": 53.7,
+          "astro_bias": "Neutral"
+        },
+        {
           "name": "DeFi",
-          "cosmo_score": 43.0,
+          "cosmo_score": 52.9,
           "astro_bias": "Neutral"
         },
         {
           "name": "Emerging",
-          "cosmo_score": 42.8,
+          "cosmo_score": 51.6,
           "astro_bias": "Neutral"
         },
         {
           "name": "Payments",
-          "cosmo_score": 42.5,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 41.7,
+          "cosmo_score": 51.0,
           "astro_bias": "Neutral"
         }
       ],
@@ -22548,7 +22532,7 @@
         "Moon moving Gemini to Leo within 3 days",
         "Last Quarter - Declining energy. Reduce exposure.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: SIREN, COOKIE, KAITO \u2014 longs crowded"
+        "High funding rates: DOT, SUI, KAITO \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
