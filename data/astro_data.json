@@ -1,105 +1,105 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-08T00:41:04Z",
+  "generated_at": "2026-09-08T05:17:31Z",
   "day_ruler": "Mars",
   "moon_phase": "Waning Crescent",
   "moon_phase_emoji": "\ud83c\udf18",
-  "moon_phase_angle": 319.27,
-  "ayanamsa_lahiri": 24.229867,
+  "moon_phase_angle": 321.82,
+  "ayanamsa_lahiri": 24.229875,
   "planets": {
     "Sun": {
-      "longitude": 141.1745,
+      "longitude": 141.3609,
       "rashi": "Leo",
       "rashi_lord": "Sun",
-      "degrees_in_rashi": 21.1745,
+      "degrees_in_rashi": 21.3609,
       "nakshatra": "Purva Phalguni",
       "nakshatra_pada": 3,
       "nakshatra_lord": "Venus",
       "retrograde": false,
-      "speed": 0.971004
+      "speed": 0.971105
     },
     "Moon": {
-      "longitude": 100.4476,
+      "longitude": 103.1857,
       "rashi": "Cancer",
       "rashi_lord": "Moon",
-      "degrees_in_rashi": 10.4476,
+      "degrees_in_rashi": 13.1857,
       "nakshatra": "Pushya",
       "nakshatra_pada": 3,
       "nakshatra_lord": "Saturn",
       "retrograde": false,
-      "speed": 14.270345
+      "speed": 14.254257
     },
     "Mars": {
-      "longitude": 83.5856,
+      "longitude": 83.7053,
       "rashi": "Gemini",
       "rashi_lord": "Mercury",
-      "degrees_in_rashi": 23.5856,
+      "degrees_in_rashi": 23.7053,
       "nakshatra": "Punarvasu",
       "nakshatra_pada": 2,
       "nakshatra_lord": "Jupiter",
       "retrograde": false,
-      "speed": 0.623751
+      "speed": 0.623442
     },
     "Mercury": {
-      "longitude": 151.2154,
+      "longitude": 151.5497,
       "rashi": "Virgo",
       "rashi_lord": "Mercury",
-      "degrees_in_rashi": 1.2154,
+      "degrees_in_rashi": 1.5497,
       "nakshatra": "Uttara Phalguni",
       "nakshatra_pada": 2,
       "nakshatra_lord": "Sun",
       "retrograde": false,
-      "speed": 1.742932
+      "speed": 1.739162
     },
     "Jupiter": {
-      "longitude": 110.9286,
+      "longitude": 110.9679,
       "rashi": "Cancer",
       "rashi_lord": "Moon",
-      "degrees_in_rashi": 20.9286,
+      "degrees_in_rashi": 20.9679,
       "nakshatra": "Ashlesha",
       "nakshatra_pada": 2,
       "nakshatra_lord": "Mercury",
       "retrograde": false,
-      "speed": 0.204816
+      "speed": 0.204651
     },
     "Venus": {
-      "longitude": 184.208,
+      "longitude": 184.3413,
       "rashi": "Libra",
       "rashi_lord": "Venus",
-      "degrees_in_rashi": 4.208,
+      "degrees_in_rashi": 4.3413,
       "nakshatra": "Chitra",
       "nakshatra_pada": 4,
       "nakshatra_lord": "Mars",
       "retrograde": false,
-      "speed": 0.696063
+      "speed": 0.692878
     },
     "Saturn": {
-      "longitude": 349.0265,
+      "longitude": 349.0141,
       "rashi": "Pisces",
       "rashi_lord": "Jupiter",
-      "degrees_in_rashi": 19.0265,
+      "degrees_in_rashi": 19.0141,
       "nakshatra": "Revati",
       "nakshatra_pada": 1,
       "nakshatra_lord": "Mercury",
       "retrograde": true,
-      "speed": -0.064299
+      "speed": -0.064502
     },
     "Rahu": {
-      "longitude": 304.702,
+      "longitude": 304.6919,
       "rashi": "Aquarius",
       "rashi_lord": "Saturn",
-      "degrees_in_rashi": 4.702,
+      "degrees_in_rashi": 4.6919,
       "nakshatra": "Dhanishtha",
       "nakshatra_pada": 4,
       "nakshatra_lord": "Mars",
       "retrograde": true,
-      "speed": -0.052946
+      "speed": -0.052949
     },
     "Ketu": {
-      "longitude": 124.702,
+      "longitude": 124.6919,
       "rashi": "Leo",
       "rashi_lord": "Sun",
-      "degrees_in_rashi": 4.702,
+      "degrees_in_rashi": 4.6919,
       "nakshatra": "Magha",
       "nakshatra_pada": 2,
       "nakshatra_lord": "Ketu",
@@ -112,7 +112,15 @@
     "Rahu",
     "Ketu"
   ],
-  "conjunctions": [],
+  "conjunctions": [
+    {
+      "planets": [
+        "Moon",
+        "Jupiter"
+      ],
+      "orb": 7.78
+    }
+  ],
   "aspects": [
     {
       "planets": [
@@ -120,15 +128,15 @@
         "Mars"
       ],
       "aspect": "Sextile",
-      "orb": 2.41
+      "orb": 2.34
     },
     {
       "planets": [
         "Moon",
-        "Venus"
+        "Saturn"
       ],
-      "aspect": "Square",
-      "orb": 6.24
+      "aspect": "Trine",
+      "orb": 5.83
     },
     {
       "planets": [
@@ -136,7 +144,7 @@
         "Mercury"
       ],
       "aspect": "Sextile",
-      "orb": 7.63
+      "orb": 7.84
     },
     {
       "planets": [
@@ -144,7 +152,7 @@
         "Saturn"
       ],
       "aspect": "Square",
-      "orb": 4.56
+      "orb": 4.69
     },
     {
       "planets": [
@@ -152,7 +160,7 @@
         "Saturn"
       ],
       "aspect": "Trine",
-      "orb": 1.9
+      "orb": 1.95
     },
     {
       "planets": [
@@ -160,7 +168,7 @@
         "Rahu"
       ],
       "aspect": "Trine",
-      "orb": 0.49
+      "orb": 0.35
     },
     {
       "planets": [
@@ -168,7 +176,7 @@
         "Ketu"
       ],
       "aspect": "Sextile",
-      "orb": 0.49
+      "orb": 0.35
     },
     {
       "planets": [
