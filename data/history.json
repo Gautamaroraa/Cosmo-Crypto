@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T18:34:29Z",
+    "generated_at": "2026-09-11T21:20:41Z",
     "total_days": 112,
     "version": "1.0"
   },
@@ -9,8 +9,8 @@
     "days_with_outcomes": 111,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.4,
-      "DeFi": 61.1,
+      "L1": 63.5,
+      "DeFi": 61.2,
       "L2": 61.0,
       "Payments": 60.9,
       "Meme": 60.3,
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-11T18:34:29Z"
+    "generated_at": "2026-09-11T21:20:41Z"
   },
   "anomalies": [
     {
@@ -23100,7 +23100,7 @@
       "volatility_bias": "Low",
       "risk_level": "Very High",
       "strongest_sector": "DeFi",
-      "weakest_sector": "AI",
+      "weakest_sector": "Payments",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Venus",
@@ -23160,17 +23160,10 @@
       "conjunctions": [
         {
           "planets": [
-            "Sun",
-            "Moon"
-          ],
-          "orb": 7.97
-        },
-        {
-          "planets": [
             "Moon",
             "Mercury"
           ],
-          "orb": 4.82
+          "orb": 3.46
         }
       ],
       "aspects": [
@@ -23180,15 +23173,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 1.1
-        },
-        {
-          "planets": [
-            "Moon",
-            "Mars"
-          ],
-          "aspect": "Sextile",
-          "orb": 6.87
+          "orb": 1.05
         },
         {
           "planets": [
@@ -23196,7 +23181,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 7.13
+          "orb": 7.21
         },
         {
           "planets": [
@@ -23204,7 +23189,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 2.91
+          "orb": 2.94
         },
         {
           "planets": [
@@ -23212,7 +23197,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 2.19
+          "orb": 2.27
         },
         {
           "planets": [
@@ -23220,7 +23205,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 2.19
+          "orb": 2.27
         },
         {
           "planets": [
@@ -23237,28 +23222,28 @@
       "top_sectors": [
         {
           "name": "DeFi",
-          "cosmo_score": 60.4,
+          "cosmo_score": 66.4,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "L2",
-          "cosmo_score": 58.9,
-          "astro_bias": "Bullish"
-        },
-        {
           "name": "L1",
-          "cosmo_score": 57.2,
+          "cosmo_score": 63.3,
           "astro_bias": "Bullish"
-        },
-        {
-          "name": "Payments",
-          "cosmo_score": 56.7,
-          "astro_bias": "Neutral"
         },
         {
           "name": "Meme",
-          "cosmo_score": 56.2,
+          "cosmo_score": 57.6,
           "astro_bias": "Bullish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 56.9,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 54.8,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -23267,7 +23252,7 @@
         "Moon moving Virgo to Libra within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: LTC, KSM, AVAX \u2014 longs crowded"
+        "High funding rates: ONDO, SUSHI, AVAX \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
