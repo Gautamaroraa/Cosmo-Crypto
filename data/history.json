@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T11:08:37Z",
+    "generated_at": "2026-09-11T15:02:30Z",
     "total_days": 112,
     "version": "1.0"
   },
@@ -9,12 +9,12 @@
     "days_with_outcomes": 111,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.5,
-      "DeFi": 61.3,
-      "L2": 61.1,
+      "L1": 63.6,
+      "DeFi": 61.4,
+      "L2": 61.2,
       "Payments": 60.9,
-      "Meme": 60.3,
-      "Gaming": 59.0,
+      "Meme": 60.7,
+      "Gaming": 59.5,
       "Emerging": 57.8,
       "Infra": 57.2,
       "AI": 56.2
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-11T11:08:37Z"
+    "generated_at": "2026-09-11T15:02:30Z"
   },
   "anomalies": [
     {
@@ -23100,7 +23100,7 @@
       "volatility_bias": "Low",
       "risk_level": "Very High",
       "strongest_sector": "DeFi",
-      "weakest_sector": "Infra",
+      "weakest_sector": "Payments",
       "moon_phase": "New Moon",
       "moon_phase_emoji": "\ud83c\udf11",
       "day_ruler": "Venus",
@@ -23117,7 +23117,7 @@
           "retrograde": false
         },
         "Moon": {
-          "rashi": "Leo",
+          "rashi": "Virgo",
           "nakshatra": "Uttara Phalguni",
           "retrograde": false
         },
@@ -23163,7 +23163,14 @@
             "Sun",
             "Moon"
           ],
-          "orb": 4.06
+          "orb": 6.12
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "orb": 6.57
         }
       ],
       "aspects": [
@@ -23173,7 +23180,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 1.21
+          "orb": 1.15
         },
         {
           "planets": [
@@ -23181,7 +23188,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 2.86
+          "orb": 4.97
         },
         {
           "planets": [
@@ -23189,7 +23196,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 6.92
+          "orb": 7.03
         },
         {
           "planets": [
@@ -23197,7 +23204,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 2.83
+          "orb": 2.87
         },
         {
           "planets": [
@@ -23205,7 +23212,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 1.98
+          "orb": 2.09
         },
         {
           "planets": [
@@ -23213,7 +23220,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 1.98
+          "orb": 2.09
         },
         {
           "planets": [
@@ -23226,41 +23233,41 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1140,
+      "declining": 1229,
       "top_sectors": [
         {
           "name": "DeFi",
-          "cosmo_score": 73.0,
+          "cosmo_score": 84.7,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "L2",
-          "cosmo_score": 66.8,
+          "name": "L1",
+          "cosmo_score": 77.5,
           "astro_bias": "Bullish"
         },
         {
-          "name": "L1",
-          "cosmo_score": 66.7,
+          "name": "Gaming",
+          "cosmo_score": 75.8,
           "astro_bias": "Bullish"
         },
         {
           "name": "Meme",
-          "cosmo_score": 58.5,
+          "cosmo_score": 75.6,
           "astro_bias": "Bullish"
         },
         {
-          "name": "AI",
-          "cosmo_score": 56.9,
-          "astro_bias": "Neutral"
+          "name": "L2",
+          "cosmo_score": 74.5,
+          "astro_bias": "Bullish"
         }
       ],
       "top_stocks": [],
       "key_signals": [
         "Retrograde: Saturn, Rahu, Ketu",
-        "Moon moving Leo to Libra within 3 days",
+        "Moon moving Virgo to Libra within 3 days",
         "New Moon - New cycle. Accumulation phase.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: ONDO, TAO, SKL \u2014 longs crowded"
+        "High funding rates: SUSHI, OP, UNI \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
