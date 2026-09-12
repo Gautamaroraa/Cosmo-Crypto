@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-12T06:18:16Z",
+    "generated_at": "2026-09-12T11:06:29Z",
     "total_days": 113,
     "version": "1.0"
   },
@@ -9,14 +9,14 @@
     "days_with_outcomes": 112,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.5,
-      "DeFi": 61.4,
+      "L1": 63.4,
+      "DeFi": 61.3,
       "L2": 61.1,
       "Payments": 60.9,
       "Meme": 60.3,
       "Gaming": 59.0,
       "Emerging": 57.8,
-      "Infra": 57.5,
+      "Infra": 57.2,
       "AI": 56.3
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-12T06:18:16Z"
+    "generated_at": "2026-09-12T11:06:29Z"
   },
   "anomalies": [
     {
@@ -23290,7 +23290,7 @@
         },
         "Moon": {
           "rashi": "Virgo",
-          "nakshatra": "Uttara Phalguni",
+          "nakshatra": "Hasta",
           "retrograde": false
         },
         "Mars": {
@@ -23335,7 +23335,7 @@
             "Moon",
             "Mercury"
           ],
-          "orb": 0.94
+          "orb": 3.29
         }
       ],
       "aspects": [
@@ -23345,7 +23345,15 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 0.92
+          "orb": 0.85
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Opposition",
+          "orb": 6.69
         },
         {
           "planets": [
@@ -23353,7 +23361,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 7.47
+          "orb": 7.6
         },
         {
           "planets": [
@@ -23361,7 +23369,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 3.04
+          "orb": 3.1
         },
         {
           "planets": [
@@ -23369,7 +23377,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 2.52
+          "orb": 2.65
         },
         {
           "planets": [
@@ -23377,7 +23385,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 2.52
+          "orb": 2.65
         },
         {
           "planets": [
@@ -23390,32 +23398,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1199,
+      "declining": 1200,
       "top_sectors": [
         {
           "name": "DeFi",
-          "cosmo_score": 78.5,
+          "cosmo_score": 66.9,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 64.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 64.0,
           "astro_bias": "Strong Bullish"
         },
         {
           "name": "Infra",
-          "cosmo_score": 73.5,
+          "cosmo_score": 59.4,
           "astro_bias": "Bullish"
-        },
-        {
-          "name": "L2",
-          "cosmo_score": 67.4,
-          "astro_bias": "Strong Bullish"
         },
         {
           "name": "L1",
-          "cosmo_score": 66.2,
+          "cosmo_score": 59.1,
           "astro_bias": "Bullish"
-        },
-        {
-          "name": "AI",
-          "cosmo_score": 61.9,
-          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -23424,7 +23432,7 @@
         "Moon moving Virgo to Libra within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Saturn - favors Infra, L2",
-        "High funding rates: LINK, SUSHI, DYDX \u2014 longs crowded"
+        "High funding rates: AR, DEEP, LINK \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,

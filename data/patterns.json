@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-12",
-    "generated_at": "2026-09-12T06:18:16Z"
+    "generated_at": "2026-09-12T11:06:29Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -17,7 +17,7 @@
     "jupiter_retro": false,
     "saturn_retro": true,
     "moon_phase": "Waxing Crescent",
-    "moon_nakshatra": "Uttara Phalguni",
+    "moon_nakshatra": "Hasta",
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
@@ -64,8 +64,8 @@
     "moon_phase_pattern": {
       "New Moon": 2,
       "Waning Crescent": 3,
-      "Last Quarter": 1,
-      "Waxing Crescent": 3
+      "Waxing Crescent": 3,
+      "Last Quarter": 1
     }
   },
   "narratives": [
@@ -97,7 +97,7 @@
     },
     {
       "date": "2026-09-11",
-      "similarity_pct": 88.4,
+      "similarity_pct": 85.7,
       "cosmo_score": 33.2,
       "moon_phase": "New Moon",
       "day_ruler": "Venus",
@@ -105,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 88.4,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -145,6 +145,29 @@
       }
     },
     {
+      "date": "2026-08-15",
+      "similarity_pct": 81.2,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Saturn",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 81.2,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Moon phase Waxing Crescent",
+          "Day ruler Saturn"
+        ],
+        "different": [
+          "Sun in: Cancer \u2192 now Leo"
+        ]
+      }
+    },
+    {
       "date": "2026-09-05",
       "similarity_pct": 80.4,
       "cosmo_score": 32.0,
@@ -165,31 +188,6 @@
         "different": [
           "Moon phase: Last Quarter \u2192 now Waxing Crescent",
           "Moon in: Gemini \u2192 now Virgo"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-07",
-      "similarity_pct": 79.5,
-      "cosmo_score": 32.0,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Moon",
-      "strongest_sector": "Meme",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Leo",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
-          "Day ruler: Moon \u2192 now Saturn",
-          "Moon in: Cancer \u2192 now Virgo"
         ]
       }
     }
