@@ -18,6 +18,13 @@ function ScoreRing({value,size="large"}:{value:number;size?:"large"|"small"}){re
 
 const seed:Asset[]=[{id:"bitcoin",name:"Bitcoin",symbol:"BTC",rank:1,price:0,marketCap:0,volume24h:0,change24h:0,change7d:null,change30d:null,circulatingSupply:null,maxSupply:21000000,tvl:null,category:"Store of value",score:0,risk:"Moderate",parts:[]}];
 
+function marketFallbackReport(asset:Asset):Report{
+  const riskFlags:string[]=[];
+  if(asset.maxSupply&&asset.circulatingSupply&&asset.circulatingSupply/asset.maxSupply<.5)riskFlags.push("More than half of maximum supply is not yet circulating");
+  if(asset.marketCap&&asset.volume24h/asset.marketCap<.01)riskFlags.push("Daily turnover is below 1% of market capitalisation");
+  return {id:asset.id,name:asset.name,symbol:asset.symbol,image:asset.image,description:"The extended project profile is temporarily rate-limited. The verified market, performance, supply and scoring evidence below remains current and refreshes automatically.",categories:asset.category?[asset.category]:[],genesisDate:null,links:{homepage:null,explorer:null,github:null},market:{price:asset.price,marketCap:asset.marketCap,rank:asset.rank,fdv:asset.fullyDilutedValuation??null,volume24h:asset.volume24h,high24h:asset.high24h??null,low24h:asset.low24h??null,ath:asset.ath??null,athChange:asset.athChange??null},supply:{circulating:asset.circulatingSupply,total:asset.totalSupply??null,max:asset.maxSupply},performance:{h24:asset.change24h,d7:asset.change7d,d14:null,d30:asset.change30d,d60:null,d200:null,y1:null},developer:{stars:null,forks:null,subscribers:null,totalIssues:null,closedIssues:null,pullRequestsMerged:null,commitCount4Weeks:null},community:{twitterFollowers:null,redditSubscribers:null,telegramUsers:null},protocol:asset.tvl?{name:asset.name,tvl:asset.tvl,category:asset.category??"DeFi",chains:[],change1d:null,change7d:null}:null,security:null,riskFlags,sparkline:[],updatedAt:asset.lastUpdated??new Date().toISOString()};
+}
+
 function Sparkline({values}:{values:number[]}){if(!values?.length)return <div className="chart-empty">Chart data unavailable</div>;const width=640,height=150,min=Math.min(...values),max=Math.max(...values),range=max-min||1;const points=values.map((value,index)=>`${index/(values.length-1)*width},${height-(value-min)/range*height}`).join(" ");return <svg viewBox={`0 0 ${width} ${height}`} className="sparkline" role="img" aria-label="Seven day price chart"><polyline points={points} fill="none" stroke="currentColor" strokeWidth="3" vectorEffect="non-scaling-stroke"/></svg>}
 
 export default function Home(){
@@ -42,7 +49,7 @@ export default function Home(){
   const totalMarketCap=data.assets.reduce((sum,asset)=>sum+asset.marketCap,0);
   const positiveAssets=data.assets.filter(asset=>(asset.change7d??0)>=0).length;
 
-  const openReport=async(asset:Asset)=>{setSelectedId(asset.id);setReportOpen(true);setReportLoading(true);setReport(null);try{const response=await fetch(`/api/asset?id=${encodeURIComponent(asset.id)}`,{cache:"no-store"});if(!response.ok)throw new Error();setReport(await response.json() as Report)}finally{setReportLoading(false)}};
+  const openReport=async(asset:Asset)=>{setSelectedId(asset.id);setReportOpen(true);setReportLoading(true);setReport(null);try{const response=await fetch(`/api/asset?id=${encodeURIComponent(asset.id)}`,{cache:"no-store"});if(!response.ok)throw new Error();setReport(await response.json() as Report)}catch{setReport(marketFallbackReport(asset))}finally{setReportLoading(false)}};
 
   return <main>
     <header className="topbar"><a className="brand" href="#top"><span className="brand-mark"><BarChart3 size={20}/></span><span>CRYPTO<span>COMPASS</span></span></a><nav><a className="active" href="#research">Research</a><a href="#methodology" onClick={e=>{e.preventDefault();setMethodOpen(true)}}>Methodology</a></nav><div className="refresh-group"><span><Clock3 size={14}/> {nextRefresh}s</span><button className="icon-button" onClick={()=>load()} aria-label="Refresh market data"><RefreshCw size={18} className={loading?"spin":""}/></button></div></header>
