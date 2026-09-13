@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-13T12:18:57Z",
+    "generated_at": "2026-09-13T16:34:19Z",
     "total_days": 114,
     "version": "1.0"
   },
@@ -9,14 +9,14 @@
     "days_with_outcomes": 113,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.6,
+      "L1": 63.7,
       "DeFi": 61.5,
-      "L2": 61.2,
+      "L2": 61.1,
       "Payments": 60.9,
       "Meme": 60.7,
       "Gaming": 59.0,
       "Emerging": 58.0,
-      "Infra": 57.2,
+      "Infra": 57.6,
       "AI": 56.3
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-13T12:18:57Z"
+    "generated_at": "2026-09-13T16:34:19Z"
   },
   "anomalies": [
     {
@@ -23459,7 +23459,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L1",
       "weakest_sector": "Payments",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
@@ -23473,7 +23473,7 @@
       "planets": {
         "Sun": {
           "rashi": "Leo",
-          "nakshatra": "Purva Phalguni",
+          "nakshatra": "Uttara Phalguni",
           "retrograde": false
         },
         "Moon": {
@@ -23525,7 +23525,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 0.47
+          "orb": 0.41
         },
         {
           "planets": [
@@ -23533,7 +23533,7 @@
             "Mars"
           ],
           "aspect": "Square",
-          "orb": 1.11
+          "orb": 1.08
         },
         {
           "planets": [
@@ -23541,15 +23541,31 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 3.83
+          "orb": 6.1
         },
         {
           "planets": [
             "Moon",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 6.23
+        },
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.23
+        },
+        {
+          "planets": [
+            "Mercury",
             "Saturn"
           ],
           "aspect": "Opposition",
-          "orb": 7.21
+          "orb": 7.87
         },
         {
           "planets": [
@@ -23557,7 +23573,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 3.38
+          "orb": 3.43
         },
         {
           "planets": [
@@ -23565,7 +23581,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 3.35
+          "orb": 3.46
         },
         {
           "planets": [
@@ -23573,7 +23589,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 3.35
+          "orb": 3.46
         },
         {
           "planets": [
@@ -23586,31 +23602,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1071,
+      "declining": 1106,
       "top_sectors": [
         {
-          "name": "DeFi",
-          "cosmo_score": 75.7,
-          "astro_bias": "Strong Bullish"
-        },
-        {
           "name": "L1",
-          "cosmo_score": 71.9,
+          "cosmo_score": 82.4,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "L2",
-          "cosmo_score": 71.2,
+          "name": "Infra",
+          "cosmo_score": 75.9,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Emerging",
-          "cosmo_score": 68.5,
-          "astro_bias": "Neutral"
+          "name": "DeFi",
+          "cosmo_score": 72.0,
+          "astro_bias": "Strong Bullish"
         },
         {
           "name": "Meme",
-          "cosmo_score": 68.2,
+          "cosmo_score": 71.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 69.4,
           "astro_bias": "Neutral"
         }
       ],
@@ -23620,7 +23636,7 @@
         "Moon moving Virgo to Scorpio within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Sun - favors L1, Infra",
-        "High funding rates: XLM, ETC, XRP \u2014 longs crowded"
+        "High funding rates: TAO, APT, POL \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
