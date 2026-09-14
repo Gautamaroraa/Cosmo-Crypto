@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-14",
-    "generated_at": "2026-09-14T01:23:43Z"
+    "generated_at": "2026-09-14T06:46:20Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -21,7 +21,7 @@
     "day_ruler": "Moon",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "Meme",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -49,11 +49,11 @@
       },
       {
         "name": "DeFi",
-        "avg_score": 63.9
+        "avg_score": 64.0
       },
       {
         "name": "L2",
-        "avg_score": 62.4
+        "avg_score": 62.3
       },
       {
         "name": "Meme",
@@ -79,7 +79,7 @@
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Moon",
-      "strongest_sector": "L2",
+      "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -114,6 +114,30 @@
         ],
         "different": [
           "Day ruler: Sun \u2192 now Moon"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "similarity_pct": 87.5,
+      "cosmo_score": 32.0,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Moon",
+      "strongest_sector": "Meme",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 87.5,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Leo",
+          "Day ruler Moon"
+        ],
+        "different": [
+          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
+          "Moon in: Cancer \u2192 now Libra"
         ]
       }
     },
@@ -159,30 +183,6 @@
         "different": [
           "Day ruler: Saturn \u2192 now Moon",
           "Moon in: Virgo \u2192 now Libra"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-07",
-      "similarity_pct": 84.8,
-      "cosmo_score": 32.0,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Moon",
-      "strongest_sector": "Meme",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 84.8,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Leo",
-          "Day ruler Moon"
-        ],
-        "different": [
-          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
-          "Moon in: Cancer \u2192 now Libra"
         ]
       }
     }
