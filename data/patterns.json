@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-09-15",
-    "generated_at": "2026-09-15T22:17:23Z"
+    "date": "2026-09-16",
+    "generated_at": "2026-09-16T00:40:29Z"
   },
   "today_conditions": {
     "sun_rashi": "Leo",
@@ -18,7 +18,7 @@
     "saturn_retro": true,
     "moon_phase": "Waxing Crescent",
     "moon_nakshatra": "Vishakha",
-    "day_ruler": "Mars",
+    "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
     "strongest_sector": "L1",
@@ -40,44 +40,45 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Payments",
-        "avg_score": 68.0
-      },
-      {
         "name": "L1",
-        "avg_score": 65.7
+        "avg_score": 67.3
       },
       {
-        "name": "DeFi",
-        "avg_score": 62.0
-      },
-      {
-        "name": "Meme",
-        "avg_score": 61.4
+        "name": "Payments",
+        "avg_score": 65.9
       },
       {
         "name": "Infra",
-        "avg_score": 59.1
+        "avg_score": 62.7
+      },
+      {
+        "name": "DeFi",
+        "avg_score": 62.5
+      },
+      {
+        "name": "Meme",
+        "avg_score": 61.1
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Crescent": 6,
-      "Waning Crescent": 3
+      "Waxing Crescent": 7,
+      "Waning Crescent": 1,
+      "Waning Gibbous": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Payments, L1, DeFi.",
-    "Mars in Gemini + Day of Mars is the dominant sky signature today."
+    "Strongest sectors on similar days: L1, Payments, Infra.",
+    "Mars in Gemini + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "similarity_pct": 100.0,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
-      "day_ruler": "Mars",
+      "day_ruler": "Mercury",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -91,6 +92,29 @@
           "Moon phase Waxing Crescent"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "similarity_pct": 94.6,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Mars",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 94.6,
+        "matched": [
+          "Mars in Gemini",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Leo",
+          "Moon phase Waxing Crescent"
+        ],
+        "different": [
+          "Day ruler: Mars \u2192 now Mercury"
+        ]
       }
     },
     {
@@ -112,7 +136,7 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Sun \u2192 now Mars"
+          "Day ruler: Sun \u2192 now Mercury"
         ]
       }
     },
@@ -135,42 +159,21 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Mars"
+          "Day ruler: Moon \u2192 now Mercury"
         ]
       }
     },
     {
-      "date": "2026-08-18",
-      "similarity_pct": 85.7,
+      "date": "2026-08-19",
+      "similarity_pct": 87.5,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
-      "day_ruler": "Mars",
-      "strongest_sector": "Payments",
+      "day_ruler": "Mercury",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
-        "matched": [
-          "Mars in Gemini",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Leo",
-          "Moon phase Waxing Crescent"
-        ],
-        "different": []
-      }
-    },
-    {
-      "date": "2026-09-12",
-      "similarity_pct": 85.7,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Saturn",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 87.5,
         "matched": [
           "Mars in Gemini",
           "Jupiter in Cancer",
@@ -179,8 +182,7 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Saturn \u2192 now Mars",
-          "Moon in: Virgo \u2192 now Libra"
+          "Moon in: Scorpio \u2192 now Libra"
         ]
       }
     }
