@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-17T14:43:32Z",
+    "generated_at": "2026-09-17T18:36:31Z",
     "total_days": 118,
     "version": "1.0"
   },
@@ -10,14 +10,14 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 63.8,
-      "DeFi": 61.8,
-      "L2": 61.1,
+      "DeFi": 61.7,
+      "L2": 61.3,
+      "Payments": 60.9,
       "Meme": 60.8,
-      "Payments": 60.7,
       "Gaming": 59.0,
       "Emerging": 57.8,
       "Infra": 57.6,
-      "AI": 56.5
+      "AI": 56.6
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-17T14:43:32Z"
+    "generated_at": "2026-09-17T18:36:31Z"
   },
   "anomalies": [
     {
@@ -24227,8 +24227,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "DeFi",
-      "weakest_sector": "L2",
+      "strongest_sector": "L2",
+      "weakest_sector": "Meme",
       "moon_phase": "Waxing Crescent",
       "moon_phase_emoji": "\ud83c\udf12",
       "day_ruler": "Jupiter",
@@ -24293,7 +24293,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 1.02
+          "orb": 1.08
         },
         {
           "planets": [
@@ -24301,7 +24301,7 @@
             "Mercury"
           ],
           "aspect": "Sextile",
-          "orb": 0.23
+          "orb": 1.45
         },
         {
           "planets": [
@@ -24309,7 +24309,7 @@
             "Jupiter"
           ],
           "aspect": "Trine",
-          "orb": 6.03
+          "orb": 4.12
         },
         {
           "planets": [
@@ -24317,7 +24317,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 1.55
+          "orb": 0.4
         },
         {
           "planets": [
@@ -24325,7 +24325,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 5.79
+          "orb": 5.57
         },
         {
           "planets": [
@@ -24333,7 +24333,7 @@
             "Saturn"
           ],
           "aspect": "Opposition",
-          "orb": 1.31
+          "orb": 1.05
         },
         {
           "planets": [
@@ -24341,7 +24341,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.48
+          "orb": 4.53
         },
         {
           "planets": [
@@ -24349,7 +24349,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 5.82
+          "orb": 5.91
         },
         {
           "planets": [
@@ -24357,7 +24357,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 5.82
+          "orb": 5.91
         },
         {
           "planets": [
@@ -24370,31 +24370,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1106,
+      "declining": 1086,
       "top_sectors": [
         {
+          "name": "L2",
+          "cosmo_score": 74.2,
+          "astro_bias": "Bullish"
+        },
+        {
           "name": "DeFi",
-          "cosmo_score": 69.9,
+          "cosmo_score": 67.5,
           "astro_bias": "Strong Bullish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 60.0,
-          "astro_bias": "Bearish"
-        },
-        {
           "name": "Payments",
-          "cosmo_score": 58.0,
+          "cosmo_score": 65.4,
           "astro_bias": "Neutral"
         },
         {
           "name": "AI",
-          "cosmo_score": 57.6,
+          "cosmo_score": 60.0,
           "astro_bias": "Neutral"
         },
         {
-          "name": "Emerging",
-          "cosmo_score": 57.5,
+          "name": "Gaming",
+          "cosmo_score": 59.7,
           "astro_bias": "Neutral"
         }
       ],
@@ -24404,7 +24404,7 @@
         "Moon moving Scorpio to Sagittarius within 3 days",
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Jupiter - favors L1, DeFi",
-        "High funding rates: API3, EIGEN, USUAL \u2014 longs crowded"
+        "High funding rates: LISTA, BLUR, LAYER \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
