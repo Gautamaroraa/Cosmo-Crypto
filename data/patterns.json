@@ -1,11 +1,11 @@
 {
   "meta": {
     "date": "2026-09-18",
-    "generated_at": "2026-09-18T17:05:50Z"
+    "generated_at": "2026-09-18T19:37:15Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
-    "moon_rashi": "Scorpio",
+    "moon_rashi": "Sagittarius",
     "mars_rashi": "Cancer",
     "mercury_rashi": "Virgo",
     "jupiter_rashi": "Cancer",
@@ -17,7 +17,7 @@
     "jupiter_retro": false,
     "saturn_retro": true,
     "moon_phase": "Waxing Crescent",
-    "moon_nakshatra": "Jyeshtha",
+    "moon_nakshatra": "Mula",
     "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
@@ -41,15 +41,11 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 69.4
+        "avg_score": 70.0
       },
       {
         "name": "DeFi",
-        "avg_score": 68.3
-      },
-      {
-        "name": "Meme",
-        "avg_score": 66.7
+        "avg_score": 67.0
       },
       {
         "name": "Infra",
@@ -57,19 +53,23 @@
       },
       {
         "name": "L2",
-        "avg_score": 63.4
+        "avg_score": 64.4
+      },
+      {
+        "name": "Meme",
+        "avg_score": 63.3
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Crescent": 7,
       "New Moon": 1,
-      "First Quarter": 1
+      "Waning Crescent": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, DeFi, Meme.",
+    "Strongest sectors on similar days: L1, DeFi, Infra.",
     "Mars in Cancer + Day of Venus is the dominant sky signature today."
   ],
   "similar_days": [
@@ -96,7 +96,7 @@
     },
     {
       "date": "2026-09-17",
-      "similarity_pct": 83.0,
+      "similarity_pct": 76.8,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Jupiter",
@@ -104,7 +104,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 83.0,
+        "similarity_pct": 76.8,
         "matched": [
           "Jupiter in Cancer",
           "Saturn in Pisces",
@@ -114,32 +114,8 @@
         ],
         "different": [
           "Mars in: Gemini \u2192 now Cancer",
-          "Day ruler: Jupiter \u2192 now Venus"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-16",
-      "similarity_pct": 73.2,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Mercury",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 73.2,
-        "matched": [
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Moon phase Waxing Crescent",
-          "Mercury retrograde False",
-          "Moon in Scorpio"
-        ],
-        "different": [
-          "Mars in: Gemini \u2192 now Cancer",
-          "Sun in: Leo \u2192 now Virgo",
-          "Day ruler: Mercury \u2192 now Venus"
+          "Day ruler: Jupiter \u2192 now Venus",
+          "Moon in: Scorpio \u2192 now Sagittarius"
         ]
       }
     },
@@ -188,6 +164,30 @@
           "Mars in: Gemini \u2192 now Cancer",
           "Sun in: Leo \u2192 now Virgo",
           "Day ruler: Moon \u2192 now Venus"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "similarity_pct": 71.4,
+      "cosmo_score": 33.2,
+      "moon_phase": "New Moon",
+      "day_ruler": "Venus",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 71.4,
+        "matched": [
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Day ruler Venus",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Mars in: Gemini \u2192 now Cancer",
+          "Sun in: Leo \u2192 now Virgo",
+          "Moon phase: New Moon \u2192 now Waxing Crescent"
         ]
       }
     }
