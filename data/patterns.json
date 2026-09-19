@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-09-19",
-    "generated_at": "2026-09-19T03:21:11Z"
+    "generated_at": "2026-09-19T08:14:30Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -21,7 +21,7 @@
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Payments",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,31 +41,32 @@
     "top_sectors_on_similar_days": [
       {
         "name": "DeFi",
-        "avg_score": 63.2
+        "avg_score": 64.9
       },
       {
         "name": "Payments",
-        "avg_score": 63.1
+        "avg_score": 62.9
       },
       {
         "name": "L1",
-        "avg_score": 62.2
+        "avg_score": 62.4
       },
       {
         "name": "L2",
-        "avg_score": 60.5
+        "avg_score": 59.3
       },
       {
-        "name": "Meme",
-        "avg_score": 59.8
+        "name": "Gaming",
+        "avg_score": 58.7
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "First Quarter": 3,
-      "Waxing Crescent": 2,
-      "Last Quarter": 1,
-      "Waning Crescent": 3
+      "Waxing Crescent": 3,
+      "Waning Crescent": 1,
+      "New Moon": 1,
+      "Last Quarter": 1
     }
   },
   "narratives": [
@@ -80,7 +81,7 @@
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
       "day_ruler": "Saturn",
-      "strongest_sector": "Payments",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -97,7 +98,7 @@
     },
     {
       "date": "2026-09-18",
-      "similarity_pct": 92.0,
+      "similarity_pct": 94.6,
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
       "day_ruler": "Venus",
@@ -105,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 92.0,
+        "similarity_pct": 94.6,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -115,30 +116,6 @@
         ],
         "different": [
           "Day ruler: Venus \u2192 now Saturn"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-17",
-      "similarity_pct": 73.2,
-      "cosmo_score": 34.8,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 73.2,
-        "matched": [
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Mars in: Gemini \u2192 now Cancer",
-          "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Day ruler: Jupiter \u2192 now Saturn"
         ]
       }
     },
@@ -168,7 +145,7 @@
     },
     {
       "date": "2026-09-12",
-      "similarity_pct": 68.8,
+      "similarity_pct": 71.4,
       "cosmo_score": 34.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Saturn",
@@ -176,7 +153,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 68.8,
+        "similarity_pct": 71.4,
         "matched": [
           "Jupiter in Cancer",
           "Saturn in Pisces",
@@ -187,6 +164,30 @@
           "Mars in: Gemini \u2192 now Cancer",
           "Sun in: Leo \u2192 now Virgo",
           "Moon phase: Waxing Crescent \u2192 now First Quarter"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "similarity_pct": 70.5,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "Payments",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 70.5,
+        "matched": [
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Mars in: Gemini \u2192 now Cancer",
+          "Moon phase: Waxing Crescent \u2192 now First Quarter",
+          "Day ruler: Jupiter \u2192 now Saturn"
         ]
       }
     }
