@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-09-20",
-    "generated_at": "2026-09-20T22:43:59Z"
+    "date": "2026-09-21",
+    "generated_at": "2026-09-21T00:32:53Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -17,11 +17,11 @@
     "jupiter_retro": false,
     "saturn_retro": true,
     "moon_phase": "First Quarter",
-    "moon_nakshatra": "Purva Ashadha",
-    "day_ruler": "Sun",
+    "moon_nakshatra": "Uttara Ashadha",
+    "day_ruler": "Moon",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,47 +40,47 @@
     },
     "top_sectors_on_similar_days": [
       {
+        "name": "Meme",
+        "avg_score": 72.0
+      },
+      {
         "name": "DeFi",
-        "avg_score": 69.9
+        "avg_score": 67.4
       },
       {
         "name": "L1",
-        "avg_score": 66.5
+        "avg_score": 65.1
       },
       {
-        "name": "Meme",
-        "avg_score": 63.2
+        "name": "Gaming",
+        "avg_score": 64.4
       },
       {
-        "name": "L2",
-        "avg_score": 62.0
-      },
-      {
-        "name": "Infra",
-        "avg_score": 61.6
+        "name": "Payments",
+        "avg_score": 61.4
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "First Quarter": 3,
-      "Waxing Crescent": 4,
+      "First Quarter": 4,
+      "Waxing Crescent": 3,
       "Waning Crescent": 1,
-      "New Moon": 1
+      "Waxing Gibbous": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: DeFi, L1, Meme.",
-    "Mars in Cancer + Day of Sun is the dominant sky signature today."
+    "Strongest sectors on similar days: Meme, DeFi, L1.",
+    "Mars in Cancer + Day of Moon is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "similarity_pct": 100.0,
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "DeFi",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,31 +96,8 @@
       }
     },
     {
-      "date": "2026-09-19",
-      "similarity_pct": 94.6,
-      "cosmo_score": 34.8,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 94.6,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Moon phase First Quarter"
-        ],
-        "different": [
-          "Day ruler: Saturn \u2192 now Sun"
-        ]
-      }
-    },
-    {
       "date": "2026-09-18",
-      "similarity_pct": 92.0,
+      "similarity_pct": 89.3,
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
       "day_ruler": "Venus",
@@ -128,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 92.0,
+        "similarity_pct": 89.3,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -137,31 +114,53 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Venus \u2192 now Sun"
+          "Day ruler: Venus \u2192 now Moon"
         ]
       }
     },
     {
-      "date": "2026-08-23",
-      "similarity_pct": 72.3,
+      "date": "2026-09-19",
+      "similarity_pct": 89.3,
       "cosmo_score": 34.8,
       "moon_phase": "First Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "L1",
+      "day_ruler": "Saturn",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 72.3,
+        "similarity_pct": 89.3,
         "matched": [
+          "Mars in Cancer",
           "Jupiter in Cancer",
           "Saturn in Pisces",
-          "Moon phase First Quarter",
-          "Day ruler Sun",
-          "Mercury retrograde False"
+          "Sun in Virgo",
+          "Moon phase First Quarter"
         ],
         "different": [
-          "Mars in: Gemini \u2192 now Cancer",
-          "Sun in: Leo \u2192 now Virgo"
+          "Day ruler: Saturn \u2192 now Moon"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "similarity_pct": 89.3,
+      "cosmo_score": 34.8,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Sun",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 89.3,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Moon phase First Quarter"
+        ],
+        "different": [
+          "Day ruler: Sun \u2192 now Moon"
         ]
       }
     },
@@ -185,7 +184,7 @@
         "different": [
           "Mars in: Gemini \u2192 now Cancer",
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Day ruler: Jupiter \u2192 now Sun"
+          "Day ruler: Jupiter \u2192 now Moon"
         ]
       }
     }
