@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T22:06:25Z",
-    "total_days": 127,
+    "generated_at": "2026-09-27T00:37:08Z",
+    "total_days": 128,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 127,
-    "days_with_outcomes": 126,
+    "total_days": 128,
+    "days_with_outcomes": 127,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 63.4,
-      "DeFi": 62.0,
+      "DeFi": 61.9,
       "L2": 61.0,
-      "Payments": 60.8,
-      "Meme": 60.3,
+      "Payments": 60.7,
+      "Meme": 60.1,
       "Gaming": 59.3,
       "Infra": 57.7,
-      "Emerging": 57.3,
+      "Emerging": 57.2,
       "AI": 56.2
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-26T22:06:25Z"
+    "generated_at": "2026-09-27T00:37:08Z"
   },
   "anomalies": [
     {
@@ -143,6 +143,14 @@
     },
     {
       "date": "2026-09-26",
+      "flags": [
+        "FULL_MOON_DAY"
+      ],
+      "cosmo_score": 32.5,
+      "moon_phase": "Full Moon"
+    },
+    {
+      "date": "2026-09-27",
       "flags": [
         "FULL_MOON_DAY"
       ],
@@ -26145,6 +26153,202 @@
         "Full Moon - Maximum speculation. Pump and dump risk.",
         "Day of Saturn - favors Infra, L2",
         "High funding rates: RUNE, LISTA, LINK \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-09-27",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "day_cosmo_score": 32.5,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "Payments",
+      "weakest_sector": "L1",
+      "moon_phase": "Full Moon",
+      "moon_phase_emoji": "\ud83c\udf15",
+      "day_ruler": "Sun",
+      "astro_score": 50,
+      "retrograde_planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Virgo",
+          "nakshatra": "Uttara Phalguni",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Pisces",
+          "nakshatra": "Uttara Bhadrapada",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Chitra",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "orb": 3.86
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "aspect": "Opposition",
+          "orb": 4.09
+        },
+        {
+          "planets": [
+            "Sun",
+            "Mars"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.58
+        },
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Opposition",
+          "orb": 7.95
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Square",
+          "orb": 4.1
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.39
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 2.67
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.67
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 6.98
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1124,
+      "top_sectors": [
+        {
+          "name": "Payments",
+          "cosmo_score": 57.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 55.9,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 54.2,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 51.7,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 50.8,
+          "astro_bias": "Bearish"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Saturn, Rahu, Ketu",
+        "Moon moving Pisces to Aries within 3 days",
+        "Full Moon - Maximum speculation. Pump and dump risk.",
+        "Day of Sun - favors L1, Infra",
+        "High funding rates: RUNE, JUP, LISTA \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,

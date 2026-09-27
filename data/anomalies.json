@@ -1,14 +1,14 @@
 {
   "meta": {
-    "date": "2026-09-26",
-    "generated_at": "2026-09-26T22:06:25Z"
+    "date": "2026-09-27",
+    "generated_at": "2026-09-27T00:37:08Z"
   },
   "summary": {
     "overall_level": "POSITIVE ANOMALY",
-    "total_anomalies": 2,
+    "total_anomalies": 3,
     "risk_count": 0,
     "positive_count": 2,
-    "medium_count": 0,
+    "medium_count": 1,
     "priority_alerts": [
       {
         "id": "JUPITER_EXALTED",
@@ -23,10 +23,24 @@
         "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
         "severity": "POSITIVE",
         "type": "planetary"
+      },
+      {
+        "id": "SUN_SATURN_OPPOSITION",
+        "label": "Sun opposite Saturn",
+        "description": "Authority vs restriction. Leadership under scrutiny.",
+        "severity": "MEDIUM",
+        "type": "planetary"
       }
     ]
   },
   "anomalies": [
+    {
+      "id": "SUN_SATURN_OPPOSITION",
+      "label": "Sun opposite Saturn",
+      "description": "Authority vs restriction. Leadership under scrutiny.",
+      "severity": "MEDIUM",
+      "type": "planetary"
+    },
     {
       "id": "JUPITER_EXALTED",
       "label": "Jupiter exalted in Cancer",
