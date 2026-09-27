@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-27T00:37:08Z",
+    "generated_at": "2026-09-27T05:49:07Z",
     "total_days": 128,
     "version": "1.0"
   },
@@ -10,13 +10,13 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 63.4,
-      "DeFi": 61.9,
-      "L2": 61.0,
-      "Payments": 60.7,
-      "Meme": 60.1,
+      "DeFi": 62.0,
+      "L2": 60.9,
+      "Payments": 60.8,
+      "Meme": 60.3,
       "Gaming": 59.3,
       "Infra": 57.7,
-      "Emerging": 57.2,
+      "Emerging": 57.3,
       "AI": 56.2
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-09-27T00:37:08Z"
+    "generated_at": "2026-09-27T05:49:07Z"
   },
   "anomalies": [
     {
@@ -26171,8 +26171,8 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Very High",
-      "strongest_sector": "Payments",
-      "weakest_sector": "L1",
+      "strongest_sector": "L1",
+      "weakest_sector": "Infra",
       "moon_phase": "Full Moon",
       "moon_phase_emoji": "\ud83c\udf15",
       "day_ruler": "Sun",
@@ -26190,7 +26190,7 @@
         },
         "Moon": {
           "rashi": "Pisces",
-          "nakshatra": "Uttara Bhadrapada",
+          "nakshatra": "Revati",
           "retrograde": false
         },
         "Mars": {
@@ -26235,7 +26235,7 @@
             "Moon",
             "Saturn"
           ],
-          "orb": 3.86
+          "orb": 0.88
         }
       ],
       "aspects": [
@@ -26245,7 +26245,7 @@
             "Moon"
           ],
           "aspect": "Opposition",
-          "orb": 4.09
+          "orb": 6.84
         },
         {
           "planets": [
@@ -26253,7 +26253,7 @@
             "Mars"
           ],
           "aspect": "Sextile",
-          "orb": 4.58
+          "orb": 4.67
         },
         {
           "planets": [
@@ -26261,7 +26261,15 @@
             "Saturn"
           ],
           "aspect": "Opposition",
-          "orb": 7.95
+          "orb": 7.72
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Trine",
+          "orb": 7.92
         },
         {
           "planets": [
@@ -26269,7 +26277,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 4.1
+          "orb": 3.92
         },
         {
           "planets": [
@@ -26277,7 +26285,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 6.39
+          "orb": 6.65
         },
         {
           "planets": [
@@ -26285,7 +26293,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 2.67
+          "orb": 2.35
         },
         {
           "planets": [
@@ -26293,7 +26301,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 2.67
+          "orb": 2.35
         },
         {
           "planets": [
@@ -26301,7 +26309,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 6.98
+          "orb": 7.04
         },
         {
           "planets": [
@@ -26314,32 +26322,32 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1124,
+      "declining": 1127,
       "top_sectors": [
         {
-          "name": "Payments",
-          "cosmo_score": 57.6,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "AI",
-          "cosmo_score": 55.9,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 54.2,
+          "name": "L1",
+          "cosmo_score": 62.0,
           "astro_bias": "Neutral"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 51.7,
+          "cosmo_score": 59.9,
           "astro_bias": "Bullish"
         },
         {
-          "name": "Meme",
-          "cosmo_score": 50.8,
-          "astro_bias": "Bearish"
+          "name": "L2",
+          "cosmo_score": 59.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 58.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 56.9,
+          "astro_bias": "Neutral"
         }
       ],
       "top_stocks": [],
@@ -26348,7 +26356,7 @@
         "Moon moving Pisces to Aries within 3 days",
         "Full Moon - Maximum speculation. Pump and dump risk.",
         "Day of Sun - favors L1, Infra",
-        "High funding rates: RUNE, JUP, LISTA \u2014 longs crowded"
+        "High funding rates: DYDX, API3, LISTA \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
