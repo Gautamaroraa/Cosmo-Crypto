@@ -1,11 +1,11 @@
 {
   "meta": {
     "date": "2026-10-02",
-    "generated_at": "2026-10-02T07:01:39Z"
+    "generated_at": "2026-10-02T13:48:34Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
-    "moon_rashi": "Taurus",
+    "moon_rashi": "Gemini",
     "mars_rashi": "Cancer",
     "mercury_rashi": "Libra",
     "jupiter_rashi": "Cancer",
@@ -21,7 +21,7 @@
     "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "Payments",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -80,7 +80,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Venus",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "Payments",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,16 +96,16 @@
       }
     },
     {
-      "date": "2026-09-30",
-      "similarity_pct": 89.3,
+      "date": "2026-09-29",
+      "similarity_pct": 88.4,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mercury",
-      "strongest_sector": "Emerging",
+      "day_ruler": "Mars",
+      "strongest_sector": "Payments",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 89.3,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -114,30 +114,8 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mercury \u2192 now Venus"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-01",
-      "similarity_pct": 89.3,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "Gaming",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 89.3,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Jupiter \u2192 now Venus"
+          "Day ruler: Mars \u2192 now Venus",
+          "Moon in: Aries \u2192 now Gemini"
         ]
       }
     },
@@ -161,7 +139,7 @@
         ],
         "different": [
           "Day ruler: Sun \u2192 now Venus",
-          "Moon in: Pisces \u2192 now Taurus"
+          "Moon in: Pisces \u2192 now Gemini"
         ]
       }
     },
@@ -185,7 +163,31 @@
         ],
         "different": [
           "Day ruler: Moon \u2192 now Venus",
-          "Moon in: Aries \u2192 now Taurus"
+          "Moon in: Aries \u2192 now Gemini"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "similarity_pct": 85.7,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mercury",
+      "strongest_sector": "Emerging",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 85.7,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Mercury \u2192 now Venus",
+          "Moon in: Taurus \u2192 now Gemini"
         ]
       }
     }
