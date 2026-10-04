@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-04",
-    "generated_at": "2026-10-04T13:44:00Z"
+    "generated_at": "2026-10-04T17:52:49Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -21,7 +21,7 @@
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "L2",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -64,8 +64,8 @@
     "moon_phase_pattern": {
       "Last Quarter": 1,
       "Waning Gibbous": 6,
-      "Full Moon": 1,
-      "First Quarter": 1
+      "First Quarter": 1,
+      "Full Moon": 1
     }
   },
   "narratives": [
@@ -80,7 +80,7 @@
       "cosmo_score": 31.3,
       "moon_phase": "Last Quarter",
       "day_ruler": "Sun",
-      "strongest_sector": "L1",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -121,7 +121,7 @@
     },
     {
       "date": "2026-09-27",
-      "similarity_pct": 83.9,
+      "similarity_pct": 81.2,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Sun",
@@ -129,7 +129,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 83.9,
+        "similarity_pct": 81.2,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -139,31 +139,6 @@
         ],
         "different": [
           "Moon phase: Waning Gibbous \u2192 now Last Quarter",
-          "Moon in: Pisces \u2192 now Cancer"
-        ]
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "similarity_pct": 78.6,
-      "cosmo_score": 32.5,
-      "moon_phase": "Full Moon",
-      "day_ruler": "Saturn",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 78.6,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Full Moon \u2192 now Last Quarter",
-          "Day ruler: Saturn \u2192 now Sun",
           "Moon in: Pisces \u2192 now Cancer"
         ]
       }
@@ -189,6 +164,31 @@
         "different": [
           "Moon phase: First Quarter \u2192 now Last Quarter",
           "Moon in: Sagittarius \u2192 now Cancer"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "similarity_pct": 75.9,
+      "cosmo_score": 32.5,
+      "moon_phase": "Full Moon",
+      "day_ruler": "Saturn",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 75.9,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Full Moon \u2192 now Last Quarter",
+          "Day ruler: Saturn \u2192 now Sun",
+          "Moon in: Pisces \u2192 now Cancer"
         ]
       }
     }
