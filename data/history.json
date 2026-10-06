@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-10-05T19:51:38Z",
-    "total_days": 136,
+    "generated_at": "2026-10-06T01:00:19Z",
+    "total_days": 137,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 136,
-    "days_with_outcomes": 135,
+    "total_days": 137,
+    "days_with_outcomes": 136,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 63.1,
-      "DeFi": 61.6,
-      "L2": 60.6,
-      "Payments": 60.4,
+      "DeFi": 61.5,
+      "L2": 60.4,
+      "Payments": 60.2,
       "Gaming": 59.7,
       "Meme": 59.7,
       "Infra": 57.6,
-      "Emerging": 57.0,
-      "AI": 55.6
+      "Emerging": 56.9,
+      "AI": 55.5
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-10-05T19:51:38Z"
+    "generated_at": "2026-10-06T01:00:19Z"
   },
   "anomalies": [
     {
@@ -167,6 +167,14 @@
     },
     {
       "date": "2026-10-05",
+      "flags": [
+        "HEAVY_RETROGRADE_SKY"
+      ],
+      "cosmo_score": 31.3,
+      "moon_phase": "Last Quarter"
+    },
+    {
+      "date": "2026-10-06",
       "flags": [
         "HEAVY_RETROGRADE_SKY"
       ],
@@ -28129,6 +28137,225 @@
         "Last Quarter - Declining energy. Reduce exposure.",
         "Day of Moon - favors Meme, Gaming",
         "High funding rates: SKYAI, JASMY, RED \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-10-06",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "day_cosmo_score": 31.3,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "Emerging",
+      "weakest_sector": "Infra",
+      "moon_phase": "Last Quarter",
+      "moon_phase_emoji": "\ud83c\udf17",
+      "day_ruler": "Mars",
+      "astro_score": 42,
+      "retrograde_planets": [
+        "Venus",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Virgo",
+          "nakshatra": "Hasta",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": true
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "orb": 5.34
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Venus"
+          ],
+          "orb": 1.27
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 6.97
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.34
+        },
+        {
+          "planets": [
+            "Sun",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.68
+        },
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Opposition",
+          "orb": 1.62
+        },
+        {
+          "planets": [
+            "Moon",
+            "Venus"
+          ],
+          "aspect": "Square",
+          "orb": 6.79
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 3.95
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Square",
+          "orb": 2.47
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Square",
+          "orb": 3.74
+        },
+        {
+          "planets": [
+            "Mars",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 6.58
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 6.97
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1171,
+      "top_sectors": [
+        {
+          "name": "Emerging",
+          "cosmo_score": 50.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 48.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 46.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 44.3,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 40.9,
+          "astro_bias": "Bearish"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Venus, Saturn, Rahu, Ketu",
+        "Moon moving Cancer to Virgo within 3 days",
+        "Last Quarter - Declining energy. Reduce exposure.",
+        "Day of Mars - favors L1, Meme",
+        "High funding rates: COAI, JASMY, RED \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
