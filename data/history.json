@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T21:48:08Z",
-    "total_days": 138,
+    "generated_at": "2026-10-08T01:36:03Z",
+    "total_days": 139,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 138,
-    "days_with_outcomes": 137,
+    "total_days": 139,
+    "days_with_outcomes": 138,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.0,
+      "L1": 62.9,
       "DeFi": 61.4,
-      "L2": 60.4,
-      "Payments": 60.4,
+      "L2": 60.3,
+      "Payments": 60.2,
       "Meme": 59.5,
       "Gaming": 59.0,
       "Infra": 57.6,
       "Emerging": 56.7,
-      "AI": 55.3
+      "AI": 55.2
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-10-07T21:48:08Z"
+    "generated_at": "2026-10-08T01:36:03Z"
   },
   "anomalies": [
     {
@@ -183,6 +183,14 @@
     },
     {
       "date": "2026-10-07",
+      "flags": [
+        "HEAVY_RETROGRADE_SKY"
+      ],
+      "cosmo_score": 31.3,
+      "moon_phase": "Waning Crescent"
+    },
+    {
+      "date": "2026-10-08",
       "flags": [
         "HEAVY_RETROGRADE_SKY"
       ],
@@ -28559,6 +28567,210 @@
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Mercury - favors DeFi, L2",
         "High funding rates: JTO, SKYAI, KAITO \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-10-08",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "day_cosmo_score": 31.3,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "Meme",
+      "moon_phase": "Waning Crescent",
+      "moon_phase_emoji": "\ud83c\udf18",
+      "day_ruler": "Jupiter",
+      "astro_score": 42,
+      "retrograde_planets": [
+        "Venus",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Virgo",
+          "nakshatra": "Hasta",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Leo",
+          "nakshatra": "Purva Phalguni",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": true
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Mercury",
+            "Venus"
+          ],
+          "orb": 1.41
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 6.52
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.02
+        },
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Opposition",
+          "orb": 3.77
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Sextile",
+          "orb": 3.43
+        },
+        {
+          "planets": [
+            "Moon",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.84
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Square",
+          "orb": 3.7
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Square",
+          "orb": 2.29
+        },
+        {
+          "planets": [
+            "Mars",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 5.27
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 6.52
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1197,
+      "top_sectors": [
+        {
+          "name": "DeFi",
+          "cosmo_score": 53.9,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 52.7,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 51.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 50.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 48.7,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Venus, Saturn, Rahu, Ketu",
+        "Moon moving Leo to Virgo within 3 days",
+        "Waning Crescent - Capitulation risk. Avoid longs.",
+        "Day of Jupiter - favors L1, DeFi",
+        "High funding rates: LINK, LDO, SUSHI \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
