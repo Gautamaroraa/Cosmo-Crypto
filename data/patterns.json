@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-09",
-    "generated_at": "2026-10-09T14:31:17Z"
+    "generated_at": "2026-10-09T19:42:08Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -17,11 +17,11 @@
     "jupiter_retro": false,
     "saturn_retro": true,
     "moon_phase": "New Moon",
-    "moon_nakshatra": "Uttara Phalguni",
+    "moon_nakshatra": "Hasta",
     "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Payments",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,37 +40,38 @@
     },
     "top_sectors_on_similar_days": [
       {
+        "name": "DeFi",
+        "avg_score": 58.6
+      },
+      {
         "name": "Payments",
-        "avg_score": 58.5
+        "avg_score": 58.6
       },
       {
         "name": "L1",
-        "avg_score": 58.5
-      },
-      {
-        "name": "DeFi",
-        "avg_score": 57.3
+        "avg_score": 57.8
       },
       {
         "name": "Infra",
-        "avg_score": 52.0
+        "avg_score": 54.5
       },
       {
-        "name": "Gaming",
-        "avg_score": 52.0
+        "name": "L2",
+        "avg_score": 52.7
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
+      "Waning Gibbous": 1,
       "Last Quarter": 4,
       "Waning Crescent": 2,
-      "Waning Gibbous": 2,
-      "First Quarter": 1
+      "First Quarter": 1,
+      "Waxing Gibbous": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Payments, L1, DeFi.",
+    "Strongest sectors on similar days: DeFi, Payments, L1.",
     "Mars in Cancer + Day of Venus is the dominant sky signature today."
   ],
   "similar_days": [
@@ -80,7 +81,7 @@
       "cosmo_score": 32.5,
       "moon_phase": "New Moon",
       "day_ruler": "Venus",
-      "strongest_sector": "Payments",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -96,58 +97,8 @@
       }
     },
     {
-      "date": "2026-10-05",
-      "similarity_pct": 82.1,
-      "cosmo_score": 31.3,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Moon",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 82.1,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Last Quarter \u2192 now New Moon",
-          "Day ruler: Moon \u2192 now Venus",
-          "Moon in: Cancer \u2192 now Virgo"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-08",
-      "similarity_pct": 82.1,
-      "cosmo_score": 31.3,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "AI",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 82.1,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Waning Crescent \u2192 now New Moon",
-          "Day ruler: Jupiter \u2192 now Venus",
-          "Moon in: Leo \u2192 now Virgo"
-        ]
-      }
-    },
-    {
       "date": "2026-10-02",
-      "similarity_pct": 81.2,
+      "similarity_pct": 83.9,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Venus",
@@ -155,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 81.2,
+        "similarity_pct": 83.9,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -171,7 +122,7 @@
     },
     {
       "date": "2026-10-03",
-      "similarity_pct": 79.5,
+      "similarity_pct": 82.1,
       "cosmo_score": 31.3,
       "moon_phase": "Last Quarter",
       "day_ruler": "Saturn",
@@ -179,7 +130,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -191,6 +142,56 @@
           "Moon phase: Last Quarter \u2192 now New Moon",
           "Day ruler: Saturn \u2192 now Venus",
           "Moon in: Gemini \u2192 now Virgo"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "similarity_pct": 82.1,
+      "cosmo_score": 31.3,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Mars",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now New Moon",
+          "Day ruler: Mars \u2192 now Venus",
+          "Moon in: Leo \u2192 now Virgo"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "similarity_pct": 82.1,
+      "cosmo_score": 31.3,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Mercury",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Waning Crescent \u2192 now New Moon",
+          "Day ruler: Mercury \u2192 now Venus",
+          "Moon in: Leo \u2192 now Virgo"
         ]
       }
     }
