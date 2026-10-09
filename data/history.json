@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-09T01:01:13Z",
+    "generated_at": "2026-10-09T07:19:49Z",
     "total_days": 140,
     "version": "1.0"
   },
@@ -11,13 +11,13 @@
     "sector_avg_scores": {
       "L1": 63.0,
       "DeFi": 61.3,
+      "Payments": 60.4,
       "L2": 60.2,
-      "Payments": 60.2,
-      "Meme": 59.4,
-      "Gaming": 58.9,
+      "Meme": 59.5,
+      "Gaming": 59.0,
       "Infra": 57.4,
-      "Emerging": 56.6,
-      "AI": 55.3
+      "Emerging": 56.7,
+      "AI": 55.4
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-10-09T01:01:13Z"
+    "generated_at": "2026-10-09T07:19:49Z"
   },
   "anomalies": [
     {
@@ -28781,7 +28781,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "Very High",
-      "strongest_sector": "Gaming",
+      "strongest_sector": "Emerging",
       "weakest_sector": "Infra",
       "moon_phase": "Waning Crescent",
       "moon_phase_emoji": "\ud83c\udf18",
@@ -28846,14 +28846,14 @@
             "Mercury",
             "Venus"
           ],
-          "orb": 2.71
+          "orb": 3.07
         },
         {
           "planets": [
             "Jupiter",
             "Ketu"
           ],
-          "orb": 6.31
+          "orb": 6.25
         }
       ],
       "aspects": [
@@ -28863,7 +28863,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 5.22
+          "orb": 5.01
         },
         {
           "planets": [
@@ -28871,7 +28871,15 @@
             "Saturn"
           ],
           "aspect": "Opposition",
-          "orb": 4.81
+          "orb": 5.09
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.94
         },
         {
           "planets": [
@@ -28879,7 +28887,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 4.25
+          "orb": 4.39
         },
         {
           "planets": [
@@ -28887,7 +28895,7 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 1.53
+          "orb": 1.32
         },
         {
           "planets": [
@@ -28895,7 +28903,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 4.64
+          "orb": 4.47
         },
         {
           "planets": [
@@ -28903,7 +28911,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 6.31
+          "orb": 6.25
         },
         {
           "planets": [
@@ -28916,31 +28924,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1276,
+      "declining": 1286,
       "top_sectors": [
         {
-          "name": "Gaming",
-          "cosmo_score": 55.0,
+          "name": "Emerging",
+          "cosmo_score": 61.3,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 57.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 55.2,
           "astro_bias": "Bearish"
         },
         {
           "name": "L2",
-          "cosmo_score": 52.4,
+          "cosmo_score": 54.7,
           "astro_bias": "Neutral"
-        },
-        {
-          "name": "Meme",
-          "cosmo_score": 51.0,
-          "astro_bias": "Bearish"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 48.4,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Payments",
-          "cosmo_score": 47.4,
+          "cosmo_score": 54.1,
           "astro_bias": "Neutral"
         }
       ],
@@ -28950,7 +28958,7 @@
         "Moon moving Virgo to Libra within 3 days",
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Venus - favors Meme, Gaming",
-        "High funding rates: LINK, COAI, POL \u2014 longs crowded"
+        "High funding rates: LINK, SKYAI, WCT \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
