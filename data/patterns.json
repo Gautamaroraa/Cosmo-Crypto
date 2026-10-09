@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-09",
-    "generated_at": "2026-10-09T19:42:08Z"
+    "generated_at": "2026-10-09T23:33:22Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -21,7 +21,7 @@
     "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,38 +40,37 @@
     },
     "top_sectors_on_similar_days": [
       {
+        "name": "L1",
+        "avg_score": 55.5
+      },
+      {
         "name": "DeFi",
-        "avg_score": 58.6
+        "avg_score": 53.5
       },
       {
         "name": "Payments",
-        "avg_score": 58.6
-      },
-      {
-        "name": "L1",
-        "avg_score": 57.8
+        "avg_score": 52.9
       },
       {
         "name": "Infra",
-        "avg_score": 54.5
+        "avg_score": 52.0
       },
       {
-        "name": "L2",
-        "avg_score": 52.7
+        "name": "Emerging",
+        "avg_score": 50.7
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waning Gibbous": 1,
+      "Waning Gibbous": 2,
       "Last Quarter": 4,
       "Waning Crescent": 2,
-      "First Quarter": 1,
-      "Waxing Gibbous": 1
+      "Full Moon": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: DeFi, Payments, L1.",
+    "Strongest sectors on similar days: L1, DeFi, Payments.",
     "Mars in Cancer + Day of Venus is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +80,7 @@
       "cosmo_score": 32.5,
       "moon_phase": "New Moon",
       "day_ruler": "Venus",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +97,7 @@
     },
     {
       "date": "2026-10-02",
-      "similarity_pct": 83.9,
+      "similarity_pct": 81.2,
       "cosmo_score": 33.2,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Venus",
@@ -106,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 83.9,
+        "similarity_pct": 81.2,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -122,7 +121,7 @@
     },
     {
       "date": "2026-10-03",
-      "similarity_pct": 82.1,
+      "similarity_pct": 79.5,
       "cosmo_score": 31.3,
       "moon_phase": "Last Quarter",
       "day_ruler": "Saturn",
@@ -130,7 +129,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 82.1,
+        "similarity_pct": 79.5,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -146,16 +145,16 @@
       }
     },
     {
-      "date": "2026-10-06",
-      "similarity_pct": 82.1,
+      "date": "2026-10-04",
+      "similarity_pct": 79.5,
       "cosmo_score": 31.3,
       "moon_phase": "Last Quarter",
-      "day_ruler": "Mars",
-      "strongest_sector": "DeFi",
+      "day_ruler": "Sun",
+      "strongest_sector": "L2",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 82.1,
+        "similarity_pct": 79.5,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -165,22 +164,22 @@
         ],
         "different": [
           "Moon phase: Last Quarter \u2192 now New Moon",
-          "Day ruler: Mars \u2192 now Venus",
-          "Moon in: Leo \u2192 now Virgo"
+          "Day ruler: Sun \u2192 now Venus",
+          "Moon in: Cancer \u2192 now Virgo"
         ]
       }
     },
     {
-      "date": "2026-10-07",
-      "similarity_pct": 82.1,
+      "date": "2026-10-05",
+      "similarity_pct": 79.5,
       "cosmo_score": 31.3,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Mercury",
-      "strongest_sector": "DeFi",
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Moon",
+      "strongest_sector": "Payments",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 82.1,
+        "similarity_pct": 79.5,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -189,9 +188,9 @@
           "Mercury retrograde False"
         ],
         "different": [
-          "Moon phase: Waning Crescent \u2192 now New Moon",
-          "Day ruler: Mercury \u2192 now Venus",
-          "Moon in: Leo \u2192 now Virgo"
+          "Moon phase: Last Quarter \u2192 now New Moon",
+          "Day ruler: Moon \u2192 now Venus",
+          "Moon in: Cancer \u2192 now Virgo"
         ]
       }
     }
