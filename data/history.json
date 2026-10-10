@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-10-09T23:33:22Z",
-    "total_days": 140,
+    "generated_at": "2026-10-10T02:47:57Z",
+    "total_days": 141,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 140,
-    "days_with_outcomes": 139,
+    "total_days": 141,
+    "days_with_outcomes": 140,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 63.0,
+      "L1": 63.1,
       "DeFi": 61.4,
-      "Payments": 60.5,
-      "L2": 60.3,
+      "Payments": 60.7,
+      "L2": 60.5,
       "Meme": 59.5,
       "Gaming": 59.0,
       "Infra": 57.4,
-      "Emerging": 56.6,
-      "AI": 55.4
+      "Emerging": 56.7,
+      "AI": 55.5
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-10-09T23:33:22Z"
+    "generated_at": "2026-10-10T02:47:57Z"
   },
   "anomalies": [
     {
@@ -199,6 +199,15 @@
     },
     {
       "date": "2026-10-09",
+      "flags": [
+        "HEAVY_RETROGRADE_SKY",
+        "NEW_MOON_DAY"
+      ],
+      "cosmo_score": 32.5,
+      "moon_phase": "New Moon"
+    },
+    {
+      "date": "2026-10-10",
       "flags": [
         "HEAVY_RETROGRADE_SKY",
         "NEW_MOON_DAY"
@@ -28968,6 +28977,217 @@
         "New Moon - New cycle. Accumulation phase.",
         "Day of Venus - favors Meme, Gaming",
         "High funding rates: LINK, UNI, AAVE \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-10-10",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "day_cosmo_score": 32.5,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "L2",
+      "weakest_sector": "Infra",
+      "moon_phase": "New Moon",
+      "moon_phase_emoji": "\ud83c\udf11",
+      "day_ruler": "Saturn",
+      "astro_score": 50,
+      "retrograde_planets": [
+        "Venus",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Virgo",
+          "nakshatra": "Hasta",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Virgo",
+          "nakshatra": "Hasta",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Cancer",
+          "nakshatra": "Pushya",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": true
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Uttara Bhadrapada",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "orb": 6.58
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Venus"
+          ],
+          "orb": 4.16
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 6.07
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.34
+        },
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Opposition",
+          "orb": 5.96
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Sextile",
+          "orb": 3.33
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.62
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Square",
+          "orb": 4.82
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Square",
+          "orb": 0.66
+        },
+        {
+          "planets": [
+            "Mars",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 3.95
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 6.07
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1135,
+      "top_sectors": [
+        {
+          "name": "L2",
+          "cosmo_score": 72.8,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 70.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 67.3,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 65.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 62.4,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Venus, Saturn, Rahu, Ketu",
+        "Moon moving Virgo to Libra within 3 days",
+        "New Moon - New cycle. Accumulation phase.",
+        "Day of Saturn - favors Infra, L2",
+        "High funding rates: POL, BLUR, LAYER \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
