@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-10",
-    "generated_at": "2026-10-10T02:47:57Z"
+    "generated_at": "2026-10-10T09:28:59Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -21,7 +21,7 @@
     "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "Emerging",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,23 +41,23 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 60.0
-      },
-      {
-        "name": "DeFi",
-        "avg_score": 56.9
-      },
-      {
-        "name": "Infra",
-        "avg_score": 56.7
+        "avg_score": 58.5
       },
       {
         "name": "Payments",
-        "avg_score": 56.1
+        "avg_score": 56.4
+      },
+      {
+        "name": "DeFi",
+        "avg_score": 54.0
+      },
+      {
+        "name": "Infra",
+        "avg_score": 52.0
       },
       {
         "name": "L2",
-        "avg_score": 52.9
+        "avg_score": 51.0
       }
     ],
     "recurring_stocks": [],
@@ -66,12 +66,12 @@
       "Last Quarter": 4,
       "Full Moon": 1,
       "Waning Crescent": 2,
-      "First Quarter": 1
+      "Waning Gibbous": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, DeFi, Infra.",
+    "Strongest sectors on similar days: L1, Payments, DeFi.",
     "Mars in Cancer + Day of Saturn is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +81,7 @@
       "cosmo_score": 32.5,
       "moon_phase": "New Moon",
       "day_ruler": "Saturn",
-      "strongest_sector": "L2",
+      "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -144,31 +144,6 @@
       }
     },
     {
-      "date": "2026-10-04",
-      "similarity_pct": 82.1,
-      "cosmo_score": 31.3,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "L2",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 82.1,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Last Quarter \u2192 now New Moon",
-          "Day ruler: Sun \u2192 now Saturn",
-          "Moon in: Cancer \u2192 now Virgo"
-        ]
-      }
-    },
-    {
       "date": "2026-09-26",
       "similarity_pct": 81.2,
       "cosmo_score": 32.5,
@@ -189,6 +164,31 @@
         "different": [
           "Moon phase: Full Moon \u2192 now New Moon",
           "Moon in: Pisces \u2192 now Virgo"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "similarity_pct": 79.5,
+      "cosmo_score": 31.3,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Sun",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 79.5,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now New Moon",
+          "Day ruler: Sun \u2192 now Saturn",
+          "Moon in: Cancer \u2192 now Virgo"
         ]
       }
     }
