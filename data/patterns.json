@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-11",
-    "generated_at": "2026-10-11T14:41:52Z"
+    "generated_at": "2026-10-11T19:12:52Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -16,8 +16,8 @@
     "mars_retro": false,
     "jupiter_retro": false,
     "saturn_retro": true,
-    "moon_phase": "New Moon",
-    "moon_nakshatra": "Chitra",
+    "moon_phase": "Waxing Crescent",
+    "moon_nakshatra": "Swati",
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
@@ -62,9 +62,9 @@
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "New Moon": 2,
       "Last Quarter": 4,
       "Waning Gibbous": 1,
+      "New Moon": 2,
       "Waning Crescent": 2
     }
   },
@@ -77,8 +77,8 @@
     {
       "date": "2026-10-11",
       "similarity_pct": 100.0,
-      "cosmo_score": 32.5,
-      "moon_phase": "New Moon",
+      "cosmo_score": 34.0,
+      "moon_phase": "Waxing Crescent",
       "day_ruler": "Sun",
       "strongest_sector": "L1",
       "market_direction": "Bearish",
@@ -90,57 +90,9 @@
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Virgo",
-          "Moon phase New Moon"
+          "Moon phase Waxing Crescent"
         ],
         "different": []
-      }
-    },
-    {
-      "date": "2026-10-09",
-      "similarity_pct": 88.4,
-      "cosmo_score": 32.5,
-      "moon_phase": "New Moon",
-      "day_ruler": "Venus",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 88.4,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Moon phase New Moon"
-        ],
-        "different": [
-          "Day ruler: Venus \u2192 now Sun",
-          "Moon in: Virgo \u2192 now Libra"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-10",
-      "similarity_pct": 88.4,
-      "cosmo_score": 32.5,
-      "moon_phase": "New Moon",
-      "day_ruler": "Saturn",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 88.4,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Moon phase New Moon"
-        ],
-        "different": [
-          "Day ruler: Saturn \u2192 now Sun",
-          "Moon in: Virgo \u2192 now Libra"
-        ]
       }
     },
     {
@@ -162,7 +114,7 @@
           "Day ruler Sun"
         ],
         "different": [
-          "Moon phase: Last Quarter \u2192 now New Moon",
+          "Moon phase: Last Quarter \u2192 now Waxing Crescent",
           "Moon in: Cancer \u2192 now Libra"
         ]
       }
@@ -186,8 +138,58 @@
           "Day ruler Sun"
         ],
         "different": [
-          "Moon phase: Waning Gibbous \u2192 now New Moon",
+          "Moon phase: Waning Gibbous \u2192 now Waxing Crescent",
           "Moon in: Pisces \u2192 now Libra"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "similarity_pct": 82.1,
+      "cosmo_score": 32.5,
+      "moon_phase": "New Moon",
+      "day_ruler": "Venus",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: New Moon \u2192 now Waxing Crescent",
+          "Day ruler: Venus \u2192 now Sun",
+          "Moon in: Virgo \u2192 now Libra"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "similarity_pct": 79.5,
+      "cosmo_score": 31.3,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Saturn",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 79.5,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now Waxing Crescent",
+          "Day ruler: Saturn \u2192 now Sun",
+          "Moon in: Gemini \u2192 now Libra"
         ]
       }
     }
