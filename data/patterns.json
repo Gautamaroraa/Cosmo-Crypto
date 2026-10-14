@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-14",
-    "generated_at": "2026-10-14T05:13:12Z"
+    "generated_at": "2026-10-14T10:16:18Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -21,7 +21,7 @@
     "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,31 +41,33 @@
     "top_sectors_on_similar_days": [
       {
         "name": "L1",
-        "avg_score": 57.3
+        "avg_score": 59.5
       },
       {
         "name": "Payments",
-        "avg_score": 56.4
+        "avg_score": 59.2
       },
       {
         "name": "DeFi",
-        "avg_score": 53.5
+        "avg_score": 57.7
       },
       {
         "name": "Infra",
-        "avg_score": 52.0
+        "avg_score": 56.1
       },
       {
         "name": "Emerging",
-        "avg_score": 50.2
+        "avg_score": 53.2
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Crescent": 3,
       "Waning Crescent": 1,
-      "Last Quarter": 4,
-      "Waning Gibbous": 1
+      "Last Quarter": 2,
+      "New Moon": 1,
+      "Waning Gibbous": 1,
+      "Waxing Gibbous": 1
     }
   },
   "narratives": [
@@ -80,7 +82,7 @@
       "cosmo_score": 34.0,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mercury",
-      "strongest_sector": "L2",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -115,6 +117,30 @@
         ],
         "different": [
           "Day ruler: Mars \u2192 now Mercury"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "similarity_pct": 87.5,
+      "cosmo_score": 31.3,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Mercury",
+      "strongest_sector": "DeFi",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 87.5,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Day ruler Mercury"
+        ],
+        "different": [
+          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
+          "Moon in: Leo \u2192 now Scorpio"
         ]
       }
     },
@@ -163,30 +189,6 @@
         "different": [
           "Day ruler: Moon \u2192 now Mercury",
           "Moon in: Libra \u2192 now Scorpio"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-07",
-      "similarity_pct": 84.8,
-      "cosmo_score": 31.3,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Mercury",
-      "strongest_sector": "DeFi",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 84.8,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Day ruler Mercury"
-        ],
-        "different": [
-          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
-          "Moon in: Leo \u2192 now Scorpio"
         ]
       }
     }
