@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-15",
-    "generated_at": "2026-10-15T19:12:47Z"
+    "generated_at": "2026-10-15T22:21:53Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -21,7 +21,7 @@
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,38 +40,37 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "Meme",
-        "avg_score": 68.8
-      },
-      {
-        "name": "Gaming",
-        "avg_score": 63.7
+        "name": "Payments",
+        "avg_score": 59.2
       },
       {
         "name": "L1",
-        "avg_score": 61.6
-      },
-      {
-        "name": "Payments",
-        "avg_score": 61.4
+        "avg_score": 58.7
       },
       {
         "name": "DeFi",
-        "avg_score": 60.5
+        "avg_score": 56.4
+      },
+      {
+        "name": "Emerging",
+        "avg_score": 52.2
+      },
+      {
+        "name": "AI",
+        "avg_score": 52.0
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Crescent": 5,
-      "Waning Crescent": 1,
-      "New Moon": 1,
-      "Waning Gibbous": 1,
-      "Last Quarter": 1
+      "Waxing Crescent": 4,
+      "Waning Crescent": 2,
+      "Last Quarter": 2,
+      "New Moon": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Meme, Gaming, L1.",
+    "Strongest sectors on similar days: Payments, L1, DeFi.",
     "Mars in Cancer + Day of Jupiter is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +80,7 @@
       "cosmo_score": 34.0,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Jupiter",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +97,7 @@
     },
     {
       "date": "2026-10-13",
-      "similarity_pct": 92.0,
+      "similarity_pct": 89.3,
       "cosmo_score": 34.0,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mars",
@@ -106,7 +105,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 92.0,
+        "similarity_pct": 89.3,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -143,30 +142,6 @@
       }
     },
     {
-      "date": "2026-10-12",
-      "similarity_pct": 88.4,
-      "cosmo_score": 34.0,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Moon",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 88.4,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Moon phase Waxing Crescent"
-        ],
-        "different": [
-          "Day ruler: Moon \u2192 now Jupiter",
-          "Moon in: Libra \u2192 now Scorpio"
-        ]
-      }
-    },
-    {
       "date": "2026-10-11",
       "similarity_pct": 85.7,
       "cosmo_score": 34.0,
@@ -186,6 +161,30 @@
         ],
         "different": [
           "Day ruler: Sun \u2192 now Jupiter",
+          "Moon in: Libra \u2192 now Scorpio"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "similarity_pct": 85.7,
+      "cosmo_score": 34.0,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 85.7,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Moon phase Waxing Crescent"
+        ],
+        "different": [
+          "Day ruler: Moon \u2192 now Jupiter",
           "Moon in: Libra \u2192 now Scorpio"
         ]
       }
