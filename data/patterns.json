@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-16",
-    "generated_at": "2026-10-16T18:23:56Z"
+    "generated_at": "2026-10-16T21:32:06Z"
   },
   "today_conditions": {
     "sun_rashi": "Virgo",
@@ -21,7 +21,7 @@
     "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -63,8 +63,8 @@
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Crescent": 5,
-      "New Moon": 1,
       "First Quarter": 1,
+      "New Moon": 1,
       "Waning Gibbous": 1,
       "Last Quarter": 1
     }
@@ -81,7 +81,7 @@
       "cosmo_score": 34.0,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Venus",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -97,12 +97,12 @@
       }
     },
     {
-      "date": "2026-10-12",
+      "date": "2026-10-15",
       "similarity_pct": 88.4,
       "cosmo_score": 34.0,
       "moon_phase": "Waxing Crescent",
-      "day_ruler": "Moon",
-      "strongest_sector": "L1",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -115,46 +115,22 @@
           "Moon phase Waxing Crescent"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Venus",
-          "Moon in: Libra \u2192 now Sagittarius"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-13",
-      "similarity_pct": 88.4,
-      "cosmo_score": 34.0,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Mars",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 88.4,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Virgo",
-          "Moon phase Waxing Crescent"
-        ],
-        "different": [
-          "Day ruler: Mars \u2192 now Venus",
+          "Day ruler: Jupiter \u2192 now Venus",
           "Moon in: Scorpio \u2192 now Sagittarius"
         ]
       }
     },
     {
-      "date": "2026-10-09",
-      "similarity_pct": 87.5,
-      "cosmo_score": 32.5,
-      "moon_phase": "New Moon",
+      "date": "2026-09-18",
+      "similarity_pct": 85.7,
+      "cosmo_score": 34.8,
+      "moon_phase": "First Quarter",
       "day_ruler": "Venus",
-      "strongest_sector": "L1",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 87.5,
+        "similarity_pct": 85.7,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
@@ -163,8 +139,7 @@
           "Day ruler Venus"
         ],
         "different": [
-          "Moon phase: New Moon \u2192 now Waxing Crescent",
-          "Moon in: Virgo \u2192 now Sagittarius"
+          "Moon phase: First Quarter \u2192 now Waxing Crescent"
         ]
       }
     },
@@ -188,6 +163,30 @@
         ],
         "different": [
           "Day ruler: Sun \u2192 now Venus",
+          "Moon in: Libra \u2192 now Sagittarius"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "similarity_pct": 85.7,
+      "cosmo_score": 34.0,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Moon",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 85.7,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Virgo",
+          "Moon phase Waxing Crescent"
+        ],
+        "different": [
+          "Day ruler: Moon \u2192 now Venus",
           "Moon in: Libra \u2192 now Sagittarius"
         ]
       }
