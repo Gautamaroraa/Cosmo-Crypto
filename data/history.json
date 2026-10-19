@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-19T01:36:44Z",
+    "generated_at": "2026-10-19T06:53:13Z",
     "total_days": 150,
     "version": "1.0"
   },
@@ -10,14 +10,14 @@
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 62.9,
-      "DeFi": 61.6,
-      "Payments": 60.8,
-      "L2": 60.2,
+      "DeFi": 61.4,
+      "Payments": 60.6,
+      "L2": 60.0,
       "Meme": 59.7,
-      "Gaming": 59.1,
+      "Gaming": 58.9,
       "Infra": 57.3,
-      "Emerging": 57.0,
-      "AI": 55.8
+      "Emerging": 56.9,
+      "AI": 55.4
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-10-19T01:36:44Z"
+    "generated_at": "2026-10-19T06:53:13Z"
   },
   "anomalies": [
     {
@@ -31113,7 +31113,7 @@
       "market_direction": "Bearish",
       "volatility_bias": "Low",
       "risk_level": "High",
-      "strongest_sector": "AI",
+      "strongest_sector": "Emerging",
       "weakest_sector": "Infra",
       "moon_phase": "First Quarter",
       "moon_phase_emoji": "\ud83c\udf13",
@@ -31175,10 +31175,17 @@
       "conjunctions": [
         {
           "planets": [
+            "Sun",
+            "Venus"
+          ],
+          "orb": 7.73
+        },
+        {
+          "planets": [
             "Jupiter",
             "Ketu"
           ],
-          "orb": 4.19
+          "orb": 4.15
         }
       ],
       "aspects": [
@@ -31188,7 +31195,7 @@
             "Moon"
           ],
           "aspect": "Square",
-          "orb": 4.27
+          "orb": 6.68
         },
         {
           "planets": [
@@ -31196,7 +31203,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 3.12
+          "orb": 3.31
         },
         {
           "planets": [
@@ -31204,7 +31211,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 1.07
+          "orb": 0.84
         },
         {
           "planets": [
@@ -31212,7 +31219,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 1.07
+          "orb": 0.84
         },
         {
           "planets": [
@@ -31220,7 +31227,15 @@
             "Venus"
           ],
           "aspect": "Square",
-          "orb": 3.8
+          "orb": 1.05
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.57
         },
         {
           "planets": [
@@ -31228,7 +31243,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 7.53
+          "orb": 7.54
         },
         {
           "planets": [
@@ -31236,7 +31251,7 @@
             "Saturn"
           ],
           "aspect": "Trine",
-          "orb": 1.68
+          "orb": 1.81
         },
         {
           "planets": [
@@ -31244,7 +31259,7 @@
             "Jupiter"
           ],
           "aspect": "Square",
-          "orb": 3.18
+          "orb": 3.09
         },
         {
           "planets": [
@@ -31252,7 +31267,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 7.37
+          "orb": 7.23
         },
         {
           "planets": [
@@ -31260,7 +31275,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 7.37
+          "orb": 7.23
         },
         {
           "planets": [
@@ -31268,7 +31283,7 @@
             "Rahu"
           ],
           "aspect": "Opposition",
-          "orb": 4.19
+          "orb": 4.15
         },
         {
           "planets": [
@@ -31276,7 +31291,7 @@
             "Rahu"
           ],
           "aspect": "Trine",
-          "orb": 7.01
+          "orb": 6.9
         },
         {
           "planets": [
@@ -31284,7 +31299,7 @@
             "Ketu"
           ],
           "aspect": "Sextile",
-          "orb": 7.01
+          "orb": 6.9
         },
         {
           "planets": [
@@ -31297,31 +31312,31 @@
       ],
       "breadth_ratio": 0.0,
       "advancing": 0,
-      "declining": 1149,
+      "declining": 1157,
       "top_sectors": [
         {
+          "name": "Emerging",
+          "cosmo_score": 54.0,
+          "astro_bias": "Neutral"
+        },
+        {
           "name": "AI",
-          "cosmo_score": 68.8,
+          "cosmo_score": 44.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 43.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 42.6,
           "astro_bias": "Neutral"
         },
         {
           "name": "DeFi",
-          "cosmo_score": 67.7,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Gaming",
-          "cosmo_score": 66.9,
-          "astro_bias": "Bearish"
-        },
-        {
-          "name": "Payments",
-          "cosmo_score": 62.8,
-          "astro_bias": "Neutral"
-        },
-        {
-          "name": "Emerging",
-          "cosmo_score": 61.2,
+          "cosmo_score": 41.9,
           "astro_bias": "Neutral"
         }
       ],
@@ -31331,7 +31346,7 @@
         "Moon moving Capricorn to Aquarius within 3 days",
         "First Quarter - Strong momentum. Trend entries favored.",
         "Day of Moon - favors Meme, Gaming",
-        "High funding rates: POL, OP, MANTA \u2014 longs crowded"
+        "High funding rates: RSR, SOPH, SUSHI \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
