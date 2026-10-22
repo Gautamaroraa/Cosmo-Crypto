@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T11:14:49Z"
+    "generated_at": "2026-10-22T15:55:18Z"
   },
   "today_conditions": {
     "sun_rashi": "Libra",
@@ -16,12 +16,12 @@
     "mars_retro": false,
     "jupiter_retro": false,
     "saturn_retro": true,
-    "moon_phase": "First Quarter",
-    "moon_nakshatra": "Shatabhisha",
+    "moon_phase": "Waxing Gibbous",
+    "moon_nakshatra": "Purva Bhadrapada",
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "AI",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,11 +41,11 @@
     "top_sectors_on_similar_days": [
       {
         "name": "DeFi",
-        "avg_score": 60.9
+        "avg_score": 62.1
       },
       {
         "name": "AI",
-        "avg_score": 60.5
+        "avg_score": 59.5
       },
       {
         "name": "Payments",
@@ -53,19 +53,19 @@
       },
       {
         "name": "L2",
-        "avg_score": 57.6
+        "avg_score": 58.5
       },
       {
         "name": "Emerging",
-        "avg_score": 56.2
+        "avg_score": 55.8
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "First Quarter": 4,
-      "Waning Crescent": 1,
-      "Waxing Crescent": 3,
-      "Waxing Gibbous": 1
+      "Waxing Gibbous": 2,
+      "Waxing Crescent": 2,
+      "Waning Crescent": 1
     }
   },
   "narratives": [
@@ -78,9 +78,9 @@
       "date": "2026-10-22",
       "similarity_pct": 100.0,
       "cosmo_score": 34.0,
-      "moon_phase": "First Quarter",
+      "moon_phase": "Waxing Gibbous",
       "day_ruler": "Jupiter",
-      "strongest_sector": "AI",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -90,14 +90,14 @@
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Libra",
-          "Moon phase First Quarter"
+          "Moon phase Waxing Gibbous"
         ],
         "different": []
       }
     },
     {
       "date": "2026-10-21",
-      "similarity_pct": 92.0,
+      "similarity_pct": 83.0,
       "cosmo_score": 34.0,
       "moon_phase": "First Quarter",
       "day_ruler": "Mercury",
@@ -105,70 +105,71 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 92.0,
+        "similarity_pct": 83.0,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Libra",
-          "Moon phase First Quarter"
+          "Mercury retrograde False"
         ],
         "different": [
+          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
           "Day ruler: Mercury \u2192 now Jupiter"
         ]
       }
     },
     {
-      "date": "2026-10-18",
-      "similarity_pct": 85.7,
-      "cosmo_score": 34.0,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "Payments",
+      "date": "2026-09-24",
+      "similarity_pct": 82.1,
+      "cosmo_score": 34.8,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
           "Saturn in Pisces",
-          "Sun in Libra",
-          "Moon phase First Quarter"
+          "Moon phase Waxing Gibbous",
+          "Day ruler Jupiter"
         ],
         "different": [
-          "Day ruler: Sun \u2192 now Jupiter",
-          "Moon in: Capricorn \u2192 now Aquarius"
+          "Sun in: Virgo \u2192 now Libra"
         ]
       }
     },
     {
-      "date": "2026-10-19",
-      "similarity_pct": 85.7,
+      "date": "2026-10-17",
+      "similarity_pct": 82.1,
       "cosmo_score": 34.0,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Moon",
-      "strongest_sector": "L2",
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Saturn",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Libra",
-          "Moon phase First Quarter"
+          "Mercury retrograde False"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Jupiter",
-          "Moon in: Capricorn \u2192 now Aquarius"
+          "Moon phase: Waxing Crescent \u2192 now Waxing Gibbous",
+          "Day ruler: Saturn \u2192 now Jupiter",
+          "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
     },
     {
       "date": "2026-10-20",
-      "similarity_pct": 85.7,
+      "similarity_pct": 82.1,
       "cosmo_score": 34.0,
       "moon_phase": "First Quarter",
       "day_ruler": "Mars",
@@ -176,15 +177,16 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Cancer",
           "Saturn in Pisces",
           "Sun in Libra",
-          "Moon phase First Quarter"
+          "Mercury retrograde False"
         ],
         "different": [
+          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
           "Day ruler: Mars \u2192 now Jupiter",
           "Moon in: Capricorn \u2192 now Aquarius"
         ]
