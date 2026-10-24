@@ -1,15 +1,22 @@
 {
   "meta": {
     "date": "2026-10-24",
-    "generated_at": "2026-10-24T06:29:49Z"
+    "generated_at": "2026-10-24T11:30:09Z"
   },
   "summary": {
-    "overall_level": "MINOR",
-    "total_anomalies": 1,
-    "risk_count": 0,
+    "overall_level": "ELEVATED",
+    "total_anomalies": 2,
+    "risk_count": 1,
     "positive_count": 1,
     "medium_count": 0,
     "priority_alerts": [
+      {
+        "id": "TRIPLE_RETROGRADE",
+        "label": "3+ planets retrograde",
+        "description": "Heavy retrograde sky. Confusion and reversals likely.",
+        "severity": "HIGH",
+        "type": "planetary"
+      },
       {
         "id": "JUPITER_EXALTED",
         "label": "Jupiter exalted in Cancer",
@@ -20,6 +27,13 @@
     ]
   },
   "anomalies": [
+    {
+      "id": "TRIPLE_RETROGRADE",
+      "label": "3+ planets retrograde",
+      "description": "Heavy retrograde sky. Confusion and reversals likely.",
+      "severity": "HIGH",
+      "type": "planetary"
+    },
     {
       "id": "JUPITER_EXALTED",
       "label": "Jupiter exalted in Cancer",
