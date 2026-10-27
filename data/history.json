@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T21:54:28Z",
-    "total_days": 157,
+    "generated_at": "2026-10-27T01:11:55Z",
+    "total_days": 158,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 157,
-    "days_with_outcomes": 156,
+    "total_days": 158,
+    "days_with_outcomes": 157,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 62.5,
-      "DeFi": 61.1,
+      "DeFi": 61.0,
       "Payments": 60.6,
-      "L2": 59.9,
+      "L2": 59.8,
       "Meme": 59.5,
       "Gaming": 58.9,
       "Infra": 57.3,
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-10-26T21:54:28Z"
+    "generated_at": "2026-10-27T01:11:55Z"
   },
   "anomalies": [
     {
@@ -337,6 +337,15 @@
     },
     {
       "date": "2026-10-26",
+      "flags": [
+        "HEAVY_RETROGRADE_SKY",
+        "FULL_MOON_DAY"
+      ],
+      "cosmo_score": 31.0,
+      "moon_phase": "Full Moon"
+    },
+    {
+      "date": "2026-10-27",
       "flags": [
         "HEAVY_RETROGRADE_SKY",
         "FULL_MOON_DAY"
@@ -33159,6 +33168,258 @@
         "Full Moon - Maximum speculation. Pump and dump risk.",
         "Day of Moon - favors Meme, Gaming",
         "High funding rates: GRIFFAIN, LIT, OP \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-10-27",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "day_cosmo_score": 31.0,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "Payments",
+      "weakest_sector": "Infra",
+      "moon_phase": "Full Moon",
+      "moon_phase_emoji": "\ud83c\udf15",
+      "day_ruler": "Mars",
+      "astro_score": 40,
+      "retrograde_planets": [
+        "Mercury",
+        "Venus",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Aries",
+          "nakshatra": "Bharani",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Vishakha",
+          "retrograde": true
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Libra",
+          "nakshatra": "Chitra",
+          "retrograde": true
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Uttara Bhadrapada",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Sun",
+            "Venus"
+          ],
+          "orb": 4.64
+        },
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "orb": 7.6
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 2.64
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 7.3
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.3
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Square",
+          "orb": 0.66
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Opposition",
+          "orb": 5.02
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Square",
+          "orb": 4.36
+        },
+        {
+          "planets": [
+            "Mars",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 6.48
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Jupiter"
+          ],
+          "aspect": "Square",
+          "orb": 3.24
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 5.88
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 5.89
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 5.3
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 2.64
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 2.66
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.66
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1122,
+      "top_sectors": [
+        {
+          "name": "Payments",
+          "cosmo_score": 60.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 54.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 50.9,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 49.8,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 48.5,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Mercury, Venus, Saturn, Rahu, Ketu",
+        "Moon moving Aries to Gemini within 3 days",
+        "Full Moon - Maximum speculation. Pump and dump risk.",
+        "Day of Mars - favors L1, Meme",
+        "High funding rates: AIN, GRIFFAIN, ZK \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
