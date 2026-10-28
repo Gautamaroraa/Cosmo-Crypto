@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-10-28",
-    "generated_at": "2026-10-28T14:21:10Z"
+    "generated_at": "2026-10-28T19:46:13Z"
   },
   "today_conditions": {
     "sun_rashi": "Libra",
@@ -21,7 +21,7 @@
     "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "DeFi",
+    "strongest_sector": "Emerging",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -45,33 +45,33 @@
       },
       {
         "name": "Meme",
-        "avg_score": 60.7
-      },
-      {
-        "name": "DeFi",
-        "avg_score": 60.1
+        "avg_score": 62.7
       },
       {
         "name": "L2",
-        "avg_score": 59.5
+        "avg_score": 58.9
       },
       {
-        "name": "L1",
-        "avg_score": 59.4
+        "name": "DeFi",
+        "avg_score": 58.7
+      },
+      {
+        "name": "Emerging",
+        "avg_score": 58.5
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waning Gibbous": 3,
-      "First Quarter": 2,
-      "Waxing Gibbous": 2,
+      "Waxing Gibbous": 3,
+      "First Quarter": 1,
       "Full Moon": 1,
       "Waxing Crescent": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Gaming, Meme, DeFi.",
+    "Strongest sectors on similar days: Gaming, Meme, L2.",
     "Mars in Cancer + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
@@ -81,7 +81,7 @@
       "cosmo_score": 31.8,
       "moon_phase": "Waning Gibbous",
       "day_ruler": "Mercury",
-      "strongest_sector": "DeFi",
+      "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -120,6 +120,55 @@
       }
     },
     {
+      "date": "2026-10-24",
+      "similarity_pct": 82.1,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Emerging",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Libra",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
+          "Day ruler: Saturn \u2192 now Mercury",
+          "Moon in: Pisces \u2192 now Taurus"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "similarity_pct": 81.2,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mercury",
+      "strongest_sector": "Emerging",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 81.2,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Moon phase Waning Gibbous",
+          "Day ruler Mercury"
+        ],
+        "different": [
+          "Sun in: Virgo \u2192 now Libra",
+          "Mercury retrograde: False \u2192 now True"
+        ]
+      }
+    },
+    {
       "date": "2026-10-21",
       "similarity_pct": 79.5,
       "cosmo_score": 34.0,
@@ -141,56 +190,6 @@
           "Moon phase: First Quarter \u2192 now Waning Gibbous",
           "Mercury retrograde: False \u2192 now True",
           "Moon in: Aquarius \u2192 now Taurus"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-24",
-      "similarity_pct": 79.5,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Emerging",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Libra",
-          "Mercury retrograde True"
-        ],
-        "different": [
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Day ruler: Saturn \u2192 now Mercury",
-          "Moon in: Pisces \u2192 now Taurus"
-        ]
-      }
-    },
-    {
-      "date": "2026-10-25",
-      "similarity_pct": 79.5,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Libra",
-          "Mercury retrograde True"
-        ],
-        "different": [
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Day ruler: Sun \u2192 now Mercury",
-          "Moon in: Aries \u2192 now Taurus"
         ]
       }
     }
