@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T23:17:17Z",
-    "total_days": 161,
+    "generated_at": "2026-10-31T02:39:21Z",
+    "total_days": 162,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 161,
-    "days_with_outcomes": 160,
+    "total_days": 162,
+    "days_with_outcomes": 161,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 62.4,
       "DeFi": 61.0,
       "Payments": 60.8,
-      "L2": 60.0,
+      "L2": 59.9,
       "Meme": 59.7,
       "Gaming": 59.1,
-      "Infra": 57.3,
+      "Infra": 57.2,
       "Emerging": 56.7,
       "AI": 55.5
     },
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-10-30T23:17:17Z"
+    "generated_at": "2026-10-31T02:39:21Z"
   },
   "anomalies": [
     {
@@ -370,6 +370,14 @@
     },
     {
       "date": "2026-10-30",
+      "flags": [
+        "HEAVY_RETROGRADE_SKY"
+      ],
+      "cosmo_score": 31.8,
+      "moon_phase": "Waning Gibbous"
+    },
+    {
+      "date": "2026-10-31",
       "flags": [
         "HEAVY_RETROGRADE_SKY"
       ],
@@ -34121,6 +34129,234 @@
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Venus - favors Meme, Gaming",
         "High funding rates: JASMY, ME, MON \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-10-31",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "day_cosmo_score": 31.8,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "DeFi",
+      "weakest_sector": "Gaming",
+      "moon_phase": "Waning Gibbous",
+      "moon_phase_emoji": "\ud83c\udf16",
+      "day_ruler": "Saturn",
+      "astro_score": 45,
+      "retrograde_planets": [
+        "Mercury",
+        "Venus",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Vishakha",
+          "retrograde": true
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Libra",
+          "nakshatra": "Chitra",
+          "retrograde": true
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Uttara Bhadrapada",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "orb": 6.04
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "orb": 7.95
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 1.91
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "aspect": "Trine",
+          "orb": 7.1
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Trine",
+          "orb": 2.81
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 5.45
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Square",
+          "orb": 0.57
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 7.95
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Jupiter"
+          ],
+          "aspect": "Square",
+          "orb": 6.62
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.49
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 1.91
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 0.58
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.58
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1186,
+      "top_sectors": [
+        {
+          "name": "DeFi",
+          "cosmo_score": 62.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 57.4,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 57.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 54.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 53.0,
+          "astro_bias": "Strong Bearish"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Mercury, Venus, Saturn, Rahu, Ketu",
+        "Moon moving Gemini to Leo within 3 days",
+        "Waning Gibbous - Distribution phase. Take profits.",
+        "Day of Saturn - favors Infra, L2",
+        "High funding rates: WLD, JASMY, WCT \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
