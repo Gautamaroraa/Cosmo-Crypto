@@ -1,14 +1,14 @@
 {
   "meta": {
     "date": "2026-11-03",
-    "generated_at": "2026-11-03T09:52:48Z"
+    "generated_at": "2026-11-03T17:34:49Z"
   },
   "summary": {
     "overall_level": "ELEVATED",
-    "total_anomalies": 3,
+    "total_anomalies": 2,
     "risk_count": 2,
     "positive_count": 0,
-    "medium_count": 1,
+    "medium_count": 0,
     "priority_alerts": [
       {
         "id": "TRIPLE_RETROGRADE",
@@ -25,24 +25,10 @@
         "value": 29.1,
         "avg": 34.1,
         "z_score": -1.62
-      },
-      {
-        "id": "MOON_KETU_CONJUNCTION",
-        "label": "Moon conjunct Ketu",
-        "description": "Emotional detachment. Unpredictable market sentiment.",
-        "severity": "MEDIUM",
-        "type": "planetary"
       }
     ]
   },
   "anomalies": [
-    {
-      "id": "MOON_KETU_CONJUNCTION",
-      "label": "Moon conjunct Ketu",
-      "description": "Emotional detachment. Unpredictable market sentiment.",
-      "severity": "MEDIUM",
-      "type": "planetary"
-    },
     {
       "id": "TRIPLE_RETROGRADE",
       "label": "3+ planets retrograde",
