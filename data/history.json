@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T23:16:13Z",
-    "total_days": 166,
+    "generated_at": "2026-11-05T03:33:25Z",
+    "total_days": 167,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 166,
-    "days_with_outcomes": 165,
+    "total_days": 167,
+    "days_with_outcomes": 166,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 62.3,
+      "L1": 62.2,
       "DeFi": 61.0,
-      "Payments": 60.7,
-      "L2": 59.9,
+      "Payments": 60.6,
+      "L2": 59.8,
       "Meme": 59.6,
       "Gaming": 58.7,
       "Infra": 57.3,
-      "Emerging": 57.0,
+      "Emerging": 57.1,
       "AI": 55.5
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-11-04T23:16:13Z"
+    "generated_at": "2026-11-05T03:33:25Z"
   },
   "anomalies": [
     {
@@ -413,6 +413,15 @@
     },
     {
       "date": "2026-11-04",
+      "flags": [
+        "UNUSUALLY_LOW_COSMO_SCORE",
+        "HEAVY_RETROGRADE_SKY"
+      ],
+      "cosmo_score": 29.1,
+      "moon_phase": "Last Quarter"
+    },
+    {
+      "date": "2026-11-05",
       "flags": [
         "UNUSUALLY_LOW_COSMO_SCORE",
         "HEAVY_RETROGRADE_SKY"
@@ -35298,6 +35307,217 @@
         "Last Quarter - Declining energy. Reduce exposure.",
         "Day of Mercury - favors DeFi, L2",
         "High funding rates: SKYAI, DUSK, SIGN \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-11-05",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "day_cosmo_score": 29.1,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "Emerging",
+      "weakest_sector": "Infra",
+      "moon_phase": "Last Quarter",
+      "moon_phase_emoji": "\ud83c\udf17",
+      "day_ruler": "Jupiter",
+      "astro_score": 27,
+      "retrograde_planets": [
+        "Mercury",
+        "Venus",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Leo",
+          "nakshatra": "Uttara Phalguni",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": true
+        },
+        "Jupiter": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Libra",
+          "nakshatra": "Chitra",
+          "retrograde": true
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Uttara Bhadrapada",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Sun",
+            "Mercury"
+          ],
+          "orb": 1.26
+        },
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "orb": 4.13
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "orb": 5.17
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 1.05
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Mars"
+          ],
+          "aspect": "Square",
+          "orb": 7.95
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 3.78
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 5.17
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.34
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 1.05
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 1.39
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.39
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1330,
+      "top_sectors": [
+        {
+          "name": "Emerging",
+          "cosmo_score": 59.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 54.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L2",
+          "cosmo_score": 54.5,
+          "astro_bias": "Strong Bearish"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 53.7,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 51.4,
+          "astro_bias": "Strong Bearish"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Mercury, Venus, Saturn, Rahu, Ketu",
+        "Moon moving Leo to Libra within 3 days",
+        "Last Quarter - Declining energy. Reduce exposure.",
+        "Day of Jupiter - favors L1, DeFi",
+        "High funding rates: WLD, RSR, DUSK \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
