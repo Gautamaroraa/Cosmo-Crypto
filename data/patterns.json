@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-11-05",
-    "generated_at": "2026-11-05T11:32:19Z"
+    "generated_at": "2026-11-05T19:00:11Z"
   },
   "today_conditions": {
     "sun_rashi": "Libra",
@@ -21,7 +21,7 @@
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "AI",
+    "strongest_sector": "DeFi",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,7 +41,7 @@
     "top_sectors_on_similar_days": [
       {
         "name": "Emerging",
-        "avg_score": 59.6
+        "avg_score": 59.5
       },
       {
         "name": "Meme",
@@ -49,15 +49,15 @@
       },
       {
         "name": "Payments",
-        "avg_score": 59.0
+        "avg_score": 57.7
       },
       {
         "name": "AI",
-        "avg_score": 57.0
+        "avg_score": 55.8
       },
       {
         "name": "DeFi",
-        "avg_score": 55.8
+        "avg_score": 55.3
       }
     ],
     "recurring_stocks": [],
@@ -65,8 +65,7 @@
       "Last Quarter": 4,
       "Waning Gibbous": 2,
       "Waning Crescent": 1,
-      "Full Moon": 1,
-      "Waxing Gibbous": 1
+      "Waxing Gibbous": 2
     }
   },
   "narratives": [
@@ -81,7 +80,7 @@
       "cosmo_score": 29.1,
       "moon_phase": "Waning Crescent",
       "day_ruler": "Jupiter",
-      "strongest_sector": "AI",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -94,31 +93,6 @@
           "Moon phase Waning Crescent"
         ],
         "different": []
-      }
-    },
-    {
-      "date": "2026-11-01",
-      "similarity_pct": 82.1,
-      "cosmo_score": 29.1,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Sun",
-      "strongest_sector": "AI",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 82.1,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Sun in Libra",
-          "Mercury retrograde True"
-        ],
-        "different": [
-          "Moon phase: Last Quarter \u2192 now Waning Crescent",
-          "Day ruler: Sun \u2192 now Jupiter",
-          "Moon in: Cancer \u2192 now Virgo"
-        ]
       }
     },
     {
@@ -167,6 +141,31 @@
         "different": [
           "Moon phase: Waning Gibbous \u2192 now Waning Crescent",
           "Day ruler: Saturn \u2192 now Jupiter",
+          "Moon in: Cancer \u2192 now Virgo"
+        ]
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "similarity_pct": 79.5,
+      "cosmo_score": 29.1,
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Sun",
+      "strongest_sector": "AI",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 79.5,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Sun in Libra",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now Waning Crescent",
+          "Day ruler: Sun \u2192 now Jupiter",
           "Moon in: Cancer \u2192 now Virgo"
         ]
       }
