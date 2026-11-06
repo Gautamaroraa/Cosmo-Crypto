@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T19:00:11Z",
-    "total_days": 167,
+    "generated_at": "2026-11-06T00:03:17Z",
+    "total_days": 168,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 167,
-    "days_with_outcomes": 166,
+    "total_days": 168,
+    "days_with_outcomes": 167,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
-      "L1": 62.3,
+      "L1": 62.2,
       "DeFi": 61.0,
-      "Payments": 60.8,
+      "Payments": 60.9,
       "L2": 59.9,
-      "Meme": 59.7,
+      "Meme": 59.6,
       "Gaming": 58.7,
       "Infra": 57.3,
-      "Emerging": 57.1,
+      "Emerging": 57.2,
       "AI": 55.7
     },
     "moon_phase_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-11-05T19:00:11Z"
+    "generated_at": "2026-11-06T00:03:17Z"
   },
   "anomalies": [
     {
@@ -422,6 +422,15 @@
     },
     {
       "date": "2026-11-05",
+      "flags": [
+        "UNUSUALLY_LOW_COSMO_SCORE",
+        "HEAVY_RETROGRADE_SKY"
+      ],
+      "cosmo_score": 29.1,
+      "moon_phase": "Waning Crescent"
+    },
+    {
+      "date": "2026-11-06",
       "flags": [
         "UNUSUALLY_LOW_COSMO_SCORE",
         "HEAVY_RETROGRADE_SKY"
@@ -35526,6 +35535,225 @@
         "Waning Crescent - Capitulation risk. Avoid longs.",
         "Day of Jupiter - favors L1, DeFi",
         "High funding rates: WLD, SKYAI, KAITO \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-11-06",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "day_cosmo_score": 29.1,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "Payments",
+      "weakest_sector": "Infra",
+      "moon_phase": "Waning Crescent",
+      "moon_phase_emoji": "\ud83c\udf18",
+      "day_ruler": "Venus",
+      "astro_score": 27,
+      "retrograde_planets": [
+        "Mercury",
+        "Venus",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Virgo",
+          "nakshatra": "Hasta",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Cancer",
+          "nakshatra": "Ashlesha",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": true
+        },
+        "Jupiter": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Virgo",
+          "nakshatra": "Chitra",
+          "retrograde": true
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Uttara Bhadrapada",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Sun",
+            "Mercury"
+          ],
+          "orb": 3.2
+        },
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "orb": 3.8
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "orb": 4.71
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 0.91
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Mars"
+          ],
+          "aspect": "Square",
+          "orb": 7.51
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Opposition",
+          "orb": 3.89
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 3.07
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 4.71
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.73
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.91
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 1.64
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.64
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1375,
+      "top_sectors": [
+        {
+          "name": "Payments",
+          "cosmo_score": 72.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 62.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 57.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 55.9,
+          "astro_bias": "Strong Bearish"
+        },
+        {
+          "name": "L1",
+          "cosmo_score": 54.7,
+          "astro_bias": "Strong Bearish"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Mercury, Venus, Saturn, Rahu, Ketu",
+        "Moon moving Virgo to Libra within 3 days",
+        "Waning Crescent - Capitulation risk. Avoid longs.",
+        "Day of Venus - favors Meme, Gaming",
+        "High funding rates: WLD, KAITO, COAI \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
