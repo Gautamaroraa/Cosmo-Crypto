@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-11-08",
-    "generated_at": "2026-11-08T01:07:30Z"
+    "generated_at": "2026-11-08T07:19:55Z"
   },
   "today_conditions": {
     "sun_rashi": "Libra",
@@ -16,7 +16,7 @@
     "mars_retro": false,
     "jupiter_retro": false,
     "saturn_retro": true,
-    "moon_phase": "Waning Crescent",
+    "moon_phase": "New Moon",
     "moon_nakshatra": "Swati",
     "day_ruler": "Sun",
     "market_direction": "Bearish",
@@ -62,8 +62,8 @@
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waning Crescent": 3,
       "Last Quarter": 4,
+      "Waning Crescent": 3,
       "Waning Gibbous": 1,
       "Waxing Gibbous": 1
     }
@@ -77,8 +77,8 @@
     {
       "date": "2026-11-08",
       "similarity_pct": 100.0,
-      "cosmo_score": 29.1,
-      "moon_phase": "Waning Crescent",
+      "cosmo_score": 30.2,
+      "moon_phase": "New Moon",
       "day_ruler": "Sun",
       "strongest_sector": "AI",
       "market_direction": "Bearish",
@@ -90,56 +90,9 @@
           "Jupiter in Leo",
           "Saturn in Pisces",
           "Sun in Libra",
-          "Moon phase Waning Crescent"
+          "Moon phase New Moon"
         ],
         "different": []
-      }
-    },
-    {
-      "date": "2026-11-07",
-      "similarity_pct": 89.3,
-      "cosmo_score": 29.1,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Emerging",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 89.3,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Sun in Libra",
-          "Moon phase Waning Crescent"
-        ],
-        "different": [
-          "Day ruler: Saturn \u2192 now Sun"
-        ]
-      }
-    },
-    {
-      "date": "2026-11-06",
-      "similarity_pct": 88.4,
-      "cosmo_score": 29.1,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Venus",
-      "strongest_sector": "AI",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 88.4,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Sun in Libra",
-          "Moon phase Waning Crescent"
-        ],
-        "different": [
-          "Day ruler: Venus \u2192 now Sun",
-          "Moon in: Virgo \u2192 now Libra"
-        ]
       }
     },
     {
@@ -161,32 +114,82 @@
           "Day ruler Sun"
         ],
         "different": [
-          "Moon phase: Last Quarter \u2192 now Waning Crescent",
+          "Moon phase: Last Quarter \u2192 now New Moon",
           "Moon in: Cancer \u2192 now Libra"
         ]
       }
     },
     {
-      "date": "2026-11-05",
-      "similarity_pct": 81.2,
+      "date": "2026-11-07",
+      "similarity_pct": 83.0,
       "cosmo_score": 29.1,
       "moon_phase": "Waning Crescent",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "DeFi",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 81.2,
+        "similarity_pct": 83.0,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Leo",
           "Saturn in Pisces",
           "Sun in Libra",
-          "Moon phase Waning Crescent"
+          "Mercury retrograde True"
         ],
         "different": [
-          "Day ruler: Jupiter \u2192 now Sun",
+          "Moon phase: Waning Crescent \u2192 now New Moon",
+          "Day ruler: Saturn \u2192 now Sun"
+        ]
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "similarity_pct": 82.1,
+      "cosmo_score": 29.1,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Venus",
+      "strongest_sector": "AI",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Sun in Libra",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Waning Crescent \u2192 now New Moon",
+          "Day ruler: Venus \u2192 now Sun",
           "Moon in: Virgo \u2192 now Libra"
+        ]
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "similarity_pct": 75.0,
+      "cosmo_score": 30.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Emerging",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 75.0,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Sun in Libra",
+          "Mercury retrograde True"
+        ],
+        "different": [
+          "Moon phase: Waning Gibbous \u2192 now New Moon",
+          "Day ruler: Saturn \u2192 now Sun",
+          "Moon in: Cancer \u2192 now Libra"
         ]
       }
     }

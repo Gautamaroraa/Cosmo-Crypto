@@ -1,12 +1,12 @@
 {
   "meta": {
     "date": "2026-11-08",
-    "generated_at": "2026-11-08T01:07:31Z"
+    "generated_at": "2026-11-08T07:19:55Z"
   },
   "summary": {
     "overall_level": "ELEVATED",
-    "total_anomalies": 2,
-    "risk_count": 2,
+    "total_anomalies": 1,
+    "risk_count": 1,
     "positive_count": 0,
     "medium_count": 0,
     "priority_alerts": [
@@ -16,15 +16,6 @@
         "description": "Heavy retrograde sky. Confusion and reversals likely.",
         "severity": "HIGH",
         "type": "planetary"
-      },
-      {
-        "id": "UNUSUALLY_LOW_COSMO_SCORE",
-        "label": "Unusually low Cosmo Score (29.1)",
-        "description": "Today's score is 1.5 standard deviations below average (33.9)",
-        "severity": "HIGH",
-        "value": 29.1,
-        "avg": 33.9,
-        "z_score": -1.53
       }
     ]
   },
@@ -35,15 +26,6 @@
       "description": "Heavy retrograde sky. Confusion and reversals likely.",
       "severity": "HIGH",
       "type": "planetary"
-    },
-    {
-      "id": "UNUSUALLY_LOW_COSMO_SCORE",
-      "label": "Unusually low Cosmo Score (29.1)",
-      "description": "Today's score is 1.5 standard deviations below average (33.9)",
-      "severity": "HIGH",
-      "value": 29.1,
-      "avg": 33.9,
-      "z_score": -1.53
     }
   ]
 }
