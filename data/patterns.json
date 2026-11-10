@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-11-09",
-    "generated_at": "2026-11-09T20:27:27Z"
+    "date": "2026-11-10",
+    "generated_at": "2026-11-10T02:52:16Z"
   },
   "today_conditions": {
     "sun_rashi": "Libra",
-    "moon_rashi": "Libra",
+    "moon_rashi": "Scorpio",
     "mars_rashi": "Cancer",
     "mercury_rashi": "Libra",
     "jupiter_rashi": "Leo",
@@ -18,9 +18,9 @@
     "saturn_retro": true,
     "moon_phase": "New Moon",
     "moon_nakshatra": "Vishakha",
-    "day_ruler": "Moon",
+    "day_ruler": "Mars",
     "market_direction": "Bearish",
-    "volatility_bias": "Low",
+    "volatility_bias": "Medium",
     "strongest_sector": "Emerging",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
@@ -41,45 +41,45 @@
     "top_sectors_on_similar_days": [
       {
         "name": "Emerging",
-        "avg_score": 64.1
+        "avg_score": 62.3
       },
       {
         "name": "AI",
-        "avg_score": 60.3
+        "avg_score": 59.2
       },
       {
         "name": "Meme",
-        "avg_score": 60.2
+        "avg_score": 59.0
       },
       {
         "name": "Payments",
-        "avg_score": 59.5
+        "avg_score": 55.9
       },
       {
-        "name": "DeFi",
-        "avg_score": 56.2
+        "name": "L2",
+        "avg_score": 53.2
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "New Moon": 1,
-      "Waning Crescent": 3,
+      "New Moon": 2,
       "Last Quarter": 4,
+      "Waning Crescent": 2,
       "Waning Gibbous": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
     "Strongest sectors on similar days: Emerging, AI, Meme.",
-    "Mars in Cancer + Day of Moon is the dominant sky signature today."
+    "Mars in Cancer + Day of Mars is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "similarity_pct": 100.0,
       "cosmo_score": 30.2,
       "moon_phase": "New Moon",
-      "day_ruler": "Moon",
+      "day_ruler": "Mars",
       "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
@@ -96,16 +96,16 @@
       }
     },
     {
-      "date": "2026-11-08",
-      "similarity_pct": 92.0,
+      "date": "2026-11-09",
+      "similarity_pct": 87.5,
       "cosmo_score": 30.2,
       "moon_phase": "New Moon",
-      "day_ruler": "Sun",
+      "day_ruler": "Moon",
       "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 92.0,
+        "similarity_pct": 87.5,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Leo",
@@ -114,65 +114,42 @@
           "Moon phase New Moon"
         ],
         "different": [
-          "Day ruler: Sun \u2192 now Moon"
+          "Day ruler: Moon \u2192 now Mars",
+          "Moon in: Libra \u2192 now Scorpio"
         ]
       }
     },
     {
-      "date": "2026-11-07",
-      "similarity_pct": 85.7,
-      "cosmo_score": 29.1,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Saturn",
+      "date": "2026-11-08",
+      "similarity_pct": 84.8,
+      "cosmo_score": 30.2,
+      "moon_phase": "New Moon",
+      "day_ruler": "Sun",
       "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 84.8,
         "matched": [
           "Mars in Cancer",
           "Jupiter in Leo",
           "Saturn in Pisces",
           "Sun in Libra",
-          "Mercury retrograde True"
+          "Moon phase New Moon"
         ],
         "different": [
-          "Moon phase: Waning Crescent \u2192 now New Moon",
-          "Day ruler: Saturn \u2192 now Moon"
+          "Day ruler: Sun \u2192 now Mars",
+          "Moon in: Libra \u2192 now Scorpio"
         ]
       }
     },
     {
-      "date": "2026-11-02",
-      "similarity_pct": 80.4,
-      "cosmo_score": 29.1,
-      "moon_phase": "Last Quarter",
-      "day_ruler": "Moon",
-      "strongest_sector": "Payments",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 80.4,
-        "matched": [
-          "Mars in Cancer",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Sun in Libra",
-          "Day ruler Moon"
-        ],
-        "different": [
-          "Moon phase: Last Quarter \u2192 now New Moon",
-          "Moon in: Cancer \u2192 now Libra"
-        ]
-      }
-    },
-    {
-      "date": "2026-11-06",
+      "date": "2026-11-03",
       "similarity_pct": 79.5,
       "cosmo_score": 29.1,
-      "moon_phase": "Waning Crescent",
-      "day_ruler": "Venus",
-      "strongest_sector": "AI",
+      "moon_phase": "Last Quarter",
+      "day_ruler": "Mars",
+      "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -182,12 +159,36 @@
           "Jupiter in Leo",
           "Saturn in Pisces",
           "Sun in Libra",
+          "Day ruler Mars"
+        ],
+        "different": [
+          "Moon phase: Last Quarter \u2192 now New Moon",
+          "Moon in: Leo \u2192 now Scorpio"
+        ]
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "similarity_pct": 78.6,
+      "cosmo_score": 29.1,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Emerging",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 78.6,
+        "matched": [
+          "Mars in Cancer",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Sun in Libra",
           "Mercury retrograde True"
         ],
         "different": [
           "Moon phase: Waning Crescent \u2192 now New Moon",
-          "Day ruler: Venus \u2192 now Moon",
-          "Moon in: Virgo \u2192 now Libra"
+          "Day ruler: Saturn \u2192 now Mars",
+          "Moon in: Libra \u2192 now Scorpio"
         ]
       }
     }
