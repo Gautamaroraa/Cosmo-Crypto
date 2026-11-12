@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-11-12",
-    "generated_at": "2026-11-12T16:48:59Z"
+    "generated_at": "2026-11-12T22:36:39Z"
   },
   "today_conditions": {
     "sun_rashi": "Libra",
@@ -21,7 +21,7 @@
     "day_ruler": "Jupiter",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "Emerging",
+    "strongest_sector": "AI",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,19 +41,19 @@
     "top_sectors_on_similar_days": [
       {
         "name": "Emerging",
-        "avg_score": 61.6
+        "avg_score": 62.0
       },
       {
         "name": "AI",
-        "avg_score": 60.3
+        "avg_score": 61.8
       },
       {
         "name": "Meme",
-        "avg_score": 58.0
+        "avg_score": 61.0
       },
       {
         "name": "Payments",
-        "avg_score": 54.9
+        "avg_score": 56.1
       },
       {
         "name": "DeFi",
@@ -65,8 +65,8 @@
       "Waxing Crescent": 2,
       "Waning Crescent": 3,
       "New Moon": 2,
-      "Waning Gibbous": 1,
-      "Last Quarter": 1
+      "Last Quarter": 1,
+      "Waning Gibbous": 1
     }
   },
   "narratives": [
@@ -81,7 +81,7 @@
       "cosmo_score": 31.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Jupiter",
-      "strongest_sector": "Emerging",
+      "strongest_sector": "AI",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -98,7 +98,7 @@
     },
     {
       "date": "2026-11-10",
-      "similarity_pct": 79.5,
+      "similarity_pct": 76.8,
       "cosmo_score": 31.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mars",
@@ -106,7 +106,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 76.8,
         "matched": [
           "Jupiter in Leo",
           "Saturn in Pisces",
@@ -123,7 +123,7 @@
     },
     {
       "date": "2026-11-11",
-      "similarity_pct": 79.5,
+      "similarity_pct": 76.8,
       "cosmo_score": 31.8,
       "moon_phase": "Waxing Crescent",
       "day_ruler": "Mercury",
@@ -131,7 +131,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 76.8,
         "matched": [
           "Jupiter in Leo",
           "Saturn in Pisces",
@@ -147,12 +147,12 @@
       }
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-06",
       "similarity_pct": 73.2,
       "cosmo_score": 29.1,
       "moon_phase": "Waning Crescent",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Emerging",
+      "day_ruler": "Venus",
+      "strongest_sector": "AI",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -166,31 +166,32 @@
         "different": [
           "Mars in: Cancer \u2192 now Leo",
           "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
-          "Day ruler: Saturn \u2192 now Jupiter"
+          "Day ruler: Venus \u2192 now Jupiter"
         ]
       }
     },
     {
-      "date": "2026-11-08",
-      "similarity_pct": 73.2,
-      "cosmo_score": 30.2,
-      "moon_phase": "New Moon",
-      "day_ruler": "Sun",
-      "strongest_sector": "Emerging",
+      "date": "2026-11-05",
+      "similarity_pct": 71.4,
+      "cosmo_score": 29.1,
+      "moon_phase": "Waning Crescent",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "DeFi",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 73.2,
+        "similarity_pct": 71.4,
         "matched": [
           "Jupiter in Leo",
           "Saturn in Pisces",
           "Sun in Libra",
+          "Day ruler Jupiter",
           "Mercury retrograde True"
         ],
         "different": [
           "Mars in: Cancer \u2192 now Leo",
-          "Moon phase: New Moon \u2192 now Waxing Crescent",
-          "Day ruler: Sun \u2192 now Jupiter"
+          "Moon phase: Waning Crescent \u2192 now Waxing Crescent",
+          "Moon in: Virgo \u2192 now Sagittarius"
         ]
       }
     }
