@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-11-12T22:36:39Z",
-    "total_days": 174,
+    "generated_at": "2026-11-13T02:56:30Z",
+    "total_days": 175,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 174,
-    "days_with_outcomes": 173,
+    "total_days": 175,
+    "days_with_outcomes": 174,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 61.8,
       "DeFi": 60.8,
-      "Payments": 60.4,
-      "Meme": 59.7,
+      "Payments": 60.3,
       "L2": 59.7,
-      "Gaming": 58.3,
+      "Meme": 59.5,
+      "Gaming": 58.0,
       "Emerging": 57.4,
       "Infra": 57.2,
       "AI": 56.1
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-11-12T22:36:39Z"
+    "generated_at": "2026-11-13T02:56:30Z"
   },
   "anomalies": [
     {
@@ -483,6 +483,14 @@
     },
     {
       "date": "2026-11-12",
+      "flags": [
+        "HEAVY_RETROGRADE_SKY"
+      ],
+      "cosmo_score": 31.8,
+      "moon_phase": "Waxing Crescent"
+    },
+    {
+      "date": "2026-11-13",
       "flags": [
         "HEAVY_RETROGRADE_SKY"
       ],
@@ -37295,6 +37303,274 @@
         "Waxing Crescent - Building momentum. Altcoin season energy.",
         "Day of Jupiter - favors L1, DeFi",
         "High funding rates: KAITO, AIN, RSR \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-11-13",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "day_cosmo_score": 31.8,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "Very High",
+      "strongest_sector": "Payments",
+      "weakest_sector": "Infra",
+      "moon_phase": "Waxing Crescent",
+      "moon_phase_emoji": "\ud83c\udf12",
+      "day_ruler": "Venus",
+      "astro_score": 45,
+      "retrograde_planets": [
+        "Mercury",
+        "Venus",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Libra",
+          "nakshatra": "Vishakha",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Sagittarius",
+          "nakshatra": "Mula",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Swati",
+          "retrograde": true
+        },
+        "Jupiter": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Virgo",
+          "nakshatra": "Chitra",
+          "retrograde": true
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Uttara Bhadrapada",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "orb": 1.15
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "orb": 0.96
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 0.18
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Mars"
+          ],
+          "aspect": "Square",
+          "orb": 3.73
+        },
+        {
+          "planets": [
+            "Sun",
+            "Jupiter"
+          ],
+          "aspect": "Square",
+          "orb": 4.88
+        },
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 4.69
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 4.69
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.87
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Trine",
+          "orb": 7.58
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 5.42
+        },
+        {
+          "planets": [
+            "Moon",
+            "Rahu"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.76
+        },
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "aspect": "Trine",
+          "orb": 7.76
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.59
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.96
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.74
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.18
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 2.55
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.55
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1250,
+      "top_sectors": [
+        {
+          "name": "Payments",
+          "cosmo_score": 55.2,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 51.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 50.6,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Gaming",
+          "cosmo_score": 47.1,
+          "astro_bias": "Bearish"
+        },
+        {
+          "name": "Meme",
+          "cosmo_score": 47.1,
+          "astro_bias": "Bearish"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Mercury, Venus, Saturn, Rahu, Ketu",
+        "Moon moving Sagittarius to Capricorn within 3 days",
+        "Waxing Crescent - Building momentum. Altcoin season energy.",
+        "Day of Venus - favors Meme, Gaming",
+        "High funding rates: AIN, XRP, TAO \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
