@@ -1,15 +1,31 @@
 {
   "meta": {
-    "date": "2026-11-13",
-    "generated_at": "2026-11-13T23:34:21Z"
+    "date": "2026-11-14",
+    "generated_at": "2026-11-14T03:36:06Z"
   },
   "summary": {
-    "overall_level": "NORMAL",
-    "total_anomalies": 0,
+    "overall_level": "MINOR",
+    "total_anomalies": 1,
     "risk_count": 0,
-    "positive_count": 0,
+    "positive_count": 1,
     "medium_count": 0,
-    "priority_alerts": []
+    "priority_alerts": [
+      {
+        "id": "ALL_BENEFICS_DIRECT",
+        "label": "All benefics direct",
+        "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
+        "severity": "POSITIVE",
+        "type": "planetary"
+      }
+    ]
   },
-  "anomalies": []
+  "anomalies": [
+    {
+      "id": "ALL_BENEFICS_DIRECT",
+      "label": "All benefics direct",
+      "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
+      "severity": "POSITIVE",
+      "type": "planetary"
+    }
+  ]
 }
