@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-11-19",
-    "generated_at": "2026-11-19T21:51:35Z"
+    "date": "2026-11-20",
+    "generated_at": "2026-11-20T02:52:35Z"
   },
   "today_conditions": {
     "sun_rashi": "Scorpio",
@@ -17,11 +17,11 @@
     "jupiter_retro": false,
     "saturn_retro": true,
     "moon_phase": "First Quarter",
-    "moon_nakshatra": "Purva Bhadrapada",
-    "day_ruler": "Jupiter",
+    "moon_nakshatra": "Uttara Bhadrapada",
+    "day_ruler": "Venus",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -41,45 +41,44 @@
     "top_sectors_on_similar_days": [
       {
         "name": "Payments",
-        "avg_score": 63.5
+        "avg_score": 64.1
       },
       {
         "name": "L1",
-        "avg_score": 63.3
+        "avg_score": 63.4
       },
       {
         "name": "L2",
-        "avg_score": 61.4
+        "avg_score": 61.7
+      },
+      {
+        "name": "Emerging",
+        "avg_score": 60.7
       },
       {
         "name": "AI",
-        "avg_score": 60.8
-      },
-      {
-        "name": "Gaming",
         "avg_score": 60.2
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "First Quarter": 3,
-      "Waxing Crescent": 5,
-      "Waning Gibbous": 1
+      "First Quarter": 4,
+      "Waxing Crescent": 5
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
     "Strongest sectors on similar days: Payments, L1, L2.",
-    "Mars in Leo + Day of Jupiter is the dominant sky signature today."
+    "Mars in Leo + Day of Venus is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "similarity_pct": 100.0,
       "cosmo_score": 33.2,
       "moon_phase": "First Quarter",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "L2",
+      "day_ruler": "Venus",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -95,8 +94,31 @@
       }
     },
     {
+      "date": "2026-11-19",
+      "similarity_pct": 89.3,
+      "cosmo_score": 33.2,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "L2",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 89.3,
+        "matched": [
+          "Mars in Leo",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Sun in Scorpio",
+          "Moon phase First Quarter"
+        ],
+        "different": [
+          "Day ruler: Jupiter \u2192 now Venus"
+        ]
+      }
+    },
+    {
       "date": "2026-11-17",
-      "similarity_pct": 85.7,
+      "similarity_pct": 88.4,
       "cosmo_score": 33.2,
       "moon_phase": "First Quarter",
       "day_ruler": "Mars",
@@ -104,7 +126,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Leo",
           "Jupiter in Leo",
@@ -113,14 +135,14 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Mars \u2192 now Jupiter",
+          "Day ruler: Mars \u2192 now Venus",
           "Moon in: Aquarius \u2192 now Pisces"
         ]
       }
     },
     {
       "date": "2026-11-18",
-      "similarity_pct": 85.7,
+      "similarity_pct": 88.4,
       "cosmo_score": 33.2,
       "moon_phase": "First Quarter",
       "day_ruler": "Mercury",
@@ -128,7 +150,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Leo",
           "Jupiter in Leo",
@@ -137,7 +159,7 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Mercury \u2192 now Jupiter",
+          "Day ruler: Mercury \u2192 now Venus",
           "Moon in: Aquarius \u2192 now Pisces"
         ]
       }
@@ -162,32 +184,8 @@
         ],
         "different": [
           "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Day ruler: Moon \u2192 now Jupiter",
+          "Day ruler: Moon \u2192 now Venus",
           "Moon in: Capricorn \u2192 now Pisces"
-        ]
-      }
-    },
-    {
-      "date": "2026-11-14",
-      "similarity_pct": 72.3,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Emerging",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 72.3,
-        "matched": [
-          "Mars in Leo",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Sun in: Libra \u2192 now Scorpio",
-          "Moon phase: Waxing Crescent \u2192 now First Quarter",
-          "Day ruler: Saturn \u2192 now Jupiter"
         ]
       }
     }
