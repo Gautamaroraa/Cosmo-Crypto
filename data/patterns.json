@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-11-22",
-    "generated_at": "2026-11-22T16:39:58Z"
+    "generated_at": "2026-11-22T22:06:19Z"
   },
   "today_conditions": {
     "sun_rashi": "Scorpio",
@@ -21,7 +21,7 @@
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "AI",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,36 +40,36 @@
     },
     "top_sectors_on_similar_days": [
       {
-        "name": "L1",
-        "avg_score": 63.2
-      },
-      {
         "name": "Payments",
-        "avg_score": 62.6
-      },
-      {
-        "name": "L2",
         "avg_score": 62.4
       },
       {
+        "name": "L1",
+        "avg_score": 62.2
+      },
+      {
         "name": "Emerging",
-        "avg_score": 61.6
+        "avg_score": 61.5
+      },
+      {
+        "name": "L2",
+        "avg_score": 61.3
       },
       {
         "name": "AI",
-        "avg_score": 61.0
+        "avg_score": 60.8
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waxing Gibbous": 2,
-      "First Quarter": 4,
-      "Waxing Crescent": 3
+      "Waxing Gibbous": 1,
+      "Waxing Crescent": 4,
+      "First Quarter": 4
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: L1, Payments, L2.",
+    "Strongest sectors on similar days: Payments, L1, Emerging.",
     "Mars in Leo + Day of Sun is the dominant sky signature today."
   ],
   "similar_days": [
@@ -79,7 +79,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waxing Gibbous",
       "day_ruler": "Sun",
-      "strongest_sector": "L1",
+      "strongest_sector": "AI",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -119,8 +119,33 @@
       }
     },
     {
+      "date": "2026-11-16",
+      "similarity_pct": 75.0,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Moon",
+      "strongest_sector": "Meme",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 75.0,
+        "matched": [
+          "Mars in Leo",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Sun in Scorpio",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Waxing Crescent \u2192 now Waxing Gibbous",
+          "Day ruler: Moon \u2192 now Sun",
+          "Moon in: Capricorn \u2192 now Aries"
+        ]
+      }
+    },
+    {
       "date": "2026-11-17",
-      "similarity_pct": 77.7,
+      "similarity_pct": 75.0,
       "cosmo_score": 33.2,
       "moon_phase": "First Quarter",
       "day_ruler": "Mars",
@@ -128,7 +153,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 77.7,
+        "similarity_pct": 75.0,
         "matched": [
           "Mars in Leo",
           "Jupiter in Leo",
@@ -145,7 +170,7 @@
     },
     {
       "date": "2026-11-18",
-      "similarity_pct": 77.7,
+      "similarity_pct": 75.0,
       "cosmo_score": 33.2,
       "moon_phase": "First Quarter",
       "day_ruler": "Mercury",
@@ -153,7 +178,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 77.7,
+        "similarity_pct": 75.0,
         "matched": [
           "Mars in Leo",
           "Jupiter in Leo",
@@ -165,31 +190,6 @@
           "Moon phase: First Quarter \u2192 now Waxing Gibbous",
           "Day ruler: Mercury \u2192 now Sun",
           "Moon in: Aquarius \u2192 now Aries"
-        ]
-      }
-    },
-    {
-      "date": "2026-11-15",
-      "similarity_pct": 75.9,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Sun",
-      "strongest_sector": "L1",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 75.9,
-        "matched": [
-          "Mars in Leo",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Day ruler Sun",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Sun in: Libra \u2192 now Scorpio",
-          "Moon phase: Waxing Crescent \u2192 now Waxing Gibbous",
-          "Moon in: Capricorn \u2192 now Aries"
         ]
       }
     }
