@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-11-22",
-    "generated_at": "2026-11-22T01:21:27Z"
+    "generated_at": "2026-11-22T08:32:32Z"
   },
   "today_conditions": {
     "sun_rashi": "Scorpio",
@@ -21,7 +21,7 @@
     "day_ruler": "Sun",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "AI",
+    "strongest_sector": "L1",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -45,7 +45,7 @@
       },
       {
         "name": "L1",
-        "avg_score": 62.2
+        "avg_score": 62.1
       },
       {
         "name": "Emerging",
@@ -63,8 +63,8 @@
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Waxing Gibbous": 1,
-      "Waxing Crescent": 4,
-      "First Quarter": 4
+      "First Quarter": 4,
+      "Waxing Crescent": 4
     }
   },
   "narratives": [
@@ -79,7 +79,7 @@
       "cosmo_score": 33.2,
       "moon_phase": "Waxing Gibbous",
       "day_ruler": "Sun",
-      "strongest_sector": "AI",
+      "strongest_sector": "L1",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -119,33 +119,8 @@
       }
     },
     {
-      "date": "2026-11-16",
-      "similarity_pct": 79.5,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waxing Crescent",
-      "day_ruler": "Moon",
-      "strongest_sector": "Meme",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Leo",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Sun in Scorpio",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Waxing Crescent \u2192 now Waxing Gibbous",
-          "Day ruler: Moon \u2192 now Sun",
-          "Moon in: Capricorn \u2192 now Aries"
-        ]
-      }
-    },
-    {
       "date": "2026-11-17",
-      "similarity_pct": 79.5,
+      "similarity_pct": 82.1,
       "cosmo_score": 33.2,
       "moon_phase": "First Quarter",
       "day_ruler": "Mars",
@@ -153,7 +128,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Leo",
           "Jupiter in Leo",
@@ -170,7 +145,7 @@
     },
     {
       "date": "2026-11-18",
-      "similarity_pct": 79.5,
+      "similarity_pct": 82.1,
       "cosmo_score": 33.2,
       "moon_phase": "First Quarter",
       "day_ruler": "Mercury",
@@ -178,7 +153,7 @@
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Leo",
           "Jupiter in Leo",
@@ -190,6 +165,31 @@
           "Moon phase: First Quarter \u2192 now Waxing Gibbous",
           "Day ruler: Mercury \u2192 now Sun",
           "Moon in: Aquarius \u2192 now Aries"
+        ]
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "similarity_pct": 80.4,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waxing Crescent",
+      "day_ruler": "Sun",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 80.4,
+        "matched": [
+          "Mars in Leo",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Day ruler Sun",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Sun in: Libra \u2192 now Scorpio",
+          "Moon phase: Waxing Crescent \u2192 now Waxing Gibbous",
+          "Moon in: Capricorn \u2192 now Aries"
         ]
       }
     }
