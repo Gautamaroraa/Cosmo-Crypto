@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-11-25",
-    "generated_at": "2026-11-25T02:49:07Z"
+    "generated_at": "2026-11-25T12:11:27Z"
   },
   "today_conditions": {
     "sun_rashi": "Scorpio",
@@ -21,7 +21,7 @@
     "day_ruler": "Mercury",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L2",
+    "strongest_sector": "Meme",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -63,8 +63,8 @@
     "recurring_stocks": [],
     "moon_phase_pattern": {
       "Full Moon": 1,
-      "First Quarter": 4,
       "Waxing Gibbous": 3,
+      "First Quarter": 4,
       "Waxing Crescent": 1
     }
   },
@@ -80,7 +80,7 @@
       "cosmo_score": 31.0,
       "moon_phase": "Full Moon",
       "day_ruler": "Mercury",
-      "strongest_sector": "L2",
+      "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -115,6 +115,31 @@
         ],
         "different": [
           "Day ruler: Mars \u2192 now Mercury"
+        ]
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "similarity_pct": 82.1,
+      "cosmo_score": 33.2,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Moon",
+      "strongest_sector": "Meme",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Leo",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Sun in Scorpio",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: Waxing Gibbous \u2192 now Full Moon",
+          "Day ruler: Moon \u2192 now Mercury",
+          "Moon in: Aries \u2192 now Taurus"
         ]
       }
     },
@@ -163,31 +188,6 @@
         "different": [
           "Moon phase: Waxing Gibbous \u2192 now Full Moon",
           "Day ruler: Sun \u2192 now Mercury",
-          "Moon in: Aries \u2192 now Taurus"
-        ]
-      }
-    },
-    {
-      "date": "2026-11-23",
-      "similarity_pct": 79.5,
-      "cosmo_score": 33.2,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Moon",
-      "strongest_sector": "Meme",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 79.5,
-        "matched": [
-          "Mars in Leo",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Sun in Scorpio",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: Waxing Gibbous \u2192 now Full Moon",
-          "Day ruler: Moon \u2192 now Mercury",
           "Moon in: Aries \u2192 now Taurus"
         ]
       }
