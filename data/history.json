@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-11-26T22:37:58Z",
-    "total_days": 188,
+    "generated_at": "2026-11-27T04:34:35Z",
+    "total_days": 189,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 188,
-    "days_with_outcomes": 187,
+    "total_days": 189,
+    "days_with_outcomes": 188,
     "overall_accuracy_pct": null,
     "sector_avg_scores": {
       "L1": 61.7,
-      "DeFi": 60.6,
-      "Payments": 60.5,
+      "DeFi": 60.5,
+      "Payments": 60.4,
       "Meme": 59.9,
       "L2": 59.6,
       "Gaming": 58.6,
       "Emerging": 57.7,
       "Infra": 57.0,
-      "AI": 56.6
+      "AI": 56.5
     },
     "moon_phase_accuracy": {},
     "day_ruler_accuracy": {},
@@ -26,7 +26,7 @@
       "medium": null,
       "low": null
     },
-    "generated_at": "2026-11-26T22:37:58Z"
+    "generated_at": "2026-11-27T04:34:35Z"
   },
   "anomalies": [
     {
@@ -40754,6 +40754,232 @@
         "Waning Gibbous - Distribution phase. Take profits.",
         "Day of Jupiter - favors L1, DeFi",
         "High funding rates: SOPH, MON, SIREN \u2014 longs crowded"
+      ],
+      "nifty50": null,
+      "nifty50_change_pct": null,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-11-27",
+        "stocks": {},
+        "accuracy_pct": null,
+        "correct_calls": 0,
+        "total_calls": 0
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "day_cosmo_score": 31.8,
+      "market_direction": "Bearish",
+      "volatility_bias": "Low",
+      "risk_level": "High",
+      "strongest_sector": "L1",
+      "weakest_sector": "L2",
+      "moon_phase": "Waning Gibbous",
+      "moon_phase_emoji": "\ud83c\udf16",
+      "day_ruler": "Venus",
+      "astro_score": 45,
+      "retrograde_planets": [
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Scorpio",
+          "nakshatra": "Anuradha",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Libra",
+          "nakshatra": "Vishakha",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Libra",
+          "nakshatra": "Chitra",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Uttara Bhadrapada",
+          "retrograde": true
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Dhanishtha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Mars",
+            "Jupiter"
+          ],
+          "orb": 3.86
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "orb": 5.79
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Ketu"
+          ],
+          "orb": 1.93
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Mars"
+          ],
+          "aspect": "Square",
+          "orb": 4.46
+        },
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Trine",
+          "orb": 3.17
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Trine",
+          "orb": 5.61
+        },
+        {
+          "planets": [
+            "Moon",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 2.97
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.42
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 5.79
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.56
+        },
+        {
+          "planets": [
+            "Jupiter",
+            "Rahu"
+          ],
+          "aspect": "Opposition",
+          "orb": 1.93
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 1.37
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.37
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 0.0,
+      "advancing": 0,
+      "declining": 1405,
+      "top_sectors": [
+        {
+          "name": "L1",
+          "cosmo_score": 55.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Emerging",
+          "cosmo_score": 52.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Payments",
+          "cosmo_score": 51.0,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "AI",
+          "cosmo_score": 49.8,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "DeFi",
+          "cosmo_score": 48.1,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [],
+      "key_signals": [
+        "Retrograde: Saturn, Rahu, Ketu",
+        "Moon moving Gemini to Leo within 3 days",
+        "Waning Gibbous - Distribution phase. Take profits.",
+        "Day of Venus - favors Meme, Gaming",
+        "High funding rates: SKYAI, VVV, MON \u2014 longs crowded"
       ],
       "nifty50": null,
       "nifty50_change_pct": null,
