@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-11-27",
-    "generated_at": "2026-11-27T22:52:30Z"
+    "date": "2026-11-28",
+    "generated_at": "2026-11-28T04:33:50Z"
   },
   "today_conditions": {
     "sun_rashi": "Scorpio",
-    "moon_rashi": "Gemini",
+    "moon_rashi": "Cancer",
     "mars_rashi": "Leo",
     "mercury_rashi": "Libra",
     "jupiter_rashi": "Leo",
@@ -18,10 +18,10 @@
     "saturn_retro": true,
     "moon_phase": "Waning Gibbous",
     "moon_nakshatra": "Punarvasu",
-    "day_ruler": "Venus",
+    "day_ruler": "Saturn",
     "market_direction": "Bearish",
     "volatility_bias": "Low",
-    "strongest_sector": "L1",
+    "strongest_sector": "Meme",
     "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
@@ -40,48 +40,48 @@
     },
     "top_sectors_on_similar_days": [
       {
+        "name": "Meme",
+        "avg_score": 66.0
+      },
+      {
+        "name": "Gaming",
+        "avg_score": 62.8
+      },
+      {
+        "name": "AI",
+        "avg_score": 62.7
+      },
+      {
         "name": "Payments",
-        "avg_score": 64.3
+        "avg_score": 62.7
       },
       {
         "name": "L1",
         "avg_score": 62.3
-      },
-      {
-        "name": "Meme",
-        "avg_score": 62.2
-      },
-      {
-        "name": "Gaming",
-        "avg_score": 61.6
-      },
-      {
-        "name": "AI",
-        "avg_score": 61.3
       }
     ],
     "recurring_stocks": [],
     "moon_phase_pattern": {
-      "Waning Gibbous": 2,
-      "First Quarter": 3,
-      "Waxing Gibbous": 2,
+      "Waning Gibbous": 3,
+      "Waxing Gibbous": 3,
       "Full Moon": 1,
-      "Waxing Crescent": 1
+      "Waxing Crescent": 1,
+      "First Quarter": 1
     }
   },
   "narratives": [
     "Market was Bearish on most similar past days (0B / 9Bear / 0N).",
-    "Strongest sectors on similar days: Payments, L1, Meme.",
-    "Mars in Leo + Day of Venus is the dominant sky signature today."
+    "Strongest sectors on similar days: Meme, Gaming, AI.",
+    "Mars in Leo + Day of Saturn is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
       "similarity_pct": 100.0,
       "cosmo_score": 31.8,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Venus",
-      "strongest_sector": "L1",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -97,16 +97,16 @@
       }
     },
     {
-      "date": "2026-11-26",
-      "similarity_pct": 89.3,
+      "date": "2026-11-25",
+      "similarity_pct": 88.4,
       "cosmo_score": 31.8,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "Emerging",
+      "day_ruler": "Mercury",
+      "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 89.3,
+        "similarity_pct": 88.4,
         "matched": [
           "Mars in Leo",
           "Jupiter in Leo",
@@ -115,17 +115,42 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Jupiter \u2192 now Venus"
+          "Day ruler: Mercury \u2192 now Saturn",
+          "Moon in: Taurus \u2192 now Cancer"
         ]
       }
     },
     {
-      "date": "2026-11-25",
+      "date": "2026-11-27",
+      "similarity_pct": 88.4,
+      "cosmo_score": 31.8,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Venus",
+      "strongest_sector": "L1",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
+      "explanation": {
+        "similarity_pct": 88.4,
+        "matched": [
+          "Mars in Leo",
+          "Jupiter in Leo",
+          "Saturn in Pisces",
+          "Sun in Scorpio",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Venus \u2192 now Saturn",
+          "Moon in: Gemini \u2192 now Cancer"
+        ]
+      }
+    },
+    {
+      "date": "2026-11-26",
       "similarity_pct": 85.7,
       "cosmo_score": 31.8,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mercury",
-      "strongest_sector": "Meme",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "Emerging",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
@@ -138,46 +163,22 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mercury \u2192 now Venus",
-          "Moon in: Taurus \u2192 now Gemini"
+          "Day ruler: Jupiter \u2192 now Saturn",
+          "Moon in: Gemini \u2192 now Cancer"
         ]
       }
     },
     {
-      "date": "2026-11-20",
-      "similarity_pct": 80.4,
-      "cosmo_score": 33.2,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Venus",
-      "strongest_sector": "Emerging",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
-      "explanation": {
-        "similarity_pct": 80.4,
-        "matched": [
-          "Mars in Leo",
-          "Jupiter in Leo",
-          "Saturn in Pisces",
-          "Sun in Scorpio",
-          "Day ruler Venus"
-        ],
-        "different": [
-          "Moon phase: First Quarter \u2192 now Waning Gibbous",
-          "Moon in: Pisces \u2192 now Gemini"
-        ]
-      }
-    },
-    {
-      "date": "2026-11-22",
-      "similarity_pct": 79.5,
+      "date": "2026-11-23",
+      "similarity_pct": 82.1,
       "cosmo_score": 33.2,
       "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "AI",
+      "day_ruler": "Moon",
+      "strongest_sector": "Meme",
       "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
-        "similarity_pct": 79.5,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Leo",
           "Jupiter in Leo",
@@ -187,8 +188,8 @@
         ],
         "different": [
           "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Day ruler: Sun \u2192 now Venus",
-          "Moon in: Aries \u2192 now Gemini"
+          "Day ruler: Moon \u2192 now Saturn",
+          "Moon in: Aries \u2192 now Cancer"
         ]
       }
     }
